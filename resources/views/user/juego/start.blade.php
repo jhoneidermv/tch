@@ -20,16 +20,30 @@
         </video>
     </div>
 
-    <div id="bn"  style= "display:none; align:center "  >
+    <div id="a1"  style= "display:none; align:center " >
+        <video    autoplay>
+            <source src="{{ asset('1.mp4') }}" type="video/mp4"  >
+        </video>
+    </div>
+
+    <div id="a2"   style= "display:none; align:center " >
+        <video    autoplay>
+            <source src="{{ asset('2.mp4') }}" type="video/mp4"  >
+        </video>
+    </div>
+
+
+
+    <div id="bn"  align="center"  >
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block"  href="{{route('user.juego.start11')}}" align="center" id="boton1" type="button" ><h3>Si</h3></a></td>
+                    <a class="myButton btn-block"  href="{{route('user.juego.start11')}}"  align="center" id="boton1" type="button" ><h3>Si</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;&nbsp;</h3></td>
 
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start12')}}" align="center" id="2" type="button" ><h3>No</h3></a></td>
+                    <a class="myButton btn-block"  href="{{route('user.juego.start12')}}" align="center" id="boton2" type="button" ><h3>No</h3></a></td>
             </tr>
         </table>
 
@@ -40,21 +54,36 @@
 
 
 <script type='text/javascript'>
-    document.getElementById('mi-video').addEventListener('ended',myHandler,false);
+    //document.getElementById('mi-video').addEventListener('ended',myHandler,false);
     //document.getElementById('bn').style.visibility = "hidden";
     function myHandler(e) {
 
-        $("#boton1").click(function(){
-          alert("Hola");
-        });
 
 
 
-        $("#bn").fadeIn(3000);
+
+      //  $("#bn").fadeIn(3000);
 
         $document.getElementById("bn").style.position = "absolute";
         $document.getElementById("bn").style.left = '200px';
         $document.getElementById("bn").style.top = '20px';
+
+        function myFunction() {
+
+
+            var el = document.createElement("iframe");
+            el.setAttribute('id', 'ifrm');
+            document.body.appendChild(el);
+            el.setAttribute('src', 'http://www.google.com');
+
+        }
+
+        function myFunction2() {
+            var el = document.createElement("iframe");
+            el.setAttribute('id', 'ifrm');
+            document.body.appendChild(el);
+            el.setAttribute('src', 'http://www.google.com');
+        }
 
     }
 </script>

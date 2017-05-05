@@ -45,6 +45,7 @@ class JuegoController extends Controller
      */
     public function start11()
     {
+
         return view('user/juego/start11');
     }
 
@@ -83,14 +84,60 @@ class JuegoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function start22()
+    {
+        return view('user/juego/start22');
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function start23()
+    {
+        return view('user/juego/start23');
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function start3()
     {
+        /*
+        if(isset($_GET['btn21'])){
+           dd();
+        }else{
+            dd("FDSFDS");
+        }
+        */
+
         return view('user/juego/start3');
+
     }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function start31()
+    {
+        return view('user/juego/start31');
+    }
+
+
 
     public function start4()
     {
         return view('user/juego/start4');
+    }
+
+    public function start41()
+    {
+        return view('user/juego/start41');
     }
 
     public function start5()
@@ -98,14 +145,24 @@ class JuegoController extends Controller
         return view('user/juego/start5');
     }
 
+    public function start51()
+    {
+        return view('user/juego/start51');
+    }
+
+    public function start52()
+    {
+        return view('user/juego/start52');
+    }
+
     public function start61()
     {
         return view('user/juego/start61');
     }
 
-    public function start62()
+    public function start6()
     {
-        return view('user/juego/start62');
+        return view('user/juego/start6');
     }
 
     public function start7()
@@ -113,9 +170,29 @@ class JuegoController extends Controller
         return view('user/juego/start7');
     }
 
+    public function start71()
+    {
+        return view('user/juego/start71');
+    }
+
     public function start8()
     {
         return view('user/juego/start8');
+    }
+
+    public function start81()
+    {
+        return view('user/juego/start81');
+    }
+
+    public function start82()
+    {
+        return view('user/juego/start82');
+    }
+
+    public function start83()
+    {
+        return view('user/juego/start83');
     }
 
     public function start91()

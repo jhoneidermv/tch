@@ -14,20 +14,28 @@
     <div  align="center">
         <h3>TCH (Toma el Control de tus Habitos)</h3>
     </div>
-
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/1.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/20.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
     <div id="bn"  style= "display:none; align:center "  >
-        <table  cellpadding="3" cellspacing="3">
+        <table cellpadding="3" cellspacing="3">
             <tr>
-                <td colspan="3" rowspan="2">
-                    <a class="myButton btn-block" href="{{route('user.juego.start2')}}" align="center" type="button" ><h3>Terminar Juego</h3></a></td>
-
-
+                <td colspan="3" >
+                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Pizza</h3></a></td>
+                <td colspan="3" >
+                    <h3>&nbsp;</h3></td>
+                <td colspan="3" >
+                    <a class="myButton btn-block" href="{{route('user.juego.start81')}}" align="center" type="button" ><h3>Ensalada de frutas</h3></a></td>
+                <td colspan="3" >
+                    <h3>&nbsp;</h3></td>
+                <td colspan="3" >
+                    <a class="myButton btn-block" href="{{route('user.juego.start82')}}" align="center" type="button" ><h3>Batido</h3></a></td>
+                <td colspan="3" >
+                    <a class="myButton btn-block" href="{{route('user.juego.start83')}}" align="center" type="button" ><h3>Nada</h3></a></td>
+                <td colspan="3" >
             </tr>
         </table>
 

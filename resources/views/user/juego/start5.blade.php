@@ -17,7 +17,7 @@
 
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/intro.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/23.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
@@ -26,12 +26,12 @@
     <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start61')}}" align="center" type="button" ><h3>Si</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start6')}}" align="center" type="button" ><h3>Hamburguesa</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;&nbsp;</h3></td>
 
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start62')}}" align="center" type="button" ><h3>No</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start61')}}" align="center" type="button" ><h3>Manzana</h3></a></td>
             </tr>
         </table>
 

@@ -16,7 +16,7 @@
     </div>
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/intro.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/12.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 

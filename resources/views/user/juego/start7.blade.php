@@ -16,7 +16,7 @@
     </div>
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/intro.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/21.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
@@ -24,21 +24,17 @@
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Come una deliciosa y  saludable ensalada de frutas</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Pizza</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Come una deliciosa hamburguesa que acabara con su hambre</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start81')}}" align="center" type="button" ><h3>Ensalada de frutas</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Asi se encuentre cansado decide cocinar algo saludable</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start82')}}" align="center" type="button" ><h3>Batido</h3></a></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Pide comida a domicilio</h3></a></td>
-                <td colspan="3" >
-                    <h3>&nbsp;</h3></td>
-                <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Decide no comer nada por su cansancio</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start83')}}" align="center" type="button" ><h3>Nada</h3></a></td>
             </tr>
         </table>
 
