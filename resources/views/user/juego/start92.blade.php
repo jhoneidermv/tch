@@ -17,11 +17,12 @@
 
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/1.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/39.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
     <div id="bn"  style= "display:none; align:center "  >
+        <h3>Martin espera un lapso de 2 horas y despúes se acuesta a dormir, para el otro dia iniciar nuevamente la rutina...</h3>
         <table  cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" rowspan="2">

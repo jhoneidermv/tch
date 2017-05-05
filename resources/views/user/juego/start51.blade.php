@@ -17,12 +17,12 @@
 
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/25.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/32.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
     <div id="bn"  style= "display:none; align:center "  >
-
+        <h3>Martin tambien desea comer algo de media tarde, de las siguientes opciones cual le recominedas ?</h3>
     <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >

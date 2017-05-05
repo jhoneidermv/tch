@@ -16,10 +16,11 @@
 
     <div align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/15.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/37.mp4') }}" type="video/mp4"  >
         </video>
     </div>
         <div id="bn"  style= "display:none; align:center"   >
+            <h3>Martin sale de su casa hacia su trabajo, llega la mañana y es hora de consumir algo suave a media mañana, que debería consumir Martin ?</h3>
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
@@ -27,11 +28,7 @@
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start3')}}" align="center" type="button" ><h3>Bebida energisante</h3></a></td>
-                <td colspan="3" >
-                    <h3>&nbsp;</h3></td>
-                <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start3')}}" align="center" type="button" ><h3>Jugo de fruta natural</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start31')}}" align="center" type="button" ><h3>Jugo de fruta natural</h3></a></td>
             </tr>
         </table>
         </div>

@@ -17,11 +17,15 @@
 
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/10.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/36.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
+
+
     <div id="bn"  style= "display:none; align:center "  >
+        <h3>Martin se levantó, al hacerlo tan temprano le queda tiempo para realizar actividades como revisar sus redes sociales y desayunar de manera
+        tranquila, un desayuno saludable (Huevo con jugo de naranja)</h3>
         <table  cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" rowspan="2">

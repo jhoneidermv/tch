@@ -22,6 +22,9 @@
     </div>
 
     <div id="bn"  style= "display:none; align:center "  >
+        <h3>Martin sigue con sus labores en el trabajo, llega la hora de salida, a esta hora debe decidir si realizará su rutina de ejercicio(Gimnasio, Crossfit, Ciclismo, etc) o no,
+            TENIENDO EN CUENTA TODO LO VIVIDO EN EL DIA DE HOY, debería martin hacer ejercicio ?</h3>
+
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >

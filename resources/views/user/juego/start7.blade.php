@@ -16,11 +16,12 @@
     </div>
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/21.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/38.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
     <div id="bn"  style= "display:none; align:center "  >
+        <h3>Martin despúes de realizar su rutina de deportiva llega a su casa con mucha hambre, cual es las siguientes opciones de comida le recomiendas</h3>
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >

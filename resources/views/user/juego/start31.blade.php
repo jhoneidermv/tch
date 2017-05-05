@@ -22,6 +22,7 @@
     </div>
 
     <div id="bn"  style= "display:none; align:center "  >
+        <h3>Llega el medio día y es hora del almuerzo, de las siguientes opciones cual cree usted que es más recomendable que consuma Martin al almuerzo ?</h3>
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >

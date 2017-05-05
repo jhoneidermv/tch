@@ -26,6 +26,8 @@
         </video>
     </div>
 
+
+
     <div id="a2"   style= "display:none; align:center " >
         <video    autoplay>
             <source src="{{ asset('2.mp4') }}" type="video/mp4"  >
@@ -34,7 +36,8 @@
 
 
 
-    <div id="bn"  align="center"  >
+    <div id="bn"  style= "display:none; align:center "  >
+        <h3>Su día anterior fue demasiado agotador. Martin ha dormido solo 5 horas hasta el momento, son las 5:00 AM y su horario laboral empieza a las 8:00 AM. Debería levantarse ?</h3>
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
@@ -54,7 +57,7 @@
 
 
 <script type='text/javascript'>
-    //document.getElementById('mi-video').addEventListener('ended',myHandler,false);
+    document.getElementById('mi-video').addEventListener('ended',myHandler,false);
     //document.getElementById('bn').style.visibility = "hidden";
     function myHandler(e) {
 
@@ -62,7 +65,7 @@
 
 
 
-      //  $("#bn").fadeIn(3000);
+        $("#bn").fadeIn(3000);
 
         $document.getElementById("bn").style.position = "absolute";
         $document.getElementById("bn").style.left = '200px';

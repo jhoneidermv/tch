@@ -17,13 +17,14 @@
 
     <div  align="center">
         <video id="mi-video"   autoplay>
-            <source src="{{ asset('video/23.mp4') }}" type="video/mp4"  >
+            <source src="{{ asset('video/31.mp4') }}" type="video/mp4"  >
         </video>
     </div>
 
     <div id="bn"  style= "display:none; align:center "  >
+        <h3>Martin tambien desea comer algo de media tarde, de las siguientes opciones cual le recominedas ?</h3>
 
-    <table cellpadding="3" cellspacing="3">
+        <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
                     <a class="myButton btn-block" href="{{route('user.juego.start6')}}" align="center" type="button" ><h3>Hamburguesa</h3></a></td>
