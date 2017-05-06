@@ -20,42 +20,22 @@
 
         <table class="table table-responsive">
             <thead>
-            <tr>
-                <th> Recomendación 1</th>
-                <th> Recomendación 2</th>
-                <th> Recomendación 3</th>
-                <th> Recomendación 4</th>
-                <th> Recomendación 5</th>
-                <th> Recomendación 6</th>
-                <th> Recomendación 7</th>
-                <th> Recomendación 8</th>
-                <th> Recomendación 9</th>
 
-            </tr>
             </thead>
             <tbody>
 
             @foreach($recomendaciones as $recomendaciones)
 
+                <tr>
+                    <th><h1><font color="red" size=4>Recomendación:</font></h1></th>
+                </tr>
                     <th> {{ $recomendaciones }} </th>
-                    <th> {{ $recomendaciones }} </th>
-                    <th> {{ $recomendaciones }} </th>
-                    <th> {{ $recomendaciones }} </th>
-                    <th> {{ $recomendaciones }} </th>
-                    <th> {{ $recomendaciones }} </th>
-                    <th> {{ $recomendaciones }} </th>
-                    <th> {{ $recomendaciones}} </th>
-                    <th> {{ $recomendaciones }} </th>
-
-
 
             @endforeach
-
-
             </tbody>
         </table>
 
-
+        //Desde aca puede colocar las rutinas quemadas
 
     </div>
 </div>

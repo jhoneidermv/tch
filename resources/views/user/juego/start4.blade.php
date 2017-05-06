@@ -23,7 +23,7 @@
 
     <div id="bn"  style= "display:none; align:center "  >
 
-        <h3>Despúes de almorzar, Martin vuelve a su trabajo a realizar sus labores, llega la media tarde y piensa que en que consumir a esta hora, que le recomiendas ?</h3>
+        <h3>Despúes de almorzar, Martin vuelve a su trabajo a realizar sus labores, llega la media tarde y piensa que consumir a esta hora, que le recomiendas ?</h3>
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >

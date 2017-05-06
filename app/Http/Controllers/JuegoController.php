@@ -479,55 +479,56 @@ class JuegoController extends Controller
     public function resultadoFinal(Request $request)
     {
         $desiciones=Desicion::where('juego_id',$request->user()->juegos()->get()->last()->id)->get();
+
         $recomendaciones=array();
 
         foreach ($desiciones as $desicion){
 
             if($desicion->nivel==1 && $desicion->numero==1){
-                $recomendaciones[0] = $this->recomendacion1;
+                $recomendaciones[] = $this->recomendacion1;
             }
 
             if($desicion->nivel==2 && $desicion->numero==3){
-                $recomendaciones[1] = $this->recomendacion2;
+                $recomendaciones[] = $this->recomendacion2;
             }
 
             if ($desicion->nivel==2 && $desicion->numero==5){
-                $recomendaciones[2] = $this->recomendacion2_1;
+                $recomendaciones[] = $this->recomendacion2_1;
             }
 
             if($desicion->nivel==3 && $desicion->numero==6){
-                $recomendaciones[3] = $this->recomendacion3;
+                $recomendaciones[] = $this->recomendacion3;
             }
 
             if($desicion->nivel==4 && $desicion->numero==9){
-                $recomendaciones = array($this->recomendacion4);
+                $recomendaciones[] = $this->recomendacion4;
             }
 
             if($desicion->nivel==5 && $desicion->numero==10){
-                $recomendaciones = array($this->recomendacion5);
+                $recomendaciones[] = $this->recomendacion5;
             }
 
             if($desicion->nivel==6 && $desicion->numero==13){
-                $recomendaciones = array($this->recomendacion6);
+                $recomendaciones[] = $this->recomendacion6;
             }
 
             if($desicion->nivel==7 && $desicion->numero==16){
-                $recomendaciones = array($this->recomendacion7);
+                $recomendaciones[] = $this->recomendacion7;
             }
 
             if($desicion->nivel==8 && $desicion->numero==17){
-                $recomendaciones = array($this->recomendacion8);
+                $recomendaciones[] = $this->recomendacion8;
             }elseif ($desicion->nivel==8 && $desicion->numero==18){
-                $recomendaciones = array($this->recomendacion8_1);
+                $recomendaciones[] = $this->recomendacion8_1;
             }elseif ($desicion->nivel==8 && $desicion->numero==20){
-                $recomendaciones = array($this->recomendacion8_3);
+                $recomendaciones[] = $this->recomendacion8_3;
             }
 
             if($desicion->nivel==9 && $desicion->numero==21){
-                $recomendaciones = array($this->recomendacion9);
+                $recomendaciones[] = $this->recomendacion9;
             }
         }
-        dd($recomendaciones);
+
 
         return view('user/juego/resultadoFinal')->with('recomendaciones',$recomendaciones);
     }
