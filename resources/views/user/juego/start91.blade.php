@@ -25,7 +25,7 @@
         <table  cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" rowspan="2">
-                    <a class="myButton btn-block" href="{{route('user.juego.start2')}}" align="center" type="button" ><h3>Terminar Juego</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.resultadoFinal')}}" align="center" type="button" ><h3>Terminar Juego</h3></a></td>
 
 
             </tr>

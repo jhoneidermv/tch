@@ -25,17 +25,17 @@
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start8')}}" align="center" type="button" ><h3>Pizza</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start8',17)}}" align="center" type="button" ><h3>Pizza</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start81')}}" align="center" type="button" ><h3>Ensalada de frutas</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start8',18)}}" align="center" type="button" ><h3>Ensalada de frutas</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start82')}}" align="center" type="button" ><h3>Batido</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start8',19)}}" align="center" type="button" ><h3>Batido</h3></a></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start83')}}" align="center" type="button" ><h3>Nada</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start8',20)}}" align="center" type="button" ><h3>Nada</h3></a></td>
             </tr>
         </table>
 

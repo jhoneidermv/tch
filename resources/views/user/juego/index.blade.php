@@ -28,7 +28,7 @@
         <tr>
             <td>
                 <div class="alineacion">
-                    <a href="{{route('user.juego.start')}}"  type="button" class="btn btn-danger btn-circle btn-xl"><h3>Start</h3></a>
+                    <a href="{{route('user.juego.start', Auth::user()->id)}}"  type="button" class="btn btn-danger btn-circle btn-xl"><h3>Start</h3></a>
 
                 </div>
             </td>

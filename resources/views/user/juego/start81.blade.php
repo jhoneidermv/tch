@@ -26,12 +26,12 @@
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start91')}}" align="center" type="button" ><h3>Si</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start91',21)}}" align="center" type="button" ><h3>Si</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;&nbsp;</h3></td>
 
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start92')}}" align="center" type="button" ><h3>No</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start91',22)}}" align="center" type="button" ><h3>No</h3></a></td>
             </tr>
         </table>
 

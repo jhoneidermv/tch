@@ -25,18 +25,19 @@
         <h3>Martin sigue durmiendo pero se pasa del tiempo y le coje la tarde, rapidamente se organiza y debe decidir
             en un desayuno rapido, cual le recomiendas ?</h3>
 
+
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start21')}}" align="center" type="button" ><h3>Café, Pan y <br> otras harinas</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start21',3)}}" align="center" type="button" ><h3>Café, Pan y <br> otras harinas</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start22')}}" align="center" type="button" ><h3>Huevo y jugo<br>de naranja</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start21',4)}}" align="center" type="button" ><h3>Huevo y jugo<br>de naranja</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start23')}}" align="center" type="button" ><h3>No desayuna porque<br>le coje la tarde</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start21',5)}}" align="center" type="button" ><h3>No desayuna porque<br>le coje la tarde</h3></a></td>
             </tr>
         </table>
 

@@ -1,0 +1,21 @@
+SonarQube plugins:
+  - Python 1.7.0.1195 (python)
+  - C# 5.7.0.612 (csharp)
+  - Java 4.5.0.8398 (java)
+  - Flex 2.3 (flex)
+  - Git 1.2 (scmgit)
+  - PHP 2.9.2.1744 (php)
+  - SVN 1.4.0.522 (scmsvn)
+  - SonarJS 2.20.0.4207 (javascript)
+Global properties:
+  - sonar.core.id=AVvZ91WchaFtP1Y-K3dy
+  - sonar.core.startTime=2017-05-06T15:24:23+0000
+Settings for module: my:tch
+  - sonar.host.url=http://192.168.99.100:32769
+  - sonar.projectBaseDir=C:\xampp\htdocs\tch
+  - sonar.projectKey=my:tch
+  - sonar.projectName=tch
+  - sonar.projectVersion=1.0
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=.
+  - sonar.working.directory=C:\xampp\htdocs\tch\.scannerwork

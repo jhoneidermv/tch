@@ -20,33 +20,19 @@
         </video>
     </div>
 
-    <div id="a1"  style= "display:none; align:center " >
-        <video    autoplay>
-            <source src="{{ asset('1.mp4') }}" type="video/mp4"  >
-        </video>
-    </div>
 
 
-
-    <div id="a2"   style= "display:none; align:center " >
-        <video    autoplay>
-            <source src="{{ asset('2.mp4') }}" type="video/mp4"  >
-        </video>
-    </div>
-
-
-
-    <div id="bn"  style= "display:none; align:center "  >
+    <div id="bn"  style= "align:center "  >
         <h3>Su día anterior fue demasiado agotador. Martin ha dormido solo 5 horas hasta el momento, son las 5:00 AM y su horario laboral empieza a las 8:00 AM. Debería levantarse ?</h3>
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block"  href="{{route('user.juego.start11')}}"  align="center" id="boton1" type="button" ><h3>Si</h3></a></td>
+                    <a class="myButton btn-block"  href="{{route('user.juego.start1',1)}}"  align="center" id="boton1" type="button" ><h3>Si</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;&nbsp;</h3></td>
 
                 <td colspan="3" >
-                    <a class="myButton btn-block"  href="{{route('user.juego.start12')}}" align="center" id="boton2" type="button" ><h3>No</h3></a></td>
+                    <a class="myButton btn-block"  href="{{route('user.juego.start1',2)}}" align="center" id="boton2" type="button" ><h3>No</h3></a></td>
             </tr>
         </table>
 
@@ -57,7 +43,7 @@
 
 
 <script type='text/javascript'>
-    document.getElementById('mi-video').addEventListener('ended',myHandler,false);
+    //document.getElementById('mi-video').addEventListener('ended',myHandler,false);
     //document.getElementById('bn').style.visibility = "hidden";
     function myHandler(e) {
 
@@ -65,7 +51,7 @@
 
 
 
-        $("#bn").fadeIn(3000);
+        //$("#bn").fadeIn(3000);
 
         $document.getElementById("bn").style.position = "absolute";
         $document.getElementById("bn").style.left = '200px';

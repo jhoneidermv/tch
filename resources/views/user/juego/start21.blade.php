@@ -21,15 +21,17 @@
         </video>
     </div>
 
+
+
     <div id="bn"  style= "display:none; align:center "  >
         <h3>Martin sale de su casa hacia su trabajo, llega la mañana y es hora de consumir algo suave a media mañana, que debería consumir Martin ?</h3>
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block" name="btn21" href="{{route('user.juego.start3')}}" align="center" id="btn21" ><h3>Café</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start3', 6)}}" align="center" id="btn21" ><h3>Café</h3></a></td>
                 <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start31')}}" align="center" type="button" ><h3>Jugo de fruta natural</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start3', 7)}}" align="center" type="button" ><h3>Jugo de fruta natural</h3></a></td>
             </tr>
         </table>
 

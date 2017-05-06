@@ -27,15 +27,15 @@
         <table cellpadding="3" cellspacing="3">
             <tr>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start5')}}" align="center" type="button" ><h3>Gaseosa fria</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start5',10)}}" align="center" type="button" ><h3>Gaseosa fria</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start51')}}" align="center" type="button" ><h3>Jugo natural</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start5',11)}}" align="center" type="button" ><h3>Jugo natural</h3></a></td>
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start52')}}" align="center" type="button" ><h3>Agua</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start5',12)}}" align="center" type="button" ><h3>Agua</h3></a></td>
             </tr>
         </table>
 
