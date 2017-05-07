@@ -25,6 +25,7 @@ class User extends Authenticatable
     ];
 
     /**
+     * me retorna el juego con el que tiene la relacion
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function juegos(){
@@ -32,6 +33,8 @@ class User extends Authenticatable
     }
 
     /**
+     * retorna la consulta donde se este buscando por email,
+     * esto para el login
      * @param $query
      * @param $criterio
      * @return mixed

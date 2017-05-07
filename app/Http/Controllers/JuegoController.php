@@ -13,28 +13,37 @@ use Illuminate\Support\Facades\DB;
 
 class JuegoController extends Controller
 {
-    var $recomendacion1="Las personas deben dormir entre 7 y 8 horas, esto con el fin de que el cuerpo descanse 
-    lo suficiente";
-    var $recomendacion2="El pan y el café a esta hora de la mañana es poco recomendable debido a que las harinas 
-    engordan y no nutren";
-    var $recomendacion2_1="El desayuno es el alimento mas importante del día, por lo tanto no se debe omitir, el cuerpo 
-    lleva mas de 8 horas sin recibir ningun alimento";
-    var $recomendacion3="El café puede provocar úlceras, puede dañar el tracto gastro intestinal u otros tipos de 
-    irritación en el estomago o intestino, ademas de irritacion y ansiedad";
-    var $recomendacion4="La bandeja paisa tiene demasiados carbohidratos y calorias, es mas recomendable sopa pastas, 
-    verduras, pollo y jugos naturales";
-    var $recomendacion5="La gaseosa tiene un nivel de azucar demasiado alto, es mas recomendable jugos naturales";
-    var $recomendacion6="El cuerpo utiliza los carbohidratos como fuente de energia, si el exceso de calorias es mayor,
-     se almacena como grasa, es recomendable consumir fruta";
-    var $recomendacion7="Por el trabajo diario de una persona, es recomendable realizar una rutina de ejercicios para 
-    que los musculos descanses del estres que genera el trabajo";
-    var $recomendacion8="La comida chatarra en la noche no es recomendable porque nos encontramos proximos a dormir y da 
-    digestion no se produce como deberia";
-    var $recomendacion8_1="Las ensaladas de frutas con helado no son recomendable por la combinación de frutas y los 
-    azucares y al estar proximos a dormir la digestion no se realiza de la manera que es";
-    var $recomendacion8_3="Es recomendable comer pequeñas porciones de pescado o filete de pollo, acompañado de una 
-    ensalada de frutas";
-    var $recomendacion9="Al comer en la noche es recomendable esperar hasta 2 horas para acostarse a dormir";
+    var $recomendacion1="Las personas deben dormir entre 7 y 8 horas, 
+    esto con el fin de que el cuerpo descanse lo suficiente";
+    var $recomendacion2="El pan y el café a esta hora de la mañana es 
+    poco recomendable debido a que las harinas engordan y no nutren";
+    var $recomendacion2_1="El desayuno es el alimento mas importante 
+    del día, por lo tanto no se debe omitir, el cuerpo lleva mas de 
+    8 horas sin recibir ningun alimento";
+    var $recomendacion3="El café puede provocar úlceras, puede dañar 
+    el tracto gastro intestinal u otros tipos de irritación en el 
+    estomago o intestino, ademas de irritacion y ansiedad";
+    var $recomendacion4="La bandeja paisa tiene demasiados carbohidratos 
+    y calorias, es mas recomendable sopa pastas, verduras, pollo y 
+    jugos naturales";
+    var $recomendacion5="La gaseosa tiene un nivel de azucar demasiado 
+    alto, es mas recomendable jugos naturales";
+    var $recomendacion6="El cuerpo utiliza los carbohidratos como fuente
+     de energia, si el exceso de calorias es mayor, se almacena como grasa, 
+     es recomendable consumir fruta";
+    var $recomendacion7="Por el trabajo diario de una persona, es 
+    recomendable realizar una rutina de ejercicios para que los musculos 
+    descanses del estres que genera el trabajo";
+    var $recomendacion8="La comida chatarra en la noche no es recomendable 
+    porque nos encontramos proximos a dormir y da digestion no se 
+    produce como deberia";
+    var $recomendacion8_1="Las ensaladas de frutas con helado no son 
+    recomendable por la combinación de frutas y los azucares y al estar 
+    proximos a dormir la digestion no se realiza de la manera que es";
+    var $recomendacion8_3="Es recomendable comer pequeñas porciones de 
+    pescado o filete de pollo, acompañado de una ensalada de frutas";
+    var $recomendacion9="Al comer en la noche es recomendable esperar 
+    hasta 2 horas para acostarse a dormir";
 
     /**
      * Show the form for creating a new resource.

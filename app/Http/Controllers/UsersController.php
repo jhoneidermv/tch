@@ -20,7 +20,7 @@ class UsersController extends Controller
     {
         $users= User::orderBy('name', 'asc')->search($request->criterio)->get();
 
-        return view('admin/users/index')->with('users',$users);
+        return view('admin/users/index')->with('users', $users);
     }
 
     /**

@@ -17,7 +17,7 @@ Route::get('/', function () {
             return view('admin/index');
         }else
             return view('user/juego/index');
-    }else{
+    } else{
         return view('auth/login');
     }
 });
@@ -31,28 +31,32 @@ Route::get('/', function () {
 /*
  * Son las lrutas que solo va  a controlar el adminitrador
  */
-Route::group([ 'middleware' => ['auth', 'throttle:30'], 'prefix' => 'admin'], function (){
+Route::group([ 'middleware' => ['auth', 'throttle:30'],
+'prefix' => 'admin'], function () {
     Route::get('/', [
        'as'  => 'admin.index',
-        function(){
+        function() {
             return view('admin/index');
         }
     ]);
     Route::resource('excel','ExcelController');
-    Route::get('admin/excel/export', ['uses' => 'ExcelController@getExport', 'as' => 'admin.excel.getExport']);
+    Route::get('admin/excel/export', ['uses' => 'ExcelController@getExport',
+        'as' => 'admin.excel.getExport']);
 
     Route::resource('users','UsersController');
-    Route::post('users/{id}/update', ['uses' =>  'UsersController@update','as' => 'admin.user.update']);
-    Route::get('users/{id}/destroy', ['uses' => 'UsersController@destroy', 'as' => 'admin.user.destroy']);
+    Route::post('users/{id}/update', ['uses' =>  'UsersController@update',
+        'as' => 'admin.user.update']);
+    Route::get('users/{id}/destroy', ['uses' => 'UsersController@destroy',
+        'as' => 'admin.user.destroy']);
 });
 
 /*
  * Son las lrutas que solo va  a controlar el adminitrador
  */
-Route::group([ 'middleware' => ['auth', 'throttle:30'], 'prefix' => 'user'], function (){
+Route::group([ 'middleware' => ['auth', 'throttle:30'], 'prefix' => 'user'], function () {
     Route::get('/', [
         'as'  => 'user.index',
-        function(){
+        function() {
             return view('user/index');
         }
     ]);
