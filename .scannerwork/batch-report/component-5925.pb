@@ -1,0 +1,1 @@
+¥.Kvendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php 2phpX«

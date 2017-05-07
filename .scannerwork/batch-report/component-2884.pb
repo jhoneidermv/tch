@@ -1,0 +1,1 @@
+Ä<vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php 2phpX

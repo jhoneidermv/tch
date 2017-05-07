@@ -1,0 +1,1 @@
+¾(:vendor/phpunit/phpunit-mock-objects/tests/_fixture/Bar.php 2phpX	

@@ -1,0 +1,1 @@
+¿Bvendor/fzaninotto/faker/test/Faker/Provider/fr_CH/InternetTest.php 2phpX$

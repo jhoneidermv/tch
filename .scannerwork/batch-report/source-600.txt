@@ -1,0 +1,28 @@
+<?php
+
+namespace Faker\Provider\bn_BD;
+
+class Company extends \Faker\Provider\Company
+{
+    protected static $formats = array(
+        '{{companyName}} {{companyType}}'
+    );
+
+    protected static $names = array(
+        'à¦°à¦¹à¦¿à¦®', 'à¦•à¦°à¦¿à¦®', 'à¦¬à¦¾à¦¬à¦²à§�'
+    );
+
+    protected static $types = array(
+        'à¦¸à¦¿à¦®à§‡à¦¨à§�à¦Ÿ', 'à¦¸à¦¾à¦°', 'à¦¢à§‡à¦‰à¦Ÿà¦¿à¦¨'
+    );
+
+    public static function companyType()
+    {
+        return static::randomElement(static::$types);
+    }
+
+    public static function companyName()
+    {
+        return static::randomElement(static::$names);
+    }
+}

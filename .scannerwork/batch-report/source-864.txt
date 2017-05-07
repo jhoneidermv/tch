@@ -1,0 +1,119 @@
+<?php
+
+namespace Faker\Provider\me_ME;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $postcode = array('#####');
+
+    protected static $streetPrefix = array(
+        '',
+    );
+
+    /**
+     * @link http://podgorica.mapa.in.rs/
+     */
+    protected static $street = array(
+        '1. crnogorske brigade narodne odbrane', '1. maja', '1. proleterske brigade', '10. crnogorske brigade', '13. jula', '18. februara', '18. jula', '19. decembra', '2. crnogorskog bataljona', '2. proleterske dalmatinske brigade', '27. marta', '3. sandÅ¾aÄ�ke proleterske brigade', '4. jula', '4. proleterske brigade', '5. proleterske brigade', '6. crnogorske udarne brigade', '7. omladinske brigade', '8. crnogorske udarne brigade', '8. jula', '8. marta', '9. crnogorske brigade',
+        'Admirala ZmajeviÄ‡a', 'Aerodromska', 'Aleksandra Ace PrijiÄ‡a', 'Aleksandra Lesa IvanoviÄ‡a', 'Aleksandra PuÅ¡kina', 'Alekse Å antiÄ‡a', 'Alfreda Tenisona', 'Andrije PaltaÅ¡iÄ‡a', 'AndrijeviÄ�ka', 'Antona ÄŒehova', 'Arhitekte Milana PopoviÄ‡a', 'Arsenija ÄŒarnojeviÄ‡a', 'Atinska', 'AVNOJ-a',
+        'Balkanska', 'BalÅ¡iÄ‡a', 'Barska', 'Belvederska', 'Beogradska', 'Berska', 'BjelasiÄ�ka', 'Bjelopoljska', 'BlaÅ¾a JovanoviÄ‡a', 'Bohinjska', 'Bokeljske mornarice', 'BokeÅ¡ka', 'Bore i Ramiza', 'Borisa KidriÄ�a', 'BoÅ¡ka Buhe', 'Botunska', 'Bracana BracanoviÄ‡a', 'BraÄ‡e Ribar', 'Branislava LekiÄ‡a', 'Branka Ä†opiÄ‡a', 'Branka DeletiÄ‡a', 'Branka RadiÄ�eviÄ‡a', 'BratonoÅ¾iÄ‡ka', 'Bratstva i jedinstva', 'BregalniÄ�ka', 'Buda TomoviÄ‡a', 'Budvanska', 'Bulevar DÅ¾ordÅ¾a VaÅ¡ingtona', 'Bulevar Ivana CrnojeviÄ‡a', 'Bulevar Mihaila LaliÄ‡a', 'Bulevar revolucije', 'Bulevar Save KovaÄ�eviÄ‡a',
+        'Cara Lazara', 'Carev laz', 'Ceklinska', 'Cetinjski put', 'Crnogorskih serdara', 'CrnojeviÄ‡a', 'Cvijetna',
+        'Dajbabska', 'Dalmatinska', 'Danilovgradska', 'Desanke MaksimoviÄ‡', 'Dositeja ObradoviÄ‡a', 'Dr BlaÅ¾a RaiÄ�eviÄ‡a', 'Dr Filipa Å oÄ‡a', 'Dr Milutina KaÅ¾iÄ‡a', 'Dr Nika MiljaniÄ‡a', 'Dr SaÅ¡e BoÅ¾oviÄ‡a', 'Drvarska', 'Dukljanska', 'Dunavska', 'Durmitorska', 'DuÅ¡ana DuÄ‡e MugoÅ¡e', 'DuÅ¡ana MilutinoviÄ‡a', 'DuÅ¡ana VukotiÄ‡a', 'DÅ¾an', 'Ä�eÄ�eviÄ‡a', 'Ä�oka MiraÅ¡eviÄ‡a', 'Ä�uje JovanoviÄ‡a', 'Ä�ure DaniÄ�iÄ‡a',
+        'Emila Zole', 'Franca PreÅ¡erna', 'Franca Rozmana', 'FruÅ¡kogorska', 'Fundinske bitke',
+        'Gavra VukoviÄ‡a', 'Gavrila Principa', 'Generala Sava OrloviÄ‡a', 'Georgi Dimitrova', 'Geteova', 'Goce DelÄ�eva', 'Gojka RadonjiÄ‡a', 'Goranska', 'GoriÄ�ka', 'GrahovaÄ�ka',
+        'Hajduk Veljkova', 'Hercegnovska', 'HercegovaÄ�ka', 'Husinskih rudara',
+        'Igmanska', 'Ilije MilaÄ�iÄ‡a', 'Isidore SekuliÄ‡', 'Ivana Cankara', 'Ivana Gorana KovaÄ�iÄ‡a', 'Ivana MilutinoviÄ‡a', 'Ivana VujoÅ¡eviÄ‡a', 'Ivangradska', 'Ive AndriÄ‡a', 'Iveze Vukova',
+        'Jadranska', 'Janka Ä�anoviÄ‡a', 'Janka VukotiÄ‡a', 'Jaroslava ÄŒermaka', 'Jelene BalÅ¡iÄ‡', 'Jerevanska', 'Jezerska', 'Josipa Broza Tita', 'Jovana CvijiÄ‡a', 'Jovana Ä†etkoviÄ‡a', 'Jovana TomaÅ¡eviÄ‡a',
+        'KadinjaÄ�a', 'KaraÄ‘orÄ‘eva', 'Kninska', 'KNOJ-a', 'KolaÅ¡inska', 'Komska', 'Kosmajska', 'Kosovska', 'Kosovskih junaka', 'Koste Racina', 'Kotorska', 'KozaraÄ�ka', 'KragujevaÄ�ka', 'Kralja Nikole', 'KraljevaÄ�ka',
+        'Lamela', 'Lazara SoÄ�ice', 'LiÄ�ka', 'LovÄ‡enska', 'Ludviga Kube', 'Luke BoljeviÄ‡a', 'LutovaÄ�kih barjaktara', 'Ljesanska', 'Ljeskopoljska', 'Ljube ÄŒupiÄ‡a', 'Ljube NenadoviÄ‡a', 'Ljubljanska', 'Ljubostinjskih junaka', 'LjuboviÄ‡ka',
+        'MajeviÄ�ka', 'Manastirska', 'Marka MaÅ¡anoviÄ‡a', 'Marka Miljanova', 'Matije Gupca', 'Mediteranska', 'Medunska', 'MeÅ¡e SelimoviÄ‡a', 'Mila MilunoviÄ‡a', 'Mila PeruniÄ�iÄ‡a', 'Mila RadunoviÄ‡a', 'Miladina PopoviÄ‡a', 'Milana KuÄ�a', 'Milana RaiÄ�koviÄ‡a', 'Miloja PavloviÄ‡a', 'MiloÅ¡a ObiliÄ‡a', 'Miljana Vukova', 'Miodraga BulatoviÄ‡a', 'Mirka BanjeviÄ‡a', 'Mirka VeÅ¡oviÄ‡a', 'Mitra BakiÄ‡a', 'MojkovaÄ�ka', 'Mojsija ZeÄ�eviÄ‡a', 'MoraÄ�ka', 'Moskovska', 'Moskovski most', 'Mosorska', 'Most Milenijum', 'Most Å¾rtava 5. maja 1944.', 'MuÅ¡ikiÄ‡a',
+        'Neznanih junaka', 'Nikca od Rovina', 'Nikole Ä�urkoviÄ‡a', 'Nikole LopiÄ�iÄ‡a', 'Nikole Tesle', 'NikÅ¡iÄ‡ka', 'Novaka MiloÅ¡eva', 'Novaka Ramova', 'Novosadska', 'NjegoÅ¡eva',
+        'Obala Ribnice', 'Obodska', 'Ohridska', 'Oktobarske revolucije', 'Omera AbdoviÄ‡a', 'Omladinskih brigada', 'Orijenska',
+        'Pariske komune', 'Partizanski put', 'Pera PoÄ�eka', 'Perojska', 'Petra KoÄ�iÄ‡a', 'Petra Lubarde', 'Petra Prlje', 'Pilota CvetkoviÄ‡a i MilojeviÄ‡a', 'Piperska', 'Pivska', 'Plavska', 'PlitviÄ�ka', 'PluÅ¾inska', 'Pljevaljska', 'Pohorska', 'Polimska', 'Popa BoÅ¡ka PopoviÄ‡a', 'Predraga GoluboviÄ‡a', 'Princa Mihaila PetroviÄ‡a', 'PriÅ¡tinska', 'Prolaz Generala DoÅ¾iÄ‡a',
+        'RadniÄ�ka', 'Radoja JovanoviÄ‡a', 'Radomira IvanoviÄ‡a', 'Radosava BuriÄ‡a', 'Radosava PopoviÄ‡a', 'Radovana PetroviÄ‡a', 'Radovana VukanoviÄ‡a', 'Radovana ZogoviÄ‡a', 'Radula Rusa RaduloviÄ‡a', 'Rista StijoviÄ‡a', 'Rogamska', 'RovaÄ�ka', 'RuÅ¾a',
+        'Sarajevska', 'Sava Lubarde', 'Sava NikoliÄ‡a', 'Savska', 'Serdara Jola PiletiÄ‡a', 'Sergeja Jesenjina', 'Sime Matavulja', 'Simona Ivanova', 'SitniÄ�ka', 'Skadarska', 'SKOJ-a', 'Skopska', 'Slavonska', 'Slobodana Å keroviÄ‡a', 'Slobode', 'Sloge', 'Spasa NikoliÄ‡a', 'Spasoja RaspopoviÄ‡a', 'SrednjoÅ¡kolska', 'Stanka DragojeviÄ‡a', 'Stefana Mitrova LjubiÅ¡e', 'Steva BoljeviÄ‡a', 'Steva KraljeviÄ‡a', 'Studentska', 'Svetog Petra Cetinjskog', 'Svetozara MarkoviÄ‡a', 'Å arkiÄ‡a', 'Å avniÄ�ka', 'Å panskih boraca', 'Å pira MugoÅ¡e',
+        'Tivatska', 'Trebinjska', 'Trg BoÅ¾ane VuÄ�iniÄ‡', 'Trg golootoÄ�kih Å¾rtava', 'Trg Nikole KovaÄ�eviÄ‡a', 'Trg republike', 'Trifuna Ä�ukiÄ‡a', 'Triglavska', 'Tripa Kukolja', 'TuÅ¡ka',
+        'Ulcinjska', 'UÅ¾iÄ�ka',
+        'Valtazara BogiÅ¡iÄ‡a', 'Vardarska', 'Vasa RaiÄ�koviÄ‡a', 'Velimira StojanoviÄ‡a', 'Velimira TerziÄ‡a', 'Veljka JankoviÄ‡a', 'Vezirov most', 'Vinogradska', 'Vitomira Vita NikoliÄ‡a', 'Vlada Ä†etkoviÄ‡a', 'Vlada MartinoviÄ‡a', 'Vladike Danila', 'Vladike Petra I', 'Vladike Vasilija PetroviÄ‡a', 'VojisavljeviÄ‡a', 'Vojislava GrujiÄ‡a', 'Vojvode Ilije Plamenca', 'Vojvode Mijajla NiÅ¡ina', 'Vojvode Mirka PetroviÄ‡a', 'Vojvode Raduna', 'Vojvode Vase Bracanova', 'VojvoÄ‘anska', 'Vrela 2.', 'Vrela 3.', 'Vrela 4.', 'Vrela 5.', 'Vrela 6.', 'VuÄ�edolska', 'Vuka Ä�uroviÄ‡a', 'Vuka KaradÅ¾iÄ‡a', 'Vuka ManduÅ¡iÄ‡a', 'Vuka MiÄ‡unoviÄ‡a', 'Vukice MitroviÄ‡', 'Vukosava BoÅ¾oviÄ‡a',
+        'ZagrebaÄ�ka', 'Zetskih vladara', 'Zetskog odreda', 'Zmaj Jovina', 'Å½abljaÄ�ka', 'Å½arka Zrenjanina', 'Å½ikice JovanoviÄ‡a Å panca', 'Å½rtava faÅ¡izma',
+    );
+
+    protected static $streetNameFormats = array(
+        '{{street}}',
+        '{{streetPrefix}} {{street}}',
+    );
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}',
+    );
+
+    protected static $cityFormats = array(
+        '{{cityName}}',
+    );
+
+    /**
+     * @link http://sh.wikipedia.org/wiki/Popis_gradova_u_Crnoj_Gori
+     */
+    protected static $cityNames = array(
+       'Bar', 'Budva', 'Herceg Novi',
+       'Kotor', 'Tivat', 'Ulcinj', 'Podgorica',
+       'Cetinje', 'NikÅ¡iÄ‡', 'Danilovgrad', 'Å½abljak',
+       'KolaÅ¡in', 'Andrijevica', 'Berane', 'Bijelo Polje',
+       'Mojkovac', 'Plav', 'PluÅ¾ine', 'Pljevlja', 'RoÅ¾aje',
+       'Å avnik', 'Petnjica', 'Gusinje', 'Petrovac','Sutomore',
+    );
+
+    /**
+     * @link https://github.com/umpirsky/country-list/blob/master/country/cldr/sr_Latn/country.php
+     */
+    protected static $country = array(
+        'Alandska ostrva', 'Albanija', 'AlÅ¾ir', 'AmeriÄ�ka Samoa', 'Andora', 'Angola', 'Angvila', 'Antarktika', 'Antigva i Barbuda', 'Argentina', 'Armenija', 'Aruba', 'Australija', 'Austrija', 'Avganistan', 'AzerbejdÅ¾an',
+        'Bahami', 'Bahrein', 'BangladeÅ¡', 'Barbados', 'Belgija', 'Belise', 'Belorusija', 'Benin', 'Bermuda', 'Bocvana', 'Bolivija', 'Bosna i Hercegovina', 'BoÅ¾iÄ‡na Ostrva', 'Brazil', 'Britanska DeviÄ�anska Ostrva', 'Britansko Indijska Okeanska Teritorija', 'Brunej', 'Bugarska', 'Burkina Faso', 'Burundi', 'Butan', 'Buve Ostrva',
+        'ÄŒad', 'Centralno AfriÄ�ka Republika', 'ÄŒeÅ¡ka', 'ÄŒile',
+        'Crna Gora',
+        'Danska', 'Demokratska Republika Kongo', 'Dijego Garsija', 'Dominika', 'Dominikanska Republika',
+        'DÅ¾ersi', 'DÅ¾ibuti',
+        'Egipat', 'Ekvador', 'Ekvatorijalna Gvineja', 'Eritreja', 'Estonija', 'Etiopija', 'Evropska unija',
+        'Farska Ostrva', 'FidÅ¾i', 'Filipini', 'Finska', 'Folklandska Ostrva', 'Francuska', 'Francuska Gvajana', 'Francuska Polinezija', 'Francuske JuÅ¾ne Teritorije',
+        'Gabon', 'Gambija', 'Gana', 'Gibraltar', 'GrÄ�ka', 'Grenada', 'Grenland', 'Gruzija', 'Guam', 'Gurnsi', 'Gvadelupe', 'Gvajana', 'Gvatemala', 'Gvineja', 'Gvineja-Bisao',
+        'Haiti', 'Herd i Mekdonald Ostrva', 'Holandija', 'Holandski Antili', 'Honduras', 'Hong Kong (S. A. R. Kina)', 'Hrvatska',
+        'Indija', 'Indonezija', 'Irak', 'Iran', 'Irska', 'Island', 'IstoÄ�ni Timor', 'Italija', 'Izrael',
+        'Jamajka', 'Japan', 'Jemen', 'Jordan', 'JuÅ¾na DÅ¾ordÅ¾ija i JuÅ¾na SendviÄ� Ostrva', 'JuÅ¾na Koreja', 'JuÅ¾noafriÄ�ka Republika',
+        'Kajmanska Ostrva', 'KambodÅ¾a', 'Kamerun', 'Kanada', 'Kanarska ostrva', 'Kape Verde', 'Katar', 'Kazahstan', 'Kenija', 'Kina', 'Kipar', 'Kirgizstan', 'Kiribati', 'Kokos (Keling) Ostrva', 'Kolumbija', 'Komorska Ostrva', 'Kongo', 'Kostarika', 'Kuba', 'Kukova Ostrva', 'Kuvajt',
+        'Laos', 'Lesoto', 'Letonija', 'Liban', 'Liberija', 'Libija', 'LihtenÅ¡tajn', 'Litvanija', 'Luksemburg',
+        'Madagaskar', 'MaÄ‘arska', 'Majote', 'Makao (S. A. R. Kina)', 'Makedonija', 'Malavi', 'Maldivi', 'Malezija', 'Mali', 'Malta', 'Manja Udaljena Ostrva SAD', 'Maroko', 'MarÅ¡alska Ostrva', 'Martinik', 'Mauricius', 'Mauritanija', 'Meksiko', 'Mijanmar', 'Mikronezija', 'Moldavija', 'Monako', 'Mongolija', 'Monserat', 'Mozambik',
+        'Namibija', 'Nauru', 'NemaÄ�ka', 'Nepal', 'Niger', 'Nigerija', 'Nikaragva', 'Niue', 'Norfolk Ostrvo', 'NorveÅ¡ka', 'Nova Kaledonija', 'Novi Zeland',
+        'Obala SlonovaÄ�e', 'Oman', 'Ostala okeanija', 'Ostrvo Asension', 'Ostrvo Kliperton', 'Ostrvo Man',
+        'Pakistan', 'Palau', 'Palestinska Teritorija', 'Panama', 'Papua Nova Gvineja', 'Paragvaj', 'Peru', 'Pitcairn', 'Poljska', 'Porto Riko', 'Portugal',
+        'Rejunion', 'Ruanda', 'Rumunija', 'Rusija',
+        'S.A.D. DeviÄ�anska Ostrva', 'Salvador', 'Samoa', 'San Marino', 'Sao Tome i Principe', 'Saudijska Arabija', 'SejÅ¡eli', 'Sen Pjer i Mikelon', 'Senegal', 'Sent Kits i Nevis', 'Sent Lucija', 'Sent Vinsent i Grenadini', 'Seuta i Melilja', 'Severna Koreja', 'Severna Marijanska Ostrva', 'Sijera Leone', 'Singapur', 'Sirija', 'Sjedinjene AmeriÄ�ke DrÅ¾ave', 'SlovaÄ�ka', 'Slovenija', 'Solomonska Ostrva', 'Somalija',
+        'Å panija', 'Srbija', 'Å ri Lanka', 'Sudan', 'Surinam', 'Sv. Bartolomej', 'Sv. Martin', 'Å vajcarska', 'Svalbard i Janmajen Ostrva', 'Svazilend', 'Å vedska', 'Sveta Jelena',
+        'TadÅ¾ikistan', 'Tajland', 'Tajvan', 'Tanzanija', 'Togo', 'Tokelau', 'Tonga', 'Trinidad i Tobago', 'Tristan da Kunja', 'Tunis', 'Turkmenistan', 'Turks i Kajkos Ostrva', 'Turska', 'Tuvalu',
+        'Uganda', 'Ujedinjeni Arapski Emirati', 'Ukrajina', 'Urugvaj', 'Uzbekistan',
+        'Valis i Futuna Ostrva', 'Vanuatu', 'Vatikan', 'Velika Britanija', 'Venecuela', 'Vijetnam',
+        'Zambija', 'Zapadna Sahara', 'Zimbabve',
+    );
+
+    public static function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    public static function street()
+    {
+        return static::randomElement(static::$street);
+    }
+
+    public function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+
+    public static function localCoordinates()
+    {
+        return array(
+            'latitude' => static::latitude(42.43, 42.45),
+            'longitude' => static::longitude(19.16, 19.27)
+        );
+    }
+}

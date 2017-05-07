@@ -1,0 +1,1 @@
+¸,Mvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php 2phpX#

@@ -1,0 +1,1 @@
+¥-=vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Encoder :¤-¦-§-

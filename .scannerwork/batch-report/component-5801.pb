@@ -1,0 +1,1 @@
+©-^vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/KeyCache/ArrayKeyCacheAcceptanceTest.php 2phpX®

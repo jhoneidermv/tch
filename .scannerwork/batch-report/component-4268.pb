@@ -1,0 +1,1 @@
+¬!Jvendor/phpspec/prophecy/src/Prophecy/Doubler/Generator/Node/MethodNode.php 2phpXÐ

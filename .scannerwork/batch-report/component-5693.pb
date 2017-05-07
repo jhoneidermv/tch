@@ -1,0 +1,1 @@
+½,=vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php 2phpX<

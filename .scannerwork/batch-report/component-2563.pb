@@ -1,0 +1,1 @@
+ƒIvendor/monolog/monolog/tests/Monolog/Handler/GelfMockMessagePublisher.php 2phpX

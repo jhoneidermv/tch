@@ -1,3 +1,2 @@
-T
-phpS105EReplace all tab characters in this file by sequences of white-spaces. „
-phpS101kRename class "PHPExcel_CachedObjectStorage_MemoryGZip" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2$$ -
+b
+phpS101IRename class "Void_" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 

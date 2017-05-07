@@ -1,0 +1,1 @@
+¢-[vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/DependencyContainerAcceptanceTest.php 2phpX

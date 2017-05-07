@@ -1,0 +1,1 @@
+«.9vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport :ª.¬.¶.·.¸.¹.º.».

@@ -1,0 +1,1 @@
+þ1/vendor/symfony/debug/Tests/ErrorHandlerTest.php 2phpXþ

@@ -1,0 +1,1 @@
+˜!Ovendor/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/ClassPatchInterface.php 2phpX1

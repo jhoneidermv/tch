@@ -1,0 +1,1 @@
+ @vendor/fzaninotto/faker/src/Faker/Provider/is_IS/PhoneNumber.php 2phpX

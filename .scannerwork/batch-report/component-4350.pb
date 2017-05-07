@@ -1,0 +1,1 @@
+þ!;vendor/phpunit/php-code-coverage/src/CodeCoverage/Exception :ý!

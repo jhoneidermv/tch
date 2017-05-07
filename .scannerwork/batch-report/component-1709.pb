@@ -1,0 +1,1 @@
+­7vendor/laravel/framework/src/Illuminate/Database/Schema :«¬´¶

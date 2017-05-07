@@ -1,0 +1,1 @@
+Ì>vendor/laravel/framework/src/Illuminate/Routing/Controller.php 2phpXn

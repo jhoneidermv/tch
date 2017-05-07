@@ -1,0 +1,1 @@
+î+Kvendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php 2phpX]

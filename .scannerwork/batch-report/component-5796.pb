@@ -1,0 +1,1 @@
+¤-]vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Encoder/Base64EncoderAcceptanceTest.php 2phpX.

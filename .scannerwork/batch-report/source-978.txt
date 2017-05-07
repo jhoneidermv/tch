@@ -1,0 +1,46 @@
+<?php
+
+namespace Faker\Provider\tr_TR;
+
+class DateTime extends \Faker\Provider\DateTime
+{
+    public static function amPm($max = 'now')
+    {
+        return static::dateTime($max)->format('a') === 'am' ? 'Ã¶Ã¶' : 'Ã¶s';
+    }
+
+    public static function dayOfWeek($max = 'now')
+    {
+        $map = array(
+            'Sunday' => 'Pazar',
+            'Monday' => 'Pazartesi',
+            'Tuesday' => 'SalÄ±',
+            'Wednesday' => 'Ã‡arÅŸamba',
+            'Thursday' => 'PerÅŸembe',
+            'Friday' => 'Cuma',
+            'Saturday' => 'Cumartesi',
+        );
+        $week = static::dateTime($max)->format('l');
+        return isset($map[$week]) ? $map[$week] : $week;
+    }
+
+    public static function monthName($max = 'now')
+    {
+        $map = array(
+            'January' => 'Ocak',
+            'February' => 'Åžubat',
+            'March' => 'Mart',
+            'April' => 'Nisan',
+            'May' => 'MayÄ±s',
+            'June' => 'Haziran',
+            'July' => 'Temmuz',
+            'August' => 'AÄŸustos',
+            'September' => 'EylÃ¼l',
+            'October' => 'Ekim',
+            'November' => 'KasÄ±m',
+            'December' => 'AralÄ±k',
+        );
+        $month = static::dateTime($max)->format('F');
+        return isset($map[$month]) ? $map[$month] : $month;
+    }
+}

@@ -1,0 +1,1 @@
+Ø!=vendor/phpspec/prophecy/src/Prophecy/Promise/ThrowPromise.php 2phpXd

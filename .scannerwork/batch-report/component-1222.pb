@@ -1,0 +1,1 @@
+Æ	Fvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringEndsWith.php 2phpX)

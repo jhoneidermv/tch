@@ -1,0 +1,1 @@
+€9vendor/phpdocumentor/type-resolver/src/Types/Compound.php 2phpXS

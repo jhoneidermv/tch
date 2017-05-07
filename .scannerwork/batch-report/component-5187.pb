@@ -1,0 +1,1 @@
+Ã(Pvendor/phpunit/phpunit-mock-objects/tests/_fixture/InterfaceWithStaticMethod.php 2phpX

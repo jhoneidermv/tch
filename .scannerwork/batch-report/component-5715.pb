@@ -1,0 +1,1 @@
+Ó,Kvendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php 2phpX>

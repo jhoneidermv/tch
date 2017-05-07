@@ -1,0 +1,1 @@
+™+.vendor/sebastian/global-state/src/Snapshot.php 2phpX¨

@@ -1,0 +1,1 @@
+–?vendor/laravel/framework/src/Illuminate/Support/Facades/Log.php 2phpX

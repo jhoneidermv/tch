@@ -1,0 +1,1 @@
+€*@vendor/psy/psysh/test/Psy/Test/CodeCleaner/NamespacePassTest.php 2phpX2

@@ -1,0 +1,1 @@
+åSvendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/logarithmicBestFitClass.php 2phpXx

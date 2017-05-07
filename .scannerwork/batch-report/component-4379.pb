@@ -1,0 +1,1 @@
+›"`vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/holder.min.js 2jsX

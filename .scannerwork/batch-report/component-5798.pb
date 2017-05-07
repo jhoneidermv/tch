@@ -1,0 +1,1 @@
+¦-Yvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Encoder/QpEncoderAcceptanceTest.php 2phpX7

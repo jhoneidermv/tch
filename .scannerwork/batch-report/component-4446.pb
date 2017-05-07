@@ -1,0 +1,1 @@
+Þ">vendor/phpunit/php-code-coverage/tests/_files/CoveredClass.php 2phpX%

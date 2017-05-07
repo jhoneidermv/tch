@@ -1,0 +1,1 @@
+–'Nvendor/phpunit/phpunit/tests/_files/NamespaceCoverageCoversClassPublicTest.php 2phpX

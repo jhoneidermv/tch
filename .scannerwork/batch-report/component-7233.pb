@@ -1,0 +1,1 @@
+Á8<vendor/symfony/translation/Tests/Dumper/QtFileDumperTest.php 2phpX

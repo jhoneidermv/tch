@@ -1,0 +1,1 @@
+®#Nvendor/phpunit/php-token-stream/tests/_fixture/classExtendsNamespacedClass.php 2phpX

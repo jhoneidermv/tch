@@ -1,0 +1,1 @@
+¯Ivendor/laravel/framework/src/Illuminate/Contracts/Routing/UrlRoutable.php 2phpX

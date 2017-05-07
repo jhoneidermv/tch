@@ -1,0 +1,1 @@
+ò>vendor/fzaninotto/faker/test/Faker/Provider/zh_TW/TextTest.php 2phpXN

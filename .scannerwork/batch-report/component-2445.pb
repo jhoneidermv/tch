@@ -1,0 +1,1 @@
+ç@vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php 2phpX1

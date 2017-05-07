@@ -1,0 +1,1 @@
+Á5.vendor/symfony/http-kernel/Tests/DataCollector :À5Â5Ã5Ä5Å5Æ5Ç5

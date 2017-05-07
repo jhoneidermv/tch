@@ -1,0 +1,1 @@
+Õ @vendor/phpspec/prophecy/spec/Prophecy/Doubler/LazyDoubleSpec.php 2phpXP

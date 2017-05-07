@@ -1,0 +1,1 @@
+©3/vendor/symfony/http-foundation/AcceptHeader.php 2phpX­

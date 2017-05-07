@@ -1,0 +1,1 @@
+.Cvendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder :ÿ-€.‚.

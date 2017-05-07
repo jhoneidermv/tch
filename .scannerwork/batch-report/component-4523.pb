@@ -1,0 +1,1 @@
+«#=vendor/phpunit/php-token-stream/tests/Token/InterfaceTest.php 2phpXÀ

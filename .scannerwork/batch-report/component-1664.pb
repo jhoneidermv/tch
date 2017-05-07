@@ -1,0 +1,1 @@
+€Cvendor/laravel/framework/src/Illuminate/Database/Eloquent/Scope.php 2phpX

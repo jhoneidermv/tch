@@ -1,0 +1,1 @@
+Ø9vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/Text.php 2phpX£

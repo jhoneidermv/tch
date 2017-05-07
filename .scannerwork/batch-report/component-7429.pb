@@ -1,0 +1,1 @@
+…:(vendor/symfony/yaml/Tests/InlineTest.php 2phpXÉ

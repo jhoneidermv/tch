@@ -1,0 +1,1 @@
+Þ	0vendor/hamcrest/hamcrest-php/tests/bootstrap.php 2phpX

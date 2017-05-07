@@ -1,0 +1,1 @@
+‹avendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleSerializableAsset.php 2phpX>

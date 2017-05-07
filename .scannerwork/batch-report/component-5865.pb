@@ -1,0 +1,1 @@
+é-Mvendor/swiftmailer/swiftmailer/tests/unit/Swift/Encoder/Base64EncoderTest.php 2phpX®

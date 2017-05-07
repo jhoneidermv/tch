@@ -1,0 +1,1 @@
+í"Gvendor/phpunit/php-code-coverage/tests/_files/NamespaceCoveredClass.php 2phpX'

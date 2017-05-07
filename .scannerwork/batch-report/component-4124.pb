@@ -1,0 +1,1 @@
+œ 4vendor/phpspec/prophecy/fixtures/WithFinalMethod.php 2phpX

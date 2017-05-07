@@ -1,0 +1,1 @@
+ã	1vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array :â	ä	å	æ	ç	è	é	

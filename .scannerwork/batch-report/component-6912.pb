@@ -1,0 +1,1 @@
+€6;vendor/symfony/http-kernel/Tests/Fixtures/KernelForTest.php 2phpX&

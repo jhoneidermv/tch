@@ -1,0 +1,1 @@
+Â-2vendor/swiftmailer/swiftmailer/tests/bootstrap.php 2phpX

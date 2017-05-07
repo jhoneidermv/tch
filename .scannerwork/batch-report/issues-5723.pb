@@ -1,3 +1,3 @@
-q
-phpS101XRename class "Swift_SwiftException" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 P
-phpS11856Remove this method "__construct" to simply inherit it. 2 
+h
+phpS114ORename this interface name to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2
+ (

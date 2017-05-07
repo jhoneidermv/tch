@@ -1,0 +1,1 @@
+»+(vendor/sebastian/version/src/Version.php 2phpXS

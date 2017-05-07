@@ -1,0 +1,36 @@
+<?php
+
+namespace Faker\Provider\vi_VN;
+
+class Color extends \Faker\Provider\Color
+{
+    protected static $safeColorNames = array(
+        'Ä‘en', 'xanh', 'Ã´ liu',
+        'tÃ­m ', 'vÃ´i', 'xanh', 'báº¡c',
+        'xÃ¡m', 'vÃ ng', 'tráº¯ng',
+    );
+
+    protected static $allColorNames = array(
+        'Há»• phÃ¡ch', 'Ametit', 'Xanh berin',
+        'Xanh da trá»�i', 'Be', 'NÃ¢u sáº«m',
+        'Ä�en', 'Xanh lam', 'NÃ¢u',
+        'Da bÃ²', 'Cam chÃ¡y', 'Há»“ng y',
+        'Ä�á»� yÃªn chi', 'Men ngá»�c', 'Anh Ä‘Ã o',
+        'Xanh hoÃ ng hÃ´n', 'Xanh nÃµn chuá»‘i', 'Xanh cÃ´ ban',
+        'Ä�á»“ng', 'San hÃ´', 'Kem',
+        'Ä�á»� tháº¯m', 'Xanh lÆ¡', 'Lá»¥c báº£o',
+        'VÃ ng kim loáº¡i', 'XÃ¡m', 'Xanh lÃ¡ cÃ¢y',
+        'VÃ²i voi', 'ChÃ m', 'Ngá»�c tháº¡ch',
+        'Kaki', 'Oáº£i hÆ°Æ¡ng', 'VÃ ng chanh',
+        'Há»“ng sáº«m', 'Háº¡t dáº»', 'Cáº©m quá»³',
+        'Hoa cÃ ', 'Lam sáº«m', 'Ochre',
+        'Ã” liu', 'Da cam', 'Lan tÃ­m',
+        'LÃ²ng Ä‘Ã o', 'Dá»«a cáº¡n', 'Há»“ng',
+        'Máº­n', 'Xanh thá»§y tinh', 'Há»“ng Ä‘áº¥t',
+        'TÃ­a', 'Ä�á»�', 'CÃ¡ há»“i',
+        'Ä�á»� tÆ°Æ¡i', 'NÃ¢u Ä‘en',
+        'Báº¡c', 'NÃ¢u tanin', 'MÃ²ng kÃ©t',
+        'Xanh Thá»•', 'Ä�á»� son', 'TÃ­m',
+        'Xanh crÃ´m', 'Tráº¯ng', 'VÃ ng',
+    );
+}

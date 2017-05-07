@@ -1,0 +1,38 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => ':count metus|:count metus|:count metÅ³',
+    'y' => ':count metus|:count metus|:count metÅ³',
+    'month' => ':count mÄ—nesÄ¯|:count mÄ—nesius|:count mÄ—nesiÅ³',
+    'm' => ':count mÄ—nesÄ¯|:count mÄ—nesius|:count mÄ—nesiÅ³',
+    'week' => ':count savaitÄ™|:count savaites|:count savaiÄ�iÅ³',
+    'w' => ':count savaitÄ™|:count savaites|:count savaiÄ�iÅ³',
+    'day' => ':count dienÄ…|:count dienas|:count dienÅ³',
+    'd' => ':count dienÄ…|:count dienas|:count dienÅ³',
+    'hour' => ':count valandÄ…|:count valandas|:count valandÅ³',
+    'h' => ':count valandÄ…|:count valandas|:count valandÅ³',
+    'minute' => ':count minutÄ™|:count minutes|:count minuÄ�iÅ³',
+    'min' => ':count minutÄ™|:count minutes|:count minuÄ�iÅ³',
+    'second' => ':count sekundÄ™|:count sekundes|:count sekundÅ¾iÅ³',
+    's' => ':count sekundÄ™|:count sekundes|:count sekundÅ¾iÅ³',
+    'second_from_now' => ':count sekundÄ—s|:count sekundÅ¾iÅ³|:count sekundÅ¾iÅ³',
+    'minute_from_now' => ':count minutÄ—s|:count minuÄ�iÅ³|:count minuÄ�iÅ³',
+    'hour_from_now' => ':count valandos|:count valandÅ³|:count valandÅ³',
+    'day_from_now' => ':count dienos|:count dienÅ³|:count dienÅ³',
+    'week_from_now' => ':count savaitÄ—s|:count savaiÄ�iÅ³|:count savaiÄ�iÅ³',
+    'month_from_now' => ':count mÄ—nesio|:count mÄ—nesiÅ³|:count mÄ—nesiÅ³',
+    'year_from_now' => ':count metÅ³',
+    'ago' => 'prieÅ¡ :time',
+    'from_now' => 'uÅ¾ :time',
+    'after' => 'po :time',
+    'before' => ':time nuo dabar',
+);

@@ -1,0 +1,1 @@
+Î	@vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsDouble.php 2phpX#

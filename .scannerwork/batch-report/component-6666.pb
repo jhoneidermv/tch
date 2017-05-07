@@ -1,0 +1,1 @@
+Š42vendor/symfony/http-foundation/Tests/File/MimeType :ˆ4

@@ -1,0 +1,1 @@
+Ò!Evendor/phpspec/prophecy/src/Prophecy/Prediction/NoCallsPrediction.php 2phpXE

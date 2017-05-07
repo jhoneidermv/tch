@@ -1,0 +1,1 @@
+ë+Jvendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php 2phpX;

@@ -1,0 +1,1 @@
+³#bvendor/phpunit/php-token-stream/tests/_fixture/class_with_method_that_declares_anonymous_class.php 2phpX

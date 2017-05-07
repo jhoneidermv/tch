@@ -1,3 +1,2 @@
-I
-phpS1172/Remove the unused function parameter "$string". 2 &F
-phpS1172,Remove the unused function parameter "$int". 2, 0
+q
+phpS101XRename class "Util_GlobalStateTest" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 

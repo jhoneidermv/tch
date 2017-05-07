@@ -1,0 +1,1 @@
+í+Fvendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php 2phpX­

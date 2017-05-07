@@ -1,0 +1,1 @@
+Ò0vendor/fzaninotto/faker/src/Faker/Provider/bg_BG :ÑÓÔÖ

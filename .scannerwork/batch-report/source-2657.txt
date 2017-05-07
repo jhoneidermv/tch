@@ -1,0 +1,31 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => '1 Ï‡Ï�ÏŒÎ½Î¿Ï‚|:count Ï‡Ï�ÏŒÎ½Î¹Î±',
+    'y' => '1 Ï‡Ï�ÏŒÎ½Î¿Ï‚|:count Ï‡Ï�ÏŒÎ½Î¹Î±',
+    'month' => '1 Î¼Î®Î½Î±Ï‚|:count Î¼Î®Î½ÎµÏ‚',
+    'm' => '1 Î¼Î®Î½Î±Ï‚|:count Î¼Î®Î½ÎµÏ‚',
+    'week' => '1 ÎµÎ²Î´Î¿Î¼Î¬Î´Î±|:count ÎµÎ²Î´Î¿Î¼Î¬Î´ÎµÏ‚',
+    'w' => '1 ÎµÎ²Î´Î¿Î¼Î¬Î´Î±|:count ÎµÎ²Î´Î¿Î¼Î¬Î´ÎµÏ‚',
+    'day' => '1 Î¼Î­Ï�Î±|:count Î¼Î­Ï�ÎµÏ‚',
+    'd' => '1 Î¼Î­Ï�Î±|:count Î¼Î­Ï�ÎµÏ‚',
+    'hour' => '1 ÏŽÏ�Î±|:count ÏŽÏ�ÎµÏ‚',
+    'h' => '1 ÏŽÏ�Î±|:count ÏŽÏ�ÎµÏ‚',
+    'minute' => '1 Î»ÎµÏ€Ï„ÏŒ|:count Î»ÎµÏ€Ï„Î¬',
+    'min' => '1 Î»ÎµÏ€Ï„ÏŒ|:count Î»ÎµÏ€Ï„Î¬',
+    'second' => '1 Î´ÎµÏ…Ï„ÎµÏ�ÏŒÎ»ÎµÏ€Ï„Î¿|:count Î´ÎµÏ…Ï„ÎµÏ�ÏŒÎ»ÎµÏ€Ï„Î±',
+    's' => '1 Î´ÎµÏ…Ï„ÎµÏ�ÏŒÎ»ÎµÏ€Ï„Î¿|:count Î´ÎµÏ…Ï„ÎµÏ�ÏŒÎ»ÎµÏ€Ï„Î±',
+    'ago' => 'Ï€Ï�Î¯Î½ Î±Ï€Î¿ :time',
+    'from_now' => 'ÏƒÎµ :time Î±Ï€Î¿ Ï„ÏŽÏ�Î±',
+    'after' => ':time Î¼ÎµÏ„Î¬',
+    'before' => ':time Ï€Ï�Î¯Î½',
+);

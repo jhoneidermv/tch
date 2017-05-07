@@ -1,0 +1,350 @@
+<?php
+
+namespace Faker\Provider\lt_LT;
+
+class Person extends \Faker\Provider\Person
+{
+
+    protected static $maleNameFormats = array(
+        '{{firstNameMale}} {{lastNameMale}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{firstNameFemale}} {{lastNameFemale}}',
+    );
+
+    protected static $titleMale = array('p.', 'ponas');
+
+    protected static $titleFemale = array('p.', 'ponia', 'panelÄ—');
+
+    /**
+     * @link https://lt.wikipedia.org/wiki/S%C4%85ra%C5%A1as:Lietuvoje_paplit%C4%99_vardai
+     **/
+    protected static $firstNameMale = array(
+        "Abramas", "Abraomas", "Achilas", "Adalbertas", "Adamas", "Adas", "Adolfas", "Adolis", "Adomas",
+        "Adrijus", "Agatas", "Agnius", "Aidas", "Ainius", "Aistis", "Aivaras", "Akimas", "Akvilinas", "Albertas", "Albrechtas",
+        "Albinas", "Aldonas", "Aleksandras", "Aleksas", "Alenas", "Alfas", "Alfonsas", "Alfredas", "Algimantas", "Algirdas",
+        "Algis", "Alius", "Almantas", "Almis", "Almonas", "Aloyzas", "Alpas", "Alpis", "Alvidas", "Alvydas", "Ambraziejus",
+        "Anatolijus", "Anatolis", "Andreas", "Andriejus", "Andrius", "AndÅ¾ejus", "Anicetas", "Anisimas", "Antanas", "Antonas",
+        "Antonijus", "Antonis", "Anupras", "Anzelmas", "Apolinaras", "Apolonijus", "Aras", "Arijus", "Arimantas", "Aristarchas",
+        "Aristidas", "Arkadijus", "Armantas", "Arminas", "Arnas", "Arnoldas", "Aronas", "Arsenas", "Arsenijus", "Artas",
+        "Artiomas", "ArtÅ«ras", "ArÅ«nas", "Arvaidas", "Arvydas", "Astijus", "Audrius", "Audrys", "Audronius", "Augis",
+        "Augustas", "Augustinas", "Aurelijus", "Aurimas", "AuÅ¡rius", "AuÅ¡rys", "Ä„Å¾uolas", "Balys", "Baltazaras", "Baltramiejus",
+        "Baltrus", "Banguolis", "Bartas", "Bartvydas", "Bazilijus", "Benas", "Benediktas", "Benonas", "Benius", "Benjaminas",
+        "Bernardas", "BerÅ¾as", "BijÅ«nas", "Bogdanas", "Boguslavas", "Boleslavas", "Boleslovas", "Bonifacas", "Borisas",
+        "Bronislavas", "Bronislovas", "Bronius", "Brunas", "Brunonas", "Cecilijus", "Celestinas", "Cezaris", "Chaimas",
+        "Charitonas", "Ciprijonas", "ÄŒesius", "ÄŒeslovas", "ÄŒiogintas", "Dainius", "Daivis", "Dalius", "Damijonas", "Danas",
+        "Dangerutis", "Danielius", "Danila", "Danius", "Darijus", "Darius", "DariuÅ¡as", "Daumantas", "Davidas", "Deimantas",
+        "Deividas", "Deivis", "Demetrijus", "Demjanas", "Denis", "Denisas", "Dimitrijus", "Diomidas", "Dionizas", "Dmitrijus",
+        "Dobilas", "Donatas", "Domantas", "Domas", "Dominykas", "Donaldas", "Dovydas", "Dovilis", "Dovis", "DrÄ…sius",
+        "DrÄ…sutis", "DÅ¾eraldas", "DÅ¾iraldas", "DÅ¾iugas", "DÅ¾onis", "Edgaras", "Edmundas", "Eduardas", "Edvardas", "Edvinas",
+        "Egidijus", "Eidimantas", "Eidminas", "Eidvydas", "Eimantas", "Eimis", "Einius", "Eivydas", "Eldaras", "Eligijus",
+        "Elijus", "Elmantas", "Emanuelis", "Emilis", "Emilijonas", "Emilijus", "Enrikas", "Erazmas", "Erdvilas", "Erichas",
+        "Erikas", "Ernestas", "Ervinas", "Eugenijus", "EugeniuÅ¡as", "Evaldas", "Fabijus", "Faustas", "Fedoras", "Felicijonas",
+        "Felicijus", "Feliksas", "Ferdinandas", "Filipas", "Fiodoras", "Foma", "Flavijus", "Florijonas", "Francas",
+        "FranciÅ¡ekas", "Fredas", "Fridrikas", "Gabrielis", "Gabrielius", "Gailimantas", "Gailius", "Galmantas", "Gasparas",
+        "Gaudenis", "Gaudrimas", "Gaudvydas", "Gavrila", "Gavrilas", "Gedas", "Gedgaudas", "Gediminas", "Gedmantas", "Gedmas",
+        "Gedminas", "Gedvaldas", "Gedvydas", "Gedvilas", "Geivydas", "Genadijus", "Gendrius", "Genrichas", "Georgijus",
+        "Geraldas", "Gerardas", "Gerdas", "Gerimantas", "Germanas", "Germantas", "Gerutis", "Gervydas", "Giedrius", "Gilbertas",
+        "Gintaras", "Gintas", "Gintis", "Gintautas", "GirÄ—nas", "Girius", "Girmantas", "Girvydas", "Gitanas", "Gytautas",
+        "Gytis", "Gordejus", "Gotfridas", "Gracijonas", "Gracijus", "GraÅ¾vydas", "Grigalius", "Grigas", "Grigorijus", "Gunaras",
+        "Gustas", "Gustavas", "Gustis", "Gvidas", "Gvidonas", "Haraldas", "Haris", "Haroldas", "Hektoras", "Helmutas",
+        "Henrikas", "Henris", "Herbertas", "Herkus", "Hermanas", "Hilarijus", "Horacijus", "Horstas", "Hubertas", "Ignacas",
+        "Ignas", "Ignotas", "Igoris", "Ilja", "Imantas", "Indrius", "Ingvaras", "Inocentas", "Ipolitas", "Irenijus", "Irmantas",
+        "Irtautas", "Irvydas", "Isaakas", "Isakas", "Ivanas", "Izidorius", "Izoldas", "Jacekas", "Jakovas", "Jakubas", "Janas",
+        "Janis", "Jankelis", "JanuÅ¡as", "Jaroslavas", "Jaunius", "Jaunutis", "Jegoras", "Jemeljanas", "Jeronimas", "Jevgenijus",
+        "JeÅ¾is", "Joanas", "Jogaila", "Jogintas", "Jogirdas", "Jokimas", "JokÅ«bas", "Jolantas", "Jomantas", "Jonaras", "Jonas",
+        "Jonis", "Joris", "JorÅ«nas", "Josifas", "Jotautas", "Jovaldas", "Jovaras", "Jovitas", "Judrius", "Julijonas", "Julijus",
+        "Julius", "Juljanas", "Juozapas", "Juozapatas", "Juozas", "Juras", "Jurgis", "Jurijus", "JÅ«ras", "JÅ«ris", "Justas",
+        "Justinas", "Juvencijus", "Juzefas", "Kajetonas", "Kajus", "Kalikstas", "Kalnius", "Kamilis", "Kaributas", "Karlas",
+        "Karolis", "Karpas", "Kasparas", "Kastantas", "Kastytis", "Kazimieras", "Kazys", "KÄ™stas", "KÄ™stautas", "KÄ™stutis",
+        "Kimas", "Kipras", "Kiprijonas", "Kirilas", "Klaudas", "Klaudijus", "Klemas", "Klemensas", "Klementas", "Kleopas",
+        "Klevas", "Klimas", "Klimentijus", "Kondratas", "Konradas", "Konstantinas", "Kornelijus", "Kostas", "Kovas", "Kozmas",
+        "Krescencijus", "Kristijonas", "Kristinas", "Kristoforas", "Kristupas", "Ksaveras", "KÅ¡iÅ¡tofas", "Kuprijanas", "Laimis",
+        "Laimonas", "Laimutis", "Laisvydas", "Laisvis", "LaisvÅ«nas", "Lauras", "Laurentijus", "Laurynas", "Lauris",
+        "Lavrentijus", "Leandras", "Leonardas", "Leonas", "Leonidas", "Leopoldas", "Levas", "Libertas", "Linas", "Lionginas",
+        "Liubartas", "Liubomiras", "Liucijonas", "Liucijus", "Liudas", "Liudvigas", "Liudvikas", "LiÅ«tas", "Liutauras",
+        "Livijus", "Lozorius", "Lukas", "Lukrecijus", "Makaras", "Makarijus", "Maksas", "Maksimas", "Maksimilijonas",
+        "Mamertas", "Manfredas", "Mangirdas", "Mantas", "Mantautas", "Mantrimas", "Mantvydas", "Maratas", "Marcelijus ",
+        "Marcelinas", "Marcelius", "Marekas", "Margiris", "Marianas", "Marijonas", "Marijus", "Marinas", "Marius", "Markas",
+        "Martas", "Martinas", "Martynas", "Matas", "MateuÅ¡as", "Matvejus", "MaÅ¾vydas", "MeÄ�islavas", "MeÄ�islovas", "MeÄ�ys",
+        "Medardas", "Medas", "Mefodijus", "Melanijus", "Melchioras", "Mendelis", "Merkys", "MerÅ«nas", "Michalas", "Michailas",
+        "Miglius", "Mikalojus", "Mikas", "Mikolajus", "Milanas", "Mildas", "Milvydas", "Mindaugas", "Minijus", "Mykolas",
+        "Mingaudas", "Mintaras", "Miroslavas", "Modestas", "Morkus", "Motiejus", "MozÄ—", "Naglis", "Napalis", "Napalys",
+        "Napoleonas", "Napolis", "Narcizas", "Narimantas", "Narsutis", "Narvydas", "Natanas", "Natas", "Naumas", "Nauris",
+        "Nazaras", "Nazarijus", "Nedas", "Neimantas", "Neivydas", "Nemunas", "Nerijus", "Nerimantas", "Nerimas", "Neringas",
+        "Nerius", "Nidas", "Nikandras", "Nikas", "Nikiforas", "Nikita", "Nikodemas", "Nikola", "Nikolajus", "Nilas", "Nojus",
+        "Nomedas", "Norbertas", "Normanas", "Normantas", "Nortautas", "Norvydas", "Norvilas", "Oktavijus", "Olegas", "Orestas",
+        "Orintas", "Oskaras", "Osmundas", "Osvaldas", "Otas", "Otilijus", "Otonas", "Ovidijus", "Palemonas", "Palmyras",
+        "Patricijus", "Patrikas", "Paulis", "Paulius", "Petras", "Pijus", "Pilypas", "PilÄ—nas", "Piotras", "Platonas",
+        "Polikarpas", "Polis", "Povilas", "Pranas", "PranciÅ¡kus", "Putinas", "Radvila", "Rafaelis", "Rafailas", "Rafalas",
+        "Raigardas", "Raimondas", "Raimundas", "Rainoldas", "Ralfas", "Ramintas", "Ramonas", "RamÅ«nas", "Rapolas", "Rasius",
+        "Raulis", "Redas", "Regimantas", "Reginaldas", "Reinhardas", "Remas", "Remigijus", "Renaldas", "Renatas", "Renius",
+        "Richardas", "RiÄ�ardas", "Rikardas", "Rimantas", "Rimas", "Rimgaudas", "Rimtas", "Rimtautas", "Rimtis", "Rimvydas",
+        "Rinatas", "RyÅ¡ardas", "Rytas", "Rytautas", "Rytis", "Robertas", "Robinas", "Rodrigas", "Rokas", "Rolandas", "Rolfas",
+        "Romanas", "Romas", "Romualdas", "Ronaldas", "Rostislavas", "Rubenas", "Rudolfas", "Rufas", "Rufinas", "Rupertas",
+        "Ruslanas", "RÅ«tenis", "Sabinas", "Sakalas", "Saliamonas", "Salvijus", "Samuelis", "Samsonas", "Samuilas", "Sandras",
+        "Santaras", "Saulenis", "Saulius", "Sava", "Sebastijonas", "Semas", "Semionas", "Serafinas", "Serapinas", "Sergejus",
+        "Sergijus", "SerÅ¾as", "Severas", "Severinas", "Sidas", "Sidoras", "Sigis", "Sigitas", "Sigizmundas", "Sikstas",
+        "Silverijus", "Silvestras", "Silvijus", "Simas", "Simeonas", "Simonas", "Sirvydas", "Skaidrius", "Skaistis",
+        "Skalmantas", "Skalvis", "Skirgaila", "Skirmantas", "Skomantas", "Sonetas", "Stanislavas", "Stanislovas", "Stasys",
+        "Stasius", "Stepas", "Stefanas", "Stepanas", "Steponas", "SvajÅ«nas", "Svajus", "Sviatoslavas", "Å arÅ«nas", "Å iaurys",
+        "Å vitrigaila", "Tadas", "TadeuÅ¡as", "TamoÅ¡ius", "Tarasas", "Tauras", "Tautginas", "Tautrimas", "Tautvydas", "Tedas",
+        "Telesforas", "Teisius", "Teisutis", "Teodoras", "Teofilis", "Terentijus", "Tiberijus", "Timas", "Timotiejus",
+        "Timotis", "TimÅ«ras", "Titas", "Tomas", "TomaÅ¡as", "Tonis", "Traidenis", "Trofimas", "Tumas", "Ugnius", "Ulrikas",
+        "Uosis", "Urbonas", "Utenis", "Ubaldas", "Åªdrys", "Åªkas", "Vacys", "Vacius", "Vaclovas", "Vadimas", "Vaidas",
+        "Vaidevutis", "Vaidila", "Vaidis", "Vaidotas", "Vaidutis", "Vaigaudas", "Vaigirdas", "Vainius", "Vainoras", "Vaitiekus",
+        "VaiÅ¾gantas", "Vakaris", "Valdas", "Valdemaras", "Valdimantas", "Valdis", "Valentas", "Valentinas", "Valerijonas",
+        "Valerijus", "Valys", "Valius", "Valteris", "Vasaris", "Vasilijus", "Venantas", "Verneris", "VÄ—jas", "VÄ—jÅ«nas",
+        "Venjaminas", "Vergilijus", "Vestas", "ViaÄ�eslavas", "Vidas", "Vydas", "Vidimantas", "Vydimantas", "Vidmantas",
+        "Vydmantas", "Viesulas", "Vygaudas", "Vigilijus", "Vygintas", "Vygirdas", "Vykantas", "Vykintas", "Viktas", "Viktoras",
+        "Viktorijus", "Viktorinas", "Vilenas", "Vilgaudas", "Vilhelmas", "Vilijus", "Vilius", "Vylius", "Vilmantas", "Vilmas",
+        "Vilnius", "Viltaras", "Viltautas", "Viltenis", "Vincas", "Vincentas", "Vingaudas", "Virgaudas", "Virgilijus",
+        "Virginijus", "Virgintas", "Virgis", "Virgius", "Virmantas", "Vismantas", "Visvaldas", "Visvaldis", "Vitalijus",
+        "Vitalis", "Vitalius", "Vitas", "Vitoldas", "Vygandas", "Vygantas", "Vykintas", "Vytaras", "Vytautas", "Vytas",
+        "Vytenis", "Vytis", "Vyturys", "Vladas", "Vladimiras", "Vladislavas", "Vladislovas", "Vladlenas", "Voicechas",
+        "Voldemaras", "Vsevolodas", "Zacharijus", "Zakarijus", "Zbignevas", "Zdislavas", "Zenius", "Zenonas", "Zigfridas",
+        "Zygfridas", "Zigmantas", "Zigmas", "Zygmuntas", "Zinovijus", "Å½anas", "Å½eimantas", "Å½ilvinas", "Å½ibartas", "Å½ybartas",
+        "Å½ydrius", "Å½ydrÅ«nas", "Å½ygaudas", "Å½ygimantas", "Å½ygintas", "Å½ygis", "Å½ymantas", "Å½vaigÅ¾dÅ¾ius"
+    );
+
+    /**
+     * @link https://lt.wikipedia.org/wiki/S%C4%85ra%C5%A1as:Lietuvoje_paplit%C4%99_vardai
+     */
+    protected static $firstNameFemale = array(
+        "Ada", "AdelÄ—", "Adelija", "Adelina", "Adolfa", "Adolfina",
+            "Adriana", "Adrija", "Adrijana", "Agata", "AgnÄ—", "AgnetÄ—", "AgnieÅ¡ka", "AgnietÄ—", "Agnija",
+            "Agota", "Agripina", "Aida", "AidÄ—", "Aimana", "AimantÄ—", "Aina", "AinÄ—", "AirÄ—", "Airida", "AistÄ—",
+            "Aistra", "Aitra", "Aivara", "AkvilÄ—", "Akvilina", "Alana", "Alanta", "Alberta", "Albertina",
+            "Albina", "Alda", "Aldona", "AlÄ—", "Aleksandra", "Aleksandrina", "AleksÄ—", "Aleta", "AlfonsÄ—",
+            "Alfonsa", "Alfreda", "AlgÄ—", "Algimanta", "AlgimantÄ—", "Algina", "AlgirdÄ—", "AlgutÄ—", "Alicija",
+            "Alina", "Aliodija", "Aliona", "Alisa", "Alma", "Aloyza", "Alona", "Alva", "Alvyda", "AlvydÄ—",
+            "Alvita", "Amalija", "Amanda", "Ana", "Anastasija", "Anastazija", "AndrÄ—", "AndrÄ—ja", "AndÅ¾ela",
+            "AnÄ—", "AnelÄ—", "Aneta", "AnetÄ—", "AngelÄ—", "Angelina", "Aniceta", "Antanina", "Antonida",
+            "Antonija", "Antonina", "Anzelma", "Apolinarija", "Apolonija", "Ara", "AriadnÄ—", "Arija",
+            "ArimantÄ—", "Arina", "Aristida", "Armina", "Arminta", "ArnÄ—", "Arnolda", "ArÅ«nÄ—", "ArvydÄ—", "Asta",
+            "Astija", "Astra", "Astrida", "AÅ¡ara", "AtÄ—nÄ—", "Audra", "AudrÄ—", "AudronÄ—", "AugustÄ—", "Augustina",
+            "AugutÄ—", "AuksÄ—", "AuksuolÄ—", "Aura", "AurÄ—ja", "Aurelija", "Aurora", "AustÄ—", "AustÄ—ja", "Austra",
+            "AuÅ¡ra", "AuÅ¡rinÄ—", "Banga", "BanguolÄ—", "Barbara", "Barbora", "BargailÄ—", "BartÄ—", "Basia",
+            "Beata", "BeatriÄ�Ä—", "Benedikta", "BenÄ—", "Benigna", "Benita", "Benjamina", "Bernadeta", "Bernarda",
+            "Bernardina", "Berta", "Beta", "Biruta", "BirutÄ—", "BytautÄ—", "BitÄ—", "Boleslava", "Boleslova",
+            "Brigita", "BronÄ—", "Bronislava", "Bronislova", "BoÅ¾ena", "CecilÄ—", "Cecilija", "Celestina",
+            "Celina", "Cezarija", "CilÄ—", "Cintija", "Dagmara", "Dagna", "DagnÄ—", "Daina", "DainÄ—", "Dainora",
+            "Daiva", "Daivita", "DaivutÄ—", "DalÄ—", "Dalia", "Dalija", "DalytÄ—", "Dana", "DanÄ—", "DangÄ—",
+            "DangerutÄ—", "Dangira", "Daniela", "DanielÄ—", "DanguolÄ—", "Danuta", "DanutÄ—", "Darata", "Daria",
+            "Darija", "Darja", "DaugailÄ—", "DaumantÄ—", "Debora", "Deima", "DeimantÄ—", "DeivÄ—", "DeivilÄ—",
+            "Demetra", "Diana", "Dijana", "Dina", "Dinara", "Dita", "DitÄ—", "Doloresa", "Doma", "DomantÄ—",
+            "DomicelÄ—", "Dominika", "Dominyka", "Dona", "Donalda", "Donata", "Dora", "Dorota", "DorotÄ—",
+            "DorotÄ—ja", "DovilÄ—", "DÅ¾einÄ—", "DÅ¾eralda", "DÅ¾esika", "DÅ¾ilda", "DÅ¾ina", "DÅ¾iugÄ—", "DÅ¾iuginta",
+            "DÅ¾iulija", "DÅ¾iuljeta", "DÅ¾ordana", "DÅ¾ulija", "Edita", "EglÄ—", "Egida", "Egidija", "EidvilÄ—",
+            "EimantÄ—", "Einara", "Eiva", "Ela", "Elada", "ElÄ—", "Elegija", "Elena", "Eleonora", "Elfrida",
+            "Elija", "ElytÄ—", "Eliza", "Elma", "Elona", "Elvira", "Elvyra", "Elza", "ElzÄ—", "ElÅ¾bieta", "Ema",
+            "EmanuelÄ—", "EmilÄ—", "Emilija", "Enrika", "ErdvilÄ—", "Erika", "Ermina", "Erna", "Ernesta",
+            "Ernestina", "Ervina", "Esmeralda", "Estela", "Estera", "Eufrozina", "Eugenija", "Eulalija", "Eva",
+            "Evalda", "Evelina", "Fabija", "Faina", "Faustina", "Felicija", "Felicita", "Feliksa", "Fernanda",
+            "Filomena", "Freda", "Frida", "Gabeta", "Gabija", "Gabriela", "GabrielÄ—", "GailÄ—", "GailiÅ«tÄ—",
+            "GailutÄ—", "Gaiva", "GaivilÄ—", "Gaja", "Galia", "Galina", "Gaudencija", "GaudrÄ—", "Geda",
+            "Gedimina", "GediminÄ—", "GedmantÄ—", "GedmintÄ—", "Gedvyda", "Geida", "GeismantÄ—", "GeistÄ—", "Gelena",
+            "GÄ—lÄ—", "GelmÄ—", "Gema", "Gena", "Genadija", "GendrÄ—", "GenÄ—", "GenovaitÄ—", "Genovefa", "GenutÄ—",
+            "Georgina", "Gerarda", "Gerda", "GermantÄ—", "Gerta", "GertÄ—", "Gertruda", "GertrÅ«da", "Geta",
+            "Giedra", "GiedrÄ—", "Gilda", "GilÄ—", "Gilija", "Gilma", "Gina", "Gintara", "GintarÄ—", "GintautÄ—",
+            "GintÄ—", "GirstautÄ—", "GirstÄ—", "Gita", "Gitana", "GitÄ—", "GytÄ—", "Gizela", "Glorija", "GluosnÄ—",
+            "Goda", "GotautÄ—", "GotÄ—", "Gracija", "Grasilda", "GraÅ¾ina", "GraÅ¾yna", "GraÅ¾vyda", "Greta",
+            "GrÄ—tÄ—", "Grita", "GrytÄ—", "Gunda", "Guoda", "GustÄ—", "Gustina", "Halina", "Hana", "Helena",
+            "Henrika", "Helga", "Henrieta", "HenrietÄ—", "Herma", "Hiacinta", "Hilda", "Honorata", "Hortenzija",
+            "Ida", "Idalija", "Ieva", "IevutÄ—", "IgnÄ—", "Ignota", "Ilma", "Ilmena", "Ilona", "IlzÄ—", "ImantÄ—",
+            "Ina", "Indra", "Indraja", "IndrÄ—", "Inesa", "Ineta", "Inga", "Ingita", "IngÄ—", "Ingeborga",
+            "Ingrida", "Ira", "Irena", "Irida", "IridÄ—", "Irina", "Irma", "Irmanta", "IrmantÄ—", "Irmina",
+            "IrmutÄ—", "Irta", "IrtautÄ—", "IrutÄ—", "Isabela", "Iva", "Ivana", "Ivona", "Iveta", "Iza", "Izabela",
+            "IzabelÄ—", "IzidÄ—", "Izidora", "Izolda", "JadzÄ—", "Jadviga", "Jadvyga", "Jana", "JanÄ—", "Janina",
+            "Januarija", "JaunÄ—", "JaunutÄ—", "Jekaterina", "Jelena", "Jelizaveta", "Jeronima", "Jevdokija",
+            "Jieva", "Joana", "JogailÄ—", "JogilÄ—", "JogintÄ—", "Jola", "Jolanta", "Joleta", "Jolita", "JomantÄ—",
+            "JomilÄ—", "JonÄ—", "JorÄ—", "JorigÄ—", "JorÅ«nÄ—", "JotvingÄ—", "JovilÄ—", "Jovita", "Judita", "Judra",
+            "JudrÄ—", "JulÄ—", "Juliana", "Julija", "Julijana", "Julijona", "Julita", "JulytÄ—", "Juozapina",
+            "Juozapota", "JuozÄ—", "Jura", "JÅ«ra", "JÅ«rÄ—", "JÅ«ratÄ—", "Jurga", "JurgÄ—", "Jurgina", "Jurgita",
+            "JustÄ—", "Justina", "Juta", "Juventa", "Juzefa", "Kaja", "Kamila", "KamilÄ—", "Karina", "Karla",
+            "Karmela", "KarolÄ—", "Karolina", "Kasia", "KastÄ—", "KastytÄ—", "Katarina", "KataÅ¾ina", "KataÅ¾yna",
+            "Katerina", "Katia", "KatrÄ—", "KazÄ—", "Kazimiera", "Kazimira", "KazytÄ—", "KÄ™stÄ—", "Kira", "Klara",
+            "Klarisa", "Klaudija", "Klema", "Klementina", "Kleopa", "Kleopatra", "Klotilda", "Konstancija",
+            "Konstantina", "Kornelija", "KostÄ—", "Kotryna", "Krista", "KristÄ—", "Kristijona", "Kristina",
+            "Krystyna", "Ksavera", "Ksaverija", "Ksenija", "Kunigunda", "Lada", "Laima", "LaimÄ—", "Laimona",
+            "LaimutÄ—", "LaisvÄ—", "Laisvyda", "LaisvydÄ—", "LaisvÅ«nÄ—", "Lana", "Lara", "Larisa", "Lauma", "Laura",
+            "Laurena", "Laurentina", "Lauryna", "Leandra", "Leda", "Leila", "LÄ—ja", "Lelija", "Lena",
+            "Leokadija", "Leona", "Leonarda", "LeonÄ—", "Leonida", "Leonija", "Leonila", "LeonilÄ—", "Leonora",
+            "Leontina", "Leopolda", "Leta", "LÄ—ta", "Leticija", "Leva", "LevutÄ—", "Liana", "Liauda", "Liberta",
+            "Lida", "Lidija", "Liepa", "Lijana", "LilÄ—", "Liliana", "Lilija", "Lilijana", "Lina", "Linda",
+            "LingailÄ—", "LinÄ—", "LionÄ—", "Liongina", "Liuba", "Liubarta", "LiubovÄ—", "LiucÄ—", "LiucilÄ—",
+            "Liucina", "Liucija", "Liuda", "Liudmila", "Liudvika", "LiÅ«nÄ—", "Liutaura", "Liva", "Liveta",
+            "Livija", "Liza", "Lizaveta", "Lola", "Lolita", "Longina", "Lora", "Lorena", "Loreta", "Lorija",
+            "Lucyna", "Luisa", "Luiza", "LuknÄ—", "Lukrecija", "Magda", "Magdalena", "MagdÄ—", "Maja", "Malda",
+            "MalgoÅ¾ata", "Malvina", "Mamerta", "Mamertina", "MantautÄ—", "MantÄ—", "MantvydÄ—", "Manuela", "Mara",
+            "MarcÄ—", "MarcelÄ—", "Marcelija", "Marcelina", "Marcijona", "MarÄ—", "MarilÄ—", "Margita", "Margarita",
+            "Mariana", "Marija", "Marijona", "Marina", "Marita", "MarytÄ—", "Marta", "Martina", "Martyna",
+            "Matilda", "Matriona", "MaÅ¾vydÄ—", "MeÄ�islava", "MeÄ�islova", "Meda", "Medeina", "MedÄ—ja", "Megana",
+            "MegÄ—", "MeilÄ—", "MeilutÄ—", "Melanija", "Melda", "Melisa", "MÄ—nulÄ—", "MÄ—ta", "Michalina", "MiglÄ—",
+            "Mika", "Mikalina", "MykolÄ—", "Mila", "Milda", "MildutÄ—", "Milena", "MilvydÄ—", "MindaugÄ—",
+            "MingailÄ—", "Minija", "Mintara", "MintarÄ—", "MintautÄ—", "MintÄ—", "Mira", "Mirga", "Modesta", "Mona",
+            "Monika", "Morta", "NadÄ—", "Nadia", "NadeÅ¾da", "NadieÅ¾da", "Naktis", "Narciza", "Nastasija",
+            "Nastazija", "NastÄ—", "Nastia", "Natalija", "Nata", "Neda", "NeimantÄ—", "Nela", "NelÄ—", "Nemira",
+            "NemunÄ—", "NendrÄ—", "Neringa", "Nerita", "Nida", "NijolÄ—", "Nika", "NikÄ—", "Nila", "NilÄ—", "Nina",
+            "NinelÄ—", "Noja", "Nomeda", "Nona", "Nora", "Norberta", "Norma", "NorgailÄ—", "NormantÄ—", "NortÄ—",
+            "Norvyda", "NorvilÄ—", "Odeta", "Ofelija", "Oksana", "Oktavija", "Oktiabrina", "Olga", "Olimpiada",
+            "Olimpija", "Oliva", "Olivija", "Ona", "OnÄ—", "Onorata", "OnutÄ—", "Oresta", "Orinta", "Otilija",
+            "Ovidija", "Palma", "Palmira", "Palmyra", "Pamela", "Pasaka", "Patricija", "Paula", "PaulÄ—",
+            "Paulina", "PelagÄ—ja", "Pelagija", "Petra", "PetrÄ—", "PetronÄ—", "PetronÄ—lÄ—", "PetrutÄ—", "Pija",
+            "PolÄ—", "Polina", "PovilÄ—", "PranciÅ¡ka", "PranÄ—", "Praskovja", "Prima", "Pulcherija", "RachilÄ—",
+            "Rada", "Radmila", "Radvyda", "RadvilÄ—", "Rafaela", "RafaelÄ—", "Raimonda", "Raimunda", "RaistÄ—",
+            "RakelÄ—", "RamybÄ—", "Raminta", "Ramona", "RamunÄ—", "RamÅ«nÄ—", "RamutÄ—", "Rasa", "RaselÄ—", "RasÄ—",
+            "RasytÄ—", "RasuolÄ—", "Rasvita", "Rebeka", "Reda", "RÄ—da", "Rega", "Regimanta", "RegimantÄ—",
+            "Regina", "Rema", "Remigija", "Rena", "Renalda", "Renata", "RenatÄ—", "RenÄ—", "RiÄ�arda", "Rikarda",
+            "Rima", "Rimanta", "RimantÄ—", "RimgailÄ—", "RimgaudÄ—", "RimtautÄ—", "RimtÄ—", "RimutÄ—", "Rimvyda",
+            "RimvydÄ—", "RimvilÄ—", "Rina", "Ringa", "RingailÄ—", "Rita", "Ryta", "RitÄ—", "RytÄ—", "Roberta",
+            "Robertina", "Rolanda", "Roma", "Romana", "RomÄ—", "Romina", "Romualda", "Rosita", "Roza",
+            "Rozalija", "RoÅ¾Ä—", "Rufina", "RugilÄ—", "Ruslana", "RusnÄ—", "RÅ«stÄ—", "Ruta", "RÅ«ta", "RÅ«telÄ—",
+            "RÅ«tenÄ—", "RÅ«tilÄ—", "Sabina", "Sabrina", "SalÄ—", "SalomÄ—ja", "SalvÄ—", "Salvija", "Salvinija",
+            "Samanta", "Sandra", "Santara", "Sauga", "SaulÄ—", "Saulena", "SaulenÄ—", "SaulytÄ—", "SaulutÄ—",
+            "Selena", "Selma", "Serafina", "Serafima", "Serena", "Severija", "Severina", "SibilÄ—", "Siga",
+            "Sigita", "Sigrida", "SigutÄ—", "Silva", "Silverija", "Silvestra", "Silvija", "Sima", "Simona",
+            "SintÄ—", "Sintija", "Siuzana", "Skaidra", "SkaidrÄ—", "Skaiste", "Skaiva", "SkalvÄ—", "SkirgailÄ—",
+            "Skirma", "Skirmanta", "SkirmantÄ—", "Skolastika", "Smilga", "SmiltÄ—", "SnaigÄ—", "SneÅ¾ana", "SniegÄ—",
+            "Sniegena", "SnieguolÄ—", "Sofa", "Sofija", "Solveiga", "Sonata", "Soneta", "Sonia", "Sotera",
+            "Stanislava", "Stanislova", "StaselÄ—", "StasÄ—", "Stefa", "Stefanija", "Stela", "StepÄ—", "Sulamita",
+            "Svaja", "SvajonÄ—", "Sveta", "Svetlana", "Å alna", "Å alnÄ—", "Å arlota", "Å arÅ«nÄ—", "Å atrija", "Å ilÄ—",
+            "Å viesa", "Å viesÄ—", "Å vitrigailÄ—", "Taika", "Taisa", "Taisija", "Tamara", "Tania", "Tatjana",
+            "Taura", "TautÄ—", "TautvydÄ—", "TeklÄ—", "Teodora", "TeofilÄ—", "Tera", "TeresÄ—", "Tereza", "Terezija",
+            "Tesa", "Tilija", "Tina", "Toma", "UgnÄ—", "Ula", "UlÄ—", "Ulijona", "Uljana", "Ulrika", "Una",
+            "UndinÄ—", "UnÄ—", "Uoginta", "Ursula", "UrÅ¡ula", "UrÅ¡ulÄ—", "UrtÄ—", "Åªla", "UpÄ—", "VacÄ—", "Vaclava",
+            "Vaclova", "Vaida", "Vaidota", "VaidotÄ—", "VaidilutÄ—", "Vaiga", "VaigalÄ—", "Vainora", "Vaiva",
+            "VakarÄ—", "Valda", "Valdemara", "ValdÄ—", "ValdonÄ—", "Valentina", "Valeriana", "Valerija",
+            "Valerijona", "Valia", "ValÄ—", "Vanda", "Varvara", "Vasa", "Vasara", "VasarÄ—", "Vasilisa", "VÄ—ja",
+            "VÄ—jÅ«nÄ—", "Venanta", "Vena", "Venera", "Venta", "Vera", "Verena", "Vergilija", "VerutÄ—", "Veronika",
+            "Vesta", "VÄ—tra", "Vida", "Vyda", "Vidmanta", "VidmantÄ—", "VydmantÄ—", "Vidimanta", "Vigilija",
+            "VygantÄ—", "VygintÄ—", "Vija", "VijolÄ—", "Vika", "VykintÄ—", "Vikta", "ViktÄ—", "Viktorija",
+            "Viktorina", "Vilena", "VilÄ—", "VylÄ—", "Vilhelma", "Vilhelmina", "Vilija", "Vilma", "Vilmanta",
+            "VilmantÄ—", "VilnÄ—", "Viltara", "ViltautÄ—", "ViltÄ—", "ViltenÄ—", "VilÅ«nÄ—", "VincÄ—", "Vincenta",
+            "VincentÄ—", "Viola", "Violeta", "Violina", "VirdÅ¾inija", "Virga", "Virginija", "VirmantÄ—",
+            "VismantÄ—", "Vita", "Vyta", "VitalÄ—", "Vitalija", "VytautÄ—", "VitÄ—", "VytÄ—", "VytenÄ—", "Vlada",
+            "VladÄ—", "Vladislava", "Vladislova", "Vladlena", "Vilita", "ZabelÄ—", "ZanÄ—", "Zelma", "ZenÄ—",
+            "Zigfrida", "ZigmantÄ—", "ZylÄ—", "Zina", "Zinaida", "Zita", "Zofija", "Zoja", "ZosÄ—", "Zuzana",
+            "Å½ana", "Å½aneta", "Å½ara", "Å½eimantÄ—", "Å½emyna", "Å½ibuoklÄ—", "Å½ibutÄ—", "Å½iedÄ—", "Å½ivilÄ—", "Å½ydrÄ—",
+            "Å½ydronÄ—", "Å½ydrÅ«nÄ—", "Å½ygimantÄ—", "Å½yginta", "Å½ilvinÄ—", "Å½ymantÄ—", "Å½orÅ¾eta"
+    );
+
+    /**
+     * @link http://www.horoskopai.lt/gaires/populiariausios-pavardes-lietuvoje/
+     */
+    protected static $lastNameMale = array(
+        'Kazlaukas', 'Jankauskas', 'Petrauskas', 'StankeviÄ�ius', 'Vasiliauskas', 'Å½ukauskas', 'Butkus',
+        'Kateiva', 'Paulauskas', 'Urbonas', 'Kavaliauskas', 'Baranauskas', 'Pocius', 'Sakalauskas',
+    );
+
+    /**
+     * @link http://www.horoskopai.lt/gaires/populiariausios-pavardes-lietuvoje/
+     */
+    protected static $lastNameFemale = array(
+        'KazlauskienÄ—', 'JankauskienÄ—', 'PetrauskienÄ—', 'StankeviÄ�ienÄ—', 'VasiliauskienÄ—', 'PaulauskienÄ—',
+        'Å½ukauskienÄ—', 'UrbonienÄ—', 'KavaliauskienÄ—', 'NavickienÄ—', 'KazlauskaitÄ—', 'JankauskaitÄ—', 'StankeviÄ�iÅ«tÄ—',
+        'PetrauskaitÄ—', 'VasiliauskaitÄ—', 'ButkutÄ—', 'PociÅ«tÄ—', 'LukoÅ¡eviÄ�iÅ«tÄ—', 'BalÄ�iÅ«naitÄ—', 'KavaliauskaitÄ—'
+    );
+
+    /**
+     * Return male last name
+     * @return string
+     * @example 'Vasiliauskas'
+     */
+    public function lastNameMale()
+    {
+        return static::randomElement(static::$lastNameMale);
+    }
+
+    /**
+     * Return female last name
+     * @return string
+     * @example 'Å½ukauskaitÄ—'
+     */
+    public function lastNameFemale()
+    {
+        return static::randomElement(static::$lastNameFemale);
+    }
+
+    /**
+     * Return driver license number
+     * @return string
+     * @example 12345678
+     */
+    public function driverLicence()
+    {
+        return $this->bothify("########");
+    }
+
+    /**
+     * Return passport number
+     * @return string
+     * @example 12345678
+     */
+    public function passportNumber()
+    {
+        return $this->bothify("########");
+    }
+
+    /**
+     * National Personal Identity number (asmens kodas)
+     * @link https://en.wikipedia.org/wiki/National_identification_number#Lithuania
+     * @link https://lt.wikipedia.org/wiki/Asmens_kodas
+     * @param string [male|female]
+     * @param \DateTime $birthdate
+     * @param string $randomNumber three integers
+     * @return string on format XXXXXXXXXXX
+     */
+    public function personalIdentityNumber($gender = 'male', \DateTime $birthdate = null, $randomNumber = '')
+    {
+        if (!$birthdate) {
+            $birthdate = \Faker\Provider\DateTime::dateTimeThisCentury();
+        }
+
+        $genderNumber = ($gender == 'male') ? (int) 1 : (int) 0;
+        $firstNumber = (int) floor($birthdate->format('Y') / 100) * 2 - 34 - $genderNumber;
+
+        $datePart = $birthdate->format('ymd');
+        $randomDigits = (string) ( ! $randomNumber || strlen($randomNumber < 3)) ?  static::numerify('###') : substr($randomNumber, 0, 3);
+        $partOfPerosnalCode = $firstNumber . $datePart . $randomDigits;
+
+        $sum = self::calculateSum($partOfPerosnalCode, 1);
+        $liekana = $sum % 11;
+
+        if ($liekana !== 10) {
+            $lastNumber = $liekana;
+            return $firstNumber . $datePart . $randomDigits . $lastNumber;
+        }
+
+        $sum = self::calculateSum($partOfPerosnalCode, 2);
+        $liekana = (int) $sum % 11;
+
+        $lastNumber = ($liekana !== 10) ? $liekana : 0;
+        return $firstNumber . $datePart . $randomDigits . $lastNumber;
+    }
+
+    /**
+     * Calculate the sum of personal code
+     * @link https://en.wikipedia.org/wiki/National_identification_number#Lithuania
+     * @link https://lt.wikipedia.org/wiki/Asmens_kodas
+     * @param string $numbers
+     * @param int $time [1|2]
+     * @return int
+     */
+    private static function calculateSum($numbers, $time = 1)
+    {
+        if ($time == 1) {
+            $multipliers = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 1 );
+        } else {
+            $multipliers = array(3, 4, 5, 6, 7, 8, 9, 1, 2, 3 );
+        }
+
+        $sum = 0;
+        for ($i=1; $i <= 10; $i++) {
+            $sum += $numbers[$i-1] * $multipliers[$i-1];
+        }
+
+        return (int) $sum;
+    }
+}

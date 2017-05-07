@@ -1,0 +1,1 @@
+Ÿ!Lvendor/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/SplFileInfoPatch.php 2phpXj

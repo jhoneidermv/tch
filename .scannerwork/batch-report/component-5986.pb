@@ -1,0 +1,1 @@
+â..vendor/symfony/console/Command/ListCommand.php 2phpX[

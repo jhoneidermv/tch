@@ -1,0 +1,1 @@
+Å,Fvendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php 2phpX.

@@ -1,0 +1,1 @@
+ì	Tvendor/hamcrest/hamcrest-php/tests/Hamcrest/Collection/IsTraversableWithSizeTest.php 2phpX:

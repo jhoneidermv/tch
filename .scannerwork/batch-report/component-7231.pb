@@ -1,0 +1,1 @@
+¿8=vendor/symfony/translation/Tests/Dumper/PhpFileDumperTest.php 2phpX

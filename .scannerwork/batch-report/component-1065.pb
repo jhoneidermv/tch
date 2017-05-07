@@ -1,0 +1,1 @@
+©Evendor/fzaninotto/faker/test/Faker/Provider/en_NZ/PhoneNumberTest.php 2phpX$

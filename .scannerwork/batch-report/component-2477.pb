@@ -1,0 +1,1 @@
+­@vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php 2phpX8

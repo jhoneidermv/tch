@@ -1,0 +1,101 @@
+<?php
+
+namespace Faker\Provider\es_ES;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $cityPrefix = array('San', 'Vall', "L'", 'Villa', 'El', 'Los', 'La', 'Las', 'O', 'A', 'Os', 'As');
+    protected static $citySuffix = array('del VallÃ¨s', 'del PenedÃ¨s', 'del Bages', 'de Ulla', 'de Lemos', 'del Mirador', 'de Arriba', 'de la Sierra', 'del Barco', 'de San Pedro', 'del Pozo', 'del Puerto', 'de las Torres', 'Alta', 'Baja', 'Medio');
+    protected static $buildingNumber = array('###', '##', '#');
+    protected static $streetPrefix = array(
+        'Calle', 'Avenida', 'Plaza', 'Paseo', 'Ronda', 'Travesia', 'Camino', 'Carrer', 'Avinguda', 'PlaÃ§a', 'Passeig', 'Travessera', 'RÃºa', 'Praza', 'Ruela', 'CamiÃ±o'
+    );
+    protected static $postcode = array('#####');
+    protected static $community = array(
+        'AndalucÃ­a', 'AragÃ³n', 'Principado de Asturias', 'Illes Balears', 'Canarias', 'Cantabria', 'Castilla y LeÃ³n', 'Castilla - La Mancha', 'CataluÃ±a', 'Comunitat Valenciana', 'Extremadura', 'Galicia', 'Comunidad de Madrid', 'RegiÃ³n de Murcia', 'Comunidad Foral de Navarra', 'PaÃ­s Vasco', 'La Rioja', 'Ceuta', 'Melilla'
+    );
+    protected static $state = array(
+        'A CoruÃ±a', 'Alava', 'Albacete', 'Alicante', 'AlmerÃ­a', 'Asturias', 'Avila', 'Badajoz', 'Barcelona', 'Burgos', 'CÃ¡ceres', 'CÃ¡diz', 'Cantabria', 'CastellÃ³n', 'Ceuta', 'Ciudad Real', 'Cuenca', 'CÃ³rdoba', 'Girona', 'Granada', 'Guadalajara', 'Guipuzkoa', 'Huelva', 'Huesca', 'Illes Balears', 'JaÃ©n', 'La Rioja', 'Las Palmas', 'LeÃ³n', 'Lleida', 'Lugo', 'MÃ¡laga', 'Madrid', 'Melilla', 'Murcia', 'Navarra', 'Ourense', 'Palencia', 'Pontevedra', 'Salamanca', 'Segovia', 'Sevilla', 'Soria', 'Sta Cruz De Tenerife', 'Tarragona', 'Teruel', 'Toledo', 'Valencia', 'Valladolid', 'Vizcaya', 'Zamora', 'Zaragoza'
+    );
+    protected static $country = array(
+        'AfganistÃ¡n','Albania','Alemania','Andorra','Angola','Antigua y Barbuda','Arabia SaudÃ­','Argelia','Argentina','Armenia','Australia','Austria','AzerbaiyÃ¡n',
+        'Bahamas','BangladÃ©s','Barbados','BarÃ©in','Belice','BenÃ­n','Bielorrusia','Birmania','Bolivia','Bosnia-Herzegovina','Botsuana','Brasil','BrunÃ©i Darusalam','Bulgaria','Burkina Faso','Burundi','ButÃ¡n','BÃ©lgica',
+        'Cabo Verde','Camboya','CamerÃºn','CanadÃ¡','Catar','Chad','Chile','China','Chipre','Ciudad del Vaticano','Colombia','Comoras','Congo','Corea del Norte','Corea del Sur','Costa Rica','Costa de Marfil','Croacia','Cuba',
+        'Dinamarca','Dominica',
+        'Ecuador','Egipto','El Salvador','Emiratos Ã�rabes Unidos','Eritrea','Eslovaquia','Eslovenia','EspaÃ±a','Estados Unidos de AmÃ©rica','Estonia','EtiopÃ­a',
+        'Filipinas','Finlandia','Fiyi','Francia',
+        'GabÃ³n','Gambia','Georgia','Ghana','Granada','Grecia','Guatemala','Guinea','Guinea Ecuatorial','Guinea-BisÃ¡u','Guyana',
+        'HaitÃ­','Honduras','HungrÃ­a',
+        'India','Indonesia','Irak','Irlanda','IrÃ¡n','Islandia','Islas Marshall','Islas SalomÃ³n','Israel','Italia',
+        'Jamaica','JapÃ³n','Jordania',
+        'KazajistÃ¡n','Kenia','KirguistÃ¡n','Kiribati','Kuwait',
+        'Laos','Lesoto','Letonia','Liberia','Libia','Liechtenstein','Lituania','Luxemburgo','LÃ­bano',
+        'Macedonia','Madagascar','Malasia','Malaui','Maldivas','Mali','Malta','Marruecos','Mauricio','Mauritania','Micronesia','Moldavia','Mongolia','Montenegro','Mozambique','MÃ©xico','MÃ³naco',
+        'Namibia','Nauru','Nepal','Nicaragua','Nigeria','Noruega','Nueva Zelanda','NÃ­ger',
+        'OmÃ¡n',
+        'PakistÃ¡n','Palaos','PanamÃ¡','PapÃºa Nueva Guinea','Paraguay','PaÃ­ses Bajos','PerÃº','Polonia','Portugal',
+        'Reino Unido','Reino Unido de Gran BretaÃ±a e Irlanda del Norte','RepÃºblica Centroafricana','RepÃºblica Checa','RepÃºblica DemocrÃ¡tica del Congo','RepÃºblica Dominicana','Ruanda','RumanÃ­a','Rusia',
+        'Samoa','San CristÃ³bal y Nieves','San Marino','San Vicente y las Granadinas','Santa LucÃ­a','Santo TomÃ© y PrÃ­ncipe','Senegal','Serbia','Seychelles','Sierra Leona','Singapur','Siria','Somalia','Sri Lanka','Suazilandia','SudÃ¡frica','SudÃ¡n','Suecia','Suiza','Surinam',
+        'Tailandia','Tanzania','TayikistÃ¡n','Timor Oriental','Togo','Tonga','Trinidad y Tobago','TurkmenistÃ¡n','TurquÃ­a','Tuvalu','TÃºnez',
+        'Ucrania','Uganda','Uruguay','UzbekistÃ¡n',
+        'Vanuatu','Venezuela','Vietnam',
+        'Yemen','Yibuti',
+        'Zambia','Zimbabue'
+    );
+    protected static $cityFormats = array(
+        '{{cityPrefix}} {{lastName}} {{citySuffix}}',
+        '{{cityPrefix}} {{lastName}}',
+        '{{lastName}} {{citySuffix}}',
+    );
+    protected static $streetNameFormats = array(
+        '{{streetPrefix}} {{firstName}}',
+        '{{streetPrefix}} {{lastName}}'
+    );
+    protected static $streetAddressFormats = array(
+        '{{streetName}}, {{buildingNumber}}, {{secondaryAddress}}',
+    );
+    protected static $addressFormats = array(
+        "{{streetAddress}}, {{postcode}}, {{city}}"
+    );
+    protected static $secondaryAddressFormats = array('Bajos', 'Ã�tico #Âº', 'Entre suelo #Âº', 'Bajo #Âº', '#Âº', '#Âº A', '#Âº B', '#Âº C', '#Âº D', '#Âº E', '#Âº F', '##Âº A', '##Âº B', '##Âº C', '##Âº D', '##Âº E', '##Âº F', '#Âº #Âº', '##Âº #Âº');
+
+    /**
+     * @example 'Avenida'
+     */
+    public static function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    /**
+     * @example 'Villa'
+     */
+    public static function cityPrefix()
+    {
+        return static::randomElement(static::$cityPrefix);
+    }
+
+    /**
+     * @example '3ÂºA'
+     */
+    public static function secondaryAddress()
+    {
+        return static::numerify(static::randomElement(static::$secondaryAddressFormats));
+    }
+
+    /**
+     * @example 'Barcelona'
+     */
+    public static function state()
+    {
+        return static::randomElement(static::$state);
+    }
+
+    /**
+     * @example 'Comunidad de Madrid'
+     */
+    public static function community()
+    {
+        return static::randomElement(static::$community);
+    }
+}

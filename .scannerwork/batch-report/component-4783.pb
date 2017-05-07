@@ -1,0 +1,1 @@
+¯%Evendor/phpunit/phpunit/tests/Regression/GitHub/1570/Issue1570Test.php 2phpX	

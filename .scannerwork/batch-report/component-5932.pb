@@ -1,0 +1,1 @@
+¬.Nvendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpTest.php 2phpXâ	

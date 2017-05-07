@@ -1,0 +1,1 @@
+¢ 5vendor/phpspec/prophecy/fixtures/WithStaticMethod.php 2phpX

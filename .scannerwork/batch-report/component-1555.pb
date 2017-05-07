@@ -1,0 +1,1 @@
+“Avendor/laravel/framework/src/Illuminate/Contracts/Logging/Log.php 2phpXc

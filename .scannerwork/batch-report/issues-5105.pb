@@ -1,2 +1,3 @@
-ˆ
-phpS101oRename class "PHPUnit_Framework_MockObject_Stub_Exception" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 1
+h
+phpS114ORename this interface name to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2
+ 0

@@ -1,0 +1,1 @@
+½>vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php 2phpX

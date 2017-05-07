@@ -1,0 +1,1 @@
+ëHvendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass :êíìîïñóòô

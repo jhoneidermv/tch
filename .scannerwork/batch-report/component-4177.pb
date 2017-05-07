@@ -1,0 +1,1 @@
+Ñ Nvendor/phpspec/prophecy/spec/Prophecy/Doubler/Generator/Node/ClassNodeSpec.php 2phpXº

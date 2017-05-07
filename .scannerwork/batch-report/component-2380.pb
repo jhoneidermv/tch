@@ -1,0 +1,1 @@
+ÌHvendor/mockery/mockery/tests/Mockery/Generator/MockConfigurationTest.php 2phpXÆ

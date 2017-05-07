@@ -1,0 +1,1 @@
+¢,Fvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php 2phpX.

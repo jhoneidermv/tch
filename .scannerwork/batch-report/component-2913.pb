@@ -1,0 +1,1 @@
+áQvendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php 2phpX

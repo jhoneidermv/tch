@@ -1,0 +1,1 @@
+µ-nvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php 2phpX!

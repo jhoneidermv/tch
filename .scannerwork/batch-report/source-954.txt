@@ -1,0 +1,149 @@
+<?php
+
+namespace Faker\Provider\sl_SI;
+
+class Person extends \Faker\Provider\Person
+{
+
+    protected static $maleNameFormats = array(
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{title}} {{firstNameMale}} {{lastName}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{title}} {{firstNameFemale}} {{lastName}}',
+    );
+
+    /**
+     * @link http://www.stat.si/imena_top_imena_spol.asp?r=True
+     * @link http://www.stat.si/doc/vsebina/05/imena/TOPIMENA_SI.xlsx
+     */
+    protected static $firstNameMale = array(
+        'Adam', 'Adolf', 'Albert', 'Albin', 'Aleks', 'Aleksandar', 'Aleksander', 'Aleksej', 'Alen',
+        'Alex', 'AleÅ¡', 'AljaÅ¾', 'AljoÅ¡a', 'Alojz', 'Alojzij', 'AndraÅ¾', 'Andrej', 'Anej', 'Anton',
+        'AnÅ¾e', 'Avgust', 'AÅ¾be', 'Benjamin', 'Bernard', 'Bine', 'BlaÅ¾', 'Bogdan', 'Bogomir',
+        'Bojan', 'Bor', 'Boris', 'Borut', 'BoÅ¡tjan', 'BoÅ¾idar', 'Branko', 'Brin', 'Bruno', 'Ciril',
+        'Cvetko', 'Damijan', 'Damir', 'Damjan', 'Daniel', 'Danijel', 'Danilo', 'Darko', 'David',
+        'Davor', 'Davorin', 'Dejan', 'Denis', 'Domen', 'Dominik', 'Dragan', 'Drago', 'DuÅ¡an',
+        'Edin', 'Edvard', 'Elvis', 'Emil', 'Enej', 'Erazem', 'Erik', 'Ernest', 'Ervin',
+        'Ferdinand', 'Filip', 'Franc', 'Franci', 'Franjo', 'FranÄ�iÅ¡ek', 'Gaber', 'Gabriel', 'Gal',
+        'GaÅ¡per', 'Goran', 'Gorazd', 'Grega', 'Gregor', 'Hasan', 'Ian', 'Ignac', 'Igor', 'Ivan',
+        'Ivo', 'Izak', 'Izidor', 'Iztok', 'Jaka', 'Jakob', 'Jan', 'Janez', 'Jani', 'Janko',
+        'Jasmin', 'JaÅ¡a', 'Jernej', 'Jon', 'Josip', 'JoÅ¡ko', 'JoÅ¡t', 'JoÅ¾e', 'JoÅ¾ef', 'Jure',
+        'Jurij', 'Karel', 'Karl', 'Kevin', 'Klemen', 'Kristijan', 'Kristjan', 'Ladislav', 'Lan',
+        'Lenart', 'Leon', 'Leopold', 'Liam', 'Lovro', 'Ludvik', 'Luka', 'Lukas', 'Mai', 'Maj',
+        'Maks', 'Maksimiljan', 'Marcel', 'Marijan', 'Mario', 'Marjan', 'Mark', 'Marko', 'Martin',
+        'Matej', 'MatevÅ¾', 'Matic', 'Matija', 'MatjaÅ¾', 'Max', 'Metod', 'Miha', 'Mihael', 'Milan',
+        'MiloÅ¡', 'Miran', 'Mirko', 'Miro', 'Miroslav', 'Mirsad', 'Mitja', 'Mladen', 'Nace', 'Nal',
+        'Nejc', 'Nenad', 'Nik', 'Niko', 'Nikola', 'Nikolaj', 'Nino', 'Oskar', 'OÅ¾bej', 'Patrik',
+        'Pavel', 'Petar', 'Peter', 'PrimoÅ¾', 'Rado', 'Radovan', 'Rafael', 'Rajko', 'Renato',
+        'Rene', 'Robert', 'Rok', 'Roman', 'Rudi', 'Rudolf', 'Samir', 'Samo', 'Sandi', 'SaÅ¡a',
+        'SaÅ¡o', 'Sebastijan', 'Sebastjan', 'Senad', 'Sergej', 'Silvester', 'Silvo', 'Simon',
+        'Slavko', 'Slobodan', 'SreÄ�ko', 'Stanislav', 'Stanko', 'StaÅ¡', 'Stjepan', 'Stojan', 'Svit',
+        'Tadej', 'Tai', 'Taj', 'Tarik', 'Teo', 'TevÅ¾', 'Tian', 'Tilen', 'Tim', 'Timotej', 'Tine',
+        'TjaÅ¡', 'TomaÅ¾', 'Tomislav', 'Tristan', 'Urban', 'UroÅ¡', 'Val', 'Valentin', 'Valter',
+        'Vid', 'Viktor', 'Viljem', 'Vincenc', 'Vinko', 'Vito', 'Vladimir', 'Vlado', 'Vojko',
+        'Zdenko', 'Zdravko', 'Zlatko', 'Zoran', 'Zvonko', 'Å tefan', 'Å½ak', 'Å½an', 'Å½eljko', 'Å½iga'
+    );
+
+    /**
+     * @link http://www.stat.si/imena_top_imena_spol.asp?r=True
+     * @link http://www.stat.si/doc/vsebina/05/imena/TOPIMENA_SI.xlsx
+     */
+    protected static $firstNameFemale = array(
+        'Ajda', 'Ajla', 'Albina', 'Aleksandra', 'Alenka', 'Alina', 'Alja', 'Alojzija', 'Amalija',
+        'Ana Marija', 'Ana', 'Andreja', 'Andrejka', 'Aneja', 'Angela', 'Anica', 'Anika', 'Anita',
+        'Anja', 'Anka', 'Antonija', 'Barbara', 'Bernarda', 'Blanka', 'Bojana', 'Branka', 'Breda',
+        'Brigita', 'Brina', 'Cecilija', 'Cvetka', 'Damjana', 'Danica', 'Daniela', 'Danijela',
+        'Darinka', 'Darja', 'DaÅ¡a', 'Doroteja', 'Dragica', 'DuÅ¡anka', 'Ela', 'Elena', 'Elizabeta',
+        'Ella', 'Ema', 'Emilija', 'Erika', 'Erna', 'Eva', 'FranÄ�iÅ¡ka', 'Gabrijela', 'Gaja',
+        'Gloria', 'Gordana', 'Hana', 'Hedvika', 'Helena', 'Hermina', 'Ida', 'Ines', 'Inja',
+        'Irena', 'Iris', 'Irma', 'Iva', 'Ivana', 'Ivanka', 'Ivica', 'Iza', 'Izabela', 'Jana',
+        'Janja', 'Jasmina', 'Jasna', 'Jelena', 'Jelka', 'Jerca', 'Jerneja', 'Jolanda', 'JoÅ¾efa',
+        'JoÅ¾ica', 'Julia', 'Julija', 'Julijana', 'Justina', 'Kaja', 'Karin', 'Karmen', 'Karolina',
+        'Katarina', 'Katja', 'Kiara', 'Kim', 'Klara', 'Klavdija', 'Kristina', 'Ksenija', 'Lana',
+        'Lara', 'Larisa', 'Laura', 'Lea', 'Leja', 'Lejla', 'Lia', 'Lidija', 'Lili', 'Lilijana',
+        'Liljana', 'Lina', 'Liza', 'Ljubica', 'Ljudmila', 'Loti', 'Lucija', 'Luna', 'Magda',
+        'Magdalena', 'Maja', 'Majda', 'Manca', 'Marica', 'Marija', 'Marijana', 'Marina', 'Marinka',
+        'Marjana', 'Marjanca', 'Marjeta', 'Marjetka', 'Marta', 'Martina', 'MaruÅ¡a', 'Mateja',
+        'Matilda', 'MaÅ¡a', 'Melita', 'Meta', 'Metka', 'Mia', 'Mihaela', 'Mija', 'Mila', 'Milena',
+        'Milica', 'Milka', 'Mira', 'Mirjam', 'Mirjana', 'Miroslava', 'Mojca', 'Monika', 'Nada',
+        'Nadja', 'Naja', 'Nastja', 'Natalija', 'NataÅ¡a', 'Neja', 'Neli', 'Nevenka', 'NeÅ¾a', 'Nika',
+        'Nikolina', 'Nina', 'Nives', 'NuÅ¡a', 'Olga', 'Patricija', 'Pavla', 'Petra', 'Pia', 'Pika',
+        'Polona', 'Polonca', 'Rebeka', 'Renata', 'Romana', 'Rozalija', 'Sabina', 'Sandra', 'Sanja',
+        'Sara', 'SaÅ¡a', 'Silva', 'Simona', 'Slavica', 'Slavka', 'Sofia', 'Sofija', 'Sonja',
+        'Stanislava', 'Stanka', 'Stela', 'Suzana', 'Tadeja', 'Taja', 'Tajda', 'Tamara', 'Tanja',
+        'Tara', 'Tatjana', 'Tea', 'Teja', 'Terezija', 'Tia', 'Tiana', 'Tija', 'Tina', 'Tinkara',
+        'Tisa', 'TjaÅ¡a', 'Ula', 'UrÅ¡a', 'UrÅ¡ka', 'Valentina', 'Valerija', 'Vanja', 'Vera',
+        'Veronika', 'Vesna', 'Vida', 'Viktorija', 'Vita', 'Vlasta', 'Zala', 'Zara', 'Zarja',
+        'Zdenka', 'Zlatka', 'Zofija', 'Zoja', 'Zora', 'Zvonka', 'Å pela', 'Å tefanija', 'Å tefka',
+        'Å½ana', 'Å½iva'
+    );
+
+    /**
+     * @link http://www.stat.si/imena_top_priimki.asp?r=True
+     */
+    protected static $lastName = array(
+        'AmbroÅ¾iÄ�', 'BabiÄ�', 'Bajc', 'Bergant', 'Bevc', 'Bezjak', 'Bizjak', 'Blatnik', 'BlaÅ¾iÄ�',
+        'Bogataj', 'BoÅ¾iÄ�', 'Bregar', 'Breznik', 'Bukovec', 'Cerar', 'Cvetko', 'Debeljak',
+        'DemÅ¡ar', 'Dolenc', 'Dolinar', 'DolinÅ¡ek', 'Erjavec', 'ErÅ¾en', 'FilipiÄ�', 'Fras', 'Furlan',
+        'GajÅ¡ek', 'Godec', 'Golob', 'Gomboc', 'Gorenc', 'Gorjup', 'GregoriÄ�', 'Hafner', 'HodÅ¾iÄ‡',
+        'Horvat', 'Hozjan', 'HoÄ�evar', 'Hren', 'Hribar', 'Hribernik', 'Hrovat', 'Humar', 'IliÄ‡',
+        'IvanÄ�iÄ�', 'Jamnik', 'JaneÅ¾iÄ�', 'Jarc', 'Javornik', 'Jazbec', 'Jelen', 'Jenko', 'Jereb',
+        'JeriÄ�', 'Jerman', 'JovanoviÄ‡', 'Jug', 'Kalan', 'Kastelic', 'KauÄ�iÄ�', 'KavÄ�iÄ�',
+        'KlemenÄ�iÄ�', 'Knez', 'Kobal', 'KocjanÄ�iÄ�', 'KodriÄ�', 'Kokalj', 'Kokol', 'Kolar', 'KolariÄ�',
+        'Kolenc', 'Koren', 'KoroÅ¡ec', 'Kos', 'Kosi', 'Kotnik', 'KovaÄ�', 'KovaÄ�eviÄ‡', 'KovaÄ�iÄ�',
+        'KoÄ�evar', 'KoÅ¡ir', 'KoÅ¾elj', 'Krajnc', 'Kralj', 'Kramar', 'Kramberger', 'Kranjc',
+        'Kranjec', 'Kristan', 'Krivec', 'Kuhar', 'Kumer', 'Lah', 'LavriÄ�', 'Lazar', 'Leban',
+        'Lebar', 'Lesjak', 'Leskovar', 'LeÅ¡nik', 'Likar', 'Logar', 'Majcen', 'MarkoviÄ‡',
+        'MarkoviÄ�', 'Marolt', 'MavriÄ�', 'MaÄ�ek', 'Medved', 'MegliÄ�', 'MiheliÄ�', 'MiklavÄ�iÄ�',
+        'Mlakar', 'Mlinar', 'MlinariÄ�', 'MohoriÄ�', 'MoÄ�nik', 'Mrak', 'Nemec', 'NikoliÄ‡', 'Novak',
+        'Oblak', 'Pavlin', 'PavliÄ�', 'Perko', 'Petek', 'PetriÄ�', 'PetroviÄ‡', 'PetroviÄ�', 'PeÄ�nik',
+        'Pintar', 'PintariÄ�', 'Pirc', 'Pirnat', 'PodgorÅ¡ek', 'PogaÄ�ar', 'PogaÄ�nik', 'PopoviÄ‡',
+        'PotoÄ�nik', 'PovÅ¡e', 'PrimoÅ¾iÄ�', 'PuÅ¡nik', 'Rajh', 'RamÅ¡ak', 'Resnik', 'RibiÄ�', 'Rozman',
+        'RoÅ¾iÄ�', 'RoÅ¾man', 'Rupnik', 'Rus', 'Rutar', 'SaviÄ‡', 'Sever', 'SimoniÄ�', 'Sitar', 'Skok',
+        'Smrekar', 'Stopar', 'SuÅ¡nik', 'TavÄ�ar', 'TomaÅ¾iÄ�', 'TomÅ¡iÄ�', 'Toplak', 'Tratnik', 'TrÄ�ek',
+        'Turk', 'UrÅ¡iÄ�', 'Vidic', 'Vidmar', 'VidoviÄ�', 'Vodopivec', 'Volk', 'Vovk', 'Zadravec',
+        'Zajc', 'ZakrajÅ¡ek', 'Zalar', 'Zalokar', 'ZaloÅ¾nik', 'ZemljiÄ�', 'Zorko', 'Zorman', 'Zupan',
+        'Zupanc', 'ZupanÄ�iÄ�', 'Zver', 'ÄŒeh', 'ÄŒerne', 'ÄŒuk', 'Å inkovec', 'Å kof', 'Å mid',
+        'Å trukelj', 'Å uÅ¡tar', 'Å½agar', 'Å½eleznik', 'Å½ibert', 'Å½iÅ¾ek', 'Å½nidarÅ¡iÄ�'
+    );
+
+    protected static $title = array(
+        'dr.', 'mag.', 'inÅ¾.', 'univ. dipl.', 'dipl.', 'univ. dipl. inÅ¾.', 'dipl. inÅ¾.', 'prof.', 'akad.', 'dr. med.', 'spec.'
+    );
+
+    /**
+     * replaced by specific unisex slovenian title
+     */
+    public function title($gender = null)
+    {
+        return static::randomElement(static::$title);
+    }
+
+    /**
+     * @param string|null $gender 'male', 'female' or null for any
+     * @example 'Novak'
+     */
+    public function lastName($gender = null)
+    {
+        return static::randomElement(static::$lastName);
+    }
+
+    public static function lastNameMale()
+    {
+        return static::lastName();
+    }
+
+    public static function lastNameFemale()
+    {
+        return static::lastName();
+    }
+}

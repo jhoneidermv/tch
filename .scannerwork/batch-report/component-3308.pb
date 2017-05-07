@@ -1,0 +1,1 @@
+ìIvendor/phpdocumentor/type-resolver/examples/01-resolving-simple-types.php 2phpX

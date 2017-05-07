@@ -1,0 +1,140 @@
+<?php
+
+namespace Faker\Provider\fr_CH;
+
+class Address extends \Faker\Provider\fr_FR\Address
+{
+    protected static $buildingNumber = array('###', '##', '#', '#a', '#b', '#c');
+
+    protected static $streetPrefix = array('Rue', 'Rue', 'Chemin', 'Avenue', 'Boulevard', 'Place', 'Impasse');
+
+    protected static $postcode = array('####');
+
+    /**
+     * @link https://fr.wikipedia.org/wiki/Villes_de_Suisse
+     */
+    protected static $cityNames = array(
+        'Aarau', 'Aarberg', 'Aarburg', 'Agno', 'Aigle VD', 'Altdorf', 'AltstÃ¤tten', 'Appenzell', 'Arbon', 'Ascona', 'Aubonne', 'Avenches',
+        'Baden', 'Bad Zurzach', 'BÃ¢le', 'Bellinzone', 'Berne', 'BeromÃ¼nster', 'Berthoud', 'Biasca', 'Bienne', 'Bischofszell', 'Boudry', 'Bourg-Saint-Pierre', 'Bremgarten AG', 'Brigue', 'Brugg', 'Bulle', 'BÃ¼lach',
+        'Cerlier', 'ChÃ¢tel-Saint-Denis',
+        'Coire', 'Conthey', 'Coppet', 'Cossonay', 'Croglio', 'Cudrefin', 'Cully',
+        'DelÃ©mont', 'Diessenhofen', 'Ã‰challens', 'Eglisau', 'Elgg', 'Estavayer-le-Lac',
+        'Frauenfeld', 'Fribourg',
+        'GenÃ¨ve', 'Glaris', 'Gordola', 'Grandcour', 'Grandson', 'Greifensee', 'GrÃ¼ningen', 'GruyÃ¨res',
+        'Hermance', 'Huttwil',
+        'Ilanz',
+        'Kaiserstuhl', 'Klingnau',
+        'La Chaux-de-Fonds', 'La Neuveville', 'La Sarraz', 'La Tour-de-Peilz', 'La Tour-de-TrÃªme', 'Le Landeron', 'Les ClÃ©es', 'Lachen', 'Langenthal', 'Laufon', 'Laufenburg', 'Laupen', 'Lausanne', 'Lenzburg', 'LoÃ¨che', 'Lichtensteig', 'Liestal', 'Locarno', 'Losone', 'Lugano', 'Lutry', 'Lucerne',
+        'Maienfeld', 'Martigny', 'Mellingen', 'Mendrisio', 'Monthey', 'Morat', 'Morcote', 'Morges', 'Moudon', 'Moutier', 'MÃ¼nchenstein',
+        'NeuchÃ¢tel', 'Neunkirch', 'Nidau', 'Nyon',
+        'Olten', 'Orbe', 'OrsiÃ¨res',
+        'Payerne', 'Porrentruy',
+        'Rapperswil', 'Regensberg', 'Rheinau', 'Rheineck', 'Rheinfelden', 'Riva San Vitale', 'Rolle', 'RomainmÃ´tier', 'Romont FR', 'Rorschach', 'Rue',
+        'Saillon', 'Saint-Maurice', 'Saint-Prex', 'Saint-Ursanne', 'Sala', 'Saint-Gall', 'Sargans', 'Sarnen', 'Schaffhouse', 'Schwytz', 'Sembrancher', 'Sempach', 'Sion', 'Soleure', 'SplÃ¼gen', 'Stans', 'Steckborn', 'Stein am Rhein', 'Sursee',
+        'Thoune', 'Thusis',
+        'Unterseen', 'Uznach',
+        'Valangin', 'Vevey', 'Villeneuve', 'ViÃ¨ge',
+        'Waldenburg', 'Walenstadt', 'Wangen an der Aare', 'Werdenberg', 'Wiedlisbach', 'Wil', 'Willisau', 'Winterthour',
+        'Yverdon-les-Bains',
+        'Zofingue', 'Zoug', 'Zurich'
+    );
+
+    /**
+     * @link https://fr.wikipedia.org/wiki/Canton_suisse
+     */
+    protected static $canton = array(
+        array('AG' => 'Argovie'),
+        array('AI' => 'Appenzell Rhodes-IntÃ©rieures'),
+        array('AR' => 'Appenzell Rhodes-ExtÃ©rieures'),
+        array('BE' => 'Berne'),
+        array('BL' => 'BÃ¢le-Campagne'),
+        array('BS' => 'BÃ¢le-Ville'),
+        array('FR' => 'Fribourg'),
+        array('GE' => 'GenÃ¨ve'),
+        array('GL' => 'Glaris'),
+        array('GR' => 'Grisons'),
+        array('JU' => 'Jura'),
+        array('LU' => 'Lucerne'),
+        array('NE' => 'NeuchÃ¢tel'),
+        array('NW' => 'Nidwald'),
+        array('OW' => 'Obwald'),
+        array('SG' => 'Saint-Gall'),
+        array('SH' => 'Schaffhouse'),
+        array('SO' => 'Soleure'),
+        array('SZ' => 'Schwytz'),
+        array('TG' => 'Thurgovie'),
+        array('TI' => 'Tessin'),
+        array('UR' => 'Uri'),
+        array('VD' => 'Vaud'),
+        array('VS' => 'Valais'),
+        array('ZG' => 'Zoug'),
+        array('ZH' => 'Zurich')
+    );
+
+    protected static $cityFormats = array(
+        '{{cityName}}',
+    );
+
+    protected static $streetNameFormats = array(
+        '{{streetPrefix}} {{lastName}}',
+        '{{streetPrefix}} de {{cityName}}',
+        '{{streetPrefix}} de {{lastName}}'
+    );
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}',
+    );
+    protected static $addressFormats = array(
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+    );
+
+    /**
+     * Returns a random street prefix
+     * @example Rue
+     * @return string
+     */
+    public static function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    /**
+     * Returns a random city name.
+     * @example Luzern
+     * @return string
+     */
+    public function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+
+    /**
+     * Returns a canton
+     * @example array('BE' => 'Bern')
+     * @return array
+     */
+    public static function canton()
+    {
+        return static::randomElement(static::$canton);
+    }
+
+    /**
+     * Returns the abbreviation of a canton.
+     * @return string
+     */
+    public static function cantonShort()
+    {
+        $canton = static::canton();
+        return key($canton);
+    }
+
+    /**
+     * Returns the name of canton.
+     * @return string
+     */
+    public static function cantonName()
+    {
+        $canton = static::canton();
+        return current($canton);
+    }
+}

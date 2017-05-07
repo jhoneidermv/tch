@@ -1,0 +1,149 @@
+<?php
+
+namespace Faker\Provider\hu_HU;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $cityFormats = array(
+        '{{capital}}',
+        '{{capital}}',
+        '{{capital}}',
+        '{{bigCity}}',
+        '{{bigCity}}',
+        '{{smallerCity}}',
+    );
+    protected static $streetNameFormats = array(
+        '{{firstName}} {{streetSuffix}}',
+        '{{lastName}} {{streetSuffix}}',
+    );
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}.',
+        '{{streetName}} {{buildingNumber}}. {{secondaryAddress}}',
+    );
+    protected static $addressFormats = array(
+        "{{postcode}} {{city}}, {{streetAddress}}",
+    );
+    protected static $secondaryAddressFormats = array('##. emelet', '##. ajtÃ³');
+
+    /**
+     * @example '10. emelet'
+     */
+    public static function secondaryAddress()
+    {
+        return static::numerify(static::randomElement(static::$secondaryAddressFormats));
+    }
+
+    /**
+     * @example 'Pest'
+     */
+    public static function state()
+    {
+        return static::randomElement(static::$state);
+    }
+
+    /**
+     * @example 'Budapest'
+     */
+    public static function capital()
+    {
+        return static::randomElement(static::$capitals);
+    }
+
+    /**
+     * @example 'PÃ©cs'
+     */
+    public static function bigCity()
+    {
+        return static::randomElement(static::$bigCities);
+    }
+
+    /**
+     * @example 'VÃ¡rpalota'
+     */
+    public static function smallerCity()
+    {
+        return static::randomElement(static::$smallerCities);
+    }
+
+    protected static $buildingNumber = array('###', '##', '##', '#');
+
+    /**
+     * Coordinates inside the border of Hungary
+     *
+     * @example array('47.049242', '18.355119')
+     * @return array | latitude, longitude
+     */
+    public static function localCoordinates()
+    {
+        return array(
+            'latitude' => static::latitude(46.262740, 47.564721),
+            'longitude' => static::longitude(17.077949, 20.604560)
+        );
+    }
+
+    /* ----------- DATA -------------------- */
+
+    protected static $streetSuffix = array(
+        'Ã¡rok', 'Ã¡tjÃ¡rÃ³', 'dÅ±lÅ‘sor', 'dÅ±lÅ‘Ãºt', 'erdÅ‘sor', 'fasor', 'fordulÃ³', 'gÃ¡t', 'hatÃ¡rsor', 'hatÃ¡rÃºt', 'hÃ­d', 'jÃ¡tszÃ³tÃ©r', 'kert', 'kÃ¶rÃ¶nd', 'kÃ¶rtÃ©r', 'kÃ¶rÃºt', 'kÃ¶z', 'lakÃ³telep', 'lejÃ¡rÃ³', 'lejtÅ‘', 'lÃ©pcsÅ‘', 'liget', 'mÃ©lyÃºt', 'orom', 'orszÃ¡gÃºt', 'Ã¶svÃ©ny', 'park', 'part', 'pincesor', 'rakpart', 'sÃ©tÃ¡ny', 'sÃ©taÃºt', 'sor', 'sugÃ¡rÃºt', 'tÃ©r', 'tere', 'turistaÃºt', 'udvar', 'Ãºt', 'Ãºtja', 'utca', 'Ã¼dÃ¼lÅ‘part'
+    );
+    protected static $postcode = array('####');
+    protected static $state = array(
+        'Budapest', 'BÃ¡cs-Kiskun', 'Baranya', 'BÃ©kÃ©s', 'Borsod-AbaÃºj-ZemplÃ©n', 'CsongrÃ¡d', 'FejÃ©r', 'GyÅ‘r-Moson-Sopron', 'HajdÃº-Bihar', 'Heves', 'JÃ¡sz-Nagykun-Szolnok', 'KomÃ¡rom-Esztergom', 'NÃ³grÃ¡d', 'Pest', 'Somogy', 'Szabolcs-SzatmÃ¡r-Bereg', 'Tolna', 'Vas', 'VeszprÃ©m', 'Zala'
+    );
+    protected static $country = array(
+        'AfganisztÃ¡n', 'AlbÃ¡nia', 'AlgÃ©ria', 'Amerikai EgyesÃ¼lt Ã�llamok', 'Andorra', 'Angola', 'Antigua Ã©s Barbuda', 'ArgentÃ­na', 'Ausztria', 'AusztrÃ¡lia', 'AzerbajdzsÃ¡n',
+        'Bahama-szigetek', 'Bahrein', 'Banglades', 'Barbados', 'Belgium', 'Belize', 'Benin', 'BhutÃ¡n', 'BolÃ­via', 'Bosznia-Hercegovina', 'Botswana', 'BrazÃ­lia', 'Brunei', 'BulgÃ¡ria', 'Burkina Faso', 'Burma', 'Burundi',
+        'Chile', 'Ciprus', 'Costa Rica', 'CsehorszÃ¡g', 'CsÃ¡d',
+        'Dominikai KÃ¶ztÃ¡rsasÃ¡g', 'Dominikai KÃ¶zÃ¶ssÃ©g', 'Dzsibuti', 'DÃ¡nia', 'DÃ©l-Afrika', 'DÃ©l-Korea', 'DÃ©l-SzudÃ¡n',
+        'Ecuador', 'EgyenlÃ­tÅ‘i-Guinea', 'EgyesÃ¼lt Arab EmÃ­rsÃ©gek', 'EgyesÃ¼lt KirÃ¡lysÃ¡g', 'Egyiptom', 'ElefÃ¡ntcsontpart', 'Eritrea', 'EtiÃ³pia',
+        'FehÃ©roroszorszÃ¡g', 'Fidzsi-szigetek', 'FinnorszÃ¡g', 'FranciaorszÃ¡g', 'FÃ¼lÃ¶p-szigetek',
+        'Gabon', 'Gambia', 'GhÃ¡na', 'Grenada', 'GrÃºzia', 'Guatemala', 'Guinea', 'Guyana', 'GÃ¶rÃ¶gorszÃ¡g',
+        'Haiti', 'Hollandia', 'HorvÃ¡torszÃ¡g',
+        'India', 'IndonÃ©zia', 'Irak', 'IrÃ¡n', 'Izland', 'Izrael',
+        'JapÃ¡n', 'Jemen', 'JordÃ¡nia',
+        'Kambodzsa', 'Kamerun', 'Kanada', 'Katar', 'KazahsztÃ¡n', 'Kelet-Timor', 'Kenya', 'KirgizisztÃ¡n', 'Kiribati', 'Kolumbia', 'KongÃ³i Demokratikus KÃ¶ztÃ¡rsasÃ¡g', 'KongÃ³i KÃ¶ztÃ¡rsasÃ¡g', 'Kuba', 'Kuvait', 'KÃ­na', 'KÃ¶zÃ©p-Afrika',
+        'Laosz', 'LengyelorszÃ¡g', 'Lesotho', 'LettorszÃ¡g', 'Libanon', 'LibÃ©ria', 'Liechtenstein', 'LitvÃ¡nia', 'Luxemburg', 'LÃ­bia',
+        'MacedÃ³nia', 'MadagaszkÃ¡r', 'MagyarorszÃ¡g', 'Malawi', 'MaldÃ­v-szigetek', 'Mali', 'MalÃ¡jzia', 'MarokkÃ³', 'Marshall-szigetek', 'MauritÃ¡nia', 'MexikÃ³', 'MikronÃ©zia', 'Moldova', 'Monaco', 'MongÃ³lia', 'MontenegrÃ³', 'Mozambik', 'MÃ¡lta',
+        'NamÃ­bia', 'Nauru', 'NepÃ¡l', 'Nicaragua', 'Niger', 'NigÃ©ria', 'NorvÃ©gia', 'NÃ©metorszÃ¡g',
+        'OlaszorszÃ¡g', 'OmÃ¡n', 'OroszorszÃ¡g',
+        'PakisztÃ¡n', 'Palau', 'Panama', 'Paraguay', 'Peru', 'PortugÃ¡lia', 'PÃ¡pua Ãšj-Guinea',
+        'RomÃ¡nia', 'Ruanda',
+        'Saint Kitts Ã©s Nevis', 'Saint Vincent', 'Salamon-szigetek', 'Salvador', 'San Marino', 'Seychelle-szigetek', 'SpanyolorszÃ¡g', 'SrÃ­ Lanka', 'Suriname', 'SvÃ¡jc', 'SvÃ©dorszÃ¡g', 'Szamoa', 'SzaÃºd-ArÃ¡bia', 'SzenegÃ¡l', 'Szerbia', 'SzingapÃºr', 'SzlovÃ¡kia', 'SzlovÃ©nia', 'SzomÃ¡lia', 'SzudÃ¡n', 'SzvÃ¡zifÃ¶ld', 'SzÃ­ria', 'SÃ£o TomÃ© Ã©s PrÃ­ncipe',
+        'TadzsikisztÃ¡n', 'TanzÃ¡nia', 'ThaifÃ¶ld', 'Togo', 'Tonga', 'Trinidad Ã©s Tobago', 'TunÃ©zia', 'Tuvalu', 'TÃ¶rÃ¶korszÃ¡g', 'TÃ¼rkmenisztÃ¡n',
+        'Uganda', 'Ukrajna', 'Uruguay',
+        'Vanuatu', 'Venezuela', 'VietnÃ¡m',
+         'Zambia', 'Zimbabwe', 'ZÃ¶ld-foki-szigetek',
+         'Ã‰szak-Korea', 'Ã‰sztorszÃ¡g', 'Ã�rorszÃ¡g', 'Ã–rmÃ©nyorszÃ¡g', 'Ãšj-ZÃ©land', 'ÃœzbegisztÃ¡n'
+    );
+
+    /**
+     * Source: https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_v%C3%A1rosainak_list%C3%A1ja
+     */
+    protected static $capitals = array('Budapest');
+    protected static $bigCities = array('
+        BÃ©kÃ©scsaba', 'Debrecen', 'DunaÃºjvÃ¡ros', 'Eger', 'Ã‰rd', 'GyÅ‘r', 'HÃ³dmezÅ‘vÃ¡sÃ¡rhely', 'KaposvÃ¡r', 'KecskemÃ©t', 'Miskolc', 'Nagykanizsa', 'NyÃ­regyhÃ¡za', 'PÃ©cs', 'SalgÃ³tarjÃ¡n', 'Sopron', 'Szeged', 'SzÃ©kesfehÃ©rvÃ¡r', 'SzekszÃ¡rd', 'Szolnok', 'Szombathely', 'TatabÃ¡nya', 'VeszprÃ©m', 'Zalaegerszeg'
+    );
+    protected static $smallerCities = array(
+        'Ajka', 'AszÃ³d', 'BÃ¡csalmÃ¡s',
+        'Baja', 'BaktalÃ³rÃ¡nthÃ¡za', 'Balassagyarmat', 'BalatonalmÃ¡di', 'BalatonfÃ¼red', 'BalmazÃºjvÃ¡ros', 'Barcs', 'BÃ¡tonyterenye', 'BÃ©kÃ©s', 'BÃ©lapÃ¡tfalva', 'BerettyÃ³Ãºjfalu', 'Bicske', 'BÃ³ly', 'BonyhÃ¡d', 'Budakeszi',
+        'CeglÃ©d', 'CelldÃ¶mÃ¶lk', 'CigÃ¡nd', 'Csenger', 'CsongrÃ¡d', 'Csorna', 'CsurgÃ³',
+        'Dabas', 'Derecske', 'Devecser', 'DombÃ³vÃ¡r', 'Dunakeszi',
+        'EdelÃ©ny', 'Encs', 'Enying', 'Esztergom',
+        'FehÃ©rgyarmat', 'FonyÃ³d', 'FÃ¼zesabony',
+        'GÃ¡rdony', 'GÃ¶dÃ¶llÅ‘', 'GÃ¶nc', 'GyÃ¡l', 'GyomaendrÅ‘d', 'GyÃ¶ngyÃ¶s', 'Gyula',
+        'HajdÃºbÃ¶szÃ¶rmÃ©ny', 'HajdÃºhadhÃ¡z', 'HajdÃºnÃ¡nÃ¡s', 'HajdÃºszoboszlÃ³', 'Hatvan', 'Heves',
+        'IbrÃ¡ny',
+        'JÃ¡noshalma', 'JÃ¡szapÃ¡ti', 'JÃ¡szberÃ©ny',
+        'Kalocsa', 'KapuvÃ¡r', 'Karcag', 'Kazincbarcika', 'Kemecse', 'Keszthely', 'KisbÃ©r', 'KiskÅ‘rÃ¶s', 'KiskunfÃ©legyhÃ¡za', 'Kiskunhalas', 'Kiskunmajsa', 'Kistelek', 'KisvÃ¡rda', 'KomÃ¡rom', 'KomlÃ³', 'KÃ¶rmend', 'KÅ‘szeg', 'Kunhegyes', 'KunszentmÃ¡rton', 'KunszentmiklÃ³s',
+        'Lenti', 'Letenye',
+        'MakÃ³', 'Marcali', 'MartonvÃ¡sÃ¡r', 'MÃ¡tÃ©szalka', 'MezÅ‘csÃ¡t', 'MezÅ‘kovÃ¡cshÃ¡za', 'MezÅ‘kÃ¶vesd', 'MezÅ‘tÃºr', 'MohÃ¡cs', 'Monor', 'MÃ³r', 'MÃ³rahalom', 'MosonmagyarÃ³vÃ¡r',
+        'NagyatÃ¡d', 'NagykÃ¡llÃ³', 'NagykÃ¡ta', 'NagykÅ‘rÃ¶s', 'NyÃ­radony', 'NyÃ­rbÃ¡tor',
+        'OroshÃ¡za', 'OroszlÃ¡ny', 'Ã“zd',
+        'Paks', 'Pannonhalma', 'PÃ¡pa', 'PÃ¡sztÃ³', 'PÃ©csvÃ¡rad', 'PÃ©tervÃ¡sÃ¡ra', 'PilisvÃ¶rÃ¶svÃ¡r', 'PolgÃ¡rdi', 'PÃ¼spÃ¶kladÃ¡ny', 'Putnok',
+        'RÃ¡ckeve', 'RÃ©tsÃ¡g',
+        'SÃ¡rbogÃ¡rd', 'Sarkad', 'SÃ¡rospatak', 'SÃ¡rvÃ¡r', 'SÃ¡sd', 'SÃ¡toraljaÃºjhely', 'Sellye', 'SiklÃ³s', 'SiÃ³fok', 'SÃ¼meg', 'Szarvas', 'SzÃ©csÃ©ny', 'Szeghalom', 'Szentendre', 'Szentes', 'SzentgotthÃ¡rd', 'SzentlÅ‘rinc', 'Szerencs', 'SzigetszentmiklÃ³s', 'SzigetvÃ¡r', 'SzikszÃ³', 'Szob',
+        'Tab', 'TamÃ¡si', 'Tapolca', 'Tata', 'TÃ©t', 'TiszafÃ¼red', 'TiszakÃ©cske', 'TiszaÃºjvÃ¡ros', 'TiszavasvÃ¡ri', 'Tokaj', 'Tolna', 'TÃ¶rÃ¶kszentmiklÃ³s',
+        'VÃ¡c', 'VÃ¡rpalota', 'VÃ¡sÃ¡rosnamÃ©ny', 'VasvÃ¡r', 'VecsÃ©s',
+        'ZÃ¡hony', 'ZalaszentgrÃ³t', 'Zirc'
+    );
+}

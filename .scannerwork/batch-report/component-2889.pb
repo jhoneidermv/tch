@@ -1,0 +1,1 @@
+É<vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php 2phpX,

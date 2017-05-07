@@ -1,0 +1,1 @@
+Á"Mvendor/phpunit/php-code-coverage/tests/PHP/CodeCoverage/Report/CloverTest.php 2phpXC

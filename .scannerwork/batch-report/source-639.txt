@@ -1,0 +1,2036 @@
+<?php
+
+namespace Faker\Provider\de_CH;
+
+class Text extends \Faker\Provider\Text
+{
+    /**
+     * The Project Gutenberg EBook of Die Leiden des jungen Werther--Buch 1, by
+     * Johann Wolfgang von Goethe
+     *
+     * This eBook is for the use of anyone anywhere at no cost and with
+     * almost no restrictions whatsoever.  You may copy it, give it away or
+     * re-use it under the terms of the Project Gutenberg License included
+     * with this eBook or online at www.gutenberg.org
+     *
+     * Title: Die Leiden des jungen Werther--Buch 1
+     *
+     * Author: Johann Wolfgang von Goethe
+     *
+     * Posting Date: June 28, 2011 [EBook #2407]
+     * Release Date: November, 2000
+     *
+     * Language: German
+     *
+     * *** START OF THIS PROJECT GUTENBERG EBOOK DIE LEIDEN DES JUNGEN WERTHER ***
+     *
+     * Produced by Michael Pullen, globaltraveler5565@yahoo.com
+     * with proofreading and correction by Dr. Mary Cicora,
+     * mcicora@yahoo.com.
+     *
+     * @see http://www.gutenberg.org/cache/epub/2407/pg2407.txt
+     * @var string
+     */
+    protected static $baseText = <<<'EOT'
+Am 4. Mai 1771
+
+Wie froh bin ich, dass ich weg bin! Bester Freund, was ist das Herz des
+Menschen! Dich zu verlassen, den ich so liebe, von dem ich unzertrennlich war, und
+froh zu sein! Ich weiss, du verzeihst mir's. Waren nicht meine Ã¼brigen
+Verbindungen recht ausgesucht vom Schicksal, um ein Herz wie das meine zu Ã¤ngstigen?
+Die arme Leonore! Und doch war ich unschuldig. Konnt' ich dafÃ¼r, dass, wÃ¤hrend
+die eigensinnigen Reize ihrer Schwester mir eine angenehme Unterhaltung
+verschafften, dass eine Leidenschaft in dem armen Herzen sich bildete? Und dochâ€”bin ich
+ganz unschuldig? Hab' ich nicht ihre Empfindungen genÃ¤hrt? Hab' ich mich nicht
+an den ganz wahren AusdrÃ¼cken der Natur, die uns so oft zu lachen machten, so
+wenig lÃ¤cherlich sie waren, selbst ergetzt? Hab' ich nichtâ€”o was ist der Mensch,
+dass er Ã¼ber sich klagen darf! Ich will, lieber Freund, ich verspreche dir's,
+ich will mich bessern, will nicht mehr ein bisschen Ãœbel, das uns das Schicksal
+vorlegt, wiederkÃ¤uen, wie ich's immer getan habe; ich will das GegenwÃ¤rtige
+geniessen, und das Vergangene soll mir vergangen sein. Gewiss, du hast recht, Bester,
+der Schmerzen wÃ¤ren minder unter den Menschen, wenn sie nichtâ€”Gott weiss, warum
+sie so gemacht sind!â€”mit so viel Emsigkeit der Einbildungskraft sich
+beschÃ¤ftigten, die Erinnerungen des vergangenen Ãœbels zurÃ¼ckzurufen, eher als eine
+gleichgÃ¼ltige Gegenwart zu ertragen.
+
+Du bist so gut, meiner Mutter zu sagen, dass ich ihr GeschÃ¤ft bestens
+betreiben und ihr ehstens Nachricht davon geben werde. Ich habe meine Tante
+gesprochen und bei weitem das bÃ¶se Weib nicht gefunden, das man bei uns aus ihr
+macht. Sie ist eine muntere, heftige Frau von dem besten Herzen. Ich erklÃ¤rte ihr
+meiner Mutter Beschwerden Ã¼ber den zurÃ¼ckgehaltenen Erbschaftsanteil; sie sagte
+mir ihre GrÃ¼nde, Ursachen und die Bedingungen, unter welchen sie bereit wÃ¤re,
+alles herauszugeben, und mehr als wir verlangtenâ€”kurz, ich mag jetzt nichts
+davon schreiben, sage meiner Mutter, es werde alles gut gehen. Und ich habe,
+mein Lieber, wieder bei diesem kleinen GeschÃ¤ft gefunden, dass MissverstÃ¤ndnisse
+und TrÃ¤gheit vielleicht mehr Irrungen in der Welt machen als List und Bosheit.
+Wenigstens sind die beiden letzteren gewiss seltener.
+
+Ãœbrigens befinde ich mich hier gar wohl. Die Einsamkeit ist meinem Herzen
+kÃ¶stlicher Balsam in dieser paradiesischen Gegend, und diese Jahreszeit der Jugend
+wÃ¤rmt mit aller FÃ¼lle mein oft schauderndes Herz. Jeder Baum, jede Hecke ist ein
+Strauss von BlÃ¼ten, und man mÃ¶chte zum MaienkÃ¤fer werden, um in dem Meer von
+WohlgerÃ¼chen herumschweben und alle seine Nahrung darin finden zu kÃ¶nnen.
+
+Die Stadt selbst ist unangenehm, dagegen rings umher eine unaussprechliche
+SchÃ¶nheit der Natur. Das bewog den verstorbenen Grafen von M., einen Garten auf
+einem der HÃ¼gel anzulegen, die mit der schÃ¶nsten Mannigfaltigkeit sich kreuzen
+und die lieblichsten TÃ¤ler bilden. Der Garten ist einfach, und man fÃ¼hlt
+gleich bei dem Eintritte, dass nicht ein wissenschaftlicher GÃ¤rtner, sondern ein
+fÃ¼hlendes Herz den Plan gezeichnet, das seiner selbst hier geniessen wollte. Schon
+manche TrÃ¤ne hab' ich dem Abgeschiedenen in dem verfallenen Kabinettchen geweint,
+das sein LieblingsplÃ¤tzchen war und auch meines ist. Bald werde ich Herr vom
+Garten sein; der GÃ¤rtner ist mir zugetan, nur seit den paar Tagen, und er wird
+sich nicht Ã¼bel dabei befinden.
+
+Am 10. Mai
+
+Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den sÃ¼ssen
+FrÃ¼hlingsmorgen, die ich mit ganzem Herzen geniesse. Ich bin allein und freue mich meines
+Lebens in dieser Gegend, die fÃ¼r solche Seelen geschaffen ist wie die meine. Ich
+bin so glÃ¼cklich, mein Bester, so ganz in dem GefÃ¼hle von ruhigem Dasein
+versunken, dass meine Kunst darunter leidet. Ich kÃ¶nnte jetzt nicht zeichnen, nicht
+einen Strich, und bin nie ein grÃ¶sserer Maler gewesen als in diesen Augenblicken.
+Wenn das liebe Tal um mich dampft, und die hohe Sonne an der OberflÃ¤che der
+undurchdringlichen Finsternis meines Waldes ruht, und nur einzelne Strahlen sich in das
+innere Heiligtum stehlen, ich dann im hohen Grase am fallenden Bache liege, und
+nÃ¤her an der Erde tausend mannigfaltige GrÃ¤schen mir merkwÃ¼rdig werden; wenn ich
+das Wimmeln der kleinen Welt zwischen Halmen, die unzÃ¤hligen, unergrÃ¼ndlichen
+Gestalten der WÃ¼rmchen, der MÃ¼ckchen nÃ¤her an meinem Herzen fÃ¼hle, und fÃ¼hle die
+Gegenwart des AllmÃ¤chtigen, der uns nach seinem Bilde schuf, das Wehen des
+Alliebenden, der uns in ewiger Wonne schwebend trÃ¤gt und erhÃ¤lt; mein Freund! Wenn's
+dann um meine Augen dÃ¤mmert, und die Welt um mich her und der Himmel ganz in
+meiner Seele ruhn wie die Gestalt einer Geliebtenâ€”dann sehne ich mich oft und
+denke : ach kÃ¶nntest du das wieder ausdrÃ¼cken, kÃ¶nntest du dem Papiere das
+einhauchen, was so voll, so warm in dir lebt, dass es wÃ¼rde der Spiegel deiner Seele,
+wie deine Seele ist der Spiegel des unendlichen Gottes!â€”mein Freundâ€”aber ich
+gehe darÃ¼ber zugrunde, ich erliege unter der Gewalt der Herrlichkeit dieser
+Erscheinungen.
+
+Ich weiss nicht, ob tÃ¤uschende Geister um diese Gegend schweben, oder ob die
+warme, himmlische Phantasie in meinem Herzen ist, die mir alles rings umher so
+paradiesisch macht. Das ist gleich vor dem Orte ein Brunnen, ein Brunnen, an den ich
+gebannt bin wie Melusine mit ihren Schwestern.â€”Du gehst einen kleinen HÃ¼gel
+hinunter und findest dich vor einem GewÃ¶lbe, da wohl zwanzig Stufen hinabgehen, wo
+unten das klarste Wasser aus Marmorfelsen quillt. Die kleine Mauer, die oben
+umher die Einfassung macht, die hohen BÃ¤ume, die den Platz rings umher bedecken,
+die KÃ¼hle des Orts; das hat alles so was AnzÃ¼gliches, was Schauerliches. Es
+vergeht kein Tag, dass ich nicht eine Stunde da sitze. Da kommen die MÃ¤dchen aus
+der Stadt und holen Wasser, das harmloseste GeschÃ¤ft und das nÃ¶tigste, das
+ehemals die TÃ¶chter der KÃ¶nige selbst verrichteten. Wenn ich da sitze, so lebt die
+patriarchalische Idee so lebhaft um mich, wie sie, alle die AltvÃ¤ter, am Brunnen
+Bekanntschaft machen und freien, und wie um die Brunnen und Quellen wohltÃ¤tige Geister
+schweben. O der muss nie nach einer schweren Sommertagswanderung sich an des Brunnens
+KÃ¼hle gelabt haben, der das nicht mitempfinden kann.
+
+Am 13. Mai
+
+Du fragst, ob du mir meine BÃ¼cher schicken sollst?â€”lieber, ich bitte dich um
+Gottes willen, lass mir sie vom Halse! Ich will nicht mehr geleitet, ermuntert,
+angefeuert sein, braust dieses Herz doch genug aus sich selbst; ich brauche
+Wiegengesang, und den habe ich in seiner FÃ¼lle gefunden in meinem Homer. Wie oft lull'
+ich mein empÃ¶rtes Blut zur Ruhe, denn so ungleich, so unstet hast du nichts
+gesehn als dieses Herz. Lieber! Brauch' ich dir das zu sagen, der du so oft die
+Last getragen hast, mich vom Kummer zur Ausschweifung und von sÃ¼sser Melancholie
+zur verderblichen Leidenschaft Ã¼bergehen zu sehn? Auch halte ich mein Herzchen
+wie ein krankes Kind; jeder Wille wird ihm gestattet. Sage das nicht weiter;
+es gibt Leute, die mir es verÃ¼beln wÃ¼rden.
+
+Am 15. Mai
+
+Die geringen Leute des Ortes kennen mich schon und lieben mich, besonders die
+Kinder. Eine traurige Bemerkung hab' ich gemacht. Wie ich im Anfange mich zu ihnen
+gesellte, sie freundschaftlich fragte Ã¼ber dies und das, glaubten einige, ich wollte
+ihrer spotten, und fertigten mich wohl gar grob ab. Ich liess mich das nicht
+verdriessen; nur fÃ¼hlte ich, was ich schon oft bemerkt habe, auf das lebhafteste :
+Leute von einigem Stande werden sich immer in kalter Entfernung vom gemeinen
+Volke halten, als glaubten sie durch AnnÃ¤herung zu verlieren; und dann gibt's
+FlÃ¼chtlinge und Ã¼ble SpassvÃ¶gel, die sich herabzulassen scheinen, um ihren Ãœbermut dem
+armen Volke desto empfindlicher zu machen.
+
+Ich weiss wohl, dass wir nicht gleich sind, noch sein kÃ¶nnen; aber ich halte
+dafÃ¼r, dass der, der nÃ¶tig zu haben glaubt, vom so genannten PÃ¶bel sich zu
+entfernen, um den Respekt zu erhalten, ebenso tadelhaft ist als ein Feiger, der sich
+vor seinem Feinde verbirgt, weil er zu unterliegen fÃ¼rchtet.
+
+Letzthin kam ich zum Brunnen und fand ein junges DienstmÃ¤dchen, das ihr GefÃ¤ss auf
+die unterste Treppe gesetzt hatte und sich umsah, ob keine KamerÃ¤din kommen
+wollte, ihr es auf den Kopf zu helfen. Ich stieg hinunter und sah sie an.â€”"Soll
+ich Ihr helfen, Jungfer?" sagte ich.â€”sie ward rot Ã¼ber und Ã¼ber.â€”"O nein,
+Herr!" sagte sie.â€”"Ohne UmstÃ¤nde".â€”sie legte ihren Kragen zurecht, und ich half
+ihr. Sie dankte und stieg hinauf.
+
+Den 17. Mai
+
+Ich habe allerlei Bekanntschaft gemacht, Gesellschaft habe ich noch keine
+gefunden. Ich weiss nicht, was ich AnzÃ¼gliches fÃ¼r die Menschen haben muss; es mÃ¶gen
+mich ihrer so viele und hÃ¤ngen sich an mich, und da tut mir's weh, wenn unser
+Weg nur eine kleine Strecke miteinander geht. Wenn du fragst, wie die Leute
+hier sind, muss ich dir sagen: wie Ã¼berall! Es ist ein einfÃ¶rmiges Ding um das
+Menschengeschlecht. Die meisten verarbeiten den grÃ¶ssten Teil der Zeit, um zu leben, und das
+bisschen, das ihnen von Freiheit Ã¼brig bleibt, Ã¤ngstigt sie so, dass sie alle Mittel
+aufsuchen, um es los zu werden. O Bestimmung des Menschen!
+
+Aber eine recht gute Art Volks! Wenn ich mich manchmal vergesse, manchmal mit
+ihnen die Freuden geniesse, die den Menschen noch gewÃ¤hrt sind, an einem artig
+besetzten Tisch mit aller Offenâ€”und Treuherzigkeit sich herumzuspassen, eine
+Spazierfahrt, einen Tanz zur rechten Zeit anzuordnen, und dergleichen, das tut eine ganz
+gute Wirkung auf mich; nur muss mir nicht einfallen, dass noch so viele andere
+KrÃ¤fte in mir ruhen, die alle ungenutzt vermodern und die ich sorgfÃ¤ltig
+verbergen muss. Ach das engt das ganze Herz so ein.â€”Und doch! Missverstanden zu
+werden, ist das Schicksal von unsereinem.
+
+Ach, dass die Freundin meiner Jugend dahin ist, ach, dass ich sie je gekannt
+habe!â€”ich wÃ¼rde sagen: du bist ein Tor! Du suchst, was hienieden nicht zu finden
+ist! Aber ich habe sie gehabt, ich habe das Herz gefÃ¼hlt, die grosse Seele, in
+deren Gegenwart ich mir schien mehr zu sein, als ich war, weil ich alles war,
+was ich sein konnte. Guter Gott! Blieb da eine einzige Kraft meiner Seele
+ungenutzt? Konnt' ich nicht vor ihr das ganze wunderbare GefÃ¼hl entwickeln, mit dem
+mein Herz die Natur umfasst? War unser Umgang nicht ein ewiges Weben von der
+feinsten Empfindung, dem schÃ¤rfsten Witze, dessen Modifikationen, bis zur Unart,
+alle mit dem Stempel des Genies bezeichnet waren? Und nun!â€”ach ihre Jahre, die
+sie voraus hatte, fÃ¼hrten sie frÃ¼her ans Grab als mich. Nie werde ich sie
+vergessen, nie ihren festen Sinn und ihre gÃ¶ttliche Duldung.
+
+Vor wenig Tagen traf ich einen jungen V. an, einen offnen Jungen, mit einer
+gar glÃ¼cklichen Gesichtsbildung. Er kommt erst von Akademien dÃ¼nkt sich eben
+nicht weise, aber glaubt doch, er wisse mehr als andere. Auch war er fleissig,
+wie ich an allerlei spÃ¼re, kurz, er hat hÃ¼bsche Kenntnisse. Da er hÃ¶rte, dass
+ich viel zeichnete und Griechisch kÃ¶nnte (zwei Meteore hierzulande), wandte er
+sich an mich und kramte viel Wissens aus, von Batteux bis zu Wood, von de Piles
+zu Winckelmann, und versicherte mich, er habe Sulzers Theorie, den ersten
+Teil, ganz durchgelesen und besitze ein Manuskript von Heynen Ã¼ber das Studium
+der Antike. Ich liess das gut sein.
+
+Noch gar einen braven Mann habe ich kennen lernen, den fÃ¼rstlichen Amtmann,
+einen offenen, treuherzigen Menschen. Man sagt, es soll eine Seelenfreude sein,
+ihn unter seinen Kindern zu sehen, deren er neun hat; besonders macht man viel
+Wesens von seiner Ã¤ltesten Tochter. Er hat mich zu sich gebeten, und ich will ihn
+ehster Tage besuchen. Er wohnt auf einem fÃ¼rstlichen Jagdhofe, anderthalb Stunden
+von hier, wohin er nach dem Tode seiner Frau zu ziehen die Erlaubnis erhielt,
+da ihm der Aufenthalt hier in der Stadt und im Amthause zu weh tat.
+
+Sonst sind mir einige verzerrte Originale in den Weg gelaufen, an denen alles
+unausstehlich ist, am unertrÃ¤glichsten Freundschaftsbezeigungen.
+
+Leb' wohl! Der Brief wird dir recht sein, er ist ganz historisch.
+
+Am 22. Mai
+
+Dass das Leben des Menschen nur ein Traum sei, ist manchem schon so
+vorgekommen, und auch mit mir zieht dieses GefÃ¼hl immer herum. Wenn ich die
+EinschrÃ¤nkung ansehe, in welcher die tÃ¤tigen und forschenden KrÃ¤fte des Menschen
+eingesperrt sind; wenn ich sehe, wie alle Wirksamkeit dahinaus lÃ¤uft, sich die
+Befriedigung von BedÃ¼rfnissen zu verschaffen, die wieder keinen Zweck haben, als unsere
+arme Existenz zu verlÃ¤ngern, und dann, dass alle Beruhigung Ã¼ber gewisse Punkte
+des Nachforschens nur eine trÃ¤umende Regignation ist, da man sich die WÃ¤nde,
+zwischen denen man gefangen sitzt, mit bunten Gestalten und lichten Aussichten
+bemaltâ€”das alles, Wilhelm, macht mich stumm. Ich kehre in mich selbst zurÃ¼ck, und
+finde eine Welt! Wieder mehr in Ahnung und dunkler Begier als in Darstellung und
+lebendiger Kraft. Und da schwimmt alles vor meinen Sinnen, und ich lÃ¤chle dann so
+trÃ¤umend weiter in die Welt.
+
+Dass die Kinder nicht wissen, warum sie wollen, darin sind alle hochgelahrten
+Schulâ€”und Hofmeister einig; dass aber auch Erwachsene gleich Kindern auf diesem
+Erdboden herumtaumeln und wie jene nicht wissen, woher sie kommen und wohin sie
+gehen, ebensowenig nach wahren Zwecken handeln, ebenso durch Biskuit und Kuchen
+und Birkenreiser regiert werden: das will niemand gern glauben, und mich
+dÃ¼nkt, man kann es mit HÃ¤nden greifen.
+
+Ich gestehe dir gern, denn ich weiss, was du mir hierauf sagen mÃ¶chtest, dass
+diejenigen die GlÃ¼cklichsten sind, die gleich den Kindern in den Tag hinein leben,
+ihre Puppen herumschleppen, ausâ€”und anziehen und mit grossem Respekt um die
+Schublade umherschleichen, wo Mama das Zuckerbrot hineingeschlossen hat, und, wenn
+sie das gewÃ¼nschte endlich erhaschen, es mit vollen Backen verzehren und
+rufen:"mehr!"â€”das sind glÃ¼ckliche GeschÃ¶pfe. Auch denen ist's wohl, die ihren
+LumpenbeschÃ¤ftigungen oder wohl gar ihren Leidenschaften prÃ¤chtige Titel geben und sie dem
+Menschengeschlechte als Riesenoperationen zu dessen Heil und Wohlfahrt anschreiben.â€”Wohl dem,
+der so sein kann! Wer aber in seiner Demut erkennt, wo das alles hinauslÃ¤uft,
+wer da sieht, wie artig jeder BÃ¼rger, dem es wohl ist, sein GÃ¤rtchen zum
+Paradiese zuzustutzen weiss, und wie unverdrossen auch der UnglÃ¼ckliche unter der
+BÃ¼rde seinen Weg fortkeucht, und alle gleich interessiert sind, das Licht dieser
+Sonne noch eine Minute lÃ¤nger zu sehnâ€”ja, der ist still und bildet auch seine
+Welt aus sich selbst und ist auch glÃ¼cklich, weil er ein Mensch ist. Und dann,
+so eingeschrÃ¤nkt er ist, hÃ¤lt er doch immer im Herzen das sÃ¼sse GefÃ¼hl der
+Freiheit, und dass er diesen Kerker verlassen kann, wann er will.
+
+Am 26. Mai
+
+Du kennst von alters her meine Art, mich anzubauen, mir irgend an einem
+vertraulichen Orte ein HÃ¼ttchen aufzuschlagen und da mit aller EinschrÃ¤nkung zu
+herbergen. Auch hier habe ich wieder ein PlÃ¤tzchen angetroffen, das mich angezogen
+hat.
+
+UngefÃ¤hr eine Stunde von der Stadt liegt ein Ort, den sie Wahlheim nennen. Die Lage
+an einem HÃ¼gel ist sehr interessant, und wenn man oben auf dem Fusspfade zum
+Dorf herausgeht, Ã¼bersieht man auf einmal das ganze Tal. Eine gute Wirtin, die
+gefÃ¤llig und munter in ihrem Alter ist, schenkt Wein, Bier, Kaffee; und was Ã¼ber
+alles geht, sind zwei Linden, die mit ihren ausgebreiteten Ã„sten den kleinen
+Platz vor der Kirche bedecken, der ringsum mit BauerhÃ¤usern, Scheunen und HÃ¶fen
+eingeschlossen ist. So vertraulich, so heimlich hab' ich nicht leicht ein PlÃ¤tzchen
+gefunden, und dahin lass' ich mein Tischchen aus dem Wirtshause bringen und meinen
+Stuhl, trinke meinen Kaffee da und lese meinen Homer. Das erstenmal, als ich
+durch einen Zufall an einem schÃ¶nen Nachmittage unter die Linden kam, fand ich
+das PlÃ¤tzchen so einsam. Es war alles im Felde; nur ein Knabe von ungefÃ¤hr
+vier Jahren sass an der Erde und hielt ein anderes, etwa halbjÃ¤hriges, vor ihm
+zwischen seinen FÃ¼ssen sitzendes Kind mit beiden Armen wider seine Brust, so dass er
+ihm zu einer Art von Sessel diente und ungeachtet der Munterkeit, womit er aus
+seinen schwarzen Augen herumschaute, ganz ruhig sass. Mich vergnÃ¼gte der Anblick:
+ich setzte mich auf einen Pflug, der gegenÃ¼ber stand, und zeichnete die
+brÃ¼derliche Stellung mit vielem Ergetzen. Ich fÃ¼gte den nÃ¤chsten Zaun, ein Scheunentor
+und einige gebrochene WagenrÃ¤der bei, alles, wie es hinter einander stand, und
+fand nach Verlauf einer Stunde, dass ich eine wohlgeordnete, sehr interessante
+Zeichnung verfertigt hatte, ohne das mindeste von dem Meinen hinzuzutun. Das
+bestÃ¤rkte mich in meinem Vorsatze, mich kÃ¼nftig allein an die Natur zu halten. Sie
+allein ist unendlich reich, und sie allein bildet den grossen KÃ¼nstler. Man kann
+zum Vorteile der Regeln viel sagen, ungefÃ¤hr was man zum Lobe der bÃ¼rgerlichen
+Gesellschaft sagen kann. Ein Mensch, der sich nach ihnen bildet, wird nie etwas
+Abgeschmacktes und Schlechtes hervorbringen, wie einer, der sich durch Gesetze und
+Wohlstand modeln lÃ¤sst, nie ein unertrÃ¤glicher Nachbar, nie ein merkwÃ¼rdiger
+BÃ¶sewicht werden kann; dagegen wird aber auch alle Regel, man rede was man wolle,
+das wahre GefÃ¼hl von Natur und den wahren Ausdruck derselben zerstÃ¶ren! Sag'
+du: 'das ist zu hart! Sie schrÃ¤nkt nur ein, beschneidet die geilen Reben'
+etc.â€”guter Freund, soll ich dir ein Gleichnis geben? Es ist damit wie mit der Liebe.
+Ein junges Herz hÃ¤ngt ganz an einem MÃ¤dchen, bringt alle Stunden seines Tages
+bei ihr zu, verschwendet alle seine KrÃ¤fte, all sein VermÃ¶gen, um ihr jeden
+Augenblick auszudrÃ¼cken, dass er sich ganz ihr hingibt. Und da kÃ¤me ein Philister, ein
+Mann, der in einem Ã¶ffentlichen Amte steht, und sagte zu ihm: 'feiner junger
+Herr! Lieben ist menschlich, nur mÃ¼sst Ihr menschlich lieben! Teilet Eure Stunden
+ein, die einen zur Arbeit, und die Erholungsstunden widmet Eurem MÃ¤dchen.
+Berechnet Euer VermÃ¶gen, und was Euch von Eurer Notdurft Ã¼brig bleibt, davon
+verwehr' ich Euch nicht, ihr ein Geschenk, nur nicht zu oft, zu machen, etwa zu
+ihrem Geburtsâ€”und Namenstage ' etc.â€”folgt der Mensch, so gibt's einen
+brauchbaren jungen Menschen, und ich will selbst jedem FÃ¼rsten raten, ihn in ein
+Kollegium zu setzen; nur mit seiner Liebe ist's am Ende und, wenn er ein KÃ¼nstler
+ist, mit seiner Kunst. O meine Freunde! Warum der Strom des Genies so selten
+ausbricht, so selten in hohen Fluten hereinbraust und eure staunende Seele
+erschÃ¼ttert?â€”liebe Freunde, da wohnen die gelassenen Herren auf beiden Seiten des Ufers,
+denen ihre GartenhÃ¤uschen, Tulpenbeete und Krautfelder zugrunde gehen wÃ¼rden,
+die daher in Zeiten mit DÃ¤mmen und Ableiten der kÃ¼nftig drohenden Gefahr
+abzuwehren wissen.
+
+Am 27. Mai
+
+Ich bin, wie ich sehe, in VerzÃ¼ckung, Gleichnisse und Deklamation verfallen
+und habe darÃ¼ber vergessen, dir auszuerzÃ¤hlen, was mit den Kindern weiter
+geworden ist. Ich sass, ganz in malerische Empfindung vertieft, die dir mein
+gestriges Blatt sehr zerstÃ¼ckt darlegt, auf meinem Pfluge wohl zwei Stunden. Da
+kommt gegen Abend eine junge Frau auf die Kinder los, die sich indes nicht
+gerÃ¼hrt hatten, mit einem KÃ¶rbchen am Arm und ruft von weitem: "Philipps, du bist
+recht brav". â€”Sie grÃ¼sste mich, ich dankte ihr, stand auf, trat nÃ¤her hin und
+fragte sie, ob sie Mutter von den Kindern wÃ¤re? Sie bejahte es, und indem sie dem
+Ã¤ltesten einen halben Weck gab, nahm sie das kleine auf und kÃ¼sste es mit aller
+mÃ¼tterlichen Liebe.â€”"ich habe", sagte sie, "meinem Philipps das Kleine zu halten
+gegeben und bin mit meinem Ã„ltesten in die Stadt gegangen, um weiss Brot zu holen
+und Zucker und ein irden BreipfÃ¤nnchen".â€”Ich sah das alles in dem Korbe,
+dessen Deckel abgefallen war.â€”"Ich will meinem Hans (das war der Name des
+JÃ¼ngsten) ein SÃ¼ppchen kochen zum Abende; der lose Vogel, der Grosse, hat mir gestern
+das PfÃ¤nnchen zerbrochen, als er sich mit Philippsen um die Scharre des Breis
+zankte".â€”ich fragte nach dem Ã„ltesten, und sie hatte mir kaum gesagt, dass er sich auf
+der Wiese mit ein paar GÃ¤nsen herumjage, als er gesprungen kam und dem Zweiten
+eine Haselgerte mitbrachte. Ich unterhielt mich weiter mit dem Weibe und
+erfuhr, dass sie des Schulmeisters Tochter sei, und dass ihr Mann eine Reise in die
+Schweiz gemacht habe, um die Erbschaft eines Vetters zu holen.â€”"Sie haben ihn drum
+betriegen wollen", sagte sie,"und ihm auf seine Briefe nicht geantwortet; da ist er
+selbst hineingegangen. Wenn ihm nur kein UnglÃ¼ck widerfahren ist, ich hÃ¶re nichts
+von ihm".â€”Es ward mir schwer, mich von dem Weibe los zu machen, gab jedem der
+Kinder einen Kreuzer, und auch fÃ¼rs jÃ¼ngste gab ich ihr einen, ihm einen Weck zur
+Suppe mitzubringen, wenn sie in die Stadt ginge, und so schieden wir von
+einander.
+
+Ich sage dir, mein Schatz, wenn meine Sinne gar nicht mehr halten wollen, so
+lindert all den Tumult der Anblick eines solchen GeschÃ¶pfs, das in glÃ¼cklicher
+Gelassenheit den engen Kreis seines Daseins hingeht, von einem Tage zum andern sich
+durchhilft, die BlÃ¤tter abfallen sieht und nichts dabei denkt, als dass der Winter
+kommt.
+
+Seit der Zeit bin ich oft draussen. Die Kinder sind ganz an mich gewÃ¶hnt, sie
+kriegen Zucker, wenn ich Kaffee trinke, und teilen das Butterbrot und die saure
+Milch mit mir des Abends. Sonntags fehlt ihnen der Kreuzer nie, und wenn ich
+nicht nach der Betstunde da bin, so hat die Wirtin Ordre, ihn auszuzahlen.
+
+Sie sind vertraut, erzÃ¤hlen mir allerhand, und besonders ergetze ich mich an
+ihren Leidenschaften und simpeln AusbrÃ¼chen des Begehrens, wenn mehr Kinder aus
+dem Dorfe sich versammeln.
+
+Viele MÃ¼he hat mich's gekostet, der Mutter ihre Besorgnis zu nehmen, sie mÃ¶chten
+den Herrn inkommodieren.
+
+Am 30. Mai
+
+Was ich dir neulich von der Malerei sagte, gilt gewiss auch von der Dichtkunst;
+es ist nur, dass man das Vortreffliche erkenne und es auszusprechen wage, und
+das ist freilich mit wenigem viel gesagt. Ich habe heute eine Szene gehabt,
+die, rein abgeschrieben, die schÃ¶nste Idylle von der Welt gÃ¤be; doch was soll
+Dichtung, Szene und Idylle? Muss es denn immer gebosselt sein, wenn wir teil an einer
+Naturerscheinung nehmen sollen?
+
+Wenn du auf diesen Eingang viel Hohes und Vornehmes erwartest, so bist du
+wieder Ã¼bel betrogen; es ist nichts als ein Bauerbursch, der mich zu dieser
+lebhaften Teilnehmung hingerissen hat. Ich werde, wie gewÃ¶hnlich, schlecht erzÃ¤hlen,
+und du wirst mich, wie gewÃ¶hnlich, denk' ich, Ã¼bertrieben finden; es ist
+wieder Wahlheim, und immer Wahlheim, das diese Seltenheiten hervorbringt.
+
+Es war eine Gesellschaft draussen unter den Linden, Kaffee zu trinken. Weil
+sie mir nicht ganz anstand, so blieb ich unter einem Vorwande zurÃ¼ck.
+
+Ein Bauerbursch kam aus einem benachbarten Hause und beschÃ¤ftigte sich, an dem
+Pfluge, den ich neulich gezeichnet hatte, etwas zurecht zu machen. Da mir sein
+Wesen gefiel, redete ich ihn an, fragte nach seinen UmstÃ¤nden, wir waren bald
+bekannt und, wie mir's gewÃ¶hnlich mit dieser Art Leuten geht, bald vertraut. Er
+erzÃ¤hlte mir, dass er bei einer Witwe in Diensten sei und von ihr gar wohl gehalten
+werde. Er sprach so vieles von ihr und lobte sie dergestalt, dass ich bald merken
+konnte, er sei ihr mit Leib und Seele zugetan. Sie sei nicht mehr jung, sagte er,
+sie sei von ihrem ersten Mann Ã¼bel gehalten worden, wolle nicht mehr heiraten,
+und aus seiner ErzÃ¤hlung leuchtete so merklich hervor, wie schÃ¶n, wie reizend
+sie fÃ¼r ihn sei, wie sehr er wÃ¼nschte, dass sie ihn wÃ¤hlen mÃ¶chte, um das
+Andenken der Fehler ihres ersten Mannes auszulÃ¶schen, dass ich Wort fÃ¼r Wort
+wiederholen mÃ¼sste, um dir die reine Neigung, die Liebe und Treue dieses Menschen
+anschaulich zu machen. Ja, ich mÃ¼sste die Gabe des grÃ¶ssten Dichters besitzen, um dir
+zugleich den Ausdruck seiner GebÃ¤rden, die Harmonie seiner Stimme, das heimliche
+Feuer seiner Blicke lebendig darstellen zu kÃ¶nnen. Nein, es sprechen keine Worte
+die Zartheit aus, die in seinem ganzen Wesen und Ausdruck war; es ist alles
+nur plump, was ich wieder vorbringen kÃ¶nnte. Besonders rÃ¼hrte mich, wie er
+fÃ¼rchtete, ich mÃ¶chte Ã¼ber sein VerhÃ¤ltnis zu ihr ungleich denken und an ihrer guten
+AuffÃ¼hrung zweifeln. Wie reizend es war, wenn er von ihrer Gestalt, von ihrem KÃ¶rper
+sprach, der ihn ohne jugendliche Reize gewaltsam an sich zog und fesselte, kann
+ich mir nur in meiner innersten Seele wiederholen. Ich hab' in meinem Leben
+die dringende Begierde und das heisse, sehnliche Verlangen nicht in dieser
+Reinheit gesehen, ja wohl kann ich sagen, in dieser Reinheit nicht gedacht und
+getrÃ¤umt. Schelte mich nicht, wenn ich dir sage, dass bei der Erinnerung dieser
+Unschuld und Wahrheit mir die innerste Seele glÃ¼ht, und dass mich das Bild dieser
+Treue und ZÃ¤rtlichkeit Ã¼berall verfolgt, und dass ich, wie selbst davon
+entzÃ¼ndet, lechze und schmachte.
+
+Ich will nun suchen, auch sie ehstens zu sehn, oder vielmehr, wenn ich's recht
+bedenke, ich will's vermeiden. Es ist besser, ich sehe sie durch die Augen ihres
+Liebhabers; vielleicht erscheint sie mir vor meinen eigenen Augen nicht so, wie sie
+jetzt vor mir steht, und warum soll ich mir das schÃ¶ne Bild verderben?
+
+Am 16. Junius
+
+Warum ich dir nicht schreibe?â€”Fragst du das und bist doch auch der Gelehrten
+einer. Du solltest raten, dass ich mich wohl befinde, und zwarâ€”kurz und gut, ich
+habe eine Bekanntschaft gemacht, die mein Herz nÃ¤her angeht. Ich habeâ€”ich weiss
+nicht.
+
+Dir in der Ordnung zu erzÃ¤hlen, wie's zugegangen ist, dass ich eins der
+liebenswÃ¼rdigsten GeschÃ¶pfe habe kennen lernen, wird schwer halten. Ich bin vergnÃ¼gt und
+glÃ¼cklich, und also kein guter Historienschreiber.
+
+Einen Engel!â€”pfui! Das sagt jeder von der Seinigen, nicht wahr? Und doch bin ich
+nicht imstande, dir zu sagen, wie sie vollkommen ist, warum sie vollkommen ist;
+genug, sie hat allen meinen Sinn gefangengenommen.
+
+So viel Einfalt bei so viel Verstand, so viel GÃ¼te bei so viel Festigkeit,
+und die Ruhe der Seele bei dem wahren Leben und der TÃ¤tigkeit.â€”Das ist alles
+garstiges GewÃ¤sch, was ich da von ihr sage, leidige Abstraktionen, die nicht einen
+Zug ihres Selbst ausdrÃ¼cken. Ein andermalâ€”nein, nicht ein andermal, jetzt
+gleich will ich dir's erzÃ¤hlen. Tu' ich 's jetzt nicht, so geschÃ¤h' es niemals.
+Denn, unter uns, seit ich angefangen habe zu schreiben, war ich schon dreimal im
+Begriffe, die Feder niederzulegen, mein Pferd satteln zu lassen und hinauszureiten.
+Und doch schwur ich mir heute frÃ¼h, nicht hinauszureiten, und gehe doch alle
+Augenblick' ans Fenster, zu sehen, wie hoch die Sonne noch steht.â€”Ich hab's nicht
+Ã¼berwinden kÃ¶nnen, ich musste zu ihr hinaus. Da bin ich wieder, Wilhelm, will mein
+Butterbrot zu Nacht essen und dir schreiben. Welch eine Wonne das fÃ¼r meine Seele
+ist, sie in dem Kreise der lieben, muntern Kinder, ihrer acht Geschwister, zu
+sehen!â€”Wenn ich so fortfahre, wirst du am Ende so klug sein wie am Anfange. HÃ¶re denn,
+ich will mich zwingen, ins Detail zu gehen.
+
+Ich schrieb dir neulich, wie ich den Amtmann S. habe kennen lernen, und wie er
+mich gebeten habe, ihn bald in seiner Einsiedelei oder vielmehr seinem kleinen
+KÃ¶nigreiche zu besuchen. Ich vernachlÃ¤ssigte das, und wÃ¤re vielleicht nie hingekommen,
+hÃ¤tte mir der Zufall nicht den Schatz entdeckt, der in der stillen Gegend
+verborgen liegt.
+
+Unsere jungen Leute hatten einen Ball auf dem Lande angestellt, zu dem ich mich
+denn auch willig finden liess. Ich bot einem hiesigen guten, schÃ¶nen, Ã¼brigens
+unbedeutenden MÃ¤dchen die Hand, und es wurde ausgemacht, dass ich eine Kutsche nehmen,
+mit meiner TÃ¤nzerin und ihrer Base nach dem Orte der Lustbarkeit hinausfahren
+und auf dem Wege Charlotten S. mitnehmen sollte.â€”"Sie werden ein schÃ¶nes
+Frauenzimmer kennenlernen", sagte meine Gesellschafterin, da wir durch den weiten,
+ausgehauenen Wald nach dem Jagdhause fuhren.â€”"Nehmen Sie sich in acht", versetzte die
+Base, "dass Sie sich nicht verlieben!"â€”"Wieso?" sagte ich.â€”"Sie ist schon
+vergeben,"antwortete jene,"an einen sehr braven Mann, der weggereist ist, seine Sachen in
+Ordnung zu bringen, weil sein Vater gestorben ist, und sich um eine ansehnliche
+Versorgung zu bewerben".â€”Die Nachricht war mir ziemlich gleichgÃ¼ltig.
+
+Die Sonne war noch eine Viertelstunde vom Gebirge, als wir vor dem Hoftore
+anfuhren. Es war sehr schwÃ¼l, und die Frauenzimmer Ã¤usserten ihre Besorgnis wegen
+eines Gewitters, das sich in weissgrauen, dumpfichten WÃ¶lkchen rings am Horizonte
+zusammenzuziehen schien. Ich tÃ¤uschte ihre Furcht mit anmasslicher Wetterkunde, ob mir
+gleich selbst zu ahnen anfing, unsere Lustbarkeit werde einen Stoss leiden.
+
+Ich war ausgestiegen, und eine Magd, die ans Tor kam, bat uns, einen
+Augenblick zu verziehen, Mamsell Lottchen wÃ¼rde gleich kommen. Ich ging durch den Hof
+nach dem wohlgebauten Hause, und da ich die vorliegenden Treppen
+hinaufgestiegen war und in die TÃ¼r trat, fiel mir das reizendste Schauspiel in die Augen,
+das ich je gesehen habe. in dem Vorsaale wimmelten sechs Kinder von eilf zu
+zwei Jahren um ein MÃ¤dchen von schÃ¶ner Gestalt, mittlerer GrÃ¶sse, die ein
+simples weisses Kleid, mit blassroten Schleifen an Arm und Brust, anhatte. Sie hielt
+ein schwarzes Brot und schnitt ihren Kleinen rings herum jedem sein StÃ¼ck nach
+Proportion ihres Alters und Appetits ab, gab's jedem mit solcher Freundlichkeit, und
+jedes rief so ungekÃ¼nstelt sein "danke!", indem es mit den kleinen HÃ¤ndchen
+lange in die HÃ¶he gereicht hatte, ehe es noch abgeschnitten war, und nun mit
+seinem Abendbrote vergnÃ¼gt entweder wegsprang, oder nach seinem stillern
+Charakter gelassen davonging nach dem Hoftore zu, um die Fremden und die Kutsche zu
+sehen, darin ihre Lotte wegfahren sollte.â€”"Ich bitte um Vergebung", sagte sie,
+"dass ich Sie hereinbemÃ¼he und die Frauenzimmer warten lasse. Ãœber dem Anziehen
+und allerlei Bestellungen fÃ¼rs Haus in meiner Abwesenheit habe ich vergessen,
+meinen Kindern ihr Vesperbrot zu geben, und sie wollen von niemanden Brot
+geschnitten haben als von mir".
+
+Ich machte ihr ein unbedeutendes Kompliment, meine ganze Seele ruhte auf der
+Gestalt, dem Tone, dem Betragen, und ich hatte eben Zeit, mich von der Ãœberraschung
+zu erholen, als sie in die Stube lief, ihre Handschuhe und den FÃ¤cher zu
+holen. Die Kleinen sahen mich in einiger Entfernung so von der Seite an, und ich
+ging auf das jÃ¼ngste los, das ein Kind von der glÃ¼cklichsten Gesichtsbildung
+war. Es zog sich zurÃ¼ck, als eben Lotte zur TÃ¼re herauskam und sagte:"Louis,
+gib dem Herrn Vetter eine Hand".â€”das tat der Knabe sehr freimÃ¼tig, und ich
+konnte mich nicht enthalten, ihn, ungeachtet seines kleinen RotznÃ¤schens,
+herzlich zu kÃ¼ssen.
+
+"Vetter?" sagte ich, indem ich ihr die Hand reichte," glauben Sie, dass ich des
+GlÃ¼cks wert sei, mit Ihnen verwandt zu sein?"â€”"O", sagte sie mit einem
+leichtfertigen LÃ¤cheln, "unsere Vetterschaft ist sehr weitlÃ¤ufig, und es wÃ¤re mir leid,
+wenn Sie der schlimmste drunter sein sollten".â€”Im Gehen gab sie Sophien, der
+Ã¤ltesten Schwester nach ihr, einem MÃ¤dchen von ungefÃ¤hr elf Jahren, den Auftrag,
+wohl auf die Kinder acht zu haben und den Papa zu grÃ¼ssen, wenn er vom
+Spazierritte nach Hause kÃ¤me. Den Kleinen sagte sie, sie sollten ihrer Schwester Sophie
+folgen, als wenn sie's selber wÃ¤re, das denn auch einige ausdrÃ¼cklich versprachen.
+Eine kleine, naseweise Blondine aber, von ungefÃ¤hr sechs Jahren, sagte: "du
+bist's doch nicht, Lottchen, wir haben dich doch lieber".â€”die zwei Ã¤ltesten
+Knaben waren hinten auf die Kutsche geklettert, und auf mein Vorbitten erlaubte
+sie ihnen, bis vor den Wald mitzufahren, wenn sie versprÃ¤chen, sich nicht zu
+necken und sich recht festzuhalten.
+
+Wir hatten uns kaum zurecht gesetzt, die Frauenzimmer sich bewillkommt,
+wechselsweise Ã¼ber den Anzug, vorzÃ¼glich Ã¼ber die HÃ¼te ihre Anmerkungen gemacht und die
+Gesellschaft, die man erwartete, gehÃ¶rig durchgezogen, als Lotte den Kutscher halten und
+ihre BrÃ¼der herabsteigen liess, die noch einmal ihre Hand zu kÃ¼ssen begehrten,
+das denn der Ã¤lteste mit aller ZÃ¤rtlichkeit, die dem Alter von fÃ¼nfzehn Jahren
+eigen sein kann, der andere mit viel Heftigkeit und Leichtsinn tat. Sie liess die
+Kleinen noch einmal grÃ¼ssen, und wir fuhren weiter.
+
+Die Base fragte, ob sie mit dem Buche fertig wÃ¤re, das sie ihr neulich
+geschickt hÃ¤tte.â€”"nein", sagte Lotte,"es gefÃ¤llt mir nicht, Sie kÃ¶nnen's
+wiederhaben. Das vorige war auch nicht besser".â€”Ich erstaunte, als ich fragte, was es
+fÃ¼r BÃ¼cher wÃ¤ren, und sie mir antwortete:â€”ich fand so viel Charakter in allem,
+was sie sagte, ich sah mit jedem Wort neue Reize, neue Strahlen des Geistes
+aus ihren GesichtszÃ¼gen hervorbrechen, die sich nach und nach vergnÃ¼gt zu
+entfalten schienen, weil sie an mir fÃ¼hlte, dass ich sie verstand.
+
+"Wie ich jÃ¼nger war", sagte sie, "liebte ich nichts so sehr als Romane. Weiss
+Gott, wie wohl mir's war, wenn ich mich Sonntags in so ein Eckchen setzen und
+mit ganzem Herzen an dem GlÃ¼ck und Unstern einer Miss Jonny teilnehmen konnte.
+Ich leugne auch nicht, dass die Art noch einige Reize fÃ¼r mich hat. Doch da ich
+so selten an ein Buch komme, so muss es auch recht nach meinem Geschmack sein.
+Und der Autor ist mir der liebste, in dem ich meine Welt wiederfinde, bei dem
+es zugeht wie um mich, und dessen Geschichte mir doch so interessant und
+herzlich wird als mein eigen hÃ¤uslich Leben, das freilich kein Paradies, aber doch
+im ganzen eine Quelle unsÃ¤glicher GlÃ¼ckseligkeit ist".
+
+Ich bemÃ¼hte mich, meine Bewegungen Ã¼ber diese Worte zu verbergen. Das ging
+freilich nicht weit: denn da ich sie mit solcher Wahrheit im Vorbeigehen vom
+Landpriester von Wakefield, vomâ€”reden hÃ¶rte, kam ich ganz ausser mich, sagte ihr alles,
+was ich musste, und bemerkte erst nach einiger Zeit, da Lotte das GesprÃ¤ch an
+die anderen wendete, dass diese die Zeit Ã¼ber mit offenen Augen, als sÃ¤ssen sie
+nicht da, dagesessen hatten. Die Base sah mich mehr als einmal mit einem
+spÃ¶ttischen NÃ¤schen an, daran mir aber nichts gelegen war.
+
+Das GesprÃ¤ch fiel aufs VergnÃ¼gen am Tanze.â€”"wenn diese Leidenschaft ein Fehler
+ist,"sagte Lotte, "so gestehe ich Ihnen gern, ich weiss mir nichts Ã¼bers Tanzen. Und
+wenn ich was im Kopfe habe und mir auf meinem verstimmten Klavier einen
+Contretanz vortrommle, so ist alles wieder gut".
+
+Wie ich mich unter dem GespÃ¤che in den schwarzen Augen weideteâ€”wie die
+lebendigen Lippen und die frischen, muntern Wangen meine ganze Seele anzogenâ€”wie ich,
+in den herrlichen Sinn ihrer Rede ganz versunken, oft gar die Worte nicht
+hÃ¶rte, mit denen sie sich ausdrÃ¼ckteâ€”davon hast du eine Vorstellung, weil du mich
+kennst. Kurz, ich stieg aus dem Wagen wie ein TrÃ¤umender, als wir vor dem
+Lusthause stille hielten, und war so in TrÃ¤umen rings in der dÃ¤mmernden Welt
+verloren, dass ich auf die Musik kaum achtete, die uns von dem erleuchteten Saal
+herunter entgegenschallte.
+
+Die zwei Herren Audran und ein gewisser N. N.â€”wer behÃ¤lt alle die
+Namenâ€”, die der Base und Lottens TÃ¤nzer waren, empfingen uns am
+Schlage, bemÃ¤chtigten sich ihrer Frauenzimmer, und ich fÃ¼hrte das
+meinige hinauf.
+
+Wir schlangen uns in Menuetts um einander herum; ich forderte ein Frauenzimmer
+nach dem andern auf, und just die unleidlichsten konnten nicht dazu kommen,
+einem die Hand zu reichen und ein Ende zu machen. Lotte und ihr TÃ¤nzer fingen
+einen Englischen an, und wie wohl mir's war, als sie auch in der Reihe die Figur
+mit uns anfing, magst du fÃ¼hlen. Tanzen muss man sie sehen! Siehst du, sie ist
+so mit ganzem Herzen und mit ganzer Seele dabei, ihr ganzer KÃ¶rper eine
+Harmonie, so sorglos, so unbefangen, als wenn das eigentlich alles wÃ¤re, als wenn
+sie sonst nichts dÃ¤chte, nichts empfÃ¤nde; und in dem Augenblicke gewiss
+schwindet alles andere vor ihr.
+
+Ich bat sie um den zweiten Contretanz; sie sagte mit den dritten zu, und mit
+der liebenswÃ¼rdigsten FreimÃ¼tigkeit von der Welt versicherte sie mir, dass sie
+herzlich gern deutsch tanze.â€”"Es ist hier so Mode, "fuhr sie fort," dass jedes Paar,
+das zusammen gehÃ¶rt, beim Deutschen zusammenbleibt, und mein Chapeau walzt
+schlecht und dankt mir's, wenn ich ihm die Arbeit erlasse. Ihr Frauenzimmer kann's
+auch nicht und mag nicht, und ich habe im Englischen gesehen, dass Sie gut
+walzen; wenn Sie nun mein sein wollen fÃ¼rs Deutsche, so gehen Sie und bitten
+sich's von meinem Herrn aus, und ich will zu Ihrer Dame gehen".â€”ich gab ihr die
+Hand darauf, und wir machten aus, dass ihr TÃ¤nzer inzwischen meine TÃ¤nzerin
+unterhalten sollte.
+
+Nun ging's an, und wir ergetzten uns eine Weile an manigfaltigen Schlingungen
+der Arme. Mit welchem Reize, mit welcher FlÃ¼chtigkeit bewegte sie sich! Und da
+wir nun gar ans Walzen kamen und wie die SphÃ¤ren um einander herumrollten,
+ging's freilich anfangs, weil's die wenigsten kÃ¶nnen, ein bisschen bunt
+durcheinander. Wir waren klug und liessen sie austoben, und als die Ungeschicktesten den
+Plan gerÃ¤umt hatten, fielen wir ein und hielten mit noch einem Paare, mit
+Audran und seiner TÃ¤nzerin, wacker aus. Nie ist mir's so leicht vom Flecke
+gegangen. Ich war kein Mensch mehr. Das liebenswÃ¼rdigste GeschÃ¶pf in den Armen zu
+haben und mit ihr herumzufliegen wie Wetter, dass alles rings umher verging,
+undâ€”Wilhelm, um ehrlich zu sein, tat ich aber doch den Schwur, dass ein MÃ¤dchen, das ich
+liebte, auf das ich AnsprÃ¼che hÃ¤tte, mir nie mit einem andern walzen sollte als
+mit mir, und wenn ich drÃ¼ber zugrunde gehen mÃ¼sste. Du verstehst mich!
+
+Wir machten einige Touren gehend im Saale, um zu verschnaufen. Dann setzte sie
+sich, und die Orangen, die ich beiseite gebracht hatte, die nun die einzigen
+noch Ã¼brigen waren, taten vortreffliche Wirkung, nur dass mir mit jedem
+Schnittchen, das sie einer unbescheidenen Nachbarin ehrenhalben zuteilte, ein Stich
+durchs Herz ging.
+
+Beim dritten englischen Tanz waren wir das zweite Paar. Wie wir die Reihe
+durchtanzten und ich, weiss Gott mit wieviel Wonne, an ihrem Arm und Auge hing, das voll
+vom wahrsten Ausdruck des offensten, reinsten VergnÃ¼gens war, kommen wir an
+eine Frau, die mir wegen ihrer liebenswÃ¼rdigen Miene auf einem nicht mehr ganz
+jungen Gesichte merkwÃ¼rdig gewesen war. Sie sieht Lotten lÃ¤chelnd an, hebt einen
+drohenden Finger auf und nennt den Namen Albert zweimal im Vorbeifliegen mit viel
+Bedeutung.
+
+"Wer ist Albert?" sagte ich zu Lotten, "wenn's nicht Vermessenheit ist zu
+fragen".â€”Sie war im Begriff zu antworten, als wir uns scheiden mussten, um die grosse
+Achte zu machen, und mich dÃ¼nkte einiges Nachdenken auf ihrer Stirn zu sehen,
+als wir so vor einander vorbeikreuzten.â€”"Was soll ich's Ihnen leugnen," sagte
+sie, indem sie mir die Hand zur Promenade bot. "Albert ist ein braver Mensch,
+dem ich so gut als verlobt bin".â€”nun war mir das nichts Neues (denn die
+MÃ¤dchen hatten mir's auf dem Wege gesagt) und war mir doch so ganz neu, weil ich
+es noch nicht im VerhÃ¤ltnis auf sie, die mir in so wenig Augenblicken so wert
+geworden war, gedacht hatte. Genug, ich verwirrte mich, vergass mich und kam
+zwischen das unrechte Paar hinein, dass alles drunter und drÃ¼ber ging und Lottens
+ganze Gegenwart und Zerren und Ziehen nÃ¶tig war, um es schnell wieder in Ordnung
+zu bringen.
+
+Der Tanz war noch nicht zu Ende, als die Blitze, die wir schon lange am
+Horizonte leuchten gesehn und die ich immer fÃ¼r WetterkÃ¼hlen ausgegeben hatte, viel
+stÃ¤rker zu werden anfingen und der Donner die Musik Ã¼berstimmte. Drei Frauenzimmer
+liefen aus der Reihe, denen ihre Herren folgten; die Unordnung wurde allgemein,
+und die Musik hÃ¶rte auf. Es ist natÃ¼rlich, wenn uns ein UnglÃ¼ck oder etwas
+Schreckliches im VergnÃ¼gen Ã¼berrascht, dass es stÃ¤rkere EindrÃ¼cke auf uns macht als
+sonst, teils wegen des Gegensatzes, der sich so lebhaft empfinden lÃ¤sst, teils und
+noch mehr, weil unsere Sinne einmal der FÃ¼hlbarkeit geÃ¶ffnet sind und also
+desto schneller einen Eindruck annehmen. Diesen Ursachen muss ich die wunderbaren
+Grimassen zuschreiben, in die ich mehrere Frauenzimmer ausbrechen sah. Die klÃ¼gste
+setzte sich in eine Ecke, mit dem RÃ¼cken gegen das Fenster, und hielt die Ohren
+zu. Eine andere kniete vor ihr nieder und verbarg den Kopf in der erster
+Schoss. Eine dritte schob sich zwischen beide hinein und umfasste ihre
+Schwesterchen mit tausend TrÃ¤nen. Einige wollten nach Hause; andere, die noch weniger
+wussten, was sie taten, hatten nicht so viel Besinnungskraft, den Keckheiten
+unserer jungen Schlucker zu steuern, die sehr beschÃ¤ftigt zu sein schienen, alle
+die Ã¤ngstlichen Gebete, die dem Himmel bestimmt waren, von den Lippen der
+schÃ¶nen BedrÃ¤ngten wegzufangen. Einige unserer Herren hatten sich hinabbegeben, um
+ein Pfeifchen in Ruhe zu rauchen; und die Ã¼brige Gesellschaft schlug es nicht
+aus, als die Wirtin auf den klugen Einfall kam, uns ein Zimmer anzuweisen, das
+LÃ¤den und VorhÃ¤nge hÃ¤tte. Kaum waren wir da angelangt, als Lotte beschÃ¤ftigt
+war, einen Kreis von StÃ¼hlen zu stellen und, als sich die Gesellschaft auf ihre
+Bitte gesetzt hatte, den Vortrag zu einem Spiele zu tun.
+
+Ich sah manchen, der in Hoffnung auf ein saftiges Pfand sein MÃ¤ulchen spitzte
+und seine Glieder reckte.â€”"Wir spielen ZÃ¤hlens!" sagte sie. "Nun gebt acht!
+Ich geh' im Kreise herum von der Rechten zur Linken, und so zÃ¤hlt ihr auch
+rings herum, jeder die Zahl, die an ihn kommt, und das muss gehen wie ein
+Lauffeuer, und wer stockt oder sich irrt, kriegt eine Ohrfeige, und so bis
+tausend".â€”nun war das lustig anzusehen: sie ging mit ausgestrecktem Arm im Kreise herum.
+"Eins", fing der erste an, der Nachbar "zwei", "drei" der folgende, und so fort.
+Dann fing sie an, geschwinder zu gehen, immer geschwinder; da versah's einer:
+Patsch! Eine Ohrfeige, und Ã¼ber das GelÃ¤chter der folgende auch: Patsch! Und immer
+geschwinder. Ich selbst kriegte zwei Maulschellen und glaubte mit innigem VergnÃ¼gen zu
+bemerken, dass sie stÃ¤rker seien, als sie den Ã¼brigen zuzumessen pflegte. Ein
+allgemeines GelÃ¤chter und GeschwÃ¤rm endigte das Spiel, ehe noch das Tausend ausgezÃ¤hlt
+war. Die Vertrautesten zogen einander beiseite, das Gewitter war vorÃ¼ber, und
+ich folgte Lotten in den Saal. Unterwegs sagte sie:"Ã¼ber die Ohrfeigen haben
+sie Wetter und alles vergessen!"â€”ich konnte ihr nichts antworten.â€”"ich war",
+fuhr sie fort, "eine der Furchtsamsten, und indem ich mich herzhaft stellte, um
+den andern Mut zu geben, bin ich mutig geworden".â€”Wir traten ans Fenster. Es
+donnerte abseitwÃ¤rts, und der herrliche Regen sÃ¤uselte auf das Land, und der
+erquickendste Wohlgeruch stieg in aller FÃ¼lle einer warmen Luft zu uns auf. Sie stand
+auf ihren Ellenbogen gestÃ¼tzt, ihr Blick durchdrang die Gegend; sie sah gen
+Himmel und auf mich, ich sah ihr Auge trÃ¤nenvoll, sie legte ihre Hand auf die
+meinige und sagte: "Klopstock!"â€”Ich erinnerte mich sogleich der herrlichen Ode,
+die ihr in Gedanken lag, und versank in dem Strome von Empfindungen, den sie
+in dieser Losung Ã¼ber mich ausgoss. Ich ertrug's nicht, neigte mich auf ihre
+Hand und kÃ¼sste sie unter den wonnevollsten TrÃ¤nen. Und sah nach ihrem Auge
+wiederâ€”Edler! HÃ¤ttest du deine VergÃ¶tterung in diesem Blicke gesehen, und mÃ¶cht' ich nun
+deinen so oft entweihten Namen nie wieder nennen hÃ¶ren!
+
+Am 19. Junius
+
+Wo ich neulich mit meiner ErzÃ¤hlung geblieben bin, weiss ich nicht mehr; das
+weiss ich, dass es zwei Uhr des Nachts war, als ich zu Bette kam, und dass, wenn
+ich dir hÃ¤tte vorschwatzen kÃ¶nnen, statt zu schreiben, ich dich vielleicht bis
+an den Morgen aufgehalten hÃ¤tte.
+
+Was auf unserer Hereinfahrt vom Balle geschehen ist, habe ich noch nicht
+erzÃ¤hlt, habe auch heute keinen Tag dazu.
+
+Es war der herrlichste Sonnenaufgang. Der trÃ¶pfelnde Wald und das erfrischte
+Feld umher! Unsere Gesellschafterinnen nickten ein. Sie fragte mich, ob ich
+nicht auch von der Partie sein wollte; ihretwegen sollt' ich unbekÃ¼mmert
+sein.â€”"So lange ich diese Augen offen sehe", sagte ich und sah sie fest an,"so lange
+hat's keine Gefahr".â€”Und wir haben beide ausgehalten bis an ihr Tor, da ihr die
+Magd leise aufmachte und auf ihr Fragen versicherte, dass Vater und Kleine wohl
+seien und alle noch schliefen. Da verliess ich sie mit der Bitte, sie selbigen
+Tags noch sehen zu dÃ¼rfen; sie gestand mir's zu, und ich bin gekommenâ€”und seit
+der Zeit kÃ¶nnen Sonne, Mond und Sterne geruhig ihre Wirtschaft treiben, ich
+weiss weder dass Tag noch dass Nacht ist, und die ganze Welt verliert sich um mich
+her.
+
+Am 21. Junius
+
+Ich lebe so glÃ¼ckliche Tage, wie sie Gott seinen Heiligen ausspart; und mit
+mir mag werden was will, so darf ich nicht sagen, dass ich die Freuden, die
+reinsten Freuden des Lebens nicht genossen habe.â€”du kennst mein Wahlheim; dort bin
+ich vÃ¶llig etabliert, von da habe ich nur eine halbe Stunde zu Lotten, dort
+fÃ¼hl' ich mich selbst und alles GlÃ¼ck, das dem Menschen gegeben ist.
+
+HÃ¤tt' ich gedacht, als ich mir Wahlheim zum Zwecke meiner SpaziergÃ¤nge wÃ¤hlte,
+dass es so nahe am Himmel lÃ¤ge! Wie oft habe ich das Jagdhaus, das nun alle
+meine WÃ¼nsche einschliesst, auf meinen weiten Wanderungen, bald vom Berge, bald
+von der Ebne Ã¼ber den Fluss gesehn!
+
+Lieber Wilhelm, ich habe allerlei nachgedacht, Ã¼ber die Begier im Menschen, sich
+auszubreiten, neue Entdeckungen zu machen, herumzuschweifen; und dann wieder Ã¼ber den
+inneren Trieb, sich der EinschrÃ¤nkung willig zu ergeben, in dem Gleise der
+Gewohnheit so hinzufahren und sich weder um Rechts noch um Links zu bekÃ¼mmern.
+
+Es ist wunderbar: wie ich hierher kam und vom HÃ¼gel in das schÃ¶ne Tal
+schaute, wie es mich rings umher anzog.â€”dort das WÃ¤ldchen!â€”ach kÃ¶nntest du dich in
+seine Schatten mischen!â€”dort die Spitze des Berges!â€”ach kÃ¶nntest du von da die
+weite Gegend Ã¼berschauen!â€”die in einander geketteten HÃ¼gel und vertraulichen
+TÃ¤ler!â€”o kÃ¶nnte ich mich in ihnen verlieren!â€”ich eilte hin, und kehrte zurÃ¼ck, und
+hatte nicht gefunden, was ich hoffte. O es ist mit der Ferne wie mit der
+Zukunft! Ein grosses dÃ¤mmerndes Ganze ruht vor unserer Seele, unsere Empfindung
+verschwimmt darin wie unser Auge, und wir sehnen uns, ach! Unser ganzes Wesen
+hinzugeben, uns mit aller Wonne eines einzigen, grossen, herrlichen GefÃ¼hls ausfÃ¼llen
+zu lassen.â€”und ach! Wenn wir hinzueilen, wenn das Dort nun Hier wird, ist
+alles vor wie nach, und wir stehen in unserer Armut, in unserer
+EingeschrÃ¤nktheit, und unsere Seele lechzt nach entschlÃ¼pftem Labsale.
+
+So sehnt sich der unruhigste Vagabund zuletzt wieder nach seinem
+Vaterlande und findet in seiner HÃ¼tte, an der Brust seiner Gattin, in
+dem Kreise seiner Kinder, in den GeschÃ¤ften zu ihrer Erhaltung die
+Wonne, die er in der weiten Welt vergebens suchte.
+
+Wenn ich des Morgens mit Sonnenaufgange hinausgehe nach meinem Wahlheim und
+dort im Wirtsgarten mir meine Zuckererbsen selbst pflÃ¼cke, mich hinsetze, sie
+abfÃ¤dne und dazwischen in meinem Homer lese; wenn ich in der kleinen KÃ¼che mir
+einen Topf wÃ¤hle, mir Butter aussteche, Schoten ans Feuer stelle, zudecke und
+mich dazusetze, sie manchmal umzuschÃ¼tteln: da fÃ¼hl' ich so lebhaft, wie die
+Ã¼bermÃ¼tigen Freier der Penelope Ochsen und Schweine schlachten, zerlegen und braten.
+Es ist nichts, das mich so mit einer stillen, wahren Empfindung ausfÃ¼llte als
+die ZÃ¼ge patriarchalischen Lebens, die ich, Gott sei Dank, ohne Affektation in
+meine Lebensart verweben kann.
+
+Wie wohl ist mir's, dass mein Herz die simple, harmlose Wonne des Menschen
+fÃ¼hlen kann, der ein Krauthaupt auf seinen Tisch bringt, das er selbst gezogen,
+und nun nicht den Kohl allein, sondern all die guten Tage, den schÃ¶nen Morgen,
+da er ihn pflanzte, die lieblichen Abende, da er ihn begoss, und da er an dem
+fortschreitenden Wachstum seine Freude hatte, alle in einem Augenblicke wieder mitgeniesst.
+
+Am 29. Junius
+
+Vorgestern kam der Medikus hier aus der Stadt hinaus zum Amtmann und fand mich auf
+der Erde unter Lottens Kindern, wie einige auf mir herumkrabbelten, andere
+mich neckten, und wie ich sie kitzelte und ein grosses Geschrei mit ihnen
+erregte. Der Doktor, der eine sehr dogmatische Drahtpuppe ist, unterm Reden seine
+Manschetten in Falten legt und einen KrÃ¤usel ohne Ende herauszupft, fand dieses unter
+der WÃ¼rde eines gescheiten Menschen; das merkte ich an seiner Nase. Ich liess
+mich aber in nichts stÃ¶ren, liess ihn sehr vernÃ¼nftige Sachen abhandeln und
+baute den Kindern ihre KartenhÃ¤user wieder, die sie zerschlagen hatten. Auch
+ging er darauf in der Stadt herum und beklagte, des Amtmanns Kinder wÃ¤ren so
+schon ungezogen genug, der Werther verderbe sie nun vÃ¶llig.
+
+Ja, lieber Wilhelm, meinem Herzen sind die Kinder am nÃ¤chsten auf der Erde.
+Wenn ich ihnen zusehe und in dem kleinen Dinge die Keime aller Tugenden, aller
+KrÃ¤fte sehe, die sie einmal so nÃ¶tig brauchen werden; wenn ich in dem Eigensinne
+kÃ¼nftige Standhaftigkeit und Festigkeit des Charakters, in dem Mutwillen guten
+Humor und Leichtigkeit, Ã¼ber die Gefahren der Welt hinzuschlÃ¼pfen, erblicke,
+alles so unverdorben, so ganz!â€”immer, immer wiederhole ich dann die goldenen
+Worte des Lehrers der Menschen:"wenn ihr nicht werdet wie eines von diesen!" und
+nun, mein Bester, sie, die unseresgleichen sind, die wir als unsere Muster
+ansehen sollten, behandeln wir als Untertanen. Sie sollen keinen Willen
+haben!â€”haben wir denn keinen? Und wo liegt das Vorrecht?â€”weil wir Ã¤lter sind und
+gescheiter!â€”guter Gott von deinem Himmel, alte Kinder siehst du und junge Kinder, und nichts
+weiter; und an welchen du mehr Freude hast, das hat dein Sohn schon lange
+verkÃ¼ndigt. Aber sie glauben an ihn und hÃ¶ren ihn nichtâ€”das ist auch was Altes!â€”und
+bilden ihre Kinder nach sich undâ€”Adieu, Wilhelm! Ich mag darÃ¼ber nicht weiter
+radotieren.
+
+Am 1. Julius
+
+Was Lotte einem Kranken sein muss, fÃ¼hl' ich an meinem eigenen Herzen, das
+Ã¼bler dran ist als manches, das auf dem Siechbette verschmachtet. Sie wird
+einige Tage in der Stadt bei einer rechtschaffnen Frau zubringen, die sich nach
+der Aussage der Ã„rzte ihrem Ende naht und in diesen letzten Augenblicken
+Lotten um sich haben will. Ich war vorige Woche mit ihr, den Pfarrer von St. zu
+besuchen; ein Ã–rtchen, das eine Stunde seitwÃ¤rts im Gebirge liegt. Wir kamen gegen
+vier dahin. Lotte hatte ihre zweite Schwester mitgenommen. Als wir in den mit
+zwei hohen NussbÃ¤umen Ã¼berschatteten Pfarrhof traten, sass der gute alte Mann auf
+einer Bank vor der HaustÃ¼r, und da er Lotten sah, ward er wie neu belebt, vergass
+seinen Knotenstock und wagte sich auf, ihr entgegen. Sie lief hin zu ihm, nÃ¶tigte
+ihn sich niederzulassen, indem sie sich zu ihm setzte, brachte viele GrÃ¼sse von
+ihrem Vater, herzte seinen garstigen, schmutzigen jÃ¼ngsten Buben, das Quakelchen
+seines Alters. Du hÃ¤ttest sie sehen sollen, wie sie den Alten beschÃ¤ftigte, wie
+sie ihre Stimme erhob, um seinen halb tauben Ohren vernehmlich zu werden, wie
+sie ihm von jungen, robusten Leuten erzÃ¤hlte, die unvermutet gestorben wÃ¤ren,
+von der Vortrefflichkeit des Karlsbades, und wie sie seinen Entschluss lobte,
+kÃ¼nftigen Sommer hinzugehen, wie sie fand, dass er viel besser aussÃ¤he, viel munterer
+sei als das letztemal, da sie ihn gesehn.â€”ich hatte indes der Frau Pfarrerin
+meine HÃ¶flichkeiten gemacht. Der Alte wurde ganz munter, und da ich nicht umhin
+konnte, die schÃ¶nen NussbÃ¤ume zu loben, die uns so lieblich beschatteten, fing er
+an, uns, wiewohl mit einiger Beschwerlichkeit, die Geschichte davon zu
+geben.â€”"den alten", sagte er,"wissen wir nicht, wer den gepflanzt hat; einige sagen
+dieser, andere jener Pfarrer. Der jÃ¼ngere aber dort hinten ist so alt als meine
+Frau, im Oktober funfzig Jahr. Ihr Vater pflanzte ihn des Morgens, als sie gegen
+Abend geboren wurde. Er war mein Vorfahr im Amt, und wie lieb ihm der Baum war,
+ist nicht zu sagen; mir ist er's gewiss nicht weniger. Meine Frau sass darunter
+auf einem Balken und strickte, da ich vor siebenundzwanzig Jahren als ein
+armer Student zum erstenmale hier in den Hof kam".â€”Lotte fragte nach seiner
+Tochter; es hiess, sie sei mit Herrn Schmidt auf die Wiese hinaus zu den Arbeitern,
+und der Alte fuhr in seiner ErzÃ¤hlung fort: wie sein Vorfahr ihn liebgewonnen
+und die Tochter dazu, und wie er erst sein Vikar und dann sein Nachfolger
+geworden. Die Geschichte war nicht lange zu Ende, als die Jungfer Pfarrerin mit dem
+sogenannten Herrn Schmidt durch den Garten herkam: sie bewillkommte Lotten mit
+herzlicher WÃ¤rme, und ich muss sagen, sie gefiel mir nicht Ã¼bel; eine rasche,
+wohlgewachsene BrÃ¼nette, die einen die kurze Zeit Ã¼ber auf dem Lande wohl unterhalten
+hÃ¤tte. Ihr Liebhaber (denn als solchen stellte sich Herr Schmidt gleich dar), ein
+feiner, doch stiller Mensch, der sich nicht in unsere GesprÃ¤che mischen wollte, ob
+ihn gleich Lotte immer hereinzog. Was mich am meisten betrÃ¼bte, war, dass ich
+an seinen GesichtszÃ¼gen zu bemerken schien, es sei mehr Eigensinn und Ã¼bler
+Humor als EingeschrÃ¤nktheit des Verstandes, der ihn sich mitzuteilen hinderte.
+In der Folge ward dies leider nur zu deutlich; denn als Friederike beim
+Spazierengehen mit Lotten und gelegentlich auch mit mir ging, wurde des Herrn Angesicht,
+das ohnedies einer brÃ¤unlichen Farbe war, so sichtlich verdunkelt, dass es Zeit
+war, dass Lotte mich beim Ã„rmel zupfte und mir zu verstehn gab, dass ich mit
+Friederiken zu artig getan. Nun verdriesst mich nichts mehr, als wenn die Menschen
+einander plagen, am meisten, wenn junge Leute in der BlÃ¼te des Lebens, da sie am
+offensten fÃ¼r alle Freuden sein kÃ¶nnten, einander die paar guten Tage mit Fratzen
+verderben und nur erst zu spÃ¤t das Unersetzliche ihrer Verschwendung einsehen. Mich
+wurmte das, und ich konnte nicht umhin, da wir gegen Abend in den Pfarrhof
+zurÃ¼ckkehrten und an einem Tische Milch assen und das GesprÃ¤ch auf Freude und Leid der
+Welt sich wendete, den Faden zu ergreifen und recht herzlich gegen die Ã¼ble
+Laune zu reden.â€”"wir Menschen beklagen uns oft", fing ich an, "dass der guten
+Tage so wenig sind und der schlimmen so viel, und, wie mich dÃ¼nkt, meist mit
+Unrecht. Wenn wir immer ein offenes Herz hÃ¤tten, das Gute zu geniessen, das uns Gott
+fÃ¼r jeden Tag bereitet, wir wÃ¼rden alsdann auch Kraft genug haben, das Ãœbel zu
+tragen, wenn es kommt". â€”"Wir haben aber unser GemÃ¼t nicht in unserer Gewalt",
+versetzte die Pfarrerin, "wie viel hÃ¤ngt vom KÃ¶rper ab! Wenn einem nicht wohl ist,
+ist's einem Ã¼berall nicht recht".â€”Ich gestand ihr das ein.â€”"Wir wollen es also",
+fuhr ich fort,"als eine Krankheit ansehen und fragen, ob dafÃ¼r kein Mittel
+ist?"â€”"Das lÃ¤sst sich hÃ¶ren", sagte Lotte, "ich glaube wenigstens, dass viel von uns
+abhÃ¤ngt. Ich weiss es an mir. Wenn mich etwas neckt und mich verdriesslich machen
+will, spring' ich auf und sing' ein paar ContretÃ¤nze den Garten auf und ab,
+gleich ist's weg".â€”"das war's, was ich sagen wollte,"versetzte ich,"es ist mit
+der Ã¼blen Laune vÃ¶llig wie mit der TrÃ¤gheit, denn es ist eine Art von
+TrÃ¤gheit. Unsere Natur hÃ¤ngt sehr dahin, und doch, wenn wir nur einmal die Kraft
+haben, uns zu ermannen, geht uns die Arbeit frisch von der Hand, und wir finden
+in der TÃ¤tigkeit ein wahres VergnÃ¼gen". â€”Friederike war sehr aufmerksam, und
+der junge Mensch wandte mir ein, dass man nicht Herr Ã¼ber sich selbst sei und
+am wenigsten Ã¼ber seine Empfindungen gebieten kÃ¶nne.â€”"es ist hier die Frage
+von einer unangenehmen Empfindung", versetzte ich, "die doch jedermann gerne
+los ist; und niemand weiss, wie weit seine KrÃ¤fte gehen, bis er sie versucht
+hat. Gewiss, wer krank ist, wird bei allen Ã„rzten herumfragen, und die grÃ¶ssten
+Resignationen, die bittersten Arzeneien wird er nicht abweisen, um seine gewÃ¼nschte
+Gesundheit zu erhalten".â€”ich bemerkte, dass der ehrliche Alte sein GehÃ¶r anstrengte,
+um an unserm Diskurse teilzunehmen, ich erhob die Stimme, indem ich die Rede
+gegen ihn wandte". Man predigt gegen so viele Laster", sagte ich, "ich habe noch
+nie gehÃ¶rt, dass man gegen die Ã¼ble Laune vom Predigtstuhle gearbeitet
+hÃ¤tte.â€”"Das mÃ¼ssten die Stadtpfarrer tun", sagte er, "die Bauern haben keinen bÃ¶sen
+Humor; doch kÃ¶nnte es auch zuweilen nicht schaden, es wÃ¤re eine Lektion fÃ¼r seine
+Frau wenigstens und fÃ¼r den Herrn Amtmann".â€”Die Gesellschaft lachte, und er
+herzlich mit, bis er in einen Husten verfiel, der unsern Diskurs eine Zeitlang
+unterbrach; darauf denn der junge Mensch wieder das Wort nahm: "Sie nannten den bÃ¶sen
+Humor ein Laster; mich deucht, das ist Ã¼bertrieben".â€”"Mit nichten", gab ich zur
+Antwort, "wenn das, womit man sich selbst und seinem NÃ¤chsten schadet, diesen Namen
+verdient. Ist es nicht genug, dass wir einander nicht glÃ¼cklich machen kÃ¶nnen, mÃ¼ssen
+wir auch noch einander das VergnÃ¼gen rauben, das jedes Herz sich noch manchmal
+selbst gewÃ¤hren kann? Und nennen Sie mir den Menschen, der Ã¼bler Laune ist und so
+brav dabei, sie zu verbergen, sie allein zu tragen, ohne die Freude um sich her
+zu zerstÃ¶ren! Oder ist sie nicht vielmehr ein innerer Unmut Ã¼ber unsere
+eigene UnwÃ¼rdigkeit, ein Missfallen an uns selbst, das immer mit einem Neide
+verknÃ¼pft ist, der durch eine tÃ¶richte Eitelkeit aufgehetzt wird? Wir sehen
+glÃ¼ckliche Menschen, die wir nicht glÃ¼cklich machen, und das ist unertrÃ¤glich".â€”Lotte
+lÃ¤chelte mich an, da sie die Bewegung sah, mit der ich redete, und eine TrÃ¤ne in
+Friederikens Auge spornte mich fortzufahren.â€”"Wehe denen", sagte ich, "die sich der
+Gewalt bedienen, die sie Ã¼ber ein Herz haben, um ihm die einfachen Freuden zu
+rauben, die aus ihm selbst hervorkeimen. Alle Geschenke, alle GefÃ¤lligkeiten der
+Welt ersetzen nicht einen Augenblick VergnÃ¼gen an sich selbst, den uns eine
+neidische Unbehaglichkeit unsers Tyrannen vergÃ¤llt hat".
+
+Mein ganzes Herz war voll in diesem Augenblicke; die Erinnerung so manches
+Vergangenen drÃ¤ngte sich an meine Seele, und die TrÃ¤nen kamen mir in die Augen.
+
+"Wer sich das nur tÃ¤glich sagte",rief ich aus,"du vermagst nichts auf deine
+Freunde, als ihnen ihre Freuden zu lassen und ihr GlÃ¼ck zu vermehren, indem du es
+mit ihnen geniessest. Vermagst du, wenn ihre innere Seele von einer
+Ã¤ngstigenden Leidenschaft gequÃ¤lt, vom Kummer zerrÃ¼ttet ist, ihnen einen Tropfen
+Linderung zu geben?
+
+Und wenn die letzte, bangste Krankheit dann Ã¼ber das GeschÃ¶pf herfÃ¤llt, das du
+in blÃ¼henden Tagen untergraben hast, und sie nun daliegt in dem
+erbÃ¤rmlichsten Ermatten, das Auge gefÃ¼hllos gen Himmel sieht, der Todesschweiss auf der
+blassen Stirne abwechselt, und du vor dem Bette stehst wie ein Verdammter, in dem
+innigsten GefÃ¼hl, dass du nichts vermagst mit deinem ganzen VermÃ¶gen, und die Angst
+dich inwendig krampft, dass du alles hingeben mÃ¶chtest, dem untergehenden
+GeschÃ¶pfe einen Tropfen StÃ¤rkung, einen Funken Mut einflÃ¶ssen zu kÃ¶nnen".
+
+Die Erinnerung einer solchen Szene, wobei ich gegenwÃ¤rtig war, fiel mit ganzer
+Gewalt bei diesen Worten Ã¼ber mich. Ich nahm das Schnupftuch vor die Augen und
+verliess die Gesellschaft, und nur Lottens Stimme, die mir rief, wir wollten fort,
+brachte mich zu mir selbst. Und wie sie mich auf dem Wege schalt Ã¼ber den zu
+warmen Anteil an allem, und dass ich drÃ¼ber zugrunde gehen wÃ¼rde! Dass ich mich
+schonen sollte!â€”O der Engel! Um deinetwillen muss ich leben!
+
+Am 6. Julius
+
+Sie ist immer um ihre sterbende Freundin, und ist immer dieselbe, immer das
+gegenwÃ¤rtige, holde GeschÃ¶pf, das, wo sie hinsieht, Schmerzen lindert und GlÃ¼ckliche
+macht. Sie ging gestern abend mit Marianen und dem kleinen Malchen spazieren, ich
+wusste es und traf sie an, und wir gingen zusammen. Nach einem Wege von
+anderthalb Stunden kamen wir gegen die Stadt zurÃ¼ck, an den Brunnen, der mir so wert
+und nun tausendmal werter ist. Lotte setzte sich aufs MÃ¤uerchen, wir standen
+vor ihr. Ich sah umher, ach, und die Zeit, da mein Herz so allein war, lebte
+wieder vor mir auf.â€”"Lieber Brunnen", sagte ich, "seither hab' ich nicht mehr an
+deiner KÃ¼hle geruht, hab' in eilendem VorÃ¼bergehn dich manchmal nicht
+angesehn".â€”Ich blickte hinab und sah, dass Malchen mit einem Glase Wasser sehr beschÃ¤ftigt
+heraufstieg.â€”Ich sah Lotten an und fÃ¼hlte alles, was ich an ihr habe. Indem kommt Malchen
+mit einem Glase. Mariane wollt' es ihr abnehmen: "nein!" rief das Kind mit dem
+sÃ¼ssesten Ausdrucke,"nein, Lottchen, du sollst zuerst trinken!"â€”ich ward Ã¼ber die
+Wahrheit, Ã¼ber die GÃ¼te, womit sie das ausrief, so entzÃ¼ckt, dass ich meine
+Empfindung mit nichts ausdrÃ¼cken konnte, als ich nahm das Kind von der Erde und kÃ¼sste
+es lebhaft, das sogleich zu schreien und zu weinen anfing.â€”"Sie haben Ã¼bel
+getan", sagte Lotte.â€”Ich war betroffen.â€”"komm, Malchen, "fuhr sie fort, indem sie
+es bei der Hand nahm und die Stufen hinabfÃ¼hrte, "da wasche dich aus der
+frischen Quelle geschwind, geschwind, da tut's nichts".â€”Wie ich so dastand und
+zusah, mit welcher Emsigkeit das Kleine seinen nassen HÃ¤ndchen die Backen rieb,
+mit welchem Glauben, dass durch die Wunderquelle alle Verunreinigung abgespÃ¼lt
+und die Schmach abgetan wÃ¼rde, einen hÃ¤sslichen Bart zu kriegen; wie Lotte
+sagte: "es ist genug!" und das Kind doch immer eifrig fortwusch, als wenn Viel
+mehr tÃ¤te als Wenigâ€”ich sage dir, Wilhelm, ich habe mit mehr Respekt nie einer
+Taufhandlung beigewohnt; und als Lotte heraufkam, hÃ¤tte ich mich gern vor ihr
+niedergeworfen wie vor einem Propheten, der die Schulden einer Nation weggeweiht hat.
+
+Des Abends konnte ich nicht umhin, in der Freude meines Herzens den Vorfall
+einem Manne zu erzÃ¤hlen, dem ich Menschensinn zutraute, weil er Verstand hat;
+aber wie kam ich an! Er sagte, das sei sehr Ã¼bel von Lotten gewesen; man solle
+den Kindern nichts weis machen; dergleichen gebe zu unzÃ¤hligen IrrtÃ¼mern und
+Aberglauben Anlass, wovor man die Kinder frÃ¼hzeitig bewahren mÃ¼sse.â€”nun fiel mir ein,
+dass der Mann vor acht Tagen hatte taufen lassen, drum liess ich's vorbeigehen
+und blieb in meinem Herzen der Wahrheit getreu: wir sollen es mit den Kindern
+machen wie Gott mit uns, der uns am glÃ¼cklichsten macht, wenn er uns in
+freundlichem Wahne so hintaumeln lÃ¤sst.
+
+Am 8. Julius
+
+Was man ein Kind ist! Was man nach so einem Blicke geizt! Was man ein Kind
+ist!â€”Wir waren nach Wahlheim gegangen. Die Frauenzimmer fuhren hinaus, und wÃ¤hrend
+unserer SpaziergÃ¤nge glaubte ich in Lottens schwarzen Augenâ€”ich bin ein Tor,
+verzeih mir's! Du solltest sie sehen, diese Augen.â€”Dass ich kurz bin (denn die
+Augen fallen mir zu vor Schlaf): siehe, die Frauenzimmer stiegen ein, da standen
+um die Kutsche der junge W., Selstadt und Audran und ich. Da ward aus dem
+Schlage geplaudert mit den Kerlchen, die freilich leicht und lÃ¼ftig genug
+waren.â€”ich suchte Lottens Augen: ach, sie gingen von einem zum andern! Aber auf mich!
+Mich! Mich! Der ganz allein auf sie resigniert dastand, fielen sie nicht!â€”Mein
+Herz sagte ihr tausend Adieu! Und sie sah mich nicht! Die Kutsche fuhr vorbei,
+und eine TrÃ¤ne stand mir im Auge. Ich sah ihr nach und sah Lottens Kopfputz
+sich zum Schlage herauslehnen, und sie wandte sich um zu sehen, ach! Nach
+mir?â€”Lieber! In dieser Ungewissheit schwebe ich; das ist mein Trost: vielleicht hat sie
+sich nach mir umgesehen! Vielleicht!â€”Gute Nacht! O, was ich ein Kind bin!
+
+Am 10. Julius
+
+Die alberne Figur, die ich mache, wenn in Gesellschaft von ihr gesprochen
+wird, solltest du sehen! Wenn man mich nun gar fragt, wie sie mir
+gefÃ¤llt?â€”gefÃ¤llt! Das Wort hasse ich auf den Tod. Was muss das fÃ¼r ein Mensch sein, dem Lotte
+gefÃ¤llt, dem sie nicht alle Sinne, alle Empfindungen ausfÃ¼llt! GefÃ¤llt! GefÃ¤llt!
+Neulich fragte mich einer, wie mir Ossian gefiele!
+
+Am 11. Julius
+
+Frau M. ist sehr schlecht; ich bete fÃ¼r ihr Leben, weil ich mit Lotten dulde.
+Ich sehe sie selten bei einer Freundin, und heute hat sie mir einen
+wunderbaren Vorfall erzÃ¤hlt.â€”der alte M. ist ein geiziger, rangiger Filz, der seine
+Frau im Leben was Rechts geplagt und eingeschrÃ¤nkt hat; doch hat sich die Frau
+immer durchzuhelfen gewusst. Vor wenigen Tagen, als der Arzt ihr das Leben
+abgesprochen hatte, liess sie ihren Mann kommen (Lotte war im Zimmer) und redete ihn
+also an: "ich muss dir eine Sache gestehen, die nach meinem Tode Verwirrung und
+Verdruss machen kÃ¶nnte. Ich habe bisher die Haushaltung gefÃ¼hrt, so ordentlich und
+sparsam als mÃ¶glich; allein du wirst mir verzeihen, dass ich dich diese dreissig
+Jahre her hintergangen habe. Du bestimmtest im Anfange unserer Heirat ein
+Geringes fÃ¼r die Bestreitung der KÃ¼che und anderer hÃ¤uslichen Ausgaben. Als unsere
+Haushaltung stÃ¤rker wurde, unser Gewerbe grÃ¶sser, warst du nicht zu bewegen, mein
+Wochengeld nach dem VerhÃ¤ltnisse zu vermehren; kurz, du weisst, dass du in den Zeiten,
+da sie am grÃ¶ssten war, verlangtest, ich solle mit sieben Gulden die Woche
+auskommen.
+
+Die habe ich denn ohne Widerrede genommen und mir den Ãœberschuss wÃ¶chentlich
+aus der Losung geholt, da niemand vermutete, dass die Frau die Kasse bestehlen
+wÃ¼rde. Ich habe nichts verschwendet und wÃ¤re auch, ohne es zu bekennen, getrost
+der Ewigkeit entgegengegangen, wenn nicht diejenige, die nach mir das
+Hauswesen zu fÃ¼hren hat, sich nicht zu helfen wissen wÃ¼rde, und du doch immer darauf
+bestehen kÃ¶nntest, deine erste Frau sei damit ausgekommen".
+
+Ich redete mit Lotten Ã¼ber die unglaubliche Verblendung des Menschensinns, dass
+einer nicht argwohnen soll, dahinter mÃ¼sse was anders stecken, wenn eins mit
+sieben Gulden hinreicht, wo man den Aufwand vielleicht um zweimal so viel sieht.
+Aber ich habe selbst Leute gekannt, die des Propheten ewiges Ã–lkrÃ¼glein ohne
+Verwunderung in ihrem Hause angenommen hÃ¤tten.
+
+Am 13. Julius
+
+Nein, ich betrÃ¼ge mich nicht! Ich lese in ihren schwarzen Augen wahre
+Teilnehmung an mir und meinem Schicksal. Ja ich fÃ¼hle, und darin darf ich meinem
+Herzen trauen, dass sieâ€”o darf ich, kann ich den Himmel in diesen Worten
+aussprechen?â€”dass sie mich liebt!
+
+Mich liebt!â€”und wie wert ich mir selbst werde, wie ichâ€”dir darf ich's wohl
+sagen, du hast Sinn fÃ¼r so etwasâ€”wie ich mich selbst anbete, seitdem sie mich
+liebt!
+
+Ob das Vermessenheit ist oder GefÃ¼hl des wahren VerhÃ¤ltnisses?â€”ich kenne den
+Menschen nicht, von dem ich etwas in Lottens Herzen fÃ¼rchtete. Und dochâ€”wenn sie
+von ihrem BrÃ¤utigam spricht, mit solcher WÃ¤rme, solcher Liebe von ihm
+sprichtâ€”da ist mir's wie einem, der aller seiner Ehren und WÃ¼rden entsetzt und dem
+der Degen genommen wird.
+
+Am 16. Julius
+
+Ach wie mir das durch alle Adern lÃ¤uft, wenn mein Finger unversehens den
+ihrigen berÃ¼hrt, wenn unsere FÃ¼sse sich unter dem Tische begegnen! Ich ziehe zurÃ¼ck
+wie vom Feuer, und eine geheime Kraft zieht mich wieder vorwÃ¤rtsâ€”mir wird's so
+schwindelig vor allen Sinnen.â€”O! Und ihre Unschuld, ihre unbefangene Seele fÃ¼hlt
+nicht, wie sehr mich die kleinen Vertraulichkeiten peinigen. Wenn sie gar im
+GesprÃ¤ch ihre Hand auf die meinige legt und im Interesse der Unterredung nÃ¤her zu
+mir rÃ¼ckt, dass der himmlische Atem ihres Mundes meine Lippen erreichen
+kann:â€”ich glaube zu versinken, wie vom Wetter gerÃ¼hrt.â€”und, Wilhelm! Wenn ich mich
+jemals unterstehe, diesen Himmel, dieses Vertrauenâ€”! Du verstehst mich. Nein,
+mein Herz ist so verderbt nicht! Schwach! Schwach genug!â€”und ist das nicht
+Verderben?â€”sie ist mir heilig. Alle Begier schweigt in ihrer Gegenwart. Ich weiss nie, wie
+mir ist, wenn ich bei ihr bin; es ist, als wenn die Seele sich mir in allen
+Nerven umkehrte.â€”sie hat eine Melodie, die sie auf dem Klaviere spielet mit der
+Kraft eines Engels, so simpel und so geistvoll! Es ist ihr Leiblied, und mich
+stellt es von aller Pein, Verwirrung und Grillen her, wenn sie nur die erste Note
+davon greift.
+
+Kein Wort von der Zauberkraft der alten Musik ist mir unwahrscheinlich. Wie
+mich der einfache Gesang angreift! Und wie sie ihn anzubringen weiss, oft zur
+Zeit, wo ich mir eine Kugel vor den Kopf schiessen mÃ¶chte! Die Irrung und
+Finsternis meiner Seele zerstreut sich, und ich atme wieder freier.
+
+Am 18. Julius
+
+Wilhelm, was ist unserem Herzen die Welt ohne Liebe! Was eine Zauberlaterne ist
+ohne Licht! Kaum bringst du das LÃ¤mpchen hinein, so scheinen dir die buntesten
+Bilder an deine weisse Wand! Und wenn's nichts wÃ¤re als das, als vorÃ¼bergehende
+Phantome, so macht's doch immer unser GlÃ¼ck, wenn wir wie frische Jungen davor
+stehen und uns Ã¼ber die Wundererscheinungen entzÃ¼cken. Heute konnte ich nicht zu
+Lotten, eine unvermeidliche Gesellschaft hielt mich ab. Was war zu tun? Ich
+schickte meinen Diener hinaus, nur um einen Menschen um mich zu haben, der ihr
+heute nahe gekommen wÃ¤re. Mit welcher Ungeduld ich ihn erwartete, mit welcher
+Freude ich ihn wiedersah! Ich hÃ¤tte ihn gern beim Kopfe genommen und gekÃ¼sst, wenn
+ich mich nicht geschÃ¤mt hÃ¤tte.
+
+Man erzÃ¤hlt von dem Bononischen Steine, dass er, wenn man ihn in die Sonne
+legt, ihre Strahlen anzieht und eine Weile bei Nacht leuchtet. So war mir's mit
+dem Burschen. Das GefÃ¼hl, dass ihre Augen auf seinem Gesichte, seinen Backen,
+seinen RockknÃ¶pfen und dem Kragen am Surtout geruht hatten, machte mir das alles
+so heilig, so wert! Ich hÃ¤tte in dem Augenblick den Jungen nicht um tausend
+Taler gegeben. Es war mir so wohl in seiner Gegenwart.â€”bewahre dich Gott, dass du
+darÃ¼ber lachest. Wilhelm, sind das Phantome, wenn es uns wohl ist?
+
+Den 19. Julius
+
+"Ich werde sie sehen!" ruf' ich morgens aus, wenn ich mich ermuntere und mit
+aller Heiterkeit der schÃ¶nen Sonne entgegenblicke; "ich werde sie sehen!" und da
+habe ich fÃ¼r den ganzen Tag keinen Wunsch weiter. Alles, alles verschlingt sich
+in dieser Aussicht.
+
+Eure Idee will noch nicht die meinige werden, dass ich mit dem Gesandten nach
+*** gehen soll. Ich liebe die Subordination nicht sehr, und wir wissen alle,
+dass der Mann noch dazu ein widriger Mensch ist. Meine Mutter mÃ¶chte mich gern
+in AktivitÃ¤t haben, sagst du, das hat mich zu lachen gemacht. Bin ich jetzt
+nicht auch aktiv, und ist's im Grunde nicht einerlei, ob ich Erbsen zÃ¤hle oder
+Linsen? Alles in der Welt lÃ¤uft doch auf eine Lumperei hinaus, und ein Mensch, der
+um anderer willen, ohne dass es seine eigene Leidenschaft, sein eigenes
+BedÃ¼rfnis ist, sich um Geld oder Ehre oder sonst was abarbeitet, ist immer ein Tor.
+
+Am 24. Julius
+
+Da dir so sehr daran gelegen ist, dass ich mein Zeichnen nicht vernachlÃ¤ssige,
+mÃ¶chte ich lieber die ganze Sache Ã¼bergehen als dir sagen, dass zeither wenig
+getan wird.
+
+Noch nie war ich glÃ¼cklicher, noch nie war meine Empfindung an der Natur, bis
+aufs Steinchen, aufs GrÃ¤schen herunter, voller und inniger, und dochâ€”ich weiss
+nicht, wie ich mich ausdrÃ¼cken soll, meine vorstellende Kraft ist so schwach,
+alles schwimmt und schwankt so vor meiner Seele, dass ich keinen Umriss packen
+kann; aber ich bilde mir ein, wenn ich Ton hÃ¤tte oder Wachs, so wollte ich's
+wohl herausbilden. Ich werde auch Ton nehmen, wenn's lÃ¤nger wÃ¤hrt, und kneten,
+uns sollten's Kuchen werden!
+
+Lottens PortrÃ¤t habe ich dreimal angefangen, und habe mich dreimal prostituiert;
+das mich um so mehr verdriesst, weil ich vor einiger Zeit sehr glÃ¼cklich im
+Treffen war. Darauf habe ich denn ihren Schattenriss gemacht, und damit soll mir
+g'nÃ¼gen.
+
+Ja, liebe Lotte, ich will alles besorgen und bestellen; geben Sie mir nur mehr
+AuftrÃ¤ge, nur recht oft. Um eins bitte ich Sie: keinen Sand mehr auf die Zettelchen,
+die Sie mir schreiben. Heute fÃ¼hrte ich es schnell nach der Lippe, und die
+ZÃ¤hne knisterten mir.
+
+Am 26. Julius
+
+Ich habe mir schon manchmal vorgenommen, sie nicht so oft zu sehn. Ja wer das
+halten kÃ¶nnte! Alle Tage unterlieg' ich der Versuchung und verspreche mir heilig:
+morgen willst du einmal wegbleiben. Und wenn der Morgen kommt, finde ich doch
+wieder eine unwiderstehliche Ursache, und ehe ich mich's versehe, bin ich bei
+ihr. Entweder sie hat des Abends gesagt: "Sie kommen doch morgen?"â€”wer kÃ¶nnte
+da wegbleiben? Oder sie gibt mir einen Auftrag, und ich finde schicklich, ihr
+selbst die Antwort zu bringen; oder der Tag ist gar zu schÃ¶n, ich gehe nach
+Wahlheim, und wenn ich nun da bin, ist's nur noch eine halbe Stunde zu ihr!â€”ich bin
+zu nah in der AtmosphÃ¤reâ€”zuck! So bin ich dort. Meine Grossmutter hatte ein
+MÃ¤rchen vom Magnetenberg: die Schiffe, die zu nahe kamen, wurden auf einmal alles
+Eisenwerks beraubt, die NÃ¤gel flogen dem Berge zu, und die armen Elenden scheiterten
+zwischen den Ã¼bereinander stÃ¼rzenden Brettern.
+
+Am 30. Julius
+
+Albert ist angekommen, und ich werde gehen; und wenn er der beste, der edelste
+Mensch wÃ¤re, unter den ich mich in jeder Betrachtung zu stellen bereit wÃ¤re, so
+wÃ¤r's unertrÃ¤glich, ihn vor meinem Angesicht im Besitz so vieler Vollkommenheit
+zu sehen.â€”Besitz!â€”genug, Wilhelm, der BrÃ¤utigam ist da! Ein braver, lieber
+Mann, dem man gut sein muss. GlÃ¼cklicherweise war ich nicht beim Empfange! Das
+hÃ¤tte mir das Herz zerrissen. Auch ist er so ehrlich und hat Lotten in meiner
+Gegenwart noch nicht ein einzigmal gekÃ¼sst. Das lohn' ihm Gott! Um des Respekts
+willen, den er vor dem MÃ¤dchen hat, muss ich ihn lieben. Er will mir wohl, und ich
+vermute, das ist Lottens Werk mehr als seiner eigenen Empfindung; denn darin sind
+die Weiber fein und haben recht; wenn sie zwei Verehrer in gutem Vernehmen mit
+einander erhalten kÃ¶nnen, ist der Vorteil immer ihr, so selten es auch angeht.
+
+Indes kann ich Alberten meine Achtung nicht versagen. Seine gelassene Aussenseite
+sticht gegen die Unruhe meines Charakters sehr lebhaft ab, die sich nicht
+verbergen lÃ¤sst. Er hat viel GefÃ¼hl und weiss, was er an Lotten hat. Erscheint wenig
+Ã¼ble Laune zu haben, und du weisst, das ist die SÃ¼nde, die ich Ã¤rger hasse am
+Menschen als alle andre.
+
+Er hÃ¤lt mich fÃ¼r einen Menschen von Sinn; und meine AnhÃ¤nglichkeit zu Lotten,
+meine warme Freude, die ich an allen ihren Handlungen habe, vermehrt seinen
+Triumph, und er liebt sie nur desto mehr. Ob er sie nicht einmal mit keiner
+EifersÃ¼chtelei peinigt, das lasse ich dahingestellt sein, wenigstens wÃ¼rd' ich an seinem
+Platz nicht ganz sicher vor diesem Teufel bleiben.
+
+Dem sei nun wie ihm wolle, meine Freude, bei Lotten zu sein, ist hin.
+Soll ich das Torheit nennen oder Verblendung?â€”was braucht's Namen!
+ErzÃ¤hlt die Sache an sich!â€”ich wusste alles, was ich jetzt weiss, ehe
+Albert kam; ich wusste, dass ich keine PrÃ¤tension an sie zu machen hatte,
+machte auch keineâ€”das heisst, insofern es mÃ¶glich ist, bei so viel
+LiebenswÃ¼rdigkeit nicht zu begehrenâ€”und jetzt macht der Fratze grosse
+Augen, da der andere nun wirklich kommt und ihm das MÃ¤dchen wegnimmt.
+
+Ich beisse die ZÃ¤hne auf einander und spott Ã¼ber mein Elend, und spottete derer
+doppelt und dreifach, die sagen kÃ¶nnten, ich sollte mich resignieren, und weil es
+nun einmal nicht anders sein kÃ¶nnte. â€”schafft mir diese StrohmÃ¤nner vom
+Halse!â€”ich laufe in den WÃ¤ldern herum, und wenn ich zu Lotten komme, und Albert bei
+ihr sitzt im GÃ¤rtchen unter der Laube, und ich nicht weiter kann, so bin ich
+ausgelassen nÃ¤rrisch und fange viel Possen, viel verwirrtes Zeug an. â€”"um Gottes
+willen", sagte mir Lotte heut, "ich bitte Sie, keine Szene wie die von gestern
+abend! Sie sind fÃ¼rchterlich, wenn Sie so lustig sind".â€”Unter uns, ich passe die
+Zeit ab, wenn er zu tun hat; wutsch! Bin ich drauss, und da ist mir's immer
+wohl, wenn ich sie allein finde.
+
+Am 8. August
+
+Ich bitte dich, lieber Wilhelm, es war gewiss nicht auf dich geredet, wenn ich
+die Menschen unertrÃ¤glich schalt, die von uns Ergebung in unvermeidliche
+Schicksale fordern. Ich dachte wahrlich nicht daran, dass du von Ã¤hnlicher Meinung
+sein kÃ¶nntest. Und im Grunde hast du recht. Nur eins, mein Bester! In der Welt
+ist es sehr selten mit dem Entweder-Oder getan; die Empfindungen und
+Handlungsweisen schattieren sich so mannigfaltig, als AbfÃ¤lle zwischen einer Habichtsâ€”und
+Stumpfnase sind.
+
+Du wirst mir also nicht Ã¼belnehmen, wenn ich dir dein ganzes Argument
+einrÃ¤ume und mich doch zwischen dem Entweder-Oder durchzustehlen suche.
+
+Entweder, sagst du, hast du Hoffnung auf Lotten, oder du hast keine. Gut, im ersten
+Fall suche sie durchzutreiben, suche die ErfÃ¼llung deiner WÃ¼nsche zu umfassen:
+im anderen Fall ermanne dich und suche einer elenden Empfindung los zu
+werden, die alle deine KrÃ¤fte verzehren muss.â€”Bester! Das ist wohl gesagt, undâ€”bald
+gesagt.
+
+Und kannst du von dem UnglÃ¼cklichen, dessen Leben unter einer schleichenden
+Krankheit unaufhaltsam allmÃ¤hlich abstirbt, kannst du von ihm verlangen, er solle
+durch einen Dolchstoss der Qual auf einmal ein Ende machen? Und raubt das Ãœbel,
+das ihm die KrÃ¤fte verzehrt, ihm nicht auch zugleich den Mut, sich davon zu
+befreien?
+
+Zwar kÃ¶nntest du mir mit einem verwandten Gleichnisse antworten: wer liesse sich
+nicht lieber den Arm abnehmen, als dass er durch Zaudern und Zagen sein Leben
+aufs Spiel setzte?â€”Ich weiss nicht!â€”Und wir wollen uns nicht in Gleichnissen
+herumbeissen. Genugâ€”ja, Wilhelm, ich habe manchmal so einen Augenblick aufspringenden,
+abschÃ¼ttelnden Muts, und daâ€”wenn ich nur wÃ¼sste wohin, ich ginge wohl.
+
+Abends
+
+Mein Tagebuch, das ich seit einiger Zeit vernachlÃ¤ssiget, fiel mir heut wieder
+in die HÃ¤nde, und ich bin erstaunt, wie ich so wissentlich in das alles,
+Schritt vor Schritt, hineingegangen bin! Wie ich Ã¼ber meinen Zustand immer so klar
+gesehen und doch gehandelt habe wie ein Kind, jetzt noch so klar sehe, und es noch
+keinen Anschein zur Besserung hat.
+
+Am 10. August
+
+Ich kÃ¶nnte das beste, glÃ¼cklichste Leben fÃ¼hren, wenn ich nicht ein Tor wÃ¤re.
+So schÃ¶ne UmstÃ¤nde vereinigen sich nicht leicht, eines Menschen Seele zu
+ergetzen, als die sind, in denen ich mich jetzt befinde. Ach so gewiss ist's, dass
+unser Herz allein sein GlÃ¼ck macht. â€”ein Glied der liebenswÃ¼rdigen Familie zu
+sein, von dem Alten geliebt zu werden wie ein Sohn, von den Kleinen wie ein
+Vater, und von Lotten! â€”dann der ehrliche Albert, der durch keine launische Unart
+mein GlÃ¼ck stÃ¶rt; der mich mit herzlicher Freundschaft umfasst; dem ich nach
+Lotten das Liebste auf der Welt bin!â€”Wilhelm, es ist eine Freude, uns zu hÃ¶ren,
+wenn wir spazierengehen und uns einander von Lotten unterhalten: es ist in der
+Welt nichts LÃ¤cherlichers erfunden worden als dieses VerhÃ¤ltnis, und doch
+kommen mir oft darÃ¼ber die TrÃ¤nen in die Augen.
+
+Wenn er mir von ihrer rechtschaffenen Mutter erzÃ¤hlt: wie sie auf ihrem
+Todbette Lotten ihr Haus und ihre Kinder Ã¼bergeben und ihm Lotten anbefohlen habe,
+wie seit der Zeit ein ganz anderer Geist Lotten belebt habe, wie sie, in der
+Sorge fÃ¼r ihre Wirtschaft und in dem Ernste, eine wahre Mutter geworden, wie
+kein Augenblick ihrer Zeit ohne tÃ¤tige Liebe, ohne Arbeit verstrichen, und
+dennoch ihre Munterkeit, ihr leichter Sinn sie nie dabei verlassen habe.â€”Ich gehe
+so neben ihm hin und pflÃ¼cke Blumen am Wege, fÃ¼ge sie sehr sorgfÃ¤ltig in
+einen Strauss undâ€”werfe sie in den vorÃ¼berfliessenden Strom und sehe ihnen nach,
+wie sie leise hinunterwallen.â€”Ich weiss nicht, ob ich dir geschrieben habe, dass
+Albert hier bleiben und ein Amt mit einem artigen Auskommen vom Hofe erhalten
+wird, wo er sehr beliebt ist. In Ordnung und Emsigkeit in GeschÃ¤ften habe ich
+wenig seinesgleichen gesehen.
+
+Am 12. August
+
+Gewiss, Albert ist der beste Mensch unter dem Himmel. Ich habe gestern eine
+wunderbare Szene mit ihm gehabt. Ich kam zu ihm, um Abschied von ihm zu nehmen; denn
+mich wandelte die Lust an, ins Gebirge zu reiten, von woher ich dir auch jetzt
+schreibe, und wie ich in der Stube auf und ab gehe, fallen mir seine Pistolen in die
+Augen.â€”"Borge mir die Pistolen", sagte ich, "zu meiner Reise".â€”"Meinetwegen", sagte er,
+"wenn du dir die MÃ¼he nehmen willst, sie zu laden; bei mir hÃ¤ngen sie nur pro
+forma".â€”Ich nahm eine herunter, und er fuhr fort: "seit mir meine Vorsicht einen so
+unartigen Streich gespielt hat, mag ich mit dem Zeuge nichts mehr zu tun haben".â€”Ich
+war neugierig, die Geschichte zu wissen.â€”"Ich hielt mich", erzÃ¤hlte er, "wohl
+ein Vierteljahr auf dem Lande bei einem Freunde auf, hatte ein paar Terzerolen
+ungeladen und schlief ruhig. Einmal an einem regnichten Nachmittage, da ich mÃ¼ssig
+sitze, weiss ich nicht, wie mir einfÃ¤llt: wir kÃ¶nnten Ã¼berfallen werden, wir
+kÃ¶nnten die Terzerolen nÃ¶tig haben und kÃ¶nntenâ€”du weisst ja, wie das ist.â€”ich gab
+sie dem Bedienten, sie zu putzen und zu laden; und der dahlt mit den MÃ¤dchen,
+will sie schrecken, und Gott weiss wie, das Gewehr geht los, da der Ladstock
+noch drin steckt, und schiesst den Ladstock einem MÃ¤dchen zur Maus herein an der
+rechten Hand und zerschlÃ¤gt ihr den Daumen. Da hatte ich das Lamentieren, und die
+Kur zu bezahlen obendrein, und seit der Zeit lass' ich alles Gewehr ungeladen.
+Lieber Schatz, was ist Vorsicht? Die Gefahr lÃ¤sst sich nicht auslernen! Zwar.â€”Nun
+weisst du, dass ich den Menschen sehr lieb habe bis auf seine Zwar; denn versteht
+sich's nicht von selbst, dass jeder allgemeine Satz Ausnahmen leidet? Aber so
+rechtfertig ist der Mensch! Wenn er glaubt, etwas Ãœbereiltes, Allgemeines, Halbwahres
+gesagt zu haben, so hÃ¶rt er dir nicht auf zu limitieren, zu modifizieren und
+abâ€”und zuzutun, bis zuletzt gar nichts mehr an der Sache ist.
+
+Und bei diesem Anlass kam er sehr tief in Text: ich hÃ¶rte endlich gar nicht
+weiter auf ihn, verfiel in Grillen, und mit einer auffahrenden GebÃ¤rde drÃ¼ckte
+ich mir die MÃ¼ndung der Pistole Ã¼bers rechte Aug' an die Stirn.â€”"Pfui!" sagte
+Albert, indem er mir die Pistole herabzog, "was soll das?"â€”"Sie ist nicht
+geladen", sagte ich.â€”"Und auch so, was soll's?" versetzte er ungeduldig. "Ich kann
+mir nicht vorstellen, wie ein Mensch so tÃ¶richt sein kann, sich zu erschiessen;
+der blosse Gedanke erregt mir Widerwillen".
+
+"Dass ihr Menschen", rief ich aus, "um von einer Sache zu reden, gleich sprechen
+mÃ¼sst: 'das ist tÃ¶richt, das ist klug, das ist gut, das ist bÃ¶s!' und was will
+das alles heissen? Habt ihr deswegen die innern VerhÃ¤ltnisse einer Handlung
+erforscht? Wisst ihr mit Bestimmtheit die Ursachen zu entwickeln, warum sie geschah,
+warum sie geschehen musste? HÃ¤ttet ihr das, ihr wÃ¼rdet nicht so eilfertig mit
+euren Urteilen sein". "Du wirst mir zugeben", sagte Albert, "dass gewisse
+Handlungen lasterhaft bleiben, sie mÃ¶gen geschehen, aus welchem Beweggrunde sie
+wollen". Ich zuckte die Achseln und gab's ihm zu.â€”"Doch, mein Lieber", fuhr ich
+fort, "finden sich auch hier einige Ausnahmen. Es ist wahr, der Diebstahl ist
+ein Laster: aber der Mensch, der, um sich und die Seinigen vom gegenwÃ¤rtigen
+Hungertode zu erretten, auf Raub ausgeht, verdient der Mitleiden oder Strafe? Wer
+hebt den ersten Stein auf gegen den Ehemann, der im gerechten Zorne sein
+untreues Weib und ihren nichtswÃ¼rdigen VerfÃ¼hrer aufopfert? Gegen das MÃ¤dchen, das
+in einer wonnevollen Stunde sich in den unaufhaltsamen Freuden der Liebe
+verliert? Unsere Gesetze selbst, diese kaltblÃ¼tigen Pedanten, lassen sich rÃ¼hren und
+halten ihre Strafe zurÃ¼ck".
+
+"Das ist ganz was anders", versetzte Albert, "weil ein Mensch, den seine
+Leidenschaften hinreissen, alle Besinnungskraft verliert und als ein Trunkener, als ein
+Wahnsinniger angesehen wird". "Ach ihr vernÃ¼nftigen Leute!" rief ich lÃ¤chelnd aus.
+"Leidenschaft! Trunkenheit! Wahnsinn! Ihr steht so gelassen, so ohne Teilnehmung da, ihr
+sittlichen Menschen, scheltet den Trinker, verabscheut den Unsinnigen, geht vorbei
+wie der Priester und dankt Gott wie der PharisÃ¤er, dass er euch nicht gemacht
+hat wie einen von diesen. Ich bin mehr als einmal trunken gewesen, meine
+Leidenschaften waren nie weit vom Wahnsinn, und beides reut mich nicht: denn ich habe in
+einem Masse begreifen lernen, wie man alle ausserordentlichen Menschen, die etwas
+Grosses, etwas UnmÃ¶glichscheinendes wirkten, von jeher fÃ¼r Trunkene und Wahnsinnige
+ausschreiten musste. Aber auch im gemeinen Leben ist's unertrÃ¤glich, fast einem jeden
+bei halbweg einer freien, edlen, unerwarteten Tat nachrufen zu hÃ¶ren: ' der
+Mensch ist trunken, der ist nÃ¤rrisch!' SchÃ¤mt euch, ihr NÃ¼chternen! SchÃ¤mt euch,
+ihr Weisen!" "Das sind nun wieder von deinen Grillen", sagte Albert, "du
+Ã¼berspannst alles und hast wenigstens hier gewiss unrecht, dass du den Selbstmord, wovon
+jetzt die Rede ist, mit grossen Handlungen vergleichst: da man es doch fÃ¼r nichts
+anders als eine SchwÃ¤che halten kann. Denn freilich ist es leichter zu sterben,
+als ein qualvolles Leben standhaft zu ertragen". Ich war im Begriff
+abzubrechen; denn kein Argument bringt mich so aus der Fassung, als wenn einer mit
+einem unbedeutenden Gemeinspruche angezogen kommt, wenn ich aus ganzem Herzen
+rede.
+
+Doch fasste ich mich, weil ich's schon oft gehÃ¶rt und mich Ã¶fter darÃ¼ber
+geÃ¤rgert hatte, und versetzte ihm mit einiger Lebhaftigkeit: "Du nennst das
+SchwÃ¤che? Ich bitte dich, lass dich vom Anscheine nicht verfÃ¼hren. Ein Volk, das
+unter dem unertrÃ¤glichen Joch eines Tyrannen seufzt, darfst du das schwach
+heissen, wenn es endlich aufgÃ¤rt und seine Ketten zerreisst? Ein Mensch, der Ã¼ber
+dem Schrecken, dass Feuer sein Haus ergriffen hat, alle KrÃ¤fte gespannt fÃ¼hlt
+und mit Leichtigkeit Lasten wegtrÃ¤gt, die er bei ruhigem Sinne kaum bewegen
+kann; einer, der in der Wut der Beleidigung es mit sechsen aufnimmt und sie
+Ã¼berwÃ¤ltig, sind die schwach zu nennen? Und, mein Guter, wenn Anstrengung StÃ¤rke ist,
+warum soll die Ãœberspannung das Gegenteil sein?"â€”Albert sah mich an und sagte:
+"nimm mir's nicht Ã¼bel, die Beispiele, die du gibst, scheinen hieher gar nicht
+zu gehÃ¶ren".â€”"Es mag sein", sagte ich, "man hat mir schon Ã¶fters vorgeworfen,
+dass meine Kombinationsart manchmal an Radotage grenze. Lasst uns denn sehen, ob
+wir uns auf eine andere Weise vorstellen kÃ¶nnen, wie dem Menschen zu Mute sein
+mag, der sich entschliesst, die sonst angenehme BÃ¼rde des Lebens abzuwerfen.
+Denn nur insofern wir mitempfinden, haben wir die Ehre, von einer Sache zu
+reden".
+
+"Die menschliche Natur", fuhr ich fort, "hat ihre Grenzen: sie kann Freude,
+Leid, Schmerzen bis auf einen gewissen Grad ertragen und geht zugrunde, sobald
+der Ã¼berstiegen ist. Hier ist also nicht die Frage, ob einer schwach oder
+stark ist, sondern ob er das Mass seines Leidens ausdauern kann, es mag nun
+moralisch oder kÃ¶rperlich sein. Und ich finde es ebenso wunderbar zu sagen, der
+Mensch ist feige, der sich das Leben nimmt, als es ungehÃ¶rig wÃ¤re, den einen
+Feigen zu nennen, der an einem bÃ¶sartigen Fieber stirbt".
+
+"Paradox! Sehr paradox!" rief Albert aus.â€”"Nicht so sehr, als du denkst", versetzte
+ich. "Du gibst mir zu, wir nennen das eine Krankheit zum Tode, wodurch die
+Natur so angegriffen wird, dass teils ihre KrÃ¤fte verzehrt, teils so ausser
+Wirkung gesetzt werden, dass sie sich nicht wieder aufzuhelfen, durch keine
+glÃ¼ckliche Revolution den gewÃ¶hnlichen Umlauf des Lebens wieder herzustellen fÃ¤hig
+ist.
+
+Nun, mein Lieber, lass uns das auf den Geist anwenden. Sieh den
+Menschen an in seiner EingeschrÃ¤nktheit, wie EindrÃ¼cke auf ihn wirken,
+Ideen sich bei ihm festsetzen, bis endlich eine wachsende Leidenschaft
+ihn aller ruhigen Sinneskraft beraubt und ihn zugrunde richtet.
+
+Vergebens, dass der gelassene, vernÃ¼nftige Mensch den Zustand UnglÃ¼cklichen Ã¼bersieht,
+vergebens, dass er ihm zuredet! Ebenso wie ein Gesunder, der am Bette des Kranken
+steht, ihm von seinen KrÃ¤ften nicht das geringste einflÃ¶ssen kann".
+
+Alberten war das zu allgemein gesprochen. Ich erinnerte ihn an ein MÃ¤dchen, das man
+vor weniger Zeit im Wasser tot gefunden, und wiederholte ihm ihre
+Geschichte.â€”"Ein gutes, junges GeschÃ¶pf, das in dem engen Kreise hÃ¤uslicher
+BeschÃ¤ftigungen, wÃ¶chentlicher bestimmter Arbeit herangewachsen war, das weiter keine
+Aussicht von VergnÃ¼gen kannte, als etwa Sonntags in einem nach und nach
+zusammengeschafften Putz mit ihresgleichen um die Stadt spazierenzugehen, vielleicht alle
+hohen Feste einmal zu tanzen und Ã¼brigens mit aller Lebhaftigkeit des
+herzlichsten Anteils manche Stunde Ã¼ber den Anlass eines GezÃ¤nkes, einer Ã¼beln Nachrede
+mit einer Nachbarin zu verplaudernâ€”deren feurige Natur fÃ¼hlt nun endlich
+innigere BedÃ¼rfnisse, die durch die Schmeicheleien der MÃ¤nner vermehrt werden; ihre
+vorigen Freuden werden ihr nach und nach unschmackhaft, bis sie endlich einen
+Menschen antrifft, zu dem ein unbekanntes GefÃ¼hl sie unwiderstehlich hinreisst, auf
+den sie nun alle ihre Hoffnungen wirft, die Welt rings um sich vergisst, nichts
+hÃ¶rt, nichts sieht, nichts fÃ¼hlt als ihn, den Einzigen, sich nur sehnt nach ihm,
+dem Einzigen. Durch die leeren VergnÃ¼gungen einer unbestÃ¤ndigen Eitelkeit
+nicht verdorben, zieht ihr Verlangen gerade nach dem Zweck, sie will die Seinige
+werden, sie will in ewiger Verbindung all das GlÃ¼ck antreffen, das ihr mangelt,
+die Vereinigung aller Freuden geniessen, nach denen sie sich sehnte.
+Wiederholtes Versprechen, das ihr die Gewissheit aller Hoffnungen versiegelt, kÃ¼hne
+Liebkosungen, die ihre Begierden vermehren, umfangen ganz ihre Seele; sie schwebt in
+einem dumpfen Bewusstsein, in einem VorgefÃ¼hl aller Freuden, sie ist bis auf den
+hÃ¶chsten Grad gespannt, sie streckt endlich ihre Arme aus, all ihre WÃ¼nsche zu
+umfassenâ€”und ihr Geliebter verlÃ¤sst sie.â€”Erstarrt, ohne Sinne steht sie vor einem
+Abgrunde; alles ist Finsternis um sie her, keine Aussicht, kein Trost, keine Ahnung!
+Denn der hat sie verlassen, in dem sie allein ihr Dasein fÃ¼hlte. Sie sieht
+nicht die weite Welt, die vor ihr liegt, nicht die vielen, die ihr den Verlust
+ersetzen kÃ¶nnten, sie fÃ¼hlt sich allein, verlassen von aller Welt,â€”und blind, in
+die Enge gepresst von der entsetzlichen Not ihres Herzens, stÃ¼rzt sie sich
+hinunter, um in einem rings umfangenden Tode alle ihre Qualen zu ersticken.â€”Sieh,
+Albert, das ist die Geschichte so manches Menschen! Und sag', ist das nicht der
+Fall der Krankheit? Die Natur findet keinen Ausweg aus dem Labyrinthe der
+verworrenen und widersprechenden KrÃ¤fte, und der Mensch muss sterben. Wehe dem, der
+zusehen und sagen kÃ¶nnte: 'die TÃ¶rin! HÃ¤tte sie gewartet, hÃ¤tte sie die Zeit
+wirken lassen, die Verzweifelung wÃ¼rde sich schon gelegt, es wÃ¼rde sich schon ein
+anderer sie zu trÃ¶sten vorgefunden haben.'â€”Das ist eben, als wenn einer sagte:
+'der Tor, stirbt am Fieber! HÃ¤tte er gewartet, bis seine KrÃ¤fte sich erholt,
+seine SÃ¤fte sich verbessert, der Tumult seines Blutes sich gelegt hÃ¤tten: alles
+wÃ¤re gut gegangen, und er lebte bis auf den heutigen Tag! '"
+
+Albert, dem die Vergleichung noch nicht anschaulich war, wandte noch einiges ein,
+und unter andern: ich hÃ¤tte nur von einem einfÃ¤ltigen MÃ¤dchen gesprochen; wie
+aber ein Mensch von Verstande, der nicht so eingeschrÃ¤nkt sei, der mehr
+VerhÃ¤ltnisse Ã¼bersehe, zu entschuldigen sein mÃ¶chte, kÃ¶nne er nicht begreifen.â€”"Mein
+Freund", rief ich aus, "der Mensch ist Mensch, und das bisschen Verstand, das einer
+haben mag, kommt wenig oder nicht in Anschlag, wenn Leidenschaft wÃ¼tet und die
+Grenzen der Menschheit einen drÃ¤ngen. Vielmehrâ€”ein andermal davon", sagte ich und
+griff nach meinem Hute. O mir war das Herz so vollâ€”und wir gingen auseinander,
+ohne einander verstanden zu haben. Wie denn auf dieser Welt keiner leicht den
+andern versteht.
+
+Am 15. August
+
+Es ist doch gewiss, dass in der Welt den Menschen nichts notwendig macht als
+die Liebe. Ich fÃ¼hl's an Lotten, dass sie mich ungern verlÃ¶re, und die Kinder
+haben keinen andern Begriff, als dass ich immer morgen wiederkommen wÃ¼rde. Heute
+war ich hinausgegangen, Lottens Klavier zu stimmen, ich konnte aber nicht dazu
+kommen, denn die Kleinen verfolgten mich um ein MÃ¤rchen, und Lotte sagte selbst,
+ich sollte ihnen den Willen tun. Ich schnitt ihnen das Abendbrot, das sie nun
+fast so gern von mir als von Lotten annehmen, und erzÃ¤hlte ihnen das
+HauptstÃ¼ckchen von der Prinzessin, die von HÃ¤nden bedient wird. Ich lerne viel dabei, das
+versichre ich dich, und ich bin erstaunt, was es auf sie fÃ¼r EindrÃ¼cke macht. Weil
+ich manchmal einen Inzidentpunkt erfinden muss, den ich beim zweitenmal
+vergesse, sagen sie gleich, das vorigemal wÃ¤r' es anders gewesen, so dass ich mich
+jetzt Ã¼be, sie unverÃ¤nderlich in einem singenden Silbenfall an einem SchnÃ¼rchen
+weg zu rezitieren. Ich habe daraus gelernt, wie ein Autor durch eine zweite,
+verÃ¤nderte Ausgabe seiner Geschichte, und wenn sie poetisch noch so besser geworden
+wÃ¤re, notwendig seinem Buche schaden muss. Der erste Eindruck findet uns willig,
+und der Mensch ist gemacht, dass man ihn das Abenteuerlichste Ã¼berreden kann;
+das haftet aber auch gleich so fest, und wehe dem, der es wieder auskratzen
+und austilgen will!
+
+Am 18. August
+
+Musste denn das so sein, dass das, was des Menschen GlÃ¼ckseligkeit macht, wieder
+die Quelle seines Elendes wÃ¼rde?
+
+Das volle, warme GefÃ¼hl meines Herzens an der lebendigen Natur, das mich mit
+so vieler Wonne Ã¼berstrÃ¶mte, das rings umher die Welt mir zu einem Paradiese
+schuf, wird mir jetzt zu einem unertrÃ¤glichen Peiniger, zu einem quÃ¤lenden Geist,
+der mich auf allen Wegen verfolgt. Wenn ich sonst vom Felsen Ã¼ber den Fluss bis
+zu jenen HÃ¼geln das fruchtbare Tal Ã¼berschaute und alles um mich her keimen
+und quellen sah; wenn ich jene Berge, vom Fusse bis auf zum Gipfel, mit hohen,
+dichten BÃ¤umen bekleidet, jene TÃ¤ler in ihren mannigfaltigen KrÃ¼mmungen von den
+lieblichsten WÃ¤ldern beschattet sah, und der sanfte Fluss zwischen den lispelnden Rohren
+dahingleitete und die lieben Wolken abspiegelte, die der sanfte Abendwind am Himmel
+herÃ¼berwiegte; wenn ich dann die VÃ¶gel um mich den Wald beleben hÃ¶rte, und die Millionen
+MÃ¼ckenschwÃ¤rme im letzten roten Strahle der Sonne mutig tanzten, und ihr letzter
+zuckender Blick den summenden KÃ¤fer aus seinem Grase befreite, und das Schwirren und
+Weben um mich her mich auf den Boden aufmerksam machte, und das Moos, das meinem
+harten Felsen seine Nahrung abzwingt, und das Geniste, das den dÃ¼rren SandhÃ¼gel
+hinunter wÃ¤chst, mir das innere, glÃ¼hende, heilige Leben der Natur erÃ¶ffnete: wie
+fasste ich das alles in mein warmes Herz, fÃ¼hlte mich in der Ã¼berfliessenden FÃ¼lle
+wie vergÃ¶ttert, und die herrlichen Gestalten der unendlichen Welt bewegten
+sich allbelebend in meiner Seele. Ungeheure Berge umgaben mich, AbgrÃ¼nde lagen
+vor mir, und WetterbÃ¤che stÃ¼rzten herunter, die FlÃ¼sse strÃ¶mten unter mir, und
+Wald und Gebirg erklang; und ich sah sie wirken und schaffen ineinander in den
+Tiefen der Erde, alle die unergrÃ¼ndlichen KrÃ¤fte; und nun Ã¼ber der Erde und unter
+dem Himmel wimmeln die Geschlechter der mannigfaltigen GeschÃ¶pfe. Alles, alles
+bevÃ¶lkert mit tausendfachen Gestalten; und die Menschen dann sich in HÃ¤uslein
+zusammen sichern und sich annisten und herrschen in ihrem Sinne Ã¼ber die weite
+Welt! Armer Tor! Der du alles so gering achtest, weil du so klein bist.â€”vom
+unzugÃ¤nglichen Gebirge Ã¼ber die EinÃ¶de, die kein Fuss betrat, bis ans Ende des unbekannten
+Ozeans weht der Geist des Ewigschaffenden und freut sich jedes Staubes, der ihn
+vernimmt und lebt.â€”ach damals, wie oft habe ich mich mit Fittichen eines Kranichs,
+der Ã¼ber mich hin flog, zu dem Ufer des ungemessenen Meeres gesehnt, aus dem
+schÃ¤umenden Becher des Unendlichen jene schwellende Lebenswonne zu trinken und nur
+einen Augenblick in der eingeschrÃ¤nkten Kraft meines Busens einen Tropfen der
+Seligkeit des Wesens zu fÃ¼hlen, das alles in sich und durch sich hervorbringt.
+
+Bruder, nur die Erinnerung jener Stunden macht mir wohl. Selbst diese Anstrengung,
+jene unsÃ¤glichen GelÃ¼ste zurÃ¼ckzurufen, wieder auszusprechen, hebt meine Seele
+Ã¼ber sich selbst und lÃ¤sst mich dann das Bange des Zustandes doppelt empfinden,
+der mich jetzt umgibt.
+
+Es hat sich vor meiner Seele wie ein Vorhang weggezogen, und der Schauplatz
+des unendlichen Lebens verwandelt sich vor mir in den Abgrund des ewig offenen
+Grabes. Kannst du sagen: Das ist! Da alles vorÃ¼bergeht? Da alles mit der
+Wetterschnelle vorÃ¼berrollt, so selten die ganze Kraft seines Daseins ausdauert, ach, in
+den Strom fortgerissen, untergetaucht und an Felsen zerschmettert wird? Da ist
+kein Augenblick, der nicht dich verzehrte und die Deinigen um dich her, kein
+Augenblick, da du nicht ein ZerstÃ¶rer bist, sein musst; der harmloseste Spaziergang
+kostet tausend armen WÃ¼rmchen das Leben, es zerrÃ¼ttet ein Fusstritt die mÃ¼hseligen
+GebÃ¤ude der Ameisen und stampft eine kleine Welt in ein schmÃ¤hliches Grab. Ha!
+Nicht die grosse, seltne Not der Welt, diese Fluten, die eure DÃ¶rfer wegspÃ¼len,
+diese Erdbeben, die eure StÃ¤dte verschlingen, rÃ¼hren mich; mir untergrÃ¤bt das
+Herz die verzehrende Kraft, die in dem All der Natur verborgen liegt; die
+nichts gebildet hat, das nicht seinen Nachbar, nicht sich selbst zerstÃ¶rte. Und
+so taumle ich beÃ¤ngstigt. Himmel und Erde und ihre webenden KrÃ¤fte um mich
+her: ich sehe nichts als ein ewig verschlingendes, ewig wiederkÃ¤uendes
+Ungeheuer.
+
+Am 21. August
+
+Umsonst strecke ich meine Arme nach ihr aus, morgens, wenn ich von schweren
+TrÃ¤umen aufdÃ¤mmere, vergebens suche ich sie nachts in meinem Bette, wenn mich ein
+glÃ¼cklicher, unschuldiger Traum getÃ¤uscht hat, als sÃ¤ss' ich neben ihr auf der Wiese und
+hielt' ihre Hand und deckte sie mit tausend KÃ¼ssen. Ach, wenn ich dann noch halb
+im Taumel des Schlafes nach ihr tappe und drÃ¼ber mich ermuntereâ€”ein Strom von
+TrÃ¤nen bricht aus meinem gepressten Herzen, und ich weine trostlos einer finstern
+Zukunft entgegen.
+
+Am 22. August
+
+Es ist ein UnglÃ¼ck, Wilhelm, meine tÃ¤tigen KrÃ¤fte sind zu einer unruhigen
+LÃ¤ssigkeit verstimmt, ich kann nicht mÃ¼ssig sein und kann doch auch nichts tun. Ich
+habe keine Vorstellungskraft, kein GefÃ¼hl an der Natur, und die BÃ¼cher ekeln
+mich an. Wenn wir uns selbst fehlen, fehlt uns doch alles. Ich schwÃ¶re dir,
+manchmal wÃ¼nschte ich, ein TagelÃ¶hner zu sein, um nur des Morgens beim Erwachen
+eine Aussicht auf den kÃ¼nftigen Tag, einen Drang, eine Hoffnung zu haben. Oft
+beneide ich Alberten, den ich Ã¼ber die Ohren in Akten begraben sehe, und bilde mir
+ein, mir wÃ¤re wohl, wenn ich an seiner Stelle wÃ¤re! Schon etlichemal ist mir's
+so aufgefahren, ich wollte dir schreiben und dem Minister, um die Stelle bei
+der Gesandtschaft anzuhalten, die, wie du versicherst, mir nicht versagt
+werden wÃ¼rde. Ich glaube es selbst. Der Minister liebt mich seit langer Zeit,
+hatte lange mir angelegen, ich sollte mich irgendeinem GeschÃ¤fte widmen; und
+eine Stunde ist mir's auch wohl drum zu tun. Hernach, wenn ich wieder dran
+denke und mir die Fabel vom Pferde einfÃ¤llt, das, seiner Freiheit ungeduldig,
+sich Sattel und Zeug auflegen lÃ¤sst und zuschanden geritten wirdâ€”ich weiss nicht,
+was ich soll.â€”und, mein Lieber! Ist nicht vielleicht das Sehnen in mir nach
+VerÃ¤nderung des Zustands eine innere, unbehagliche Ungeduld, die mich Ã¼berallhin
+verfolgen wird?
+
+Am 28. August
+
+Es ist wahr, wenn meine Krankheit zu heilen wÃ¤re, so wÃ¼rden diese Menschen es
+tun. Heute ist mein Geburtstag, und in aller FrÃ¼he empfange ich ein PÃ¤ckchen
+von Alberten. Mir fÃ¤llt beim ErÃ¶ffnen sogleich eine der blassroten Schleifen in
+die Augen, die Lotte vor hatte, als ich sie kennen lernte, und um die ich sie
+seither etlichemal gebeten hatte. Es waren zwei BÃ¼chelchen in Duodez dabei, der
+kleine Wetsteinische Homer, eine Ausgabe, nach der ich so oft verlangt, um mich
+auf dem Spaziergange mit dem Ernestischen nicht zu schleppen. Sieh! So kommen
+sie meinen WÃ¼nschen zuvor, so suchen sie alle die kleinen GefÃ¤lligkeiten der
+Freundschaft auf, die tausendmal werter sind als jene blendenden Geschenke, wodurch uns
+die Eitelkeit des Gebers erniedrigt. Ich kÃ¼sse diese Schleife tausendmal, und
+mit jedem Atemzuge schlÃ¼rfe ich die Erinnerung jener Seligkeiten ein, mit
+denen mich jene wenigen, glÃ¼cklichen, unwiederbringlichen Tage Ã¼berfÃ¼llten.
+Wilhelm, es ist so, und ich murre nicht, die BlÃ¼ten des Lebens sind nur
+Erscheinungen! Wie viele gehn vorÃ¼ber, ohne eine Spur hinter sich zu lassen, wie wenige
+setzen Frucht an, und wie wenige dieser FrÃ¼chte werden reif! Und doch sind deren
+noch genug da; und dochâ€”o mein Bruder!â€”kÃ¶nnen wir gereifte FrÃ¼chte
+vernachlÃ¤ssigen, verachten, ungenossen verfaulen lassen?
+
+Lebe wohl! Es ist ein herrlicher Sommer; ich sitze oft auf den ObstbÃ¤umen in
+Lottens BaumstÃ¼ck mit dem Obstbrecher, der langen Stange, und hole die Birnen aus
+dem Gipfel. Sie steht unten und nimmt sie ab, wenn ich sie ihr herunterlasse.
+
+Am 30. August
+
+UnglÃ¼cklicher! Bist du nicht ein Tor? Betriegst du dich nicht selbst? Was soll diese
+tobende, endlose Leidenschaft? Ich habe kein Gebet mehr als an sie; meiner
+Einbildungskraft erscheint keine andere Gestalt als die ihrige, und alles in der Welt um
+mich her sehe ich nur im VerhÃ¤ltnisse mit ihr. Und das macht mir denn so manche
+glÃ¼ckliche Stundeâ€”bis ich mich wieder von ihr losreissen muss! Ach Wilhelm! Wozu mich
+mein Herz oft drÃ¤ngt!â€”wenn ich bei ihr gesessen bin, zwei, drei Stunden, und
+mich an ihrer Gestalt, an ihrem Betragen, an dem himmlischen Ausdruck ihrer
+Worte geweidet habe, und nun nach und nach alle meine Sinne aufgespannt werden,
+mir es dÃ¼ster vor den Augen wird, ich kaum noch hÃ¶re, und es mich an die
+Gurgel fasst wie ein MeuchelmÃ¶rder, dann mein Herz in wilden SchlÃ¤gen den
+bedrÃ¤ngten Sinnen Luft zu machen sucht und ihre Verwirrung nur vermehrtâ€”Wilhelm, ich
+weiss oft nicht, ob ich auf der Welt bin! Undâ€”wenn nicht manchmal die Wehmut das
+Ãœbergewicht nimmt und Lotte mir den elenden Trost erlaubt, auf ihrer Hand meine
+Beklemmung auszuweinen,â€”so muss ich fort, muss hinaus, und schweife dann weit im Felde
+umher; einen jÃ¤hen Berg zu klettern ist dann meine Freude, durch einen unwegsamen
+Wald einen Pfad durchzuarbeiten, durch die Hecken, die mich verletzen, durch
+die Dornen, die mich zerreissen! Da wird mir's etwas besser! Etwas! Und wenn
+ich vor MÃ¼digkeit und Durst manchmal unterwegs liegen bleibe, manchmal in der
+tiefen Nacht, wenn der hohe Vollmond Ã¼ber mir steht, im einsamen Walde auf einen
+krumm gewachsenen Baum mich setze, um meinen verwundeten Sohlen nur einige
+Linderung zu verschaffen, und dann in einer ermattenden Ruhe in dem DÃ¤mmerschein
+hinschlummre! O Wilhelm! Die einsame Wohnung einer Zelle, das hÃ¤rene Gewand und der
+StachelgÃ¼rtel wÃ¤ren Labsale, nach denen meine Seele schmachtet. Adieu! Ich sehe dieses
+Elendes kein Ende als das Grab.
+
+Am 3. September
+
+Ich muss fort! Ich danke dir, Wilhelm, dass du meinen wankenden
+Entschluss bestimmt hast. Schon vierzehn Tage gehe ich mit dem
+Gedanken um, sie zu verlassen. Ich muss fort. Sie ist wieder in der
+Stadt bei einer Freundin. Und Albertâ€”undâ€”ich muss fort!
+
+Am 10. September
+
+Das war eine Nacht! Wilhelm! Nun Ã¼berstehe ich alles. Ich werde sie nicht
+wiedersehn! O dass ich nicht an deinen Hals fliegen, dir mit tausend TrÃ¤nen und
+EntzÃ¼ckungen ausdrÃ¼cken kann, mein Bester, die Empfindungen, die mein Herz bestÃ¼rmen.
+Hier sitze ich und schnappe nach Luft, suche mich zu beruhigen, erwarte den
+Morgen, und mit Sonnenaufgang sind die Pferde bestellt.
+
+Ach, sie schlÃ¤ft ruhig und denkt nicht, dass sie mich nie wieder sehen wird. Ich
+habe mich losgerissen, bin stark genug gewesen, in einem GesprÃ¤ch von zwei
+Stunden mein Vorhaben nicht zu verraten. Und Gott, welch ein GesprÃ¤ch!
+
+Albert hatte mir versprochen, gleich nach dem Nachtessen mit Lotten im Garten zu
+sein. Ich stand auf der Terrasse unter den hohen KastanienbÃ¤umen und sah der
+Sonne nach, die mir nun zum letztenmale Ã¼ber dem lieblichen Tale, Ã¼ber dem
+sanften Fluss unterging. So oft hatte ich hier gestanden mit ihr und eben dem
+herrlichen Schauspiele zugesehen, und nunâ€”ich ging in der Allee auf und ab, die mir
+so lieb war; ein geheimer sympathetischer Zug hatte mich hier so oft
+gehalten, ehe ich noch Lotten kannte, und wie freuten wir uns, als wir im Anfang
+unserer Bekanntschaft die wechselseitige Neigung zu diesem PlÃ¤tzchen entdeckten,
+das wahrhaftig eins von den romantischsten ist, die ich von der Kunst
+hervorgebracht gesehen habe.
+
+Erst hast du zwischen den KastanienbÃ¤umen die weite Aussichtâ€”Ach, ich erinnere
+mich, ich habe dir, denk' ich, schon viel davon geschrieben, wie hohe
+BuchenwÃ¤nde einen endlich einschliessen und durch ein daranstossendes Boskett die Allee
+immer dÃ¼sterer wird, bis zuletzt alles sich in ein geschlossenes PlÃ¤tzchen
+endigt, das alle Schauer der Einsamkeit umschweben. Ich fÃ¼hle es noch, wie
+heimlich mir's ward, als ich zum erstenmale an einem hohen Mittage hineintrat; ich
+ahnete ganz leise, was fÃ¼r ein Schauplatz das noch werden sollte von Seligkeit
+und Schmerz.
+
+Ich hatte mich etwa eine halbe Stunde in den schmachtenden, sÃ¼ssen Gedanken des
+Abscheidens, des Wiedersehens geweidet, als ich sie die Terrasse heraufsteigen hÃ¶rte.
+Ich lief ihnen entgegen, mit einem Schauer fasste ich ihre Hand und kÃ¼sste sie.
+Wir waren eben heraufgetreten, als der Mond hinter dem buschigen HÃ¼gel
+aufging; wir redeten mancherlei und kamen unvermerkt dem dÃ¼stern Kabinette nÃ¤her.
+Lotte trat hinein und setzte sich, Albert neben sie, ich auch; doch meine Unruhe
+liess mich nicht lange sitzen; ich stand auf, trat vor sie, ging auf und ab,
+setzte mich wieder: es war ein Ã¤ngstlicher Zustand. Sie machte uns aufmerksam auf
+die schÃ¶ne Wirkung des Mondenlichtes, das am Ende der BuchenwÃ¤nde die ganze
+Terrasse vor uns erleuchtete: ein herrlicher Anblick, der um so viel frappanter
+war, weil uns rings eine tiefe DÃ¤mmerung einschloss. Wir waren still, und sie
+fing nach einer Weile an: "niemals gehe ich im Mondenlichte spazieren, niemals,
+dass mir nicht der Gedanke an meine Verstorbenen begegnete, dass nicht das
+GefÃ¼hl von Tod, von Zukunft Ã¼ber mich kÃ¤me". "Wir werden sein!" fuhr sie mit der
+Stimme des herrlichsten GefÃ¼hls fort; "aber, Werther, sollen wir uns wieder
+finden? Wieder erkennen? Was ahnen Sie? Was sagen Sie?"
+
+"Lotte", sagte ich, indem ich ihr die Hand reichte und mir die Augen voll TrÃ¤nen
+wurden,"wir werden uns wiedersehn! Hier und dort wiedersehn!"â€”ich konnte nicht weiter
+redenâ€”Wilhelm, musste sie mich das fragen, da ich diesen Ã¤ngstlichen Abschied im Herzen
+hatte!
+
+"Und ob die lieben Abgeschiednen von uns wissen", fuhr sie fort, "ob sie
+fÃ¼hlen, wann's uns wohl geht, dass wir mit warmer Liebe uns ihrer erinnern? O! Die
+Gestalt meiner Mutter schwebt immer um mich, wenn ich am stillen Abend unter ihren
+Kindern, unter meinen Kindern sitze und sie um mich versammelt sind, wie sie um sie
+versammelt waren. Wenn ich dann mit einer sehnenden TrÃ¤ne gen Himmel sehe und
+wÃ¼nsche, dass sie hereinschauen kÃ¶nnte einen Augenblick, wie ich mein Wort halte,
+das ich ihr in der Stunde des Todes gab: die Mutter ihrer Kinder zu sein. Mit
+welcher Empfindung rufe ich aus: 'verzeihe mir's, Teuerste, wenn ich ihnen nicht
+bin, was du ihnen warst. Ach! Tue ich doch alles, was ich kann; sind sie doch
+gekleidet, genÃ¤hrt, ach, und, was mehr ist als das alles, gepflegt und geliebt.
+KÃ¶nntest du unsere Eintracht sehen, liebe Heilige! Du wÃ¼rdest mit dem heissesten
+Danke den Gott verherrlichen, den du mit den letzten, bittersten TrÃ¤nen um die
+Wohlfahrt deiner Kinder batest.'"â€”Sie sagte das! O Wilhelm, wer kann wiederholen,
+was sie sagte! Wie kann der kalte, tote Buchstabe diese himmlische BlÃ¼te des
+Geistes darstellen! Albert fiel ihr sanft in die Rede: "es greift zu stark an,
+liebe Lotte! Ich weiss, Ihre Seele hÃ¤ngt sehr nach diesen Ideen, aber ich bitte
+Sie".â€”"O Albert", sagte sie, "ich weiss, du vergissest nicht die Abende, da wir
+zusammensassen an dem kleinen, runden Tischchen, wenn der Papa verreist war, und wir die
+Kleinen schlafen geschickt hatten. Du hattest oft ein gutes Buch und kamst so
+selten dazu, etwas zu lesenâ€”war der Umgang dieser herrlichen Seele nicht mehr als
+alles? Die schÃ¶ne, sanfte, muntere und immer tÃ¤tige Frau! Gott kennt meine
+TrÃ¤nen, mit denen ich mich oft in meinem Bette vor ihn hinwarf: er mÃ¶chte mich ihr
+gleich machen".
+
+"Lotte!" rief ich aus, indem ich mich vor sie hinwarf, ihre Hand nahm und mit
+tausend TrÃ¤nen netzte, "Lotte! Der Segen Gottes ruht Ã¼ber dir und der Geist deiner
+Mutter!" "Wenn Sie sie gekannt hÃ¤tten", sagte sie, indem sie mir die Hand
+drÃ¼ckte,â€”"sie war wert, von Ihnen gekannt zu sein!"â€”ich glaubte zu vergehen.
+
+Nie war ein grÃ¶sseres, stolzeres Wort Ã¼ber mich ausgesprochen wordenâ€”und sie
+fuhr fort:"und diese Frau musste in der BlÃ¼te ihrer Jahre dahin, da ihr jÃ¼ngster
+Sohn nicht sechs Monate alt war! Ihre Krankheit dauerte nicht lange; sie war
+ruhig, hingegeben, nur ihre Kinder taten ihr weh, besonders das kleine. Wie es
+gegen das Ende ging und sie zu mir sagte: 'bringe mir sie herauf!' und wie ich
+sie hereinfÃ¼hrte, die kleinen, die nicht wussten, und die Ã¤ltesten, die ohne
+Sinne waren, wie sie ums Bette standen, und wie sie die HÃ¤nde aufhob und Ã¼ber
+sie betete, und sie kÃ¼sste nach einander und sie wegschickte und zu mir sagte:
+'sei ihre Mutter!'â€”Ich gab ihr die Hand drauf!â€”'Du versprichst viel, meine
+Tochter', sagte sie, 'das Herz einer Mutter und das Aug' einer Mutter. Ich habe oft
+an deinen dankbaren TrÃ¤nen gesehen, dass du fÃ¼hlst, was das sei. Habe es fÃ¼r
+deine Geschwister, und fÃ¼r deinen Vater die Treue und den Gehorsam einer Frau.
+Du wirst ihn trÃ¶sten.'â€”Sie fragte nach ihm, er war ausgegangen, um uns den
+unertrÃ¤glichen Kummer zu verbergen, den er fÃ¼hlte, der Mann war ganz zerrissen.
+
+Albert, du warst im Zimmer. Sie hÃ¶rte jemand gehn und fragte und forderte dich zu
+sich, und wie sie dich ansah und mich, mit dem getrÃ¶steten, ruhigen Blicke, dass
+wir glÃ¼cklich sein, zusammen glÃ¼cklich sein wÃ¼rden".â€”Albert fiel ihr um den
+Hals und kÃ¼sste sie und rief: "wir sind es! Wir werden es sein!"â€”der ruhige
+Albert war ganz aus seiner Fassung, und ich wusste nichts von mir selber.
+"Werther", fing sie an, "und diese Frau sollte dahin sein! Gott! Wenn ich manchmal
+denke, wie man das Liebste seines Lebens wegtragen lÃ¤sst, und niemand als die
+Kinder das so scharf fÃ¼hlt, die sich noch lange beklagten, die schwarzen MÃ¤nner
+hÃ¤tten die Mama weggetragen! "sie stand auf, und ich ward erweckt und
+erschÃ¼ttert, blieb sitzen und hielt ihre Hand.â€”"Wir wollen fort", sagte sie, "es wird
+Zeit".â€”Sie wollte ihre Hand zurÃ¼ckziehen, und ich hielt sie fester.â€”"wir werden uns
+wieder sehen" rief ich, "wir werden uns finden, unter allen Gestalten werden wir
+uns erkennen. Ich gehe", fuhr ich fort, "ich gehe willig, und doch, wenn ich
+sagen sollte auf ewig, ich wÃ¼rde es nicht aushalten. Leb' wohl, Lotte! Leb'
+wohl, Albert! Wir sehn uns wieder".â€”"Morgen, denke ich", versetzte sie
+scherzend.â€”Ich fÃ¼hlte das Morgen! Ach, sie wusste nicht, als sie ihre Hand aus der meinen
+zogâ€”Sie gingen die Allee hinaus, ich stand, sah ihnen nach im Mondscheine und warf
+mich an die Erde und weinte mich aus und sprang auf und lief auf die Terrasse
+hervor und sah noch dort unten im Schatten der hohen LindenbÃ¤ume ihr weisses Kleid
+nach der GartentÃ¼r schimmern, ich streckte meine Arme aus, und es verschwand.
+EOT;
+    /*
+    End of the Project Gutenberg EBook of Die Leiden des jungen Werther--Buch 1, by
+    Johann Wolfgang von Goethe
+
+    *** END OF THIS PROJECT GUTENBERG EBOOK DIE LEIDEN DES JUNGEN WERTHER ***
+
+    ***** This file should be named 2407-8.txt or 2407-8.zip *****
+    This and all associated files of various formats will be found in:
+            http://www.gutenberg.org/2/4/0/2407/
+
+    Produced by Michael Pullen, globaltraveler5565@yahoo.com
+    with proofreading and correction by Dr. Mary Cicora,
+    mcicora@yahoo.com.
+
+    Updated editions will replace the previous one--the old editions
+    will be renamed.
+
+    Creating the works from public domain print editions means that no
+    one owns a United States copyright in these works, so the Foundation
+    (and you!) can copy and distribute it in the United States without
+    permission and without paying copyright royalties.  Special rules,
+    set forth in the General Terms of Use part of this license, apply to
+    copying and distributing Project Gutenberg-tm electronic works to
+    protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+    Gutenberg is a registered trademark, and may not be used if you
+    charge for the eBooks, unless you receive specific permission.  If you
+    do not charge anything for copies of this eBook, complying with the
+    rules is very easy.  You may use this eBook for nearly any purpose
+    such as creation of derivative works, reports, performances and
+    research.  They may be modified and printed and given away--you may do
+    practically ANYTHING with public domain eBooks.  Redistribution is
+    subject to the trademark license, especially commercial
+    redistribution.
+
+    *** START: FULL LICENSE ***
+
+    THE FULL PROJECT GUTENBERG LICENSE
+    PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+    To protect the Project Gutenberg-tm mission of promoting the free
+    distribution of electronic works, by using or distributing this work
+    (or any other work associated in any way with the phrase "Project
+    Gutenberg"), you agree to comply with all the terms of the Full Project
+    Gutenberg-tm License (available with this file or online at
+    http://gutenberg.org/license).
+
+    Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+    electronic works
+
+    1.A.  By reading or using any part of this Project Gutenberg-tm
+    electronic work, you indicate that you have read, understand, agree to
+    and accept all the terms of this license and intellectual property
+    (trademark/copyright) agreement.  If you do not agree to abide by all
+    the terms of this agreement, you must cease using and return or destroy
+    all copies of Project Gutenberg-tm electronic works in your possession.
+    If you paid a fee for obtaining a copy of or access to a Project
+    Gutenberg-tm electronic work and you do not agree to be bound by the
+    terms of this agreement, you may obtain a refund from the person or
+    entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+    1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+    used on or associated in any way with an electronic work by people who
+    agree to be bound by the terms of this agreement.  There are a few
+    things that you can do with most Project Gutenberg-tm electronic works
+    even without complying with the full terms of this agreement.  See
+    paragraph 1.C below.  There are a lot of things you can do with Project
+    Gutenberg-tm electronic works if you follow the terms of this agreement
+    and help preserve free future access to Project Gutenberg-tm electronic
+    works.  See paragraph 1.E below.
+
+    1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+    or PGLAF), owns a compilation copyright in the collection of Project
+    Gutenberg-tm electronic works.  Nearly all the individual works in the
+    collection are in the public domain in the United States.  If an
+    individual work is in the public domain in the United States and you are
+    located in the United States, we do not claim a right to prevent you from
+    copying, distributing, performing, displaying or creating derivative
+    works based on the work as long as all references to Project Gutenberg
+    are removed.  Of course, we hope that you will support the Project
+    Gutenberg-tm mission of promoting free access to electronic works by
+    freely sharing Project Gutenberg-tm works in compliance with the terms of
+    this agreement for keeping the Project Gutenberg-tm name associated with
+    the work.  You can easily comply with the terms of this agreement by
+    keeping this work in the same format with its attached full Project
+    Gutenberg-tm License when you share it without charge with others.
+
+    1.D.  The copyright laws of the place where you are located also govern
+    what you can do with this work.  Copyright laws in most countries are in
+    a constant state of change.  If you are outside the United States, check
+    the laws of your country in addition to the terms of this agreement
+    before downloading, copying, displaying, performing, distributing or
+    creating derivative works based on this work or any other Project
+    Gutenberg-tm work.  The Foundation makes no representations concerning
+    the copyright status of any work in any country outside the United
+    States.
+
+    1.E.  Unless you have removed all references to Project Gutenberg:
+
+    1.E.1.  The following sentence, with active links to, or other immediate
+    access to, the full Project Gutenberg-tm License must appear prominently
+    whenever any copy of a Project Gutenberg-tm work (any work on which the
+    phrase "Project Gutenberg" appears, or with which the phrase "Project
+    Gutenberg" is associated) is accessed, displayed, performed, viewed,
+    copied or distributed:
+
+    This eBook is for the use of anyone anywhere at no cost and with
+    almost no restrictions whatsoever.  You may copy it, give it away or
+    re-use it under the terms of the Project Gutenberg License included
+    with this eBook or online at www.gutenberg.org
+
+    1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+    from the public domain (does not contain a notice indicating that it is
+    posted with permission of the copyright holder), the work can be copied
+    and distributed to anyone in the United States without paying any fees
+    or charges.  If you are redistributing or providing access to a work
+    with the phrase "Project Gutenberg" associated with or appearing on the
+    work, you must comply either with the requirements of paragraphs 1.E.1
+    through 1.E.7 or obtain permission for the use of the work and the
+    Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+    1.E.9.
+
+    1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+    with the permission of the copyright holder, your use and distribution
+    must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+    terms imposed by the copyright holder.  Additional terms will be linked
+    to the Project Gutenberg-tm License for all works posted with the
+    permission of the copyright holder found at the beginning of this work.
+
+    1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+    License terms from this work, or any files containing a part of this
+    work or any other work associated with Project Gutenberg-tm.
+
+    1.E.5.  Do not copy, display, perform, distribute or redistribute this
+    electronic work, or any part of this electronic work, without
+    prominently displaying the sentence set forth in paragraph 1.E.1 with
+    active links or immediate access to the full terms of the Project
+    Gutenberg-tm License.
+
+    1.E.6.  You may convert to and distribute this work in any binary,
+    compressed, marked up, nonproprietary or proprietary form, including any
+    word processing or hypertext form.  However, if you provide access to or
+    distribute copies of a Project Gutenberg-tm work in a format other than
+    "Plain Vanilla ASCII" or other format used in the official version
+    posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+    you must, at no additional cost, fee or expense to the user, provide a
+    copy, a means of exporting a copy, or a means of obtaining a copy upon
+    request, of the work in its original "Plain Vanilla ASCII" or other
+    form.  Any alternate format must include the full Project Gutenberg-tm
+    License as specified in paragraph 1.E.1.
+
+    1.E.7.  Do not charge a fee for access to, viewing, displaying,
+    performing, copying or distributing any Project Gutenberg-tm works
+    unless you comply with paragraph 1.E.8 or 1.E.9.
+
+    1.E.8.  You may charge a reasonable fee for copies of or providing
+    access to or distributing Project Gutenberg-tm electronic works provided
+    that
+
+    - You pay a royalty fee of 20% of the gross profits you derive from
+         the use of Project Gutenberg-tm works calculated using the method
+         you already use to calculate your applicable taxes.  The fee is
+         owed to the owner of the Project Gutenberg-tm trademark, but he
+         has agreed to donate royalties under this paragraph to the
+         Project Gutenberg Literary Archive Foundation.  Royalty payments
+         must be paid within 60 days following each date on which you
+         prepare (or are legally required to prepare) your periodic tax
+         returns.  Royalty payments should be clearly marked as such and
+         sent to the Project Gutenberg Literary Archive Foundation at the
+         address specified in Section 4, "Information about donations to
+         the Project Gutenberg Literary Archive Foundation."
+
+    - You provide a full refund of any money paid by a user who notifies
+         you in writing (or by e-mail) within 30 days of receipt that s/he
+         does not agree to the terms of the full Project Gutenberg-tm
+         License.  You must require such a user to return or
+         destroy all copies of the works possessed in a physical medium
+         and discontinue all use of and all access to other copies of
+         Project Gutenberg-tm works.
+
+    - You provide, in accordance with paragraph 1.F.3, a full refund of any
+         money paid for a work or a replacement copy, if a defect in the
+         electronic work is discovered and reported to you within 90 days
+         of receipt of the work.
+
+    - You comply with all other terms of this agreement for free
+         distribution of Project Gutenberg-tm works.
+
+    1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+    electronic work or group of works on different terms than are set
+    forth in this agreement, you must obtain permission in writing from
+    both the Project Gutenberg Literary Archive Foundation and Michael
+    Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+    Foundation as set forth in Section 3 below.
+
+    1.F.
+
+    1.F.1.  Project Gutenberg volunteers and employees expend considerable
+    effort to identify, do copyright research on, transcribe and proofread
+    public domain works in creating the Project Gutenberg-tm
+    collection.  Despite these efforts, Project Gutenberg-tm electronic
+    works, and the medium on which they may be stored, may contain
+    "Defects," such as, but not limited to, incomplete, inaccurate or
+    corrupt data, transcription errors, a copyright or other intellectual
+    property infringement, a defective or damaged disk or other medium, a
+    computer virus, or computer codes that damage or cannot be read by
+    your equipment.
+
+    1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+    of Replacement or Refund" described in paragraph 1.F.3, the Project
+    Gutenberg Literary Archive Foundation, the owner of the Project
+    Gutenberg-tm trademark, and any other party distributing a Project
+    Gutenberg-tm electronic work under this agreement, disclaim all
+    liability to you for damages, costs and expenses, including legal
+    fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+    LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+    PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+    TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+    LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+    INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+    DAMAGE.
+
+    1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+    defect in this electronic work within 90 days of receiving it, you can
+    receive a refund of the money (if any) you paid for it by sending a
+    written explanation to the person you received the work from.  If you
+    received the work on a physical medium, you must return the medium with
+    your written explanation.  The person or entity that provided you with
+    the defective work may elect to provide a replacement copy in lieu of a
+    refund.  If you received the work electronically, the person or entity
+    providing it to you may choose to give you a second opportunity to
+    receive the work electronically in lieu of a refund.  If the second copy
+    is also defective, you may demand a refund in writing without further
+    opportunities to fix the problem.
+
+    1.F.4.  Except for the limited right of replacement or refund set forth
+    in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+    WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+    1.F.5.  Some states do not allow disclaimers of certain implied
+    warranties or the exclusion or limitation of certain types of damages.
+    If any disclaimer or limitation set forth in this agreement violates the
+    law of the state applicable to this agreement, the agreement shall be
+    interpreted to make the maximum disclaimer or limitation permitted by
+    the applicable state law.  The invalidity or unenforceability of any
+    provision of this agreement shall not void the remaining provisions.
+
+    1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+    trademark owner, any agent or employee of the Foundation, anyone
+    providing copies of Project Gutenberg-tm electronic works in accordance
+    with this agreement, and any volunteers associated with the production,
+    promotion and distribution of Project Gutenberg-tm electronic works,
+    harmless from all liability, costs and expenses, including legal fees,
+    that arise directly or indirectly from any of the following which you do
+    or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+    work, (b) alteration, modification, or additions or deletions to any
+    Project Gutenberg-tm work, and (c) any Defect you cause.
+
+    Section  2.  Information about the Mission of Project Gutenberg-tm
+
+    Project Gutenberg-tm is synonymous with the free distribution of
+    electronic works in formats readable by the widest variety of computers
+    including obsolete, old, middle-aged and new computers.  It exists
+    because of the efforts of hundreds of volunteers and donations from
+    people in all walks of life.
+
+    Volunteers and financial support to provide volunteers with the
+    assistance they need, are critical to reaching Project Gutenberg-tm's
+    goals and ensuring that the Project Gutenberg-tm collection will
+    remain freely available for generations to come.  In 2001, the Project
+    Gutenberg Literary Archive Foundation was created to provide a secure
+    and permanent future for Project Gutenberg-tm and future generations.
+    To learn more about the Project Gutenberg Literary Archive Foundation
+    and how your efforts and donations can help, see Sections 3 and 4
+    and the Foundation web page at http://www.pglaf.org.
+
+
+    Section 3.  Information about the Project Gutenberg Literary Archive
+    Foundation
+
+    The Project Gutenberg Literary Archive Foundation is a non profit
+    501(c)(3) educational corporation organized under the laws of the
+    state of Mississippi and granted tax exempt status by the Internal
+    Revenue Service.  The Foundation's EIN or federal tax identification
+    number is 64-6221541.  Its 501(c)(3) letter is posted at
+    http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+    Literary Archive Foundation are tax deductible to the full extent
+    permitted by U.S. federal laws and your state's laws.
+
+    The Foundation's principal office is located at 4557 Melan Dr. S.
+    Fairbanks, AK, 99712., but its volunteers and employees are scattered
+    throughout numerous locations.  Its business office is located at
+    809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+    business@pglaf.org.  Email contact links and up to date contact
+    information can be found at the Foundation's web site and official
+    page at http://pglaf.org
+
+    For additional contact information:
+         Dr. Gregory B. Newby
+         Chief Executive and Director
+         gbnewby@pglaf.org
+
+    Section 4.  Information about Donations to the Project Gutenberg
+    Literary Archive Foundation
+
+    Project Gutenberg-tm depends upon and cannot survive without wide
+    spread public support and donations to carry out its mission of
+    increasing the number of public domain and licensed works that can be
+    freely distributed in machine readable form accessible by the widest
+    array of equipment including outdated equipment.  Many small donations
+    ($1 to $5,000) are particularly important to maintaining tax exempt
+    status with the IRS.
+
+    The Foundation is committed to complying with the laws regulating
+    charities and charitable donations in all 50 states of the United
+    States.  Compliance requirements are not uniform and it takes a
+    considerable effort, much paperwork and many fees to meet and keep up
+    with these requirements.  We do not solicit donations in locations
+    where we have not received written confirmation of compliance.  To
+    SEND DONATIONS or determine the status of compliance for any
+    particular state visit http://pglaf.org
+
+    While we cannot and do not solicit contributions from states where we
+    have not met the solicitation requirements, we know of no prohibition
+    against accepting unsolicited donations from donors in such states who
+    approach us with offers to donate.
+
+    International donations are gratefully accepted, but we cannot make
+    any statements concerning tax treatment of donations received from
+    outside the United States.  U.S. laws alone swamp our small staff.
+
+    Please check the Project Gutenberg Web pages for current donation
+    methods and addresses.  Donations are accepted in a number of other
+    ways including checks, online payments and credit card donations.
+    To donate, please visit: http://pglaf.org/donate
+
+    Section 5.  General Information About Project Gutenberg-tm electronic
+    works.
+
+    Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+    concept of a library of electronic works that could be freely shared
+    with anyone.  For thirty years, he produced and distributed Project
+    Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+    Project Gutenberg-tm eBooks are often created from several printed
+    editions, all of which are confirmed as Public Domain in the U.S.
+    unless a copyright notice is included.  Thus, we do not necessarily
+    keep eBooks in compliance with any particular paper edition.
+
+    Most people start at our Web site which has the main PG search facility:
+
+         http://www.gutenberg.org
+
+    This Web site includes information about Project Gutenberg-tm,
+    including how to make donations to the Project Gutenberg Literary
+    Archive Foundation, how to help produce our new eBooks, and how to
+    subscribe to our email newsletter to hear about new eBooks.
+    */
+}

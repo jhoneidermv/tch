@@ -1,0 +1,1 @@
+›1=vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php 2phpX0

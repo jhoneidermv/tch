@@ -1,0 +1,1 @@
+ˆ->vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport.php 2phpX7

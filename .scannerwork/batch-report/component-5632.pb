@@ -1,0 +1,1 @@
+€,Vvendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php 2phpX

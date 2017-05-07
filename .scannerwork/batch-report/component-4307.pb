@@ -1,0 +1,1 @@
+Ó!@vendor/phpspec/prophecy/src/Prophecy/Promise/CallbackPromise.php 2phpXC

@@ -1,0 +1,1 @@
+°-Ivendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder :¯-±-²-³-

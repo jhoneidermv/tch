@@ -1,0 +1,1 @@
+Å1<vendor/symfony/css-selector/Tests/Parser/TokenStreamTest.php 2phpX`

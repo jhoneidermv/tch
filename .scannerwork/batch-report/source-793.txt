@@ -1,0 +1,339 @@
+<?php
+
+namespace Faker\Provider;
+
+class Internet extends \Faker\Provider\Base
+{
+    protected static $freeEmailDomain = array('gmail.com', 'yahoo.com', 'hotmail.com');
+    protected static $tld = array('com', 'com', 'com', 'com', 'com', 'com', 'biz', 'info', 'net', 'org');
+
+    protected static $userNameFormats = array(
+        '{{lastName}}.{{firstName}}',
+        '{{firstName}}.{{lastName}}',
+        '{{firstName}}##',
+        '?{{lastName}}',
+    );
+    protected static $emailFormats = array(
+        '{{userName}}@{{domainName}}',
+        '{{userName}}@{{freeEmailDomain}}',
+    );
+    protected static $urlFormats = array(
+        'http://www.{{domainName}}/',
+        'http://{{domainName}}/',
+        'http://www.{{domainName}}/{{slug}}',
+        'http://www.{{domainName}}/{{slug}}',
+        'https://www.{{domainName}}/{{slug}}',
+        'http://www.{{domainName}}/{{slug}}.html',
+        'http://{{domainName}}/{{slug}}',
+        'http://{{domainName}}/{{slug}}',
+        'http://{{domainName}}/{{slug}}.html',
+        'https://{{domainName}}/{{slug}}.html',
+    );
+
+    /**
+     * @example 'jdoe@acme.biz'
+     */
+    public function email()
+    {
+        $format = static::randomElement(static::$emailFormats);
+        
+        return $this->generator->parse($format);
+    }
+
+    /**
+     * @example 'jdoe@example.com'
+     */
+    final public function safeEmail()
+    {
+        return preg_replace('/\s/u', '', $this->userName() . '@' . static::safeEmailDomain());
+    }
+
+    /**
+     * @example 'jdoe@gmail.com'
+     */
+    public function freeEmail()
+    {
+        return preg_replace('/\s/u', '', $this->userName() . '@' . static::freeEmailDomain());
+    }
+
+    /**
+     * @example 'jdoe@dawson.com'
+     */
+    public function companyEmail()
+    {
+        return preg_replace('/\s/u', '', $this->userName() . '@' . $this->domainName());
+    }
+
+    /**
+     * @example 'gmail.com'
+     */
+    public static function freeEmailDomain()
+    {
+        return static::randomElement(static::$freeEmailDomain);
+    }
+
+    /**
+     * @example 'example.org'
+     */
+    final public static function safeEmailDomain()
+    {
+        $domains = array(
+            'example.com',
+            'example.org',
+            'example.net'
+        );
+
+        return static::randomElement($domains);
+    }
+    /**
+     * @example 'jdoe'
+     */
+    public function userName()
+    {
+        $format = static::randomElement(static::$userNameFormats);
+        $username = static::bothify($this->generator->parse($format));
+
+        return strtolower(static::transliterate($username));
+    }
+    /**
+     * @example 'fY4Ã¨HdZv68'
+     */
+    public function password($minLength = 6, $maxLength = 20)
+    {
+        $pattern = str_repeat('*', $this->numberBetween($minLength, $maxLength));
+
+        return $this->asciify($pattern);
+    }
+
+    /**
+     * @example 'tiramisu.com'
+     */
+    public function domainName()
+    {
+        return $this->domainWord() . '.' . $this->tld();
+    }
+
+    /**
+     * @example 'faber'
+     */
+    public function domainWord()
+    {
+        $lastName = $this->generator->format('lastName');
+
+        return strtolower(static::transliterate($lastName));
+    }
+
+    /**
+     * @example 'com'
+     */
+    public function tld()
+    {
+        return static::randomElement(static::$tld);
+    }
+
+    /**
+     * @example 'http://www.runolfsdottir.com/'
+     */
+    public function url()
+    {
+        $format = static::randomElement(static::$urlFormats);
+
+        return $this->generator->parse($format);
+    }
+
+    /**
+     * @example 'aut-repellat-commodi-vel-itaque-nihil-id-saepe-nostrum'
+     */
+    public function slug($nbWords = 6, $variableNbWords = true)
+    {
+        if ($nbWords <= 0) {
+            return '';
+        }
+        if ($variableNbWords) {
+            $nbWords = (int) ($nbWords * mt_rand(60, 140) / 100) + 1;
+        }
+        $words = $this->generator->words($nbWords);
+
+        return join($words, '-');
+    }
+
+    /**
+     * @example '237.149.115.38'
+     */
+    public function ipv4()
+    {
+        return long2ip(mt_rand(0, 1) == 0 ? mt_rand(-2147483648, -2) : mt_rand(16777216, 2147483647));
+    }
+
+    /**
+     * @example '35cd:186d:3e23:2986:ef9f:5b41:42a4:e6f1'
+     */
+    public function ipv6()
+    {
+        $res = array();
+        for ($i=0; $i < 8; $i++) {
+            $res []= dechex(mt_rand(0, "65535"));
+        }
+
+        return join(':', $res);
+    }
+
+    /**
+     * @example '10.1.1.17'
+     */
+    public static function localIpv4()
+    {
+        if (static::numberBetween(0, 1) === 0) {
+            // 10.x.x.x range
+            $ip = long2ip(static::numberBetween(167772160, 184549375));
+        } else {
+            // 192.168.x.x range
+            $ip = long2ip(static::numberBetween(3232235520, 3232301055));
+        }
+
+        return $ip;
+    }
+
+    /**
+     * @example '32:F1:39:2F:D6:18'
+     */
+    public static function macAddress()
+    {
+        for ($i=0; $i<6; $i++) {
+            $mac[] = sprintf('%02X', static::numberBetween(0, 0xff));
+        }
+        $mac = implode(':', $mac);
+
+        return $mac;
+    }
+
+    protected static function transliterate($string)
+    {
+        $transId = 'Any-Latin; Latin-ASCII; NFD; [:Nonspacing Mark:] Remove; NFC;';
+        if (function_exists('transliterator_transliterate') && $transliterator = \Transliterator::create($transId)) {
+            $transString = $transliterator->transliterate($string);
+        } else {
+            $transString = static::toAscii($string);
+        }
+
+        return preg_replace('/[^A-Za-z0-9_.]/u', '', $transString);
+    }
+
+    protected static function toAscii($string)
+    {
+        static $arrayFrom, $arrayTo;
+
+        if (empty($arrayFrom)) {
+            $transliterationTable = array(
+                'Ä²'=>'I', 'Ã–'=>'O', 'Å’'=>'O', 'Ãœ'=>'U', 'Ã¤'=>'a', 'Ã¦'=>'a',
+                'Ä³'=>'i', 'Ã¶'=>'o', 'Å“'=>'o', 'Ã¼'=>'u', 'ÃŸ'=>'s', 'Å¿'=>'s',
+                'Ã€'=>'A', 'Ã�'=>'A', 'Ã‚'=>'A', 'Ãƒ'=>'A', 'Ã„'=>'A', 'Ã…'=>'A',
+                'Ã†'=>'A', 'Ä€'=>'A', 'Ä„'=>'A', 'Ä‚'=>'A', 'Ã‡'=>'C', 'Ä†'=>'C',
+                'ÄŒ'=>'C', 'Äˆ'=>'C', 'ÄŠ'=>'C', 'ÄŽ'=>'D', 'Ä�'=>'D', 'Ãˆ'=>'E',
+                'Ã‰'=>'E', 'ÃŠ'=>'E', 'Ã‹'=>'E', 'Ä’'=>'E', 'Ä˜'=>'E', 'Äš'=>'E',
+                'Ä”'=>'E', 'Ä–'=>'E', 'Äœ'=>'G', 'Äž'=>'G', 'Ä '=>'G', 'Ä¢'=>'G',
+                'Ä¤'=>'H', 'Ä¦'=>'H', 'ÃŒ'=>'I', 'Ã�'=>'I', 'ÃŽ'=>'I', 'Ã�'=>'I',
+                'Äª'=>'I', 'Ä¨'=>'I', 'Ä¬'=>'I', 'Ä®'=>'I', 'Ä°'=>'I', 'Ä´'=>'J',
+                'Ä¶'=>'K', 'Ä½'=>'K', 'Ä¹'=>'K', 'Ä»'=>'K', 'Ä¿'=>'K', 'Å�'=>'L',
+                'Ã‘'=>'N', 'Åƒ'=>'N', 'Å‡'=>'N', 'Å…'=>'N', 'ÅŠ'=>'N', 'Ã’'=>'O',
+                'Ã“'=>'O', 'Ã”'=>'O', 'Ã•'=>'O', 'Ã˜'=>'O', 'ÅŒ'=>'O', 'Å�'=>'O',
+                'ÅŽ'=>'O', 'Å”'=>'R', 'Å˜'=>'R', 'Å–'=>'R', 'Åš'=>'S', 'Åž'=>'S',
+                'Åœ'=>'S', 'È˜'=>'S', 'Å '=>'S', 'Å¤'=>'T', 'Å¢'=>'T', 'Å¦'=>'T',
+                'Èš'=>'T', 'Ã™'=>'U', 'Ãš'=>'U', 'Ã›'=>'U', 'Åª'=>'U', 'Å®'=>'U',
+                'Å°'=>'U', 'Å¬'=>'U', 'Å¨'=>'U', 'Å²'=>'U', 'Å´'=>'W', 'Å¶'=>'Y',
+                'Å¸'=>'Y', 'Ã�'=>'Y', 'Å¹'=>'Z', 'Å»'=>'Z', 'Å½'=>'Z', 'Ã '=>'a',
+                'Ã¡'=>'a', 'Ã¢'=>'a', 'Ã£'=>'a', 'Ä�'=>'a', 'Ä…'=>'a', 'Äƒ'=>'a',
+                'Ã¥'=>'a', 'Ã§'=>'c', 'Ä‡'=>'c', 'Ä�'=>'c', 'Ä‰'=>'c', 'Ä‹'=>'c',
+                'Ä�'=>'d', 'Ä‘'=>'d', 'Ã¨'=>'e', 'Ã©'=>'e', 'Ãª'=>'e', 'Ã«'=>'e',
+                'Ä“'=>'e', 'Ä™'=>'e', 'Ä›'=>'e', 'Ä•'=>'e', 'Ä—'=>'e', 'Æ’'=>'f',
+                'Ä�'=>'g', 'ÄŸ'=>'g', 'Ä¡'=>'g', 'Ä£'=>'g', 'Ä¥'=>'h', 'Ä§'=>'h',
+                'Ã¬'=>'i', 'Ã­'=>'i', 'Ã®'=>'i', 'Ã¯'=>'i', 'Ä«'=>'i', 'Ä©'=>'i',
+                'Ä­'=>'i', 'Ä¯'=>'i', 'Ä±'=>'i', 'Äµ'=>'j', 'Ä·'=>'k', 'Ä¸'=>'k',
+                'Å‚'=>'l', 'Ä¾'=>'l', 'Äº'=>'l', 'Ä¼'=>'l', 'Å€'=>'l', 'Ã±'=>'n',
+                'Å„'=>'n', 'Åˆ'=>'n', 'Å†'=>'n', 'Å‰'=>'n', 'Å‹'=>'n', 'Ã²'=>'o',
+                'Ã³'=>'o', 'Ã´'=>'o', 'Ãµ'=>'o', 'Ã¸'=>'o', 'Å�'=>'o', 'Å‘'=>'o',
+                'Å�'=>'o', 'Å•'=>'r', 'Å™'=>'r', 'Å—'=>'r', 'Å›'=>'s', 'Å¡'=>'s',
+                'Å¥'=>'t', 'Ã¹'=>'u', 'Ãº'=>'u', 'Ã»'=>'u', 'Å«'=>'u', 'Å¯'=>'u',
+                'Å±'=>'u', 'Å­'=>'u', 'Å©'=>'u', 'Å³'=>'u', 'Åµ'=>'w', 'Ã¿'=>'y',
+                'Ã½'=>'y', 'Å·'=>'y', 'Å¼'=>'z', 'Åº'=>'z', 'Å¾'=>'z', 'Î‘'=>'A',
+                'Î†'=>'A', 'á¼ˆ'=>'A', 'á¼‰'=>'A', 'á¼Š'=>'A', 'á¼‹'=>'A', 'á¼Œ'=>'A',
+                'á¼�'=>'A', 'á¼Ž'=>'A', 'á¼�'=>'A', 'á¾ˆ'=>'A', 'á¾‰'=>'A', 'á¾Š'=>'A',
+                'á¾‹'=>'A', 'á¾Œ'=>'A', 'á¾�'=>'A', 'á¾Ž'=>'A', 'á¾�'=>'A', 'á¾¸'=>'A',
+                'á¾¹'=>'A', 'á¾º'=>'A', 'á¾¼'=>'A', 'Î’'=>'B', 'Î“'=>'G', 'Î”'=>'D',
+                'Î•'=>'E', 'Îˆ'=>'E', 'á¼˜'=>'E', 'á¼™'=>'E', 'á¼š'=>'E', 'á¼›'=>'E',
+                'á¼œ'=>'E', 'á¼�'=>'E', 'á¿ˆ'=>'E', 'Î–'=>'Z', 'Î—'=>'I', 'Î‰'=>'I',
+                'á¼¨'=>'I', 'á¼©'=>'I', 'á¼ª'=>'I', 'á¼«'=>'I', 'á¼¬'=>'I', 'á¼­'=>'I',
+                'á¼®'=>'I', 'á¼¯'=>'I', 'á¾˜'=>'I', 'á¾™'=>'I', 'á¾š'=>'I', 'á¾›'=>'I',
+                'á¾œ'=>'I', 'á¾�'=>'I', 'á¾ž'=>'I', 'á¾Ÿ'=>'I', 'á¿Š'=>'I', 'á¿Œ'=>'I',
+                'Î˜'=>'T', 'Î™'=>'I', 'ÎŠ'=>'I', 'Îª'=>'I', 'á¼¸'=>'I', 'á¼¹'=>'I',
+                'á¼º'=>'I', 'á¼»'=>'I', 'á¼¼'=>'I', 'á¼½'=>'I', 'á¼¾'=>'I', 'á¼¿'=>'I',
+                'á¿˜'=>'I', 'á¿™'=>'I', 'á¿š'=>'I', 'Îš'=>'K', 'Î›'=>'L', 'Îœ'=>'M',
+                'Î�'=>'N', 'Îž'=>'K', 'ÎŸ'=>'O', 'ÎŒ'=>'O', 'á½ˆ'=>'O', 'á½‰'=>'O',
+                'á½Š'=>'O', 'á½‹'=>'O', 'á½Œ'=>'O', 'á½�'=>'O', 'á¿¸'=>'O', 'Î '=>'P',
+                'Î¡'=>'R', 'á¿¬'=>'R', 'Î£'=>'S', 'Î¤'=>'T', 'Î¥'=>'Y', 'ÎŽ'=>'Y',
+                'Î«'=>'Y', 'á½™'=>'Y', 'á½›'=>'Y', 'á½�'=>'Y', 'á½Ÿ'=>'Y', 'á¿¨'=>'Y',
+                'á¿©'=>'Y', 'á¿ª'=>'Y', 'Î¦'=>'F', 'Î§'=>'X', 'Î¨'=>'P', 'Î©'=>'O',
+                'Î�'=>'O', 'á½¨'=>'O', 'á½©'=>'O', 'á½ª'=>'O', 'á½«'=>'O', 'á½¬'=>'O',
+                'á½­'=>'O', 'á½®'=>'O', 'á½¯'=>'O', 'á¾¨'=>'O', 'á¾©'=>'O', 'á¾ª'=>'O',
+                'á¾«'=>'O', 'á¾¬'=>'O', 'á¾­'=>'O', 'á¾®'=>'O', 'á¾¯'=>'O', 'á¿º'=>'O',
+                'á¿¼'=>'O', 'Î±'=>'a', 'Î¬'=>'a', 'á¼€'=>'a', 'á¼�'=>'a', 'á¼‚'=>'a',
+                'á¼ƒ'=>'a', 'á¼„'=>'a', 'á¼…'=>'a', 'á¼†'=>'a', 'á¼‡'=>'a', 'á¾€'=>'a',
+                'á¾�'=>'a', 'á¾‚'=>'a', 'á¾ƒ'=>'a', 'á¾„'=>'a', 'á¾…'=>'a', 'á¾†'=>'a',
+                'á¾‡'=>'a', 'á½°'=>'a', 'á¾°'=>'a', 'á¾±'=>'a', 'á¾²'=>'a', 'á¾³'=>'a',
+                'á¾´'=>'a', 'á¾¶'=>'a', 'á¾·'=>'a', 'Î²'=>'b', 'Î³'=>'g', 'Î´'=>'d',
+                'Îµ'=>'e', 'Î­'=>'e', 'á¼�'=>'e', 'á¼‘'=>'e', 'á¼’'=>'e', 'á¼“'=>'e',
+                'á¼”'=>'e', 'á¼•'=>'e', 'á½²'=>'e', 'Î¶'=>'z', 'Î·'=>'i', 'Î®'=>'i',
+                'á¼ '=>'i', 'á¼¡'=>'i', 'á¼¢'=>'i', 'á¼£'=>'i', 'á¼¤'=>'i', 'á¼¥'=>'i',
+                'á¼¦'=>'i', 'á¼§'=>'i', 'á¾�'=>'i', 'á¾‘'=>'i', 'á¾’'=>'i', 'á¾“'=>'i',
+                'á¾”'=>'i', 'á¾•'=>'i', 'á¾–'=>'i', 'á¾—'=>'i', 'á½´'=>'i', 'á¿‚'=>'i',
+                'á¿ƒ'=>'i', 'á¿„'=>'i', 'á¿†'=>'i', 'á¿‡'=>'i', 'Î¸'=>'t', 'Î¹'=>'i',
+                'Î¯'=>'i', 'ÏŠ'=>'i', 'Î�'=>'i', 'á¼°'=>'i', 'á¼±'=>'i', 'á¼²'=>'i',
+                'á¼³'=>'i', 'á¼´'=>'i', 'á¼µ'=>'i', 'á¼¶'=>'i', 'á¼·'=>'i', 'á½¶'=>'i',
+                'á¿�'=>'i', 'á¿‘'=>'i', 'á¿’'=>'i', 'á¿–'=>'i', 'á¿—'=>'i', 'Îº'=>'k',
+                'Î»'=>'l', 'Î¼'=>'m', 'Î½'=>'n', 'Î¾'=>'k', 'Î¿'=>'o', 'ÏŒ'=>'o',
+                'á½€'=>'o', 'á½�'=>'o', 'á½‚'=>'o', 'á½ƒ'=>'o', 'á½„'=>'o', 'á½…'=>'o',
+                'á½¸'=>'o', 'Ï€'=>'p', 'Ï�'=>'r', 'á¿¤'=>'r', 'á¿¥'=>'r', 'Ïƒ'=>'s',
+                'Ï‚'=>'s', 'Ï„'=>'t', 'Ï…'=>'y', 'Ï�'=>'y', 'Ï‹'=>'y', 'Î°'=>'y',
+                'á½�'=>'y', 'á½‘'=>'y', 'á½’'=>'y', 'á½“'=>'y', 'á½”'=>'y', 'á½•'=>'y',
+                'á½–'=>'y', 'á½—'=>'y', 'á½º'=>'y', 'á¿ '=>'y', 'á¿¡'=>'y', 'á¿¢'=>'y',
+                'á¿¦'=>'y', 'á¿§'=>'y', 'Ï†'=>'f', 'Ï‡'=>'x', 'Ïˆ'=>'p', 'Ï‰'=>'o',
+                'ÏŽ'=>'o', 'á½ '=>'o', 'á½¡'=>'o', 'á½¢'=>'o', 'á½£'=>'o', 'á½¤'=>'o',
+                'á½¥'=>'o', 'á½¦'=>'o', 'á½§'=>'o', 'á¾ '=>'o', 'á¾¡'=>'o', 'á¾¢'=>'o',
+                'á¾£'=>'o', 'á¾¤'=>'o', 'á¾¥'=>'o', 'á¾¦'=>'o', 'á¾§'=>'o', 'á½¼'=>'o',
+                'á¿²'=>'o', 'á¿³'=>'o', 'á¿´'=>'o', 'á¿¶'=>'o', 'á¿·'=>'o', 'Ð�'=>'A',
+                'Ð‘'=>'B', 'Ð’'=>'V', 'Ð“'=>'G', 'Ð”'=>'D', 'Ð•'=>'E', 'Ð�'=>'E',
+                'Ð–'=>'Z', 'Ð—'=>'Z', 'Ð˜'=>'I', 'Ð™'=>'I', 'Ðš'=>'K', 'Ð›'=>'L',
+                'Ðœ'=>'M', 'Ð�'=>'N', 'Ðž'=>'O', 'ÐŸ'=>'P', 'Ð '=>'R', 'Ð¡'=>'S',
+                'Ð¢'=>'T', 'Ð£'=>'U', 'Ð¤'=>'F', 'Ð¥'=>'K', 'Ð¦'=>'T', 'Ð§'=>'C',
+                'Ð¨'=>'S', 'Ð©'=>'S', 'Ð«'=>'Y', 'Ð­'=>'E', 'Ð®'=>'Y', 'Ð¯'=>'Y',
+                'Ð°'=>'A', 'Ð±'=>'B', 'Ð²'=>'V', 'Ð³'=>'G', 'Ð´'=>'D', 'Ðµ'=>'E',
+                'Ñ‘'=>'E', 'Ð¶'=>'Z', 'Ð·'=>'Z', 'Ð¸'=>'I', 'Ð¹'=>'I', 'Ðº'=>'K',
+                'Ð»'=>'L', 'Ð¼'=>'M', 'Ð½'=>'N', 'Ð¾'=>'O', 'Ð¿'=>'P', 'Ñ€'=>'R',
+                'Ñ�'=>'S', 'Ñ‚'=>'T', 'Ñƒ'=>'U', 'Ñ„'=>'F', 'Ñ…'=>'K', 'Ñ†'=>'T',
+                'Ñ‡'=>'C', 'Ñˆ'=>'S', 'Ñ‰'=>'S', 'Ñ‹'=>'Y', 'Ñ�'=>'E', 'ÑŽ'=>'Y',
+                'Ñ�'=>'Y', 'Ã°'=>'d', 'Ã�'=>'D', 'Ã¾'=>'t', 'Ãž'=>'T', 'áƒ�'=>'a',
+                'áƒ‘'=>'b', 'áƒ’'=>'g', 'áƒ“'=>'d', 'áƒ”'=>'e', 'áƒ•'=>'v', 'áƒ–'=>'z',
+                'áƒ—'=>'t', 'áƒ˜'=>'i', 'áƒ™'=>'k', 'áƒš'=>'l', 'áƒ›'=>'m', 'áƒœ'=>'n',
+                'áƒ�'=>'o', 'áƒž'=>'p', 'áƒŸ'=>'z', 'áƒ '=>'r', 'áƒ¡'=>'s', 'áƒ¢'=>'t',
+                'áƒ£'=>'u', 'áƒ¤'=>'p', 'áƒ¥'=>'k', 'áƒ¦'=>'g', 'áƒ§'=>'q', 'áƒ¨'=>'s',
+                'áƒ©'=>'c', 'áƒª'=>'t', 'áƒ«'=>'d', 'áƒ¬'=>'t', 'áƒ­'=>'c', 'áƒ®'=>'k',
+                'áƒ¯'=>'j', 'áƒ°'=>'h', 'Å£'=>'t', 'Ê¼'=>"'", 'Ì§'=>'', 'á¸©'=>'h',
+                'â€˜'=>"'", 'â€™'=>"'", 'á»«'=>'u', '/'=>'', 'áº¿'=>'e', 'áº£'=>'a',
+                'á»‹'=>'i', 'áº­'=>'a', 'á»‡'=>'e', 'á»‰'=>'i', 'á»“'=>'o', 'á»�'=>'e',
+                'Æ¡'=>'o', 'áº¡'=>'a', 'áºµ'=>'a', 'Æ°'=>'u', 'áº±'=>'a', 'áº§'=>'a',
+                'á¸‘'=>'d', 'á¸¨'=>'H', 'á¸�'=>'D', 'È™'=>'s', 'È›'=>'t', 'á»™'=>'o',
+                'áº¯'=>'a', 'ÅŸ'=>'s', "'"=>'', 'Õ¸Ö‚'=>'u', 'Õ¡'=>'a', 'Õ¢'=>'b',
+                'Õ£'=>'g', 'Õ¤'=>'d', 'Õ¥'=>'e', 'Õ¦'=>'z', 'Õ§'=>'e', 'Õ¨'=>'y',
+                'Õ©'=>'t', 'Õª'=>'zh', 'Õ«'=>'i', 'Õ¬'=>'l', 'Õ­'=>'kh', 'Õ®'=>'ts',
+                'Õ¯'=>'k', 'Õ°'=>'h', 'Õ±'=>'dz', 'Õ²'=>'gh', 'Õ³'=>'ch', 'Õ´'=>'m',
+                'Õµ'=>'y', 'Õ¶'=>'n', 'Õ·'=>'sh', 'Õ¸'=>'o', 'Õ¹'=>'ch', 'Õº'=>'p',
+                'Õ»'=>'j', 'Õ¼'=>'r', 'Õ½'=>'s', 'Õ¾'=>'v', 'Õ¿'=>'t', 'Ö€'=>'r',
+                'Ö�'=>'ts', 'Öƒ'=>'p', 'Ö„'=>'q', 'Ö‡'=>'ev', 'Ö…'=>'o', 'Ö†'=>'f',
+            );
+            $arrayFrom = array_keys($transliterationTable);
+            $arrayTo = array_values($transliterationTable);
+        }
+
+        return str_replace($arrayFrom, $arrayTo, $string);
+    }
+}

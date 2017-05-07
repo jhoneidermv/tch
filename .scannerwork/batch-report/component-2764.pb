@@ -1,0 +1,1 @@
+ÌGvendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp/BitwiseAnd.php 2phpX	

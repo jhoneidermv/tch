@@ -1,0 +1,1 @@
+–1vendor/fzaninotto/faker/test/Faker/Provider/cs_CZ :•

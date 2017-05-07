@@ -1,0 +1,1 @@
+À5Jvendor/symfony/http-kernel/Tests/DataCollector/ConfigDataCollectorTest.php 2phpXR

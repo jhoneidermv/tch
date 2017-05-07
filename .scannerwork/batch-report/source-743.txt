@@ -1,0 +1,82 @@
+<?php
+
+namespace Faker\Provider\fr_CA;
+
+class Person extends \Faker\Provider\Person
+{
+    protected static $maleNameFormats = array(
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}-{{lastName}}',
+        '{{firstNameMale}}-{{firstNameMale}} {{lastName}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}-{{lastName}}',
+        '{{firstNameFemale}}-{{firstNameFemale}} {{lastName}}',
+    );
+
+    /**
+     * This list is more or less the same as in \Faker\Provider\fr_FR\Person.php
+     * Some common names were added and other removed.
+     */
+    protected static $firstNameMale = array(
+        'Adrien', 'AimÃ©', 'Alain', 'Albert', 'Alexandre', 'Alfred', 'Alphonse', 'Alysson', 'AndrÃ©', 'Anthony', 'Antoine', 'Arthur', 'Auguste',
+        'Augustin', 'Augustine', 'Benjamin', 'Benoit', 'BenoÃ®t', 'Bernard', 'Bertrand', 'Charles', 'Christian', 'Christophe', 'Claude', 'Daniel',
+        'David', 'Denis', 'Dominic', 'Emmanuel', 'EugÃ¨ne', 'FranÃ§is', 'FranÃ§ois', 'FrÃ©dÃ©ric', 'Gabriel', 'Georges', 'Gilbert', 'Gilles',
+        'GrÃ©gory', 'Guillaume', 'Guy', 'GÃ©rard', 'Henri', 'Hugues', 'Isaac', 'Jacques', 'Joseph', 'Jules', 'Julien', 'JÃ©rÃ´me',
+        'Laurent', 'Louis', 'Luc', 'Lucas', 'LÃ©on', 'Marc', 'Marcel', 'Martin', 'Mathieu', 'Matthieu', 'Maurice', 'Michel',
+        'Nicolas', 'NoÃ«l', 'Olivier', 'Patrick', 'Paul', 'Philippe', 'Pierre', 'Raymond', 'RenÃ©', 'Richard', 'Robert', 'Roger',
+        'Roland', 'RÃ©my', 'Simone', 'StÃ©phane', 'SÃ©bastien', 'Thierry', 'Thomas', 'ThÃ©o', 'ThÃ©ophile', 'TimothÃ©e', 'Tristan', 'Victor',
+        'Vincent', 'William', 'Xavier', 'Yvan', 'Yves', 'Yvon', 'Zacharie', 'Ã‰douard', 'Ã‰manuelle', 'Ã‰mile', 'Ã‰ric', 'Ã‰tienne', 'HonorÃ©',
+    );
+
+    protected static $firstNameFemale = array(
+        'Adrienne', 'AdÃ¨le', 'Agathe', 'AimÃ©e', 'Alexandra', 'Alice', 'Aline', 'AmÃ©lie', 'AnaÃ¯s', 'AndrÃ©e', 'Ann', 'Anne', 'Annette',
+        'Annie', 'Anouk', 'Arianne', 'Audrey', 'Aurore', 'AurÃ©lie', 'Bernadette', 'Brigitte', 'Camille', 'Caroline', 'Catherine', 'Chantal',
+        'Charlotte', 'Christiane', 'Christine', 'Claire', 'Claudine', 'Colette', 'Corrine', 'CÃ©cile', 'CÃ©line', 'Danielle', 'Denise', 'Dominique',
+        'EugÃ©nie', 'Eve', 'FranÃ§oise', 'FrÃ©dÃ©rique', 'Gabrielle', 'GeneviÃ¨ve', 'HÃ©lÃ¨ne', 'Isabelle', 'Jacqueline', 'Jean', 'Jeanne', 'Jeannine',
+        'JosÃ©phine', 'Julie', 'Laurence', 'Louise', 'Luce', 'Lucie', 'Madeleine', 'Maggie', 'Manon', 'Margot', 'Marguerite', 'Marianne',
+        'Marie', 'Marthe', 'Martine', 'Maryse', 'Mathilde', 'Michelle', 'MichÃ¨le', 'Monique', 'Nancy', 'Nathalie', 'Nicole', 'NoÃ©mie',
+        'Odette', 'Olivia', 'Patrice', 'Patricia', 'Paule', 'Paulette', 'Pauline', 'PÃ©nÃ©lope', 'RenÃ©e', 'Rolande', 'Sophie', 'StÃ©phanie',
+        'Susanne', 'Suzanne', 'Sylvie', 'ThÃ©rÃ¨se', 'ValÃ©rie', 'Virginie', 'VÃ©ronique', 'Yvonne', 'ZoÃ©', 'Ã‰dith', 'Ã‰lisabeth', 'Ã‰lise',
+        'Ã‰lodie', 'Ã‰milie', 'Ã‰rika', 'HonorÃ©e',
+    );
+
+    /**
+     * These last names come from this list of most common family names in QuÃ©bec (1 to 130)
+     * http://fr.wikipedia.org/wiki/Liste_des_noms_de_famille_les_plus_courants_au_QuÃ©bec
+     */
+    protected static $lastName = array(
+        'Allard', 'Arsenault', 'Audet',
+        'Beaudoin', 'Beaulieu', 'BÃ©dard', 'BÃ©langer', 'BenoÃ®t', 'Bergeron', 'Bernard', 'Bernier', 'Bertrand', 'BÃ©rubÃ©',
+        'Bilodeau', 'Blais', 'Blanchette', 'Boisvert', 'Boivin', 'Bolduc', 'Bouchard', 'Boucher', 'Boudreau',
+        'Caron', 'Carrier', 'Champagne', 'Charbonneau', 'Cloutier', 'CÃ´tÃ©', 'Couture', 'Cyr',
+        'Demers', 'DeschÃªnes', 'Desjardins', 'Desrosiers', 'Dion', 'Dionne', 'Drouin', 'DubÃ©', 'Dubois', 'Dufour', 'Dupuis',
+        'Fillion', 'Fontaine', 'Fortier', 'Fortin', 'Fournier',
+        'GagnÃ©', 'Gagnon', 'Gaudreault', 'Gauthier', 'GiguÃ¨re', 'Gilbert', 'Gingras', 'Girard', 'Giroux', 'Goulet',
+        'Gosselin', 'Gravel', 'Grenier', 'Guay',
+        'Hamel', 'Harvey', 'HÃ©bert', 'Houle',
+        'Jean', 'Jacques',
+        'Labelle', 'Lachance', 'Lacroix', 'Lalonde', 'Lambert', 'Landry', 'Langlois', 'Lapierre', 'Lapointe', 'Larouche',
+        'Lauzon', 'Lavoie', 'Leblanc', 'Leduc', 'Leclerc', 'Lefebvre', 'Legault', 'Lemay', 'Lemieux', 'Lepage', 'Lessard',
+        'LÃ©vesque',
+        'Martel', 'Martin', 'MÃ©nard', 'Mercier', 'Michaud', 'Moreau', 'Morin',
+        'Nadeau', 'Nguyen',
+        'Ouellet',
+        'Paquette', 'Paradis', 'Parent', 'Pelletier', 'Perreault', 'Perron', 'Picard', 'Plante', 'Poirier', 'Poulin',
+        'Proulx',
+        'Raymond', 'Renaud', 'Richard', 'Rioux', 'Robert', 'Rousseau', 'Roy',
+        'Savard', 'Simard', 'St-Pierre',
+        'Tardif', 'Tessier', 'ThÃ©riault', 'Therrien', 'Thibault', 'Tremblay', 'Trudel', 'Turcotte',
+        'Vachon', 'Vaillancourt', 'Villeneuve'
+    );
+}

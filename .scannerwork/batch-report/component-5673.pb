@@ -1,0 +1,1 @@
+©,Gvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php 2phpX

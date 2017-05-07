@@ -1,0 +1,1 @@
+Å*:vendor/sebastian/comparator/tests/DoubleComparatorTest.php 2phpX‡

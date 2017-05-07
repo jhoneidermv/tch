@@ -1,0 +1,1 @@
+ï&7vendor/phpunit/phpunit/tests/_files/CoveredFunction.php 2phpX

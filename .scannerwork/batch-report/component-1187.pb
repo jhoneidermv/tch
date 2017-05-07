@@ -1,0 +1,1 @@
+£	=vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Every.php 2phpX9

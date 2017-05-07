@@ -1,0 +1,1 @@
+Ä,Bvendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator :Ã,

@@ -1,0 +1,1 @@
+ÂMvendor/laravel/framework/src/Illuminate/Console/AppNamespaceDetectorTrait.php 2phpX

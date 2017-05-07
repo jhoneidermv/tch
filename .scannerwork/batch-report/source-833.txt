@@ -1,0 +1,105 @@
+<?php
+
+namespace Faker\Provider\kk_KZ;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $citySuffix = array('Ò›Ð°Ð»Ð°Ñ�Ñ‹');
+
+    protected static $regionSuffix = array('Ð¾Ð±Ð»Ñ‹Ñ�Ñ‹');
+    protected static $streetSuffix = array(
+        'ÐºÓ©ÑˆÐµÑ�Ñ–', 'Ð´Ð°Ò£Ò“Ñ‹Ð»Ñ‹',
+    );
+
+    protected static $buildingNumber = array('###');
+    protected static $postcode = array('0#####');
+    // TODO list all country names in the world
+    protected static $country = array(
+        'ÒšÐ°Ð·Ð°Ò›Ñ�Ñ‚Ð°Ð½',
+        'Ð ÐµÑ�ÐµÐ¹',
+    );
+
+    protected static $region = array(
+        'Ð�Ð»Ð¼Ð°Ñ‚Ñ‹',
+        'Ð�Ò›Ñ‚Ð°Ñƒ',
+        'Ð�Ò›Ñ‚Ó©Ð±Ðµ',
+        'Ð�Ñ�Ñ‚Ð°Ð½Ð°',
+        'Ð�Ñ‚Ñ‹Ñ€Ð°Ñƒ',
+        'Ð‘Ð°Ð¹Ò›Ð¾Ò£Ñ‹Ñ€',
+        'ÒšÐ°Ñ€Ð°Ò“Ð°Ð½Ð´Ñ‹',
+        'ÐšÓ©ÐºÑˆÐµÑ‚Ð°Ñƒ',
+        'ÒšÐ¾Ñ�Ñ‚Ð°Ð½Ð°Ð¹',
+        'ÒšÑ‹Ð·Ñ‹Ð»Ð¾Ñ€Ð´Ð°',
+        'ÐœÐ°Ò£Ò“Ñ‹Ñ�Ñ‚Ð°Ñƒ',
+        'ÐŸÐ°Ð²Ð»Ð¾Ð´Ð°Ñ€',
+        'ÐŸÐµÑ‚Ñ€Ð¾Ð¿Ð°Ð²Ð»',
+        'Ð¢Ð°Ð»Ð´Ñ‹Ò›Ð¾Ñ€Ò“Ð°Ð½',
+        'Ð¢Ð°Ñ€Ð°Ð·',
+        'ÐžÑ€Ð°Ð»',
+        'Ó¨Ñ�ÐºÐµÐ¼ÐµÐ½',
+        'Ð¨Ñ‹Ð¼ÐºÐµÐ½Ñ‚',
+    );
+
+    protected static $city = array(
+        'Ð�Ð»Ð¼Ð°Ñ‚Ñ‹',
+        'Ð�Ò›Ñ‚Ð°Ñƒ',
+        'Ð�Ò›Ñ‚Ó©Ð±Ðµ',
+        'Ð�Ñ�Ñ‚Ð°Ð½Ð°',
+        'Ð�Ñ‚Ñ‹Ñ€Ð°Ñƒ',
+        'Ð‘Ð°Ð¹Ò›Ð¾Ò£Ñ‹Ñ€',
+        'ÒšÐ°Ñ€Ð°Ò“Ð°Ð½Ð´Ñ‹',
+        'ÐšÓ©ÐºÑˆÐµÑ‚Ð°Ñƒ',
+        'ÒšÐ¾Ñ�Ñ‚Ð°Ð½Ð°Ð¹',
+        'ÒšÑ‹Ð·Ñ‹Ð»Ð¾Ñ€Ð´Ð°',
+        'ÐœÐ°Ò£Ò“Ñ‹Ñ�Ñ‚Ð°Ñƒ',
+        'ÐŸÐ°Ð²Ð»Ð¾Ð´Ð°Ñ€',
+        'ÐŸÐµÑ‚Ñ€Ð¾Ð¿Ð°Ð²Ð»',
+        'Ð¢Ð°Ð»Ð´Ñ‹Ò›Ð¾Ñ€Ò“Ð°Ð½',
+        'Ð¢Ð°Ñ€Ð°Ð·',
+        'ÐžÑ€Ð°Ð»',
+        'Ó¨Ñ�ÐºÐµÐ¼ÐµÐ½',
+        'Ð¨Ñ‹Ð¼ÐºÐµÐ½Ñ‚',
+    );
+
+    protected static $street = array(
+        'Ð�Ð±Ð°Ð¹',
+        'Ð“Ð¾Ð³Ð¾Ð»ÑŒ',
+        'ÐšÐµÐ½ÐµÑ�Ð°Ñ€Ñ‹',
+        'Ð‘ÐµÐ¹Ð±Ñ–Ñ‚ÑˆÑ–Ð»Ñ–Ðº',
+        'Ð”Ð¾Ñ�Ñ‚Ñ‹Ò›',
+        'Ð‘Ò±Ò›Ð°Ñ€ Ð¶Ñ‹Ñ€Ð°Ñƒ',
+    );
+
+    protected static $addressFormats = array(
+        "{{postcode}}, {{region}} {{regionSuffix}}, {{city}} {{citySuffix}}, {{street}} {{streetSuffix}}, {{buildingNumber}}",
+    );
+
+    protected static $streetAddressFormats = array(
+        "{{street}} {{streetSuffix}}, {{buildingNumber}}"
+    );
+
+    public static function buildingNumber()
+    {
+        return static::numerify(static::randomElement(static::$buildingNumber));
+    }
+
+    public static function regionSuffix()
+    {
+        return static::randomElement(static::$regionSuffix);
+    }
+
+    public static function region()
+    {
+        return static::randomElement(static::$region);
+    }
+
+    public function city()
+    {
+        return static::randomElement(static::$city);
+    }
+
+    public static function street()
+    {
+        return static::randomElement(static::$street);
+    }
+}

@@ -1,0 +1,1 @@
+Ð_vendor/mockery/mockery/tests/Mockery/Generator/StringManipulation/Pass/InstanceMockPassTest.php 2phpX

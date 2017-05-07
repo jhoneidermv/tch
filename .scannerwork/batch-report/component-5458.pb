@@ -1,0 +1,1 @@
+Ò*>vendor/sebastian/comparator/tests/_files/ClassWithToString.php 2phpX

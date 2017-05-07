@@ -1,0 +1,1 @@
+°Gvendor/laravel/framework/src/Illuminate/Contracts/Support/Arrayable.php 2phpX

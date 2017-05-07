@@ -1,0 +1,1 @@
+£Bvendor/nikic/php-parser/lib/PhpParser/Node/Name/FullyQualified.php 2phpX*

@@ -1,0 +1,1 @@
+Œ	;vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php 2phpX'

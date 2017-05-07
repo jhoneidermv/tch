@@ -1,0 +1,107 @@
+<?php
+
+namespace Faker\Provider\sl_SI;
+
+class Address extends \Faker\Provider\Address
+{
+
+    /**
+     * @link http://www.rtvslo.si/strani/abecedni-seznam-obcin/3103
+     **/
+    protected static $city = array(
+        'AjdovÅ¡Ä�ina', 'ApaÄ�e', 'Beltinci', 'Benedikt', 'Bistrica ob Sotli', 'Bled', 'Bloke', 'Bohinj', 'Borovnica', 'Bovec',
+        'BraslovÄ�e', 'Brda', 'Brezovica', 'BreÅ¾ice', 'Cankova', 'Celje', 'Cerklje na Gorenjskem', 'Cerknica', 'Cerkno',
+        'Cerkvenjak', 'Cirkulane', 'Destrnik', 'DivaÄ�a', 'Dobje', 'Dobrepolje', 'Dobrna', 'Dobrova - Polhov Gradec', 'Dobrovnik',
+        'Dol pri Ljubljani', 'Dolenjske Toplice', 'DomÅ¾ale', 'Dornava', 'Dravograd', 'Duplek', 'Gorenja vas - Poljane',
+        'GoriÅ¡nica', 'Gorje', 'Gornja Radgona', 'Gornji Grad', 'Gornji Petrovci', 'Grad', 'Grosuplje', 'Hajdina', 'HodoÅ¡',
+        'Horjul', 'HoÄ�e - Slivnica', 'Hrastnik', 'Hrpelje - Kozina', 'Idrija', 'Ig', 'Ilirska Bistrica', 'IvanÄ�na Gorica',
+        'Izola', 'Jesenice', 'Jezersko', 'JurÅ¡inci', 'Kamnik', 'Kanal ob SoÄ�i', 'KidriÄ�evo', 'Kobarid', 'Kobilje', 'Komen',
+        'Komenda', 'Koper', 'Kostanjevica na Krki', 'Kostel', 'Kozje', 'KoÄ�evje', 'Kranj', 'Kranjska Gora', 'KriÅ¾evci', 'KrÅ¡ko',
+        'Kungota', 'Kuzma', 'LaÅ¡ko', 'Lenart', 'Lendava', 'Litija', 'Ljubljana', 'Ljubno', 'Ljutomer', 'Log - Dragomer', 'Logatec',
+        'Lovrenc na Pohorju', 'LoÅ¡ka Dolina', 'LoÅ¡ki Potok', 'Lukovica', 'LuÄ�e', 'MajÅ¡perk', 'Makole', 'Maribor', 'Markovci',
+        'Medvode', 'MengeÅ¡', 'Metlika', 'MeÅ¾ica', 'MiklavÅ¾ na Dravskem polju', 'Miren - Kostanjevica', 'Mirna PeÄ�', 'Mislinja',
+        'Mokronog - Trebelno', 'Moravske Toplice', 'MoravÄ�e', 'Mozirje', 'Murska Sobota', 'Muta', 'Naklo', 'Nazarje', 'Nova Gorica',
+        'Novo mesto', 'Odranci', 'Oplotnica', 'OrmoÅ¾', 'Osilnica', 'Pesnica', 'Piran', 'Pivka', 'Podlehnik', 'Podvelka',
+        'PodÄ�etrtek', 'PoljÄ�ane', 'Polzela', 'Postojna', 'Prebold', 'Preddvor', 'Prevalje', 'Ptuj', 'Puconci', 'Radenci', 'RadeÄ�e',
+        'Radlje ob Dravi', 'Radovljica', 'Ravne na KoroÅ¡kem', 'RazkriÅ¾je', 'RaÄ�e - Fram', 'RenÄ�e - Vogrsko', 'ReÄ�ica ob Savinji',
+        'Ribnica na Pohorju', 'Ribnica', 'Rogatec', 'RogaÅ¡ka Slatina', 'RogaÅ¡ovci', 'RuÅ¡e', 'Selnica ob Dravi', 'SemiÄ�', 'Sevnica',
+        'SeÅ¾ana', 'Slovenj Gradec', 'Slovenska Bistrica', 'Slovenske Konjice', 'SodraÅ¾ica', 'SolÄ�ava', 'SrediÅ¡Ä�e ob Dravi', 'StarÅ¡e',
+        'StraÅ¾a', 'Sveta Ana', 'Sveta Trojica v Slovenskih goricah', 'Sveti AndraÅ¾ v Slovenskih goricah', 'Sveti Jurij ob Å Ä�avnici',
+        'Sveti Jurij v Slovenskih goricah', 'Sveti TomaÅ¾', 'Tabor', 'TiÅ¡ina', 'Tolmin', 'Trbovlje', 'Trebnje', 'Trnovska vas',
+        'Trzin', 'TrÅ¾iÄ�', 'TurniÅ¡Ä�e', 'Velenje', 'Velika Polana', 'Velike LaÅ¡Ä�e', 'VerÅ¾ej', 'Videm', 'Vipava', 'Vitanje', 'Vodice',
+        'Vojnik', 'Vransko', 'Vrhnika', 'Vuzenica', 'Zagorje ob Savi', 'ZavrÄ�', 'ZreÄ�e', 'ÄŒrenÅ¡ovci', 'ÄŒrna na KoroÅ¡kem', 'ÄŒrnomelj',
+        'Å alovci', 'Å empeter - Vrtojba', 'Å entilj', 'Å entjernej', 'Å entjur', 'Å entrupert', 'Å enÄ�ur', 'Å kocjan', 'Å kofja Loka',
+        'Å kofljica', 'Å marje pri JelÅ¡ah', 'Å marjeÅ¡ke Toplice', 'Å martno ob Paki', 'Å martno pri Litiji', 'Å oÅ¡tanj', 'Å tore', 'Å½alec',
+        'Å½elezniki', 'Å½etale', 'Å½iri', 'Å½irovnica', 'Å½uÅ¾emberk'
+    );
+
+    protected static $buildingNumber = array('1##', '##', '##', '##', '##', '#');
+
+    protected static $postcode = array('###0');
+
+    /**
+     * Most common street names in Slovenia
+     *
+     * @link http://www.stat.si/krajevnaimena/pregledi_ulice_najpogostejse.asp
+     * @link http://www.stat.si/KrajevnaImena/pregledi_naselja_najpogostejsa.asp
+     */
+    protected static $street = array(
+        'Å olska ulica', 'PreÅ¡ernova ulica', 'Cankarjeva ulica', 'Vrtna ulica', 'GregorÄ�iÄ�eva ulica', 'Kajuhova ulica', 'PreÄ�na ulica',
+        'Levstikova ulica', 'Trubarjeva ulica', 'Mladinska ulica', 'GubÄ�eva ulica', 'Ljubljanska cesta', 'Partizanska ulica', 'Maistrova ulica',
+        'RoÅ¾na ulica', 'Bevkova ulica', 'JurÄ�iÄ�eva ulica', 'Å½upanÄ�iÄ�eva ulica', 'Kolodvorska ulica', 'Partizanska cesta', 'Gasilska ulica',
+        'KidriÄ�eva ulica', 'AÅ¡kerÄ�eva ulica', 'Kratka ulica', 'Nova ulica', 'ObrtniÅ¡ka ulica', 'TomÅ¡iÄ�eva ulica', 'CvetliÄ�na ulica',
+        'Mariborska cesta', 'Ob potoku', 'Trg svobode', 'Ulica talcev', 'Kettejeva ulica', 'Kosovelova ulica', 'FinÅ¾garjeva ulica', 'Ob gozdu',
+        'Stara cesta', 'Vegova ulica', 'PreÅ¾ihova ulica', 'SonÄ�na ulica',
+
+        'GradiÅ¡Ä�e', 'Pristava', 'Brezje', 'Dolenja vas', 'Potok', 'Ravne',
+        'Brdo', 'Dobrava', 'Draga', 'Javorje', 'Kal', 'Laze', 'Log', 'Planina', 'Podkraj', 'Selce', 'Trnovec', 'Bistrica', 'Gorenja vas',
+        'Gorica', 'Lipa', 'Nova vas', 'Podgora', 'Podgorje', 'Podgrad', 'Ponikve', 'Sela', 'Selo', 'Å kocjan', 'Vrh'
+    );
+
+    /**
+     * @link http://sl.wikipedia.org/wiki/Seznam_suverenih_drÅ¾av
+     */
+    protected static $country = array(
+        'Afganistan', 'Albanija', 'AlÅ¾irija', 'Andora', 'Angola', 'Antigva in Barbuda', 'Argentina', 'Armenija', 'Avstralija', 'Avstrija',
+        'AzerbajdÅ¾an', 'Bahami', 'Bahrajn', 'BangladeÅ¡', 'Barbados', 'Belgija', 'Belize', 'Belorusija', 'Benin', 'Bocvana', 'Bolgarija',
+        'Bolivija', 'Bosna in Hercegovina', 'Brazilija', 'Brunej', 'Burkina Faso', 'Burundi', 'Butan', 'Ciper', 'ÄŒad', 'ÄŒeÅ¡ka', 'ÄŒile',
+        'ÄŒrna gora', 'Danska', 'Dominika', 'Dominikanska republika', 'DÅ¾ibuti', 'Egipt', 'Ekvador', 'Ekvatorialna Gvineja', 'Eritreja',
+        'Estonija', 'Etiopija', 'FidÅ¾i', 'Filipini', 'Finska', 'Francija', 'Gabon', 'Gambija', 'Gana', 'GrÄ�ija', 'Grenada', 'Gruzija',
+        'Gvajana', 'Gvatemala', 'Gvineja', 'Gvineja Bissau', 'Haiti', 'Honduras', 'HrvaÅ¡ka', 'Indija', 'Indonezija', 'Irak', 'Iran', 'Irska',
+        'Islandija', 'Italija', 'Izrael', 'Jamajka', 'Japonska', 'Jemen', 'Jordanija', 'JuÅ¾na Afrika', 'JuÅ¾na Koreja', 'KambodÅ¾a', 'Kamerun',
+        'Kanada', 'Katar', 'Kazahstan', 'Kenija', 'Kirgizistan', 'Kiribati', 'Kitajska', 'Kolumbija', 'Komori', 'Kongo', 'DemokratiÄ�na republika Kongo',
+        'Kostarika', 'Kuba', 'Kuvajt', 'Laos', 'Latvija', 'Lesoto', 'Libanon', 'Liberija', 'Libija', 'LihtenÅ¡tajn', 'Litva', 'Luksemburg', 'Madagaskar',
+        'MadÅ¾arska', 'Makedonija', 'Malavi', 'Maldivi', 'Malezija', 'Mali', 'Malta', 'Maroko', 'Marshallovi otoki', 'Mauritius', 'Mavretanija', 'Mehika',
+        'Mikronezija', 'Mjanmar', 'Moldavija', 'Monako', 'Mongolija', 'Mozambik', 'Namibija', 'Nauru', 'NemÄ�ija', 'Nepal', 'Niger', 'Nigerija',
+        'Nikaragva', 'Nizozemska', 'NorveÅ¡ka', 'Nova Zelandija', 'Oman', 'Pakistan', 'Palau', 'Panama', 'Papua Nova Gvineja', 'Paragvaj', 'Peru',
+        'Poljska', 'Portugalska', 'Romunija', 'Ruanda', 'Rusija', 'Saint Kitts in Nevis', 'Saint Lucia', 'Saint Vincent in Grenadine',
+        'Salomonovi otoki', 'Salvador', 'San Marino', 'Sao Tome in Principe', 'Saudova Arabija', 'SejÅ¡eli', 'Senegal', 'Severna Koreja', 'Sierra Leone',
+        'Singapur', 'Sirija', 'SlonokoÅ¡Ä�ena obala', 'SlovaÅ¡ka', 'Slovenija', 'Somalija', 'Srbija', 'SrednjeafriÅ¡ka republika', 'Sudan', 'Surinam',
+        'Svazi', 'Å panija', 'Å rilanka', 'Å vedska', 'Å vica', 'TadÅ¾ikistan', 'Tajska', 'Tajvan', 'Tanzanija', 'Togo', 'Tonga', 'Trinidad in Tobago',
+        'Tunizija', 'TurÄ�ija', 'Turkmenistan', 'Tuvalu', 'Uganda', 'Ukrajina', 'Urugvaj', 'Uzbekistan', 'Vanuatu', 'Vatikan', 'Velika Britanija',
+        'Venezuela', 'Vietnam', 'Vzhodni Timor', 'Zahodna Samoa', 'Zambija', 'ZdruÅ¾ene drÅ¾ave Amerike', 'ZdruÅ¾eni arabski emirati',
+        'Zelenortski otoki', 'Zimbabve'
+    );
+
+    protected static $cityFormats = array(
+        '{{cityName}}'
+    );
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}'
+    );
+
+    protected static $addressFormats = array(
+        '{{streetAddress}}\n {{postcode}}\n {{cityName}}',
+    );
+
+    public static function cityName()
+    {
+        return static::randomElement(static::$city);
+    }
+
+    public function streetName()
+    {
+        return static::randomElement(static::$street);
+    }
+}

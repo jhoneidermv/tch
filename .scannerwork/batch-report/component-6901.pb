@@ -1,0 +1,1 @@
+õ5Uvendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/DependencyInjection :ó5

@@ -1,0 +1,1 @@
+Ÿ6:vendor/symfony/http-kernel/Tests/Profiler/ProfilerTest.php 2phpXS

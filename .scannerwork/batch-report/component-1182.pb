@@ -1,0 +1,1 @@
+ž	=vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/AllOf.php 2phpX<

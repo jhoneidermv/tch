@@ -1,0 +1,1 @@
+“Vvendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassPass.php 2phpX3

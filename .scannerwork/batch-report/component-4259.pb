@@ -1,0 +1,1 @@
+£!Mvendor/phpspec/prophecy/src/Prophecy/Doubler/Generator/ClassCodeGenerator.php 2phpX’

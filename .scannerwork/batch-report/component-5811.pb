@@ -1,0 +1,1 @@
+³-lvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/QpContentEncoderAcceptanceTest.php 2phpX¡

@@ -1,0 +1,1 @@
+ß+Dvendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php 2phpXD

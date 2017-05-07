@@ -1,0 +1,1 @@
+äNvendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/linearBestFitClass.php 2phpXo

@@ -1,0 +1,1 @@
+Ñ,Evendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporter.php 2phpX!

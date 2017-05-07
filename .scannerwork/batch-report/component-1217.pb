@@ -1,0 +1,1 @@
+Á	3vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text :¿	À	Ã	Ä	Â	Å	Ç	Æ	È	É	

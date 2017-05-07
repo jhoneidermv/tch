@@ -1,0 +1,1 @@
+Å9=vendor/symfony/translation/Tests/Loader/LocalizedTestCase.php 2phpX

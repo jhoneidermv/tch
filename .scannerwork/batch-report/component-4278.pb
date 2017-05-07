@@ -1,0 +1,1 @@
+¶!Uvendor/phpspec/prophecy/src/Prophecy/Exception/Doubler/InterfaceNotFoundException.php 2phpX

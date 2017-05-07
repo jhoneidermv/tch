@@ -1,0 +1,1 @@
+Ê1:vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php 2phpXÅ

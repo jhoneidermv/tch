@@ -1,0 +1,69 @@
+<?php
+
+namespace Faker\Provider\hr_HR;
+
+class Address extends \Faker\Provider\Address
+{
+    /**
+     * @link https://hr.wikipedia.org/wiki/Dodatak:Popis_ulica_u_Baranji
+     */
+    protected static $streets = array(
+        'Baranjska ulica', 'Batina jug', 'Beljska ulica', 'Biljski sokak', 'Blatna ulica', 'BraÄ�ka ulica', 'Crkvena ulica', 'Daljok', 'Dravska ulica', 'DraÅ¾-planina', 'DubrovaÄ�ka ulica', 'Dunavska ulica', 'Glavna ulica', 'Grobljanska ulica', 'Jorgovanska ulica', 'KaranaÄ�ka', 'KenÄ‘ija', 'Kod plota', 'Kolodvorska ulica', 'KomarÄ�ev prolaz', 'KonkoloÅ¡', 'KruÅ¡evaÄ�ka ulica', 'Lugarnica Å arkanj', 'Mirna ulica', 'Nova ulica', 'OsjeÄ�ka ulica', 'Partizanska ulica', 'Planina istok', 'Planina jug', 'Planina zapad', 'Planina', 'Planinska ulica', 'PopovaÄ�ka ulica', 'PrimoÅ¡tenska ulica', 'RadniÄ�ka ulica', 'Ribarska ulica', 'Ritska ulica', 'SalaÅ¡i', 'Savska ulica', 'Slavonska ulica', 'Srednja ulica', 'Staklena ulica', 'SunÄ�ana ulica', 'Trg Josipa bana JelaÄ�iÄ‡a', 'Trg Slobode', 'Trg Stipe Ä�urina', 'Trg hrvatske mladeÅ¾i', 'Ulica 1. svibnja', 'Ulica 30. svibnja', 'Ulica Adolfa Waldingera', 'Ulica Alojzija Stepinca', 'Ulica Ankice Dobrokes', 'Ulica Ante KovaÄ�iÄ‡a', 'Ulica Ante StarÄ�eviÄ‡a', 'Ulica Antuna AugustinÄ�iÄ‡a', 'Ulica Antuna Gustava MatoÅ¡a', 'Ulica Aranji JanoÅ¡a', 'Ulica Augusta Cesarca', 'Ulica Augusta Å enoe', 'Ulica Bartoka Bele', 'Ulica Biljske satnije ZNH RH', 'Ulica Borisa KidriÄ�a', 'Ulica Branka Gavelle', 'Ulica Branka RadiÄ�eviÄ‡a', 'Ulica Dore PejaÄ�eviÄ‡', 'Ulica Dositeja ObradoviÄ‡a', 'Ulica DoÅ¾a Ä�erÄ‘a', 'Ulica Dragutina TadijanoviÄ‡a', 'Ulica Eugena Kvaternika', 'Ulica Eugena Savojskog', 'Ulica Frana Krste Frankopana', 'Ulica Franca Liszta', 'Ulica Franje RaÄ�koga', 'Ulica Gustava Krkleca', 'Ulica Hrvatske vojske', 'Ulica Imre Nagya', 'Ulica Ivana Gorana KovaÄ�iÄ‡a', 'Ulica Ivana GunduliÄ‡a', 'Ulica Ivana Kozarca', 'Ulica Ivana MaÅ¾uraniÄ‡a', 'Ulica Ivana MeÅ¡troviÄ‡a', 'Ulica Ivana MilutinoviÄ‡a', 'Ulica Ivane BrliÄ‡-MaÅ¾uraniÄ‡', 'Ulica Ive GrgiÄ‡a', 'Ulica Ive Lole Ribara', 'Ulica Ive PetruÅ¡iÄ‡a', 'Ulica Izidora KrÅ¡njavoga', 'Ulica IÅ¡tvana Vencela', 'Ulica Janka DraÅ¡koviÄ‡a', 'Ulica Janusa Pannoniusa', 'Ulica Jerka ZlatariÄ‡a', 'Ulica Jokai Mora', 'Ulica Josipa BÃ¶sendorfera', 'Ulica Josipa Jurja Strossmayera', 'Ulica Josipa Kozarca', 'Ulica Josipa KraÅ¡a', 'Ulica Josipa PanÄ�iÄ‡a', 'Ulica Josipa Runjanina', 'Ulica Jovana JovanoviÄ‡a Zmaja', 'Ulica Jovana LaziÄ‡a', 'Ulica Jozsefa Antala', 'Ulica Julija BeneÅ¡iÄ‡a', 'Ulica Julija KloviÄ‡a', 'Ulica KoÅ¡ut LajoÅ¡a', 'Ulica LajoÅ¡a KoÅ¡uta', 'Ulica Lavoslava RuÅ¾iÄ�ke', 'Ulica Ljudevita Gaja', 'Ulica Ljudevita Posavskog', 'Ulica Marije JuriÄ‡ Zagorke', 'Ulica Marina DrÅ¾iÄ‡a', 'Ulica Marka MaruliÄ‡a', 'Ulica Marka OreÅ¡koviÄ‡a', 'Ulica Matije Antuna RelkoviÄ‡a', 'Ulica Matije Gupca', 'Ulica Matije Petra KatanÄ�iÄ‡a', 'Ulica Matka PeiÄ‡a', 'Ulica Mije ZlatariÄ‡a', 'Ulica Miladina PopoviÄ‡a', 'Ulica Miroslava KrleÅ¾e', 'Ulica Nikole Tesle', 'Ulica Obrada RibiÄ‡a', 'Ulica Petefi Å andora', 'Ulica Petra BerislaviÄ‡a', 'Ulica Petra DobroviÄ‡a', 'Ulica Petra DrapÅ¡ina', 'Ulica Petra PetroviÄ‡a NjegoÅ¡a', 'Ulica Petra PreradoviÄ‡a', 'Ulica Petra Zrinskog', 'Ulica Republike', 'Ulica RuÄ‘era BoÅ¡koviÄ‡a', 'Ulica Sare BertiÄ‡', 'Ulica Silvija Strahimira KranjÄ�eviÄ‡a', 'Ulica Stipe MatoviÄ‡a', 'Ulica Stjepana BrodariÄ‡a', 'Ulica Stjepana RadiÄ‡a', 'Ulica Stjepana Stjepanova', 'Ulica Svetozara MiletiÄ‡a', 'Ulica Tina UjeviÄ‡a', 'Ulica Toldi Ferenca', 'Ulica Vasilja GaÄ‡eÅ¡e', 'Ulica Vatroslava Lisinskog', 'Ulica Vladana Desnice', 'Ulica Vladimira Filakovca', 'Ulica Vladimira Nazora', 'Ulica Vladimira Preloga', 'Ulica Vladka MaÄ�eka', 'Ulica Vojina BakiÄ‡a', 'Ulica Vuka StefanoviÄ‡a KaradÅ¾iÄ‡a', 'Ulica Zvonka BrkiÄ‡a', 'Ulica bana JelaÄ�iÄ‡a', 'Ulica bijelog lopoÄ�a', 'Ulica braÄ‡e RadiÄ‡', 'Ulica crne rode', 'Ulica domovinske zahvalnosti', 'Ulica dr Franje TuÄ‘mana', 'Ulica dr. Ante StarÄ�eviÄ‡a', 'Ulica dr. Franje TuÄ‘mana', 'Ulica dr. Kamila Firingera', 'Ulica hrvatskih branitelja', 'Ulica kardinala Franje Å efera', 'Ulica kneza Branimira', 'Ulica kneza Domagoja', 'Ulica kneza Trpimira', 'Ulica kralja KreÅ¡imira', 'Ulica kralja Petra KreÅ¡imira IV', 'Ulica kralja Tomislava', 'Ulica kralja Zvonimira', 'Ulica republike', 'Ulica svetog Ivana Nepomuka', 'Ulica svetog Martina', 'Ulica svetog kriÅ¾a', 'Ulica Ä�ure Ä�akoviÄ‡a', 'Ulica Å andora Petefija', 'Ulica Å ovakova', 'Ulica Å¡portova', 'Ulica Å½arka Zrenjanina', 'Ulica Å½ikice JovanoviÄ‡a Å panca', 'Ulica Å¾rtava domovinskog rata', 'Vatrogasna ulica', 'Velebitska ulica', 'Vijenac Nikole Tesle', 'Vinogradska ulica', 'Virska ulica', 'Vukovarska ulica', 'ZagrebaÄ�ka ulica', 'Å eÄ‡eranska ulica', 'Å kolska ulica'
+    );
+
+    protected static $streetNameFormats = array(
+        '{{street}}',
+    );
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}',
+    );
+
+    protected static $addressFormats = array(
+        '{{streetAddress}}, {{postcode}} {{city}}',
+    );
+
+    protected static $cityFormats = array(
+        '{{cityName}}',
+    );
+
+    protected static $postcode = array('#####');
+
+
+    /**
+     * @link https://hr.wikipedia.org/wiki/Dodatak:Popis_gradova_u_Hrvatskoj
+     */
+    protected static $cityNames = array(
+        'Bakar', 'Beli Manastir', 'BeliÅ¡Ä‡e', 'Benkovac', 'Biograd na Moru', 'Bjelovar', 'Buje', 'Buzet', 'Cres', 'Crikvenica', 'Daruvar', 'Delnice', 'Dodatak:Imena europskih gradova na razliÄ�itim jezicima', 'Donja Stubica', 'Donji Miholjac', 'DrniÅ¡', 'Dubrovnik', 'Duga Resa', 'Dugo Selo', 'GareÅ¡nica', 'Glina', 'GospiÄ‡', 'GrubiÅ¡no Polje', 'Hrvatska Kostajnica', 'Hvar', 'Ilok', 'Imotski', 'Ivanec', 'IvaniÄ‡-Grad', 'Jastrebarsko', 'Karlovac', 'Kastav', 'KaÅ¡tela', 'Klanjec', 'Knin', 'KomiÅ¾a', 'Koprivnica', 'KorÄ�ula', 'Kraljevica', 'Krapina', 'KriÅ¾evci', 'Krk', 'Kutina', 'Kutjevo', 'Labin', 'Lepoglava', 'Lipik', 'Ludbreg', 'Makarska', 'Mali LoÅ¡inj', 'MetkoviÄ‡', 'Mursko SrediÅ¡Ä‡e', 'NaÅ¡ice', 'Nin', 'Nova GradiÅ¡ka', 'Novalja', 'Novi Marof', 'Novi Vinodolski', 'Novigrad', 'Novska', 'Obrovac', 'Ogulin', 'OmiÅ¡', 'Opatija', 'Opuzen', 'Orahovica', 'Oroslavje', 'Osijek', 'Otok', 'OtoÄ�ac', 'Ozalj', 'Pag', 'Pakrac', 'Pazin', 'Petrinja', 'Pleternica', 'PloÄ�e', 'PopovaÄ�a', 'PoreÄ�', 'PoÅ¾ega', 'Pregrada', 'Prelog', 'Pula', 'Rab', 'Rijeka', 'Rovinj', 'Samobor', 'Senj', 'Sinj', 'Sisak', 'Skradin', 'Slatina', 'Slavonski Brod', 'Slunj', 'Solin', 'Split', 'Stari Grad', 'Supetar', 'Sveta Nedelja', 'Sveti Ivan Zelina', 'Trilj', 'Trogir', 'Umag', 'Valpovo', 'VaraÅ¾din', 'VaraÅ¾dinske Toplice', 'Velika Gorica', 'Vinkovci', 'Virovitica', 'Vis', 'Vodice', 'Vodnjan', 'Vrbovec', 'Vrbovsko', 'Vrgorac', 'Vrlika', 'Vukovar', 'Zabok', 'Zadar', 'Zagreb', 'ZapreÅ¡iÄ‡', 'Zlatar', 'ÄŒabar', 'ÄŒakovec', 'ÄŒazma', 'Ä�akovo', 'Ä�urÄ‘evac', 'Å ibenik', 'Å½upanja'
+    );
+
+    /**
+     * @link https://github.com/umpirsky/country-list/blob/master/country/cldr/sr_Latn/country.php
+     */
+    protected static $country = array(
+        'Andora', 'Ujedinjeni Arapski Emirati', 'Afganistan', 'Albanija', 'Armenija', 'Nizozemski Antili', 'Angola',
+        'Antarktika', 'Argentina', 'AmeriÄ�ka Samoa', 'Austrija', 'Australija', 'AzerbejdÅ¾an', 'Bosna i Hercegovina',
+        'Barbados', 'BangladeÅ¡', 'Belgija', 'Burkina Faso', 'Bugarska', 'Bahrein', 'Burundi', 'Benin', 'Bolivija',
+        'Brazil', 'Bjelorusija', 'Belize', 'Kanada', 'Å vicarska', 'Obala Bjelokosti', 'ÄŒile', 'Kamerun', 'Kina',
+        'Kolumbija', 'Kostarika', 'Srbija', 'Crna Gora', 'Kuba', 'Cipar', 'ÄŒeÅ¡ka', 'NjemaÄ�ka', 'Danska',
+        'Dominikanska Republika', 'AlÅ¾ir', 'Ekvador', 'Estonija', 'Egipat', 'Å panjolska', 'Etiopija', 'Finska',
+        'Farski Otoci', 'Francuska', 'Ujedinjeno Kraljevstvo', 'Gruzija', 'Gana', 'Gibraltar', 'Gambija', 'GrÄ�ka',
+        'Gvatemala', 'Honduras', 'Hrvatska', 'MaÄ‘arska', 'Indonezija', 'Irska', 'Izrael', 'Irak', 'Iran', 'Island',
+        'Italija', 'Jamajka', 'Jordan', 'Japan', 'Sjeverna Koreja', 'JuÅ¾na Koreja', 'Kuvajt', 'Kazahstan',
+        'LihtenÅ¡tajn', 'Å ri Lanka', 'Luksemburg', 'Libija', 'Maroko', 'Moldavija', 'Makedonija', 'Mali', 'Malta',
+        'Meksiko', 'Malezija', 'Mozambik', 'Namibija', 'Nigerija', 'Nikaragva', 'Nizozemska', 'NorveÅ¡ka', 'Nepal',
+        'Novi Zeland', 'Oman', 'Panama', 'Peru', 'Pakistan', 'Poljska', 'Portugal', 'Paragvaj', 'Katar', 'Rumunjska',
+        'Rusija', 'Saudijska Arabija', 'Å vedska', 'Singapur', 'Slovenija', 'SlovaÄ�ka', 'San Marino', 'Senegal',
+        'Tajland', 'Turska', 'Trinidad i Tobago', 'Ukrajina', 'Sjedinjene AmeriÄ�ke DrÅ¾ave', 'Urugvaj', 'Uzbekistan',
+    );
+
+    public static function street()
+    {
+        return static::randomElement(static::$streets);
+    }
+
+    public function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+}

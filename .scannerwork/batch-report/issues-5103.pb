@@ -1,2 +1,3 @@
-è
-phpS101vRename class "PHPUnit_Framework_MockObject_Stub_ConsecutiveCalls" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 8
+h
+phpS114ORename this interface name to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2
+ 1

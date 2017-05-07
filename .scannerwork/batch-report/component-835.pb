@@ -1,0 +1,1 @@
+Ã:vendor/fzaninotto/faker/src/Faker/Provider/kk_KZ/Color.php 2phpX

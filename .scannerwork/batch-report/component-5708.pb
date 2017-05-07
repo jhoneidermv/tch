@@ -1,0 +1,1 @@
+Ì,Jvendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php 2phpXK

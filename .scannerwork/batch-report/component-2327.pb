@@ -1,0 +1,1 @@
+—Qvendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/Pass.php 2phpX

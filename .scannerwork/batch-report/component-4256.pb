@@ -1,0 +1,1 @@
+ !Lvendor/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/TraversablePatch.php 2phpXT

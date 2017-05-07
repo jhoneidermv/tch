@@ -1,0 +1,1 @@
+ï+<vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php 2phpX

@@ -1,0 +1,53 @@
+<?php
+
+namespace Faker\Provider\ka_GE;
+
+class Payment extends \Faker\Provider\Payment
+{
+
+    /**
+     * @see list of Georgian banks (2015-12-26), source: https://www.nbg.gov.ge/index.php?m=403
+     */
+    protected static $banks = array(
+        'áƒ‘áƒ�áƒœáƒ™áƒ˜ áƒ áƒ”áƒ¡áƒžáƒ£áƒ‘áƒšáƒ˜áƒ™áƒ�',
+        'áƒ—áƒ˜áƒ‘áƒ˜áƒ¡áƒ˜ áƒ‘áƒ�áƒœáƒ™áƒ˜',
+        'áƒ¡áƒ�áƒ¥áƒ�áƒ áƒ—áƒ•áƒ”áƒšáƒ�áƒ¡ áƒ‘áƒ�áƒœáƒ™áƒ˜',
+        'áƒšáƒ˜áƒ‘áƒ”áƒ áƒ—áƒ˜ áƒ‘áƒ�áƒœáƒ™áƒ˜',
+        'áƒ‘áƒ�áƒ–áƒ˜áƒ¡áƒ‘áƒ�áƒœáƒ™áƒ˜',
+        'áƒ•áƒ˜áƒ—áƒ˜áƒ‘áƒ˜ áƒ‘áƒ�áƒœáƒ™áƒ˜ áƒ¯áƒ�áƒ áƒ¯áƒ˜áƒ�',
+        'áƒ‘áƒ�áƒœáƒ™áƒ˜ áƒ¥áƒ�áƒ áƒ—áƒ£',
+        'áƒžáƒ áƒ�áƒ™áƒ áƒ”áƒ“áƒ˜áƒ¢ áƒ‘áƒ�áƒœáƒ™áƒ˜',
+        'áƒ¡áƒ˜áƒšáƒ¥ áƒ áƒ�áƒ£áƒ“ áƒ‘áƒ�áƒœáƒ™áƒ˜ ',
+        'áƒ™áƒ�áƒžáƒ˜áƒ¢áƒ�áƒš áƒ‘áƒ�áƒœáƒ™áƒ˜ ',
+        'áƒ�áƒ–áƒ”áƒ áƒ‘áƒ�áƒ˜áƒ¯áƒ�áƒœáƒ˜áƒ¡ áƒ¡áƒ�áƒ”áƒ áƒ—áƒ�áƒ¨áƒ�áƒ áƒ˜áƒ¡áƒ� áƒ‘áƒ�áƒœáƒ™áƒ˜ - áƒ¡áƒ�áƒ¥áƒ�áƒ áƒ—áƒ•áƒ”áƒšáƒ� ',
+        'áƒ–áƒ˜áƒ áƒ�áƒ�áƒ— áƒ‘áƒ�áƒœáƒ™áƒ˜áƒ¡ áƒ—áƒ‘áƒ˜áƒšáƒ˜áƒ¡áƒ˜áƒ¡ áƒ¤áƒ˜áƒšáƒ˜áƒ�áƒšáƒ˜ ',
+        'áƒ™áƒ�áƒ•áƒ™áƒ�áƒ¡áƒ˜áƒ˜áƒ¡ áƒ’áƒ�áƒœáƒ•áƒ˜áƒ—áƒ�áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ‘áƒ�áƒœáƒ™áƒ˜ - áƒ¡áƒ�áƒ¥áƒ�áƒ áƒ—áƒ•áƒ”áƒšáƒ�',
+        'áƒ˜áƒ¨ áƒ‘áƒ�áƒœáƒ™áƒ˜ áƒ¡áƒ�áƒ¥áƒ�áƒ áƒ—áƒ•áƒ”áƒšáƒ�',
+        'áƒžáƒ áƒ�áƒ’áƒ áƒ”áƒ¡ áƒ‘áƒ�áƒœáƒ™áƒ˜',
+        'áƒ™áƒ�áƒ  áƒ¡áƒ¢áƒ�áƒœáƒ“áƒ�áƒ áƒ¢ áƒ‘áƒ�áƒœáƒ™áƒ˜',
+        'áƒ®áƒ�áƒšáƒ˜áƒ™ áƒ‘áƒ�áƒœáƒ™áƒ˜ áƒ¡áƒ�áƒ¥áƒ�áƒ áƒ—áƒ•áƒ”áƒšáƒ� ',
+        'áƒžáƒ�áƒ¨áƒ� áƒ‘áƒ�áƒœáƒ™áƒ˜ áƒ¡áƒ�áƒ¥áƒ�áƒ áƒ—áƒ•áƒ”áƒšáƒ�',
+        'áƒ¤áƒ˜áƒœáƒ™áƒ� áƒ‘áƒ�áƒœáƒ™áƒ˜ áƒ¡áƒ�áƒ¥áƒ�áƒ áƒ—áƒ•áƒ”áƒšáƒ�',
+    );
+
+    /**
+     * @example 'áƒ—áƒ˜áƒ‘áƒ˜áƒ¡áƒ˜ áƒ‘áƒ�áƒœáƒ™áƒ˜'
+     */
+    public static function bank()
+    {
+        return static::randomElement(static::$banks);
+    }
+
+    /**
+     * International Bank Account Number (IBAN)
+     * @link http://en.wikipedia.org/wiki/International_Bank_Account_Number
+     * @param  string  $prefix      for generating bank account number of a specific bank
+     * @param  string  $countryCode ISO 3166-1 alpha-2 country code
+     * @param  integer $length      total length without country code and 2 check digits
+     * @return string
+     */
+    public static function bankAccountNumber($prefix = '', $countryCode = 'GE', $length = null)
+    {
+        return static::iban($countryCode, $prefix, $length);
+    }
+}

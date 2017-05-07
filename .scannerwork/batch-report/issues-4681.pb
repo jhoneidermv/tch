@@ -1,2 +1,2 @@
-o
-phpS101VRename class "PHPUnit_Util_Regex" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 
+s
+phpS101ZRename class "PHPUnit_Util_Blacklist" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 

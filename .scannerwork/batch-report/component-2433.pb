@@ -1,0 +1,1 @@
+ÅBvendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php 2phpXZ

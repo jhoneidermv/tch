@@ -1,0 +1,1 @@
+§,Cvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder :¦,¨,

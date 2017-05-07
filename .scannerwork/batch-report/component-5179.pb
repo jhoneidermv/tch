@@ -1,0 +1,1 @@
+»(Dvendor/phpunit/phpunit-mock-objects/tests/_fixture/AbstractTrait.php 2phpX

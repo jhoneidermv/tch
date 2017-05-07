@@ -1,2 +1,2 @@
-ä
-phpS101qRename class "PHPUnit_Framework_Constraint_StringStartsWith" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 3
+Å
+phpS101hRename class "PHPUnit_Framework_Constraint_IsEmpty" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 *

@@ -1,0 +1,155 @@
+<?php
+
+namespace Faker\Provider\kk_KZ;
+
+class Person extends \Faker\Provider\Person
+{
+
+    /**
+     * @see https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F
+     *
+     * @var array
+     */
+    protected static $maleNameFormats = array(
+        '{{lastName}}Ò±Ð»Ñ‹ {{firstNameMale}}',
+    );
+
+    /**
+     * @see https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F
+     *
+     * @var array
+     */
+    protected static $femaleNameFormats = array(
+        '{{lastName}}Ò›Ñ‹Ð·Ñ‹ {{firstNameFemale}}',
+    );
+
+    /**
+     * @see http://koshpendi.kz/index.php/nomad/imena/
+     *
+     * @var array
+     */
+    protected static $firstNameMale = array(
+        'Ð�Ñ‹Ð»Ò“Ð°Ð·Ñ‹',
+        'Ó˜Ð±Ð´Ñ–Ò›Ð°Ð´Ñ‹Ñ€',
+        'Ð‘Ð°Ð±Ð°Ò“Ð¾Ð¶Ð°',
+        'Ò’Ð°Ð¹Ñ�Ð°',
+        'Ð”Ó™Ð¼ÐµÐ½',
+        'Ð•Ð³Ñ–Ð·Ð±ÐµÐº',
+        'Ð–Ð°Ð·Ñ‹Ð»Ð±ÐµÐº',
+        'Ð—Ò±Ð»Ð¿Ñ‹Ò›Ð°Ñ€',
+        'Ð˜Ð³Ñ–Ñ�Ñ–Ð½',
+        'ÐšÓ™Ð´Ñ–Ñ€Ð¶Ð°Ð½',
+        'ÒšÐ°Ð´Ñ‹Ñ€Ò›Ð°Ð½',
+        'Ð›Ð°Ñ‚Ð¸Ñ„',
+        'ÐœÐ°Ò“Ð°Ð·',
+        'Ð�Ð°Ñ€Ð¼Ð°Ò“Ð°Ð¼Ð±ÐµÑ‚',
+        'ÐžÒ£Ð°Ð»Ð±Ð°Ð¹',
+        'Ó¨Ð½Ð´Ñ–Ñ€Ñ–Ñ�',
+        'ÐŸÐµÑ€Ð´ÐµÐ±ÐµÐº',
+        'Ð Ð°Ò›Ð°Ñ‚',
+        'Ð¡Ð°Ò“Ñ‹Ð½Ð´Ñ‹Ò›',
+        'Ð¢Ð°Ð½Ð°Ð±Ð°Ð¹',
+        'Ð£Ð°Ð¹Ñ‹Ñ�',
+        'Ò°Ð¹Ñ‹Ò›Ð±Ð°Ð¹',
+        'Ò®Ñ€Ñ–Ð¼Ð±Ð°Ð¹',
+        'Ð¤Ð°Ð¹Ð·Ñ€Ð°Ñ…Ð¼Ð°Ð½',
+        'Ð¥Ð°Ð½Ð³ÐµÐ»Ð´Ñ–',
+        'Ð¨Ð°Ñ‚Ñ‚Ñ‹Ò›',
+        'Ð«Ñ�Ñ‚Ð°Ð¼Ð±Ð°Ò›Ñ‹',
+        'Ð†Ð±Ð½Ð¸',
+    );
+
+    /**
+     * @see http://koshpendi.kz/index.php/nomad/imena/
+     *
+     * @var array
+     */
+    protected static $firstNameFemale = array(
+        'Ð�Ñ�Ñ‹Ð»Ñ‚Ð°Ñ�',
+        'Ó˜ÑƒÐ¶Ð°',
+        'Ð‘Ò¯Ð»Ð´Ñ–Ñ€ÑˆÑ–Ð½',
+        'Ð“Ò¯Ð»ÑˆÐ°Ñˆ',
+        'Ò’Ð°Ñ„ÑƒÑ€Ð°',
+        'Ð”Ñ–Ð»Ð´Ó™',
+        'Ð•Ñ€ÐºÐµÐ¶Ð°Ð½',
+        'Ð–Ñ–Ð±ÐµÐº',
+        'Ð—Ñ‹Ð»Ð¸Ò›Ð°',
+        'Ð˜Ñ€Ð°Ð´Ð°',
+        'ÐšÒ¯Ð½Ñ�Ò±Ð»Ñƒ',
+        'ÒšÑ‹Ñ€Ð¼Ñ‹Ð·Ñ‹',
+        'Ð›Ó™Ñ‚Ð¸Ð¿Ð°',
+        'ÐœÒ¯ÑˆÑ‚Ó™Ñ€Ð¸',
+        'Ð�Ò±Ñ€ÑˆÐ°Ñ€Ð°',
+        'ÐžÑ€Ñ‹Ð½ÑˆÐ°',
+        'Ó¨Ñ€Ð·Ð¸Ñ�',
+        'ÐŸÐµÑ€Ð¸Ð·Ð°Ñ‚',
+        'Ð ÑƒÑ…Ð¸Ñ�',
+        'Ð¡Ñ‹Ð½Ð´Ñ‹Ð±Ð°Ð»Ð°',
+        'Ð¢Ò±Ñ€Ñ�Ñ‹Ð½Ð°Ð¹',
+        'Ð£Ó™Ñ�Ð¸Ð¼Ð°',
+        'Ò°Ñ€Ò›Ð¸Ñ�',
+        'Ò®Ñ€Ð¸Ñ�',
+        'Ð¤Ð¸Ñ€ÑƒÐ·Ð°',
+        'Ð¥Ð°Ñ„Ð¸Ð·Ð°',
+        'Ð¨Ñ‹Ñ€Ñ‹Ð½Ð³Ò¯Ð»',
+        'Ð«Ñ€Ñ‹Ñ�Ñ‚Ñ‹',
+        'Ð†Ò£ÐºÓ™Ñ€',
+    );
+
+    /**
+     * @see http://koshpendi.kz/index.php/nomad/imena/
+     * @see https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F
+     *
+     * @var array
+     */
+    protected static $lastName = array(
+        'Ð�Ð´Ñ‹Ñ€Ð±Ð°Ð¹',
+        'Ó˜Ð¶Ñ–Ð±Ð°Ð¹',
+        'Ð‘Ð°Ð¹Ð±Ó©Ñ€Ñ–',
+        'Ò’Ð¸Ð·Ð°Ñ‚',
+        'Ð”Ñ–Ð»Ð´Ð°Ð±ÐµÐº',
+        'Ð•ÑˆÐ¼Ò±Ñ…Ð°Ð¼Ð±ÐµÑ‚',
+        'Ð–Ñ–Ð³ÐµÑ€',
+        'Ð—Ñ–ÐºÑ–Ñ€Ð¸Ñ�',
+        'Ð˜Ñ�Ð°',
+        'ÐšÑƒÐ½Ñ‚Ñƒ',
+        'ÒšÑ‹Ð´Ñ‹Ñ€',
+        'Ð›Ò±Ò›Ð¿Ð°Ð½',
+        'ÐœÑ‹ÑˆÑ‹Ñ€Ð±Ð°Ð¹',
+        'Ð�Ñ‹Ñ�Ñ‹Ð½Ð±Ð°Ð¹',
+        'ÐžÑˆÐ°Ò›Ð±Ð°Ð¹',
+        'Ó¨Ñ‚ÐµÑ‚Ñ–Ð»ÐµÑƒ',
+        'ÐŸÑ–Ñ€Ó™Ð»Ñ–',
+        'Ð Ò¯Ñ�Ñ‚ÐµÐ¼',
+        'Ð¡Ñ‹Ñ€Ð¼Ò±Ñ…Ð°Ð¼Ð±ÐµÑ‚',
+        'Ð¢Ñ–Ð»ÐµÐ¼Ñ–Ñ�',
+        'Ð£Ó™Ð»Ñ–',
+        'Ò°Ð»Ñ‹Ò›Ð±ÐµÐº',
+        'Ò®Ñ�Ñ‚ÐµÐ¼',
+        'Ð¤Ð°Ñ…Ð¸Ñ€',
+        'Ð¥Ò±Ñ�Ð°Ð¹Ñ‹Ð½',
+        'Ð¨Ñ–Ð»Ð´ÐµÐ±Ð°Ð¹',
+        'Ð«Ñ�Ñ‚Ð°Ð¼Ð±Ð°Ò›Ñ‹',
+        'Ð†Ñ�Ð¼ÐµÑ‚',
+    );
+
+    /**
+     * National Individual Identification Numbers
+     *
+     * @link   http://egov.kz/wps/portal/!utWCM/p/b1/04_Sj9S1tDAwMzY1NjLTj9CPykssy0xPLMnMz0vMAfGjzOKDvDxNnJwMHQ0sTMOMDBxNPJ2dggNCg13MDIEKIpEVGFiGOIMUuIcFOJkZGxgYE6ffAAdwNCCkP1w_ClUJFheAFeCxws8jPzdVPzcqx83SU9cRADxWbyg!/dl4/d5/L0lDUmlTUSEhL3dHa0FKRnNBLzRKVXFDQSEhL2Vu/
+     * @param  \DateTime $birthDate
+     * @return string 12 digits, like 780322300455
+     */
+    public static function individualIdentificationNumber(\DateTime $birthDate = null)
+    {
+        if (!$birthDate) {
+            $birthDate = \Faker\Provider\DateTime::dateTimeBetween();
+        }
+
+        $dateAsString       = $birthDate->format('ymd');
+        $genderAndCenturyId = (string) static::numberBetween(1, 6);
+        $randomDigits       = (string) static::numerify('#####');
+
+        return $dateAsString . $genderAndCenturyId . $randomDigits;
+    }
+}

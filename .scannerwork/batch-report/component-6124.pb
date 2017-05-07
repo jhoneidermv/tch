@@ -1,0 +1,1 @@
+ì/5vendor/symfony/console/Tests/Fixtures/Foo2Command.php 2phpX

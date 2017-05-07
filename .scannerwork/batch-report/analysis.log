@@ -9,9 +9,9 @@ SonarQube plugins:
   - SonarJS 2.20.0.4207 (javascript)
 Global properties:
   - sonar.core.id=AVvZ91WchaFtP1Y-K3dy
-  - sonar.core.startTime=2017-05-06T15:24:23+0000
+  - sonar.core.startTime=2017-05-07T00:12:33+0000
 Settings for module: my:tch
-  - sonar.host.url=http://192.168.99.100:32769
+  - sonar.host.url=http://192.168.99.100:32768
   - sonar.projectBaseDir=C:\xampp\htdocs\tch
   - sonar.projectKey=my:tch
   - sonar.projectName=tch

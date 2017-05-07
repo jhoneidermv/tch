@@ -1,0 +1,1 @@
+¼!Kvendor/phpspec/prophecy/src/Prophecy/Exception/InvalidArgumentException.php 2phpX

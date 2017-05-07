@@ -1,0 +1,1 @@
+ç+Fvendor/swiftmailer/swiftmailer/lib/classes/Swift/ConfigurableSpool.php 2phpX@

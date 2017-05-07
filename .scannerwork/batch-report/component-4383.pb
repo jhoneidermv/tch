@@ -1,0 +1,1 @@
+Ÿ"`vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/jquery.min.js 2jsX

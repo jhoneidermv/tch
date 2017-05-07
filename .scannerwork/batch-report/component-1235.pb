@@ -1,0 +1,1 @@
+Ó	@vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsScalar.php 2phpX#

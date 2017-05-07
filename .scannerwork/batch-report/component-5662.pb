@@ -1,0 +1,1 @@
+ž,Yvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php 2phpX‡

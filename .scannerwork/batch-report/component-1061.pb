@@ -1,0 +1,1 @@
+¥Avendor/fzaninotto/faker/test/Faker/Provider/en_CA/AddressTest.php 2phpXE

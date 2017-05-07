@@ -1,0 +1,1 @@
+Ž2>vendor/symfony/debug/Tests/Fixtures/NonDeprecatedInterface.php 2phpX

@@ -1,0 +1,1 @@
+š!Nvendor/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/HhvmExceptionPatch.php 2phpX@

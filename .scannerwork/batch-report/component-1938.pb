@@ -1,0 +1,1 @@
+’Lvendor/laravel/framework/src/Illuminate/Queue/Console/FailedTableCommand.php 2phpX\

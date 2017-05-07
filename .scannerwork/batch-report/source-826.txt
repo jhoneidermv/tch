@@ -1,0 +1,42 @@
+<?php
+
+namespace Faker\Provider\ka_GE;
+
+class DateTime extends \Faker\Provider\DateTime
+{
+
+    public static function dayOfWeek($max = 'now')
+    {
+        $map = array(
+            'Sunday' => 'áƒ™áƒ•áƒ˜áƒ áƒ�',
+            'Monday' => 'áƒ�áƒ áƒ¨áƒ�áƒ‘áƒ�áƒ—áƒ˜',
+            'Tuesday' => 'áƒ¡áƒ�áƒ›áƒ¨áƒ�áƒ‘áƒ�áƒ—áƒ˜',
+            'Wednesday' => 'áƒ�áƒ—áƒ®áƒ¨áƒ�áƒ‘áƒ�áƒ—áƒ˜',
+            'Thursday' => 'áƒ®áƒ£áƒ—áƒ¨áƒ�áƒ‘áƒ�áƒ—áƒ˜',
+            'Friday' => 'áƒžáƒ�áƒ áƒ�áƒ¡áƒ™áƒ”áƒ•áƒ˜',
+            'Saturday' => 'áƒ¨áƒ�áƒ‘áƒ�áƒ—áƒ˜',
+        );
+        $week = static::dateTime($max)->format('l');
+        return isset($map[$week]) ? $map[$week] : $week;
+    }
+
+    public static function monthName($max = 'now')
+    {
+        $map = array(
+            'January' => 'áƒ˜áƒ�áƒœáƒ•áƒ�áƒ áƒ˜',
+            'February' => 'áƒ—áƒ”áƒ‘áƒ”áƒ áƒ•áƒ�áƒšáƒ˜',
+            'March' => 'áƒ›áƒ�áƒ áƒ¢áƒ˜',
+            'April' => 'áƒ�áƒžáƒ áƒ˜áƒšáƒ˜',
+            'May' => 'áƒ›áƒ�áƒ˜áƒ¡áƒ˜',
+            'June' => 'áƒ˜áƒ•áƒœáƒ˜áƒ¡áƒ˜',
+            'July' => 'áƒ˜áƒ•áƒšáƒ˜áƒ¡áƒ˜',
+            'August' => 'áƒ�áƒ’áƒ•áƒ˜áƒ¡áƒ¢áƒ�',
+            'September' => 'áƒ¡áƒ”áƒ¥áƒ¢áƒ”áƒ›áƒ‘áƒ”áƒ áƒ˜',
+            'October' => 'áƒ�áƒ¥áƒ¢áƒ�áƒ›áƒ‘áƒ”áƒ áƒ˜',
+            'November' => 'áƒœáƒ�áƒ”áƒ›áƒ‘áƒ”áƒ áƒ˜',
+            'December' => 'áƒ“áƒ”áƒ™áƒ”áƒ›áƒ‘áƒ”áƒ áƒ˜',
+        );
+        $month = static::dateTime($max)->format('F');
+        return isset($map[$month]) ? $map[$month] : $month;
+    }
+}

@@ -1,0 +1,1 @@
+· Mvendor/phpspec/prophecy/spec/Prophecy/Argument/Token/ObjectStateTokenSpec.php 2phpXZ

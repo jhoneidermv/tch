@@ -1,0 +1,1 @@
+’,Mvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php 2phpX!

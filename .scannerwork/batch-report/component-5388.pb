@@ -1,0 +1,1 @@
+Œ*:vendor/psy/psysh/test/Psy/Test/ConsoleColorFactoryTest.php 2phpX4

@@ -1,0 +1,1 @@
+¹/8vendor/symfony/console/Tests/Command/ListCommandTest.php 2phpXq

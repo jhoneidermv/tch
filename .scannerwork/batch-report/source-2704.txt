@@ -1,0 +1,31 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => ':count å¹´',
+    'y' => ':count å¹´',
+    'month' => ':count æœˆ',
+    'm' => ':count æœˆ',
+    'week' => ':count å‘¨',
+    'w' => ':count å‘¨',
+    'day' => ':count å¤©',
+    'd' => ':count å¤©',
+    'hour' => ':count å°�æ™‚',
+    'h' => ':count å°�æ™‚',
+    'minute' => ':count åˆ†é�˜',
+    'min' => ':count åˆ†é�˜',
+    'second' => ':count ç§’',
+    's' => ':count ç§’',
+    'ago' => ':timeå‰�',
+    'from_now' => 'è·�ç�¾åœ¨ :time',
+    'after' => ':timeå¾Œ',
+    'before' => ':timeå‰�',
+);

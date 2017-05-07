@@ -1,0 +1,124 @@
+<?php
+
+namespace Faker\Provider\pt_PT;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $streetPrefix = array('Av.', 'Avenida', 'R.', 'Rua', 'Travessa', 'Largo');
+
+    protected static $streetNameFormats = array(
+        '{{streetPrefix}} {{lastName}}',
+        '{{streetPrefix}} {{firstName}} {{lastName}}',
+        '{{streetPrefix}} St. {{firstName}} {{lastName}}',
+        '{{streetPrefix}} SÃ£o. {{firstName}}',
+        '{{streetPrefix}} de {{lastName}}',
+    );
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}}',
+        '{{streetName}}, {{buildingNumber}}',
+        '{{streetName}}, {{buildingNumber}}, {{secondaryAddress}}',
+    );
+
+    /** @link http://www.univ-ab.pt/PINTAC/carta_normas.htm address example in letters **/
+    protected static $addressFormats = array(
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+    );
+
+    /** @link http://www.mapadeportugal.net/indicecidades.asp **/
+    private static $cities = array(
+        'Abrantes', 'Agualva-CacÃ©m', 'Ã�gueda', 'Albufeira', 'AlcÃ¡cer do Sal', 'AlcobaÃ§a', 'Almada', 'Almeirim', 'Alverca do Ribatejo', 'Amadora', 'Amarante', 'Amora', 'Anadia', 'Angra do HeroÃ­smo', 'Aveiro', 'Barcelos', 'Barreiro',
+        'Beja', 'Braga', 'BraganÃ§a', 'Caldas da Rainha', 'Camara de Lobos', 'Cantanhede', 'Cartaxo', 'Castelo Branco', 'Chaves', 'Coimbra', 'CovilhÃ£', 'Elvas', 'Entroncamento', 'Ermesinde', 'Esmoriz', 'Espinho', 'Esposende', 'Estarreja',
+        'Estremoz', 'Ã‰vora', 'Fafe', 'Faro', 'FÃ¡tima', 'Felgueiras', 'FiÃ£es', 'Figueira da Foz', 'Freamunde', 'Funchal', 'FundÃ£o', 'Gafanha da NazarÃ©', 'Gondomar', 'Gouveia', 'Guarda', 'GuimarÃ£es', 'Horta', 'Ã�lhavo', 'Lagoa', 'Lagos', 'Lamego',
+        'Leiria', 'Lisboa', 'Lixa', 'LoulÃ©', 'Loures', 'Lourosa', 'Macedo de Cavaleiros', 'Machico', 'Maia', 'Mangualde', 'Marco de Canaveses', 'Marinha Grande',
+        'Matosinhos', 'Mealhada', 'Miranda do Douro', 'Mirandela', 'Montemor-o-Novo', 'Montijo', 'Moura', 'Odivelas', 'OlhÃ£o da RestauraÃ§Ã£o', 'Oliveira de AzemÃ©is', 'Oliveira do Hospital', 'OurÃ©m', 'Ovar', 'PaÃ§os de Ferreira',
+        'Paredes', 'Penafiel', 'Peniche', 'Peso da RÃ©gua', 'Pinhel', 'Pombal', 'Ponta Delgada', 'Ponte de Sor', 'Portalegre', 'PortimÃ£o', 'Porto', 'Porto Santo', 'PÃ³voa de Santa Iria', 'PÃ³voa de Varzim', 'Quarteira', 'Queluz', 'Ribeira Grande', 'Rio Maior',
+        'Rio Tinto', 'SacavÃ©m', 'Santa Comba DÃ£o', 'Santa Cruz', 'Santa Maria da Feira', 'Santana', 'SantarÃ©m', 'Santiago do CacÃ©m', 'Santo Tirso',
+        'SÃ£o JoÃ£o da Madeira', 'SÃ£o Mamede de Infesta', 'Seia', 'Seixal', 'SetÃºbal', 'Silves', 'Sines', 'Tarouca', 'Tavira', 'Tomar', 'Tondela', 'Torres Novas', 'Torres Vedras', 'Valbom', 'Vale de Cambra', 'Valongo', 'ValpaÃ§os', 'Vendas Novas',
+        'Viana do Castelo', 'Vila do Conde', 'Vila Franca de Xira', 'Vila Nova de FamalicÃ£o', 'Vila Nova de Foz CÃ´a', 'Vila Nova de Gaia', 'Vila Praia da VitÃ³ria', 'Vila Real', 'Vila Real de Santo AntÃ³nio', 'Viseu', 'Vizela'
+    );
+
+    protected static $postcode = array(
+        '%##0-###', '%##0',
+        '%##1-###', '%##1',
+        '%##4-###', '%##4',
+        '%##5-###', '%##5',
+        '%##9-###', '%##9',
+        );
+
+    protected static $buildingNumber = array('nÂº %', 'nÂº %%','nÂº %%%', '%', '%#', '%##');
+
+    protected static $secondaryAddressFormats = array(
+        'Bloco %', 'Bl. %',
+        '%Âº Dir.', '%#Âº Dir.', '%Âº Dr.', '%#Âº Dr.',
+        '%Âº Esq.', '%#Âº Esq.', '%Âº Eq.', '%#Âº Eq.',
+    );
+
+    /**
+     * @example '6Âº Dir.'
+     */
+    public static function secondaryAddress()
+    {
+        return static::numerify(static::randomElement(static::$secondaryAddressFormats));
+    }
+
+    /** @link http://www.indexmundi.com/pt/ **/
+    protected static $country = array(
+        'AfeganistÃ£o', 'Ã�frica do Sul', 'AlbÃ¢nia', 'Alemanha', 'Andorra',
+        'Angola', 'Antigua e Barbuda', 'Arabia Saudita', 'ArgÃ©lia',
+        'Argentina', 'ArmÃªnia', 'AustrÃ¡lia', 'Ã�ustria', 'AzerbaijÃ£o',
+        'Bahamas', 'Bangladesh', 'Barbados', 'Barein', 'Belize', 'Benin',
+        'BielorrÃºssia', 'BirmÃ¢nia', 'BolÃ­via', 'BÃ³snia e Herzegovina',
+        'Botsuana', 'Brasil', 'Brunei', 'BulgÃ¡ria', 'Burkina Faso',
+        'Burundi', 'ButÃ£o', 'BÃ©lgica', 'Cabo Verde', 'Camboja', 'CamarÃµes',
+        'CanadÃ¡', 'CazaquistÃ£o', 'Chad', 'Chile', 'China', 'Chipre',
+        'ColÃ´mbia', 'Comoras', 'Congo', 'CorÃ©ia do Norte', 'CorÃ©ia do Sul',
+        'Costa Rica', 'Costa do Marfim', 'CroÃ¡cia', 'Cuba', 'Dinamarca',
+        'Djibouti', 'DomÃªnica', 'Equador', 'Egito', 'El Salvador',
+        'Emirados Ã�rabes Unidos', 'Eritrea', 'EslovÃ¡quia', 'EslovÃªnia',
+        'Espanha', 'Estados Unidos da AmÃ©rica', 'EstÃ³nia', 'EtiÃ³pia',
+        'Filipinas', 'FinlÃ¢ndia', 'Fiji','FranÃ§a', 'GabÃ£o', 'GÃ¢mbia',
+        'Georgia', 'Gana', 'Granada', 'GrÃ©cia', 'Guatemala',
+        'GuinÃ© Equatorial', 'GuinÃ© Bissau', 'Guiana', 'Haiti', 'Honduras',
+        'Hungria', 'Ã�ndia', 'IndonÃ©sia', 'Iraque', 'Irlanda', 'IrÃ£',
+        'IslÃ¢ndia', 'Ilhas Marshall', 'Ilhas MaurÃ­cio', 'Ilhas SalomÃ£o',
+        'Ilhas Samoa', 'Israel', 'ItÃ¡lia', 'Jamaica', 'JapÃ£o', 'JordÃ¢nia',
+        'Kiribati', 'Kwait', 'Laos', 'Lesoto', 'LetÃ³nia', 'LibÃ©ria', 'LÃ­bia',
+        'Liechtenstein', 'LituÃ¢nia', 'Luxemburgo', 'LÃ­bano', 'MacedÃ³nia',
+        'Madagascar', 'MalÃ¡sia', 'MalauÃ­', 'Maldivas', 'Mali', 'Malta',
+        'Marrocos', 'MauritÃ¢nia', 'MicronÃ©sia', 'MoldÃ¡via', 'MongÃ³lia',
+        'Montenegro', 'MoÃ§ambique', 'MÃ©xico', 'MÃ³naco', 'NamÃ­bia', 'Nauru',
+        'Nepal', 'NicarÃ¡gua', 'NigÃ©ria', 'Noruega', 'Nova GuinÃ©',
+        'Nova ZelÃ¢ndia', 'NÃ­ger', 'OmÃ£', 'Qatar', 'QuÃªnia','QuirguistÃ£o',
+        'PaquistÃ£o', 'Palaos', 'PanamÃ¡', 'Papua Nova GuinÃ©', 'Paraguai',
+        'PaÃ­ses Baixos', 'Peru', 'PolÃ³nia', 'Portugal', 'Reino Unido',
+        'Reino Unido da GrÃ£ Bretanha e Irlanda do Norte',
+        'RepÃºblica Centroafricana', 'RepÃºblica Checa',
+        'RepÃºblica DemocrÃ¡tica do Congo', 'RepÃºblica Dominicana', 'Ruanda',
+        'RomÃªnia', 'RÃºssia', 'SÃ£o CristovÃ£o e Neves', 'San Marino',
+        'SÃ£o Vicente e as Granadinas', 'Santa Luzia', 'SÃ£o TomÃ© e PrÃ­ncipe',
+        'Senegal', 'SÃ©rvia', 'Seychelles', 'Serra Leoa', 'Singapura', 'SÃ­ria',
+        'SomÃ¡lia', 'Sri Lanka', 'SuazilÃ¢ndia', 'SudÃ£o', 'SuÃ©cia', 'SuiÃ§a',
+        'Suriname', 'TailÃ¢ndia', 'TanzÃ¢nia', 'TajiquistÃ£o', 'Timor Leste',
+        'Togo', 'Tonga', 'Trinidad e Tobago', 'TurcomenistÃ£o', 'Turquia',
+        'Tuvalu', 'TunÃ­sia', 'UcrÃ¢nia', 'Uganda', 'Uruguai', 'UzbequistÃ£o',
+        'Vaticano', 'Vanuatu', 'Venezuela', 'VietnÃ£', 'Yemen', 'ZÃ¢mbia',
+        'ZimbÃ¡bue'
+    );
+
+    /**
+     * @example 'Avenida' ' Rua'
+     */
+    public static function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    /**
+     * @example 'Aveiro' 'Oliveira de AzemÃ©is'
+     */
+    public function city()
+    {
+        return static::randomElement(static::$cities);
+    }
+}

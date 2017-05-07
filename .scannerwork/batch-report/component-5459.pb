@@ -1,0 +1,1 @@
+Ó*8vendor/sebastian/comparator/tests/_files/SampleClass.php 2phpX

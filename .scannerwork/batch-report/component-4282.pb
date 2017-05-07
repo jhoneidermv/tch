@@ -1,0 +1,1 @@
+º!<vendor/phpspec/prophecy/src/Prophecy/Exception/Exception.php 2phpX

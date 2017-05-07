@@ -1,0 +1,1 @@
+©Xvendor/phpoffice/phpexcel/unitTests/Classes/PHPExcel/Worksheet/AutoFilter/ColumnTest.php 2phpX®

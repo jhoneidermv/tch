@@ -1,0 +1,1 @@
+õ Evendor/phpspec/prophecy/spec/Prophecy/Prophecy/MethodProphecySpec.php 2phpX×

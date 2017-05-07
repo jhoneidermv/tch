@@ -1,0 +1,1 @@
+¸/$vendor/symfony/console/Tests/Command :¶/·/¹/

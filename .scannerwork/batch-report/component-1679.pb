@@ -1,0 +1,1 @@
+è\vendor/laravel/framework/src/Illuminate/Database/Migrations/MigrationRepositoryInterface.php 2phpXC

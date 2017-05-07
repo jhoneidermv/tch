@@ -1,0 +1,1 @@
+Â$vendor/mockery/mockery/tests/Mockery :(ÁÃÄÅÒ×ØÚÙÛÜÝÞßàáâåçó

@@ -1,0 +1,1 @@
+™0vendor/fzaninotto/faker/src/Faker/Provider/pt_PT :—˜›š

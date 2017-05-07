@@ -1,0 +1,1 @@
+Ä	Fvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringContains.php 2phpX.

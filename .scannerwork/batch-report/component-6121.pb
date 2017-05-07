@@ -1,0 +1,1 @@
+é/<vendor/symfony/console/Tests/Fixtures/DescriptorCommand2.php 2phpX!

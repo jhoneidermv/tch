@@ -1,0 +1,1 @@
+¯-pvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/Base64ContentEncoderAcceptanceTest.php 2phpX9

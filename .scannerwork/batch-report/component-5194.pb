@@ -1,0 +1,1 @@
+Ê(Evendor/phpunit/phpunit-mock-objects/tests/_fixture/SingletonClass.php 2phpX

@@ -1,2 +1,2 @@
-t
-phpS101[Rename class "PHPUnit_Util_Fileloader" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 
+†
+phpS101mRename class "PHPUnit_Runner_Filter_GroupFilterIterator" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 8

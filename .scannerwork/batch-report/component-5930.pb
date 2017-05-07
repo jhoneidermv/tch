@@ -1,0 +1,1 @@
+ª.Zvendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpEventSupportTest.php 2phpX¯

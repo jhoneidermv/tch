@@ -1,0 +1,1 @@
+ "avendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/respond.min.js 2jsX

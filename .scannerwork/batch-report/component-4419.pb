@@ -1,0 +1,1 @@
+Ã">vendor/phpunit/php-code-coverage/tests/PHP/CodeCoverage/Report :À"Á"

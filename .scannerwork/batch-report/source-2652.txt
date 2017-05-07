@@ -1,0 +1,31 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+     'year' => 'à§§ à¦¬à¦›à¦°|:count à¦¬à¦›à¦°',
+     'y' => 'à§§ à¦¬à¦›à¦°|:count à¦¬à¦›à¦°',
+     'month' => 'à§§ à¦®à¦¾à¦¸|:count à¦®à¦¾à¦¸',
+     'm' => 'à§§ à¦®à¦¾à¦¸|:count à¦®à¦¾à¦¸',
+     'week' => 'à§§ à¦¸à¦ªà§�à¦¤à¦¾à¦¹|:count à¦¸à¦ªà§�à¦¤à¦¾à¦¹',
+     'w' => 'à§§ à¦¸à¦ªà§�à¦¤à¦¾à¦¹|:count à¦¸à¦ªà§�à¦¤à¦¾à¦¹',
+     'day' => 'à§§ à¦¦à¦¿à¦¨|:count à¦¦à¦¿à¦¨',
+     'd' => 'à§§ à¦¦à¦¿à¦¨|:count à¦¦à¦¿à¦¨',
+     'hour' => 'à§§ à¦˜à¦¨à§�à¦Ÿà¦¾|:count à¦˜à¦¨à§�à¦Ÿà¦¾',
+     'h' => 'à§§ à¦˜à¦¨à§�à¦Ÿà¦¾|:count à¦˜à¦¨à§�à¦Ÿà¦¾',
+     'minute' => 'à§§ à¦®à¦¿à¦¨à¦¿à¦Ÿ|:count à¦®à¦¿à¦¨à¦¿à¦Ÿ',
+     'min' => 'à§§ à¦®à¦¿à¦¨à¦¿à¦Ÿ|:count à¦®à¦¿à¦¨à¦¿à¦Ÿ',
+     'second' => 'à§§ à¦¸à§‡à¦•à§‡à¦¨à§�à¦¡|:count à¦¸à§‡à¦•à§‡à¦¨à§�à¦¡',
+     's' => 'à§§ à¦¸à§‡à¦•à§‡à¦¨à§�à¦¡|:count à¦¸à§‡à¦•à§‡à¦¨à§�à¦¡',
+     'ago' => ':time à¦ªà§‚à¦°à§�à¦¬à§‡',
+     'from_now' => 'à¦�à¦–à¦¨ à¦¥à§‡à¦•à§‡ :time',
+     'after' => ':time à¦ªà¦°à§‡',
+     'before' => ':time à¦†à¦—à§‡',
+);

@@ -1,0 +1,1 @@
+ë-7vendor/swiftmailer/swiftmailer/tests/unit/Swift/Encoder :é-ê-ì-

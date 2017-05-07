@@ -1,0 +1,168 @@
+<?php
+
+namespace Faker\Provider\sk_SK;
+
+class Person extends \Faker\Provider\Person
+{
+    protected static $lastNameFormat = array(
+        '{{lastNameMale}}',
+        '{{lastNameFemale}}',
+    );
+
+    protected static $maleNameFormats = array(
+        '{{firstNameMale}} {{lastNameMale}}',
+        '{{firstNameMale}} {{lastNameMale}}',
+        '{{firstNameMale}} {{lastNameMale}}',
+        '{{firstNameMale}} {{lastNameMale}}',
+        '{{titleMale}} {{firstNameMale}} {{lastNameMale}}',
+        '{{titleMale}} {{firstNameMale}} {{lastNameMale}} {{suffix}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{firstNameFemale}} {{lastNameFemale}}',
+        '{{firstNameFemale}} {{lastNameFemale}}',
+        '{{firstNameFemale}} {{lastNameFemale}}',
+        '{{firstNameFemale}} {{lastNameFemale}}',
+        '{{titleFemale}} {{firstNameFemale}} {{lastNameFemale}}',
+        '{{titleFemale}} {{firstNameFemale}} {{lastNameFemale}} {{suffix}}'
+    );
+
+    protected static $firstNameMale = array(
+        'Drahoslav', 'SeverÃ­n', 'Alexej', 'Ernest', 'Rastislav', 'Radovan', 'Dobroslav', 'Dalibor', 'Vincent', 'MiloÅ¡', 'Timotej', 'Gejza', 'BohuÅ¡',
+        'Alfonz', 'GaÅ¡par', 'Emil', 'Erik', 'BlaÅ¾ej', 'Zdenko', 'Dezider', 'ArpÃ¡d', 'ValentÃ­n', 'Pravoslav', 'JaromÃ­r', 'Roman', 'Matej', 'Frederik',
+        'Viktor', 'Alexander', 'RadomÃ­r', 'AlbÃ­n', 'Bohumil', 'KazimÃ­r', 'Fridrich', 'Radoslav', 'TomÃ¡Å¡', 'Alan', 'Branislav', 'Bruno', 'Gregor',
+        'Vlastimil', 'Boleslav', 'Eduard', 'Jozef', 'VÃ­Å¥azoslav', 'Blahoslav', 'BeÅˆadik', 'AdriÃ¡n', 'Gabriel', 'MariÃ¡n', 'Emanuel', 'Miroslav',
+        'BenjamÃ­n', 'Hugo', 'Richard', 'Izidor', 'ZoltÃ¡n', 'Albert', 'Igor', 'JÃºlius', 'AleÅ¡', 'Fedor', 'Rudolf', 'ValÃ©r', 'Marcel', 'ErvÃ­n',
+        'SlavomÃ­r', 'Vojtech', 'Juraj', 'Marek', 'Jaroslav', 'Å½igmund', 'FloriÃ¡n', 'Roland', 'PankrÃ¡c', 'ServÃ¡c', 'BonifÃ¡c', 'SvetozÃ¡r', 'Bernard',
+        'JÃºlia', 'Urban', 'DuÅ¡an', 'Viliam', 'Ferdinand', 'Norbert', 'RÃ³bert', 'Medard', 'Zlatko', 'Anton', 'Vasil', 'VÃ­t', 'Adolf', 'Vratislav',
+        'AlfrÃ©d', 'Alojz', 'JÃ¡n', 'TadeÃ¡Å¡', 'Ladislav', 'Peter', 'Pavol', 'Miloslav', 'Prokop', 'Cyril', 'Metod', 'Patrik', 'Oliver', 'Ivan',
+        'Kamil', 'Henrich', 'DrahomÃ­r', 'Bohuslav', 'IÄ¾ja', 'Daniel', 'VladimÃ­r', 'Jakub', 'KriÅ¡tof', 'IgnÃ¡c', 'GustÃ¡v', 'JerguÅ¡', 'Dominik',
+        'Oskar', 'Vavrinec', 'Ä½ubomÃ­r', 'MojmÃ­r', 'Leonard', 'TichomÃ­r', 'Filip', 'Bartolomej', 'Ä½udovÃ­t', 'Samuel', 'AugustÃ­n', 'Belo', 'Oleg',
+        'BystrÃ­k', 'Ctibor', 'Ä½udomil', 'KonÅ¡tantÃ­n', 'Ä½uboslav', 'MatÃºÅ¡', 'MÃ³ric', 'Ä½uboÅ¡', 'Ä½ubor', 'Vladislav', 'CypriÃ¡n', 'VÃ¡clav', 'Michal',
+        'JarolÃ­m', 'Arnold', 'Levoslav', 'FrantiÅ¡ek', 'DionÃ½z', 'MaximiliÃ¡n', 'Koloman', 'Boris', 'LukÃ¡Å¡', 'KristiÃ¡n', 'VendelÃ­n', 'Sergej',
+        'Aurel', 'Demeter', 'Denis', 'Hubert', 'Karol', 'Imrich', 'RenÃ©', 'BohumÃ­r', 'Teodor', 'Tibor', 'MaroÅ¡', 'Martin', 'SvÃ¤topluk', 'Stanislav',
+        'Leopold', 'Eugen', 'FÃ©lix', 'Klement', 'Kornel', 'Milan', 'Vratko', 'Ondrej', 'Andrej', 'Edmund', 'Oldrich', 'Oto', 'MikulÃ¡Å¡', 'AmbrÃ³z',
+        'RadÃºz', 'Bohdan', 'Adam', 'Å tefan', 'DÃ¡vid', 'Silvester'
+
+    );
+
+    protected static $firstNameFemale = array(
+        'Alexandra', 'Karina', 'Daniela', 'Andrea', 'AntÃ³nia', 'Bohuslava', 'DÃ¡Å¡a', 'MalvÃ­na', 'KristÃ­na', 'NataÅ¡a', 'Bohdana', 'DrahomÃ­ra',
+        'SÃ¡ra', 'Zora', 'Tamara', 'Ema', 'Tatiana', 'Erika', 'Veronika', 'AgÃ¡ta', 'Dorota', 'Vanda', 'Zoja', 'Gabriela', 'Perla', 'Ida', 'Liana',
+        'Miloslava', 'Vlasta', 'LÃ­via', 'EleonÃ³ra', 'Etela', 'Romana', 'Zlatica', 'AneÅ¾ka', 'Bohumila', 'FrantiÅ¡ka', 'Angela', 'Matilda',
+        'Svetlana', 'Ä½ubica', 'Alena', 'SoÅˆa', 'Vieroslava', 'Zita', 'Miroslava', 'Irena', 'Milena', 'Estera', 'JustÃ­na', 'Dana', 'Danica',
+        'Jela', 'Jaroslava', 'Jarmila', 'Lea', 'AnastÃ¡zia', 'Galina', 'Lesana', 'HermÃ­na', 'Monika', 'Ingrida', 'ViktÃ³ria', 'BlaÅ¾ena', 'Å½ofia',
+        'Sofia', 'Gizela', 'Viola', 'GertrÃºda', 'Zina', 'JÃºlia', 'Juliana', 'Å½elmÃ­ra', 'Ela', 'Vanesa', 'Iveta', 'Vilma', 'Petronela', 'Å½aneta',
+        'XÃ©nia', 'KarolÃ­na', 'Lenka', 'Laura', 'Stanislava', 'MargarÃ©ta', 'Dobroslava', 'Blanka', 'ValÃ©ria', 'PaulÃ­na', 'SidÃ³nia', 'AdriÃ¡na',
+        'BeÃ¡ta', 'Petra', 'MelÃ¡nia', 'Diana', 'Berta', 'PatrÃ­cia', 'Lujza', 'AmÃ¡lia', 'Milota', 'Nina', 'Margita', 'Kamila', 'DuÅ¡ana', 'MagdalÃ©na',
+        'OÄ¾ga', 'Anna', 'Hana', 'BoÅ¾ena', 'Marta', 'LibuÅ¡a', 'BoÅ¾idara', 'Dominika', 'Hortenzia', 'JozefÃ­na', 'Å tefÃ¡nia', 'Ä½ubomÃ­ra', 'Zuzana',
+        'Darina', 'Marcela', 'Milica', 'Elena', 'Helena', 'LÃ½dia', 'Anabela', 'Jana', 'Silvia', 'Nikola', 'RuÅ¾ena', 'Nora', 'Drahoslava', 'Linda',
+        'Melinda', 'Rebeka', 'RozÃ¡lia', 'RegÃ­na', 'Alica', 'Marianna', 'Miriama', 'Martina', 'MÃ¡ria', 'Jolana', 'Ä½udomila', 'Ä½udmila', 'Olympia',
+        'EugÃ©nia', 'Ä½uboslava', 'Zdenka', 'Edita', 'Michaela', 'Stela', 'Viera', 'NatÃ¡lia', 'EliÅ¡ka', 'Brigita', 'ValentÃ­na', 'TerÃ©zia', 'VladimÃ­ra',
+        'Hedviga', 'UrÅ¡uÄ¾a', 'Alojza', 'Kvetoslava', 'SabÃ­na', 'Dobromila', 'KlÃ¡ra', 'Simona', 'AurÃ©lia', 'Denisa', 'RenÃ¡ta', 'Irma', 'Agnesa',
+        'Klaudia', 'AlÅ¾beta', 'ElvÃ­ra', 'CecÃ­lia', 'EmÃ­lia', 'KatarÃ­na', 'Henrieta', 'BibiÃ¡na', 'Barbora', 'MarÃ­na', 'Izabela', 'Hilda', 'OtÃ­lia',
+        'Lucia', 'Branislava', 'Bronislava', 'Ivica', 'AlbÃ­na', 'KornÃ©lia', 'SlÃ¡va', 'SlÃ¡vka', 'Judita', 'Dagmara', 'Adela', 'NadeÅ¾da', 'Eva',
+        'FilomÃ©na', 'Ivana', 'Milada'
+
+    );
+
+    protected static $lastNameMale = array(
+        'Sloboda', 'NovotnÃ½', 'KuÄ�era', 'VeselÃ½', 'HorÃ¡k', 'Marek', 'PokornÃ½', 'KrÃ¡l', 'RÅ¯Å¾iÄ�ka', 'Zeman', 'KolÃ¡r', 'Urban', 'BartoÅ¡', 'VlÄ�ek',
+        'PolÃ¡k', 'KopeckÃ½', 'KoneÄ�nÃ½', 'MalÃ½', 'Holub', 'AbrahÃ¡m', 'Adam', 'Adamec', 'AlmÃ¡Å¡i', 'Anderle', 'Antal', 'Babka', 'Bahna', 'Bahno',
+        'Bajnok', 'BalaÅ¡a', 'Balog', 'Balogh', 'BalÃ¡Å¾', 'Baran', 'Baranka', 'BartoviÄ�', 'BartoÅ¡', 'BaÄ�a', 'Beck', 'Beihofner', 'Bella', 'Beran',
+        'BernolÃ¡k', 'BeÅˆo', 'Bicek', 'Bielik', 'Biringer', 'Blaho', 'Bondra', 'BosÃ¡k', 'BoÅ¡ka', 'Brezina', 'BugÃ¡r', 'BuÅ¡', 'Chalupka', 'ChudÃ­k',
+        'Cyprich', 'CÃ­ger', 'Dacej', 'Danko', 'DebnÃ¡r', 'Dej', 'DekÃ½Å¡', 'DoleÅ¾al', 'DostÃ¡l', 'DoÄ�olomanskÃ½', 'Drajna', 'Droppa', 'DubovskÃ½',
+        'Dudek', 'Dula', 'Dulla', 'DusÃ­k', 'DvonÄ�', 'Dzurjanin', 'DÃ¡vid', 'Fabian', 'FabiÃ¡n', 'Fajnor', 'FarkaÅ¡ovskÃ½', 'Feldek', 'Fico', 'Filc',
+        'Filip', 'Finka', 'Ftorek', 'Galis', 'Gallo', 'GaÅ¡par', 'GaÅ¡paroviÄ�', 'GocnÃ­k', 'Golonka', 'GreguÅ¡', 'GrznÃ¡r', 'HablÃ¡k', 'HabÅ¡uda',
+        'HaluÅ¡ka', 'HalÃ¡k', 'Hanko', 'Hanzal', 'Hanzel', 'Hanzel', 'HaÅ¡Ä�Ã¡k', 'Heretik', 'HeÄ�ko', 'HeÄ�kovÃ¡', 'HlavÃ¡Ä�ek', 'Hlinka', 'Hochschorner',
+        'Holub', 'Holuby', 'HorvÃ¡th', 'Hossa', 'HraÅ¡ko', 'Hric', 'Hrmo', 'HruÅ¡ovskÃ½', 'Huba', 'HudÃ¡Ä�ek', 'HÃ¡la', 'IhnaÄ�Ã¡k', 'JanoÅ¡ka', 'JantoÅ¡oviÄ�',
+        'JanÃ­k', 'Jonata', 'Jurina', 'JurinovÃ¡', 'JurÃ­k', 'JÃ¡ni', 'JÃ¡noÅ¡Ã­k', 'KaliskÃ½', 'Karul', 'KarvaÅ¡', 'KenÃ­Å¾', 'Klapka', 'Klaus', 'KolnÃ­k',
+        'Konstantinidis', 'Korec', 'Kostrec', 'KovÃ¡Ä�', 'KovÃ¡Ä�ik', 'Koza', 'KubÃ­k', 'KuÄ�era', 'Labuda', 'LangoÅ¡', 'LepÅ¡Ã­k', 'Lexa', 'Lintner',
+        'Lubina', 'LukÃ¡Ä�', 'LuptÃ¡k', 'LÃ­Å¡ka', 'MajeskÃ½', 'MalachovskÃ½', 'MalÃ­Å¡ek', 'MariÃ¡n', 'Masaryk', 'Maslo', 'MatiaÅ¡ko', 'MedveÄ�', 'MenyhÃ©rt',
+        'MeÄ�iar', 'MeÄ�Ã­Å™', 'MikloÅ¡ko', 'MikulÃ­k', 'MikuÅ¡', 'MikÃºÅ¡', 'MiÅ¡Ã­k', 'MojÅ¾iÅ¡', 'MokroÅ¡', 'MolnÃ¡r', 'MoravÄ�Ã­k', 'Musil', 'Mydlo', 'Nagy',
+        'Nemec', 'Neruda', 'Nezval', 'Nitra', 'NovÃ¡k', 'NÃ¡bÄ›lek', 'NÄ›mec', 'ObÅ¡ut', 'OtÄ�enÃ¡Å¡', 'Pauko', 'PavlikovskÃ½', 'PavÃºk', 'PaÅ¡ek', 'PaÅ¡ka',
+        'PaÅ¡ko', 'PelikÃ¡n', 'PetrovickÃ½', 'PetruÅ¡ka', 'Plch', 'PodhradskÃ¡', 'PodkonickÃ½', 'Poliak', 'ProchÃ¡zka', 'PuskÃ¡s', 'PuÅ¡kÃ¡Å¡', 'RaÅ¡i',
+        'RepiskÃ½', 'Riszdorfer', 'RomanÄ�Ã­k', 'Rozenberg', 'Rus', 'RuÅ¾iÄ�ka', 'RÃºfus', 'RÅ¯Å¾iÄ�ka', 'Samson', 'Sedliak', 'Senko', 'Sidor', 'Sklenka',
+        'SkuteckÃ½', 'SlaÅ¡Å¥an', 'Sloboda', 'SlobodnÃ­k', 'Slota', 'SlovÃ¡k', 'Smrek', 'Stodola', 'Straka', 'SzabÃ³', 'SÃ¡mel', 'SÃ½kora', 'Tatar',
+        'Tatarka', 'TatÃ¡r', 'TatÃ¡rka', 'Timko', 'Tiso', 'TomeÄ�ek', 'Truben', 'TurÄ�ok', 'TÃ³th', 'Uram', 'UrblÃ­k', 'VajcÃ­k', 'Valent', 'ValuÅ¡ka',
+        'Varga', 'VaÅ¡Ã­Ä�ek', 'Vesel', 'Vico', 'ViÅ¡ÅˆovskÃ½', 'VydarenÃ½', 'Weiss', 'Zima', 'Zimka', 'Zipser', 'ZÃ¡topek', 'ZÃºbrik', 'ÄŒaploviÄ�',
+        'ÄŒarnogurskÃ½', 'ÄŒierny', 'ÄŽaÄ�o', 'ÄŽurica', 'ÄŽuriÅ¡', 'Å imonoviÄ�', 'Å kriniar', 'Å ouc', 'Å oustal', 'Å tefan', 'Å tefanka', 'Å ulc', 'Å urka',
+        'Å vehla', 'Å Å¥astnÃ½'
+
+    );
+
+    protected static $lastNameFemale = array(
+        'SlobodovÃ¡', 'NovotnÃ¡', 'ÄŒierna', 'KuÄ�erovÃ¡', 'VeselÃ¡', 'KrajÄ�Ã­ovÃ¡', 'NemcovÃ¡', 'KrÃ¡lovÃ¡', 'RÅ¯Å¾iÄ�kovÃ¡', 'FialovÃ¡', 'ZemanovÃ¡',
+        'KolÃ¡rovÃ¡', 'KovÃ¡Ä�ovÃ¡', 'VlÄ�kovÃ¡', 'PolÃ¡kovÃ¡', 'KopeckÃ¡', 'Å imkovÃ¡', 'KoneÄ�nÃ¡', 'MalÃ¡', 'HolubovÃ¡', 'StanekovÃ¡', 'Å Å¥astnÃ¡',
+        'VargovÃ¡', 'TÃ³thovÃ¡', 'HorvÃ¡thovÃ¡', 'BalÃ¡Å¾ovÃ¡', 'SzabovÃ¡', 'MolnÃ¡rovÃ¡', 'BalogovÃ¡', 'LukÃ¡Ä�ovÃ¡', 'VÃ­cenovÃ¡', 'RinglÃ³ciovÃ¡', 'PopoviÄ�ovÃ¡',
+        'HulmanovÃ¡', 'ZelenayovÃ¡', 'FingerlandovÃ¡', 'KrÃ¡likovÃ¡', 'KapustovÃ¡', 'HantuchovÃ¡', 'HolÃ©czyovÃ¡', 'ButvÃ­novÃ¡', 'OslejovÃ¡', 'RadiÄ�ovÃ¡', 'SÃ¡rovÃ¡',
+        'SobotkovÃ¡', 'KaÅ¾imÃ­rovÃ¡', 'PlÅ¡kovÃ¡', 'JakubovÃ¡', 'Å indlerovÃ¡', 'OndrejkovÃ¡', 'SlobodnÃ­kovÃ¡', 'SadloÅˆovÃ¡', 'ÄŒernÃ¡', 'NoskovÃ¡',
+        'VirÄ�Ã­kovÃ¡', 'TaliÃ¡novÃ¡', 'ÄŒuntalovÃ¡', 'OÅ¥apkovÃ¡', 'ZuzulovÃ¡', 'GodolovÃ¡', 'GonovÃ¡', 'JanÄ�ovÃ¡', 'KocÃºrovÃ¡', 'SvobodovÃ¡', 'OravcovÃ¡', 'MurÃ¡rikovÃ¡',
+        'HolubovÃ¡', 'KubÃ¡ÅˆovÃ¡', 'OndriÅ¡ovÃ¡', 'Å oltisovÃ¡', 'MolnÃ¡rovÃ¡', 'ReznÃ­Ä�kovÃ¡', 'DubnÃ­Ä�kovÃ¡', 'KarolÄ�Ã­kovÃ¡', 'MÃ¡likovÃ¡', 'MalÃ­kovÃ¡', 'LitajovÃ¡',
+        'KolrusovÃ¡', 'KoÅ¡Ã­kovÃ¡', 'KuÅ¡nÃ­rovÃ¡', 'KravjarovÃ¡', 'HotovÃ¡', 'HajzerovÃ¡', 'FerjenÄ�Ã­kovÃ¡', 'SenkovÃ¡', 'AdamcovÃ¡', 'PiroÅ¡ovÃ¡', 'Å imonovÃ¡',
+        'FinkovÃ¡', 'HrdÃ¡', 'MurÄ�ovÃ¡'
+    );
+
+    protected static $title = array(
+        'Bc.', 'Ing.', 'MUDr.', 'MVDr.', 'Mgr.', 'JUDr.', 'PhDr.', 'RNDr.', 'doc.', 'Dr.', 'BcA.', 'ICDr.', 'Ing.', 'Ing. arch.', 'JUDr.',
+        'Mgr. art.', 'MSDr.', 'PaedDr.', 'PharmDr.', 'PhDr.', 'PhMr.', 'RNDr.', 'RSDr.', 'ThDr.', 'ThLic.', 'prof.', 'Dr. h. c.'
+    );
+
+    private static $suffix = array(
+        'CSc.', 'DrSc.', 'DSc.', 'Ph.D.', 'Th.D.'
+    );
+
+    public function title($gender = null)
+    {
+        return static::titleMale();
+    }
+
+    /**
+     * replaced by specific unisex slovakian title
+     */
+    public static function titleMale()
+    {
+        return static::randomElement(static::$title);
+    }
+
+    /**
+     * replaced by specific unisex slovakian title
+     */
+    public static function titleFemale()
+    {
+        return static::titleMale();
+    }
+
+    /**
+     * @param string|null $gender 'male', 'female' or null for any
+     * @example 'NovotnÃ½'
+     */
+    public function lastName($gender = null)
+    {
+        if ($gender === static::GENDER_MALE) {
+            return static::lastNameMale();
+        } elseif ($gender === static::GENDER_FEMALE) {
+            return static::lastNameFemale();
+        }
+
+        return $this->generator->parse(static::randomElement(static::$lastNameFormat));
+    }
+
+    public static function lastNameMale()
+    {
+        return static::randomElement(static::$lastNameMale);
+    }
+
+    public static function lastNameFemale()
+    {
+        return static::randomElement(static::$lastNameFemale);
+    }
+
+    /**
+     * @example 'PhD'
+     */
+    public static function suffix()
+    {
+        return static::randomElement(static::$suffix);
+    }
+}

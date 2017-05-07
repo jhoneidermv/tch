@@ -1,0 +1,13 @@
+<?php echo $__env->make('layouts/app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('layouts/nav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<html>
+<head>
+    <title>imge</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" align="center" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (imge.png) -->
+<img src="<?php echo e(asset('images/image.png')); ?>" width="1024" height="768" alt="">
+<!-- End Save for Web </html>Slices -->
+</body>

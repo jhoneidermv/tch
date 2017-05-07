@@ -1,0 +1,1 @@
+¼-jvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/BasicSocketAcceptanceTest.php 2phpX"

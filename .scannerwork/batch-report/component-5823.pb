@@ -1,0 +1,1 @@
+¿-hvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SslSocketAcceptanceTest.php 2phpX)

@@ -1,0 +1,1 @@
+ä&Fvendor/phpunit/phpunit/tests/_files/CoverageNamespacedFunctionTest.php 2phpX

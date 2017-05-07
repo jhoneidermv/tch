@@ -1,0 +1,1 @@
+•!>vendor/phpspec/prophecy/src/Prophecy/Doubler/CachedDoubler.php 2phpXE

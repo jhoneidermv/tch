@@ -1,0 +1,1 @@
+«$7vendor/phpunit/phpunit/src/Framework/SyntheticError.php 2phpXQ

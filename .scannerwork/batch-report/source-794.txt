@@ -1,0 +1,178 @@
+<?php
+
+namespace Faker\Provider\is_IS;
+
+/**
+ * @author Birkir Gudjonsson <birkir.gudjonsson@gmail.com>
+ */
+class Address extends \Faker\Provider\Address
+{
+    /**
+     * @var array Countries in icelandic
+     */
+    protected static $country = array(
+        'Afganistan', 'AlbanÃ­a', 'AlsÃ­r', 'Andorra', 'AngÃ³la', 'Angvilla', 'AntÃ­gva og BarbÃºda', 'ArgentÃ­na',
+        'ArmenÃ­a', 'ArÃºba', 'AserbaÃ­dsjan', 'Austur-KongÃ³', 'AusturrÃ­ki', 'Austur-TÃ­mor', 'Ã�landseyjar',
+        'Ã�stralÃ­a', 'Bahamaeyjar', 'BandarÃ­kin', 'BandarÃ­ska SamÃ³a', 'Bangladess', 'Barbados', 'Barein',
+        'BelgÃ­a', 'BelÃ­s', 'BenÃ­n', 'BermÃºdaeyjar', 'BosnÃ­a og HersegÃ³vÃ­na', 'Botsvana', 'Bouvet-eyja', 'BÃ³livÃ­a',
+        'BrasilÃ­a', 'Bresku Indlandshafseyjar', 'Bretland', 'BrÃºnei', 'BÃºlgarÃ­a', 'BÃºrkÃ­na FasÃ³', 'BÃºrÃºndÃ­', 'BÃºtan',
+        'Cayman-eyjar', 'Chile', 'Cooks-eyjar', 'DanmÃ¶rk', 'DjÃ­bÃºtÃ­', 'DÃ³minÃ­ka', 'DÃ³minÃ­ska lÃ½Ã°veldiÃ°', 'Egyptaland',
+        'Eistland', 'Ekvador', 'El Salvador', 'England', 'ErÃ­trea', 'EÃ¾Ã­Ã³pÃ­a', 'Falklandseyjar', 'Filippseyjar',
+        'Finnland', 'FÃ­djieyjar', 'FÃ­labeinsstrÃ¶ndin', 'Frakkland', 'Franska GvÃ¦jana', 'Franska PÃ³lÃ½nesÃ­a',
+        'FrÃ¶nsku suÃ°lÃ¦gu landsvÃ¦Ã°in', 'FÃ¦reyjar', 'Gabon', 'GambÃ­a', 'Gana', 'GeorgÃ­a', 'GÃ­braltar', 'GÃ­nea',
+        'GÃ­nea-BissÃ¡', 'Grenada', 'Grikkland', 'GrÃ¦nhÃ¶fÃ°aeyjar', 'GrÃ¦nland', 'GvadelÃºpeyjar', 'Gvam', 'Gvatemala',
+        'GvÃ¦jana', 'HaÃ­tÃ­', 'Heard og McDonalds-eyjar', 'Holland', 'Hollensku Antillur', 'HondÃºras', 'Hong Kong',
+        'HvÃ­ta-RÃºssland', 'Indland', 'IndÃ³nesÃ­a', 'Ã�rak', 'Ã�ran', 'Ã�rland', 'Ã�sland', 'Ã�srael', 'Ã�talÃ­a', 'JamaÃ­ka',
+        'Japan', 'Jemen', 'JÃ³laey', 'JÃ³mfrÃºaeyjar', 'JÃ³rdanÃ­a', 'KambÃ³dÃ­a', 'KamerÃºn', 'Kanada', 'Kasakstan', 'Katar',
+        'KenÃ­a', 'Kirgisistan', 'KÃ­na', 'KÃ­ribatÃ­', 'KongÃ³', 'Austur-KongÃ³', 'Vestur-KongÃ³', 'KostarÃ­ka', 'KÃ³koseyjar',
+        'KÃ³lumbÃ­a', 'KÃ³moreyjar', 'KÃ³rea', 'NorÃ°ur-KÃ³rea;', 'SuÃ°ur-KÃ³rea', 'KrÃ³atÃ­a', 'KÃºba', 'KÃºveit', 'KÃ½pur',
+        'Laos', 'LesÃ³tÃ³', 'Lettland', 'Liechtenstein', 'LithÃ¡en', 'LÃ­banon', 'LÃ­berÃ­a', 'LÃ­bÃ­a', 'LÃºxemborg',
+        'Madagaskar', 'MakaÃ³', 'MakedÃ³nÃ­a', 'MalasÃ­a', 'MalavÃ­', 'MaldÃ­veyjar', 'MalÃ­', 'Malta', 'MarokkÃ³',
+        'Marshall-eyjar', 'MartinÃ­k', 'Mayotte', 'MÃ¡ritanÃ­a', 'MÃ¡ritÃ­us', 'MexÃ­kÃ³', 'MiÃ°-AfrÃ­kulÃ½Ã°veldiÃ°',
+        'MiÃ°baugs-GÃ­nea', 'MÃ­krÃ³nesÃ­a', 'Mjanmar', 'MoldÃ³va', 'MongÃ³lÃ­a', 'Montserrat', 'MÃ³nakÃ³', 'MÃ³sambÃ­k',
+        'NamibÃ­a', 'NÃ¡rÃº', 'Nepal', 'Niue', 'NÃ­ger', 'NÃ­gerÃ­a', 'NÃ­karagva', 'NorÃ°ur-Ã�rland', 'NorÃ°ur-KÃ³rea',
+        'NorÃ°ur-MarÃ­anaeyjar', 'Noregur', 'Norfolkeyja', 'NÃ½ja-KaledÃ³nÃ­a', 'NÃ½ja-SjÃ¡land', 'Ã“man', 'Pakistan',
+        'PalÃ¡', 'PalestÃ­na', 'Panama', 'PapÃºa NÃ½ja-GÃ­nea', 'ParagvÃ¦', 'PÃ¡fagarÃ°ur', 'PerÃº', 'Pitcairn', 'PortÃºgal',
+        'PÃ³lland', 'PÃºertÃ³ RÃ­kÃ³', 'RÃ©union', 'RÃºanda', 'RÃºmenÃ­a', 'RÃºssland', 'SalÃ³monseyjar', 'SambÃ­a',
+        'SameinuÃ°u arabÃ­sku furstadÃ¦min', 'SamÃ³a', 'San MarÃ­nÃ³', 'Sankti Helena', 'Sankti KristÃ³fer og Nevis',
+        'Sankti LÃºsÃ­a', 'Sankti Pierre og Miquelon', 'Sankti Vinsent og GrenadÃ­neyjar', 'SaÃ³ TÃ³me og PrinsÃ­pe',
+        'SÃ¡di-ArabÃ­a', 'Senegal', 'SerbÃ­a', 'Seychelles-eyjar', 'Simbabve', 'SingapÃºr', 'SÃ­erra LeÃ³ne', 'Skotland',
+        'SlÃ³vakÃ­a', 'SlÃ³venÃ­a', 'SmÃ¡eyjar BandarÃ­kjanna', 'SÃ³malÃ­a', 'SpÃ¡nn', 'SrÃ­ Lanka', 'SuÃ°ur-AfrÃ­ka',
+        'SuÃ°ur-GeorgÃ­a og SuÃ°ur-SandvÃ­kureyjar', 'SuÃ°ur-KÃ³rea', 'SuÃ°urskautslandiÃ°', 'SÃºdan', 'SÃºrÃ­nam', 'Jan Mayen',
+        'Svartfjallaland', 'SvasÃ­land', 'Sviss', 'SvÃ­Ã¾jÃ³Ã°', 'SÃ½rland', 'Tadsjikistan', 'TaÃ­land', 'TaÃ­van', 'TansanÃ­a',
+        'TÃ©kkland', 'Tonga', 'TÃ³gÃ³', 'TÃ³kelÃ¡', 'TrÃ­nidad og TÃ³bagÃ³', 'Tsjad', 'TsjetsjenÃ­a', 'Turks- og Caicos-eyjar',
+        'TÃºnis', 'TÃºrkmenistan', 'TÃºvalÃº', 'Tyrkland', 'Ungverjaland', 'Ãšganda', 'ÃškraÃ­na', 'ÃšrÃºgvÃ¦', 'Ãšsbekistan',
+        'VanÃºatÃº', 'VenesÃºela', 'Vestur-KongÃ³', 'Vestur-Sahara', 'VÃ­etnam', 'Wales', 'Wallis- og FÃºtÃºnaeyjar', 'ÃžÃ½skaland'
+    );
+
+    /**
+     * @var array Icelandic cities.
+     */
+    protected static $cityNames = array(
+        'ReykjavÃ­k', 'Seltjarnarnes', 'Vogar', 'KÃ³pavogur', 'GarÃ°abÃ¦r', 'HafnarfjÃ¶rÃ°ur', 'ReykjanesbÃ¦r', 'GrindavÃ­k',
+        'SandgerÃ°i', 'GarÃ°ur', 'ReykjanesbÃ¦r', 'MosfellsbÃ¦r', 'Akranes', 'Borgarnes', 'Reykholt', 'StykkishÃ³lmur',
+        'Flatey', 'GrundarfjÃ¶rÃ°ur', 'Ã“lafsvÃ­k', 'SnÃ¦fellsbÃ¦r', 'Hellissandur', 'BÃºÃ°ardalur', 'ReykhÃ³lahreppur',
+        'Ã�safjÃ¶rÃ°ur', 'HnÃ­fsdalur', 'BolungarvÃ­k', 'SÃºÃ°avÃ­k', 'Flateyri', 'SuÃ°ureyri', 'PatreksfjÃ¶rÃ°ur',
+        'TÃ¡lknafjÃ¶rÃ°ur', 'BÃ­ldudalur', 'Ãžingeyri', 'StaÃ°ur', 'HÃ³lmavÃ­k', 'Drangsnes', 'Ã�rneshreppur', 'Hvammstangi',
+        'BlÃ¶nduÃ³s', 'SkagastrÃ¶nd', 'SauÃ°Ã¡rkrÃ³kur', 'VarmahlÃ­Ã°', 'HofsÃ³s', 'FljÃ³t', 'SiglufjÃ¶rÃ°ur', 'Akureyri',
+        'GrenivÃ­k', 'GrÃ­msey', 'DalvÃ­k', 'Ã“lafsfjÃ¶rÃ°ur', 'HrÃ­sey', 'HÃºsavÃ­k', 'FosshÃ³ll', 'Laugar', 'MÃ½vatn',
+        'KÃ³pasker', 'RaufarhÃ¶fn', 'ÃžÃ³rshÃ¶fn', 'BakkafjÃ¶rÃ°ur', 'VopnafjÃ¶rÃ°ur', 'EgilsstaÃ°ir', 'SeyÃ°isfjÃ¶rÃ°ur',
+        'MjÃ³ifjÃ¶rÃ°ur', 'BorgarfjÃ¶rÃ°ur', 'ReyÃ°arfjÃ¶rÃ°ur', 'EskifjÃ¶rÃ°ur', 'NeskaupstaÃ°ur', 'FÃ¡skrÃºÃ°sfjÃ¶rÃ°ur',
+        'StÃ¶Ã°varfjÃ¶rÃ°ur', 'BreiÃ°dalsvÃ­k', 'DjÃºpivogur', 'HÃ¶fn', 'Selfoss', 'HveragerÃ°i', 'ÃžorlÃ¡kshÃ¶fn', 'Ã–lfus',
+        'Eyrarbakki', 'Stokkseyri', 'Laugarvatn', 'FlÃºÃ°ir', 'Hella', 'HvolsvÃ¶llur', 'VÃ­k', 'KirkjubÃ¦jarklaustur',
+        'Vestmannaeyjar'
+    );
+
+    /**
+     * @var array Street name suffix.
+     */
+    protected static $streetSuffix = array(
+        'Ã¡s', 'bakki', 'braut', 'bÃ¦r', 'brÃºn', 'berg', 'fold', 'gata', 'grÃ³f',
+        'garÃ°ar', 'hÃ¶fÃ°i', 'heimar', 'hamar', 'hÃ³lar', 'hÃ¡ls', 'kvÃ­sl', 'lÃ¦kur',
+        'leiti', 'land', 'mÃºli', 'nes', 'rimi', 'stÃ­gur', 'strÃ¦ti', 'stekkur',
+        'slÃ³Ã°', 'skÃ³gar', 'sel', 'teigur', 'tÃºn', 'vangur', 'vegur', 'vogur',
+        'vaÃ°'
+    );
+
+    /**
+     * @var array Street name prefix.
+     */
+    protected static $streetPrefix = array(
+        'AÃ°al', 'Austur', 'Bakka', 'Braga', 'BÃ¡ru', 'Brunn', 'Fiski', 'Leifs',
+        'TÃ½s', 'Birki', 'SuÃ°ur', 'NorÃ°ur', 'Vestur', 'Austur', 'Sanda', 'SkÃ³gar',
+        'StÃ³r', 'Sunnu', 'Tungu', 'Tangar', 'Ãšlfarfells', 'Vagn', 'Vind', 'Ysti',
+        'Ãžing', 'Hamra', 'HÃ³la', 'KrÃ­u', 'IÃ°u', 'SpÃ³a', 'Starra', 'Uglu', 'Vals'
+    );
+
+    /**
+     * @var Icelandic zip code.
+    **/
+    protected static $postcode = array(
+        '%##'
+    );
+
+    /**
+     * @var array Icelandic regions.
+     */
+    protected static $regionNames = array(
+        'HÃ¶fuÃ°borgarsvÃ¦Ã°iÃ°', 'NorÃ°urland', 'SuÃ°urland', 'Vesturland', 'VestfirÃ°ir', 'Austurland', 'SuÃ°urnes'
+    );
+
+    /**
+     * @var array Icelandic building numbers.
+     */
+    protected static $buildingNumber = array(
+        '%##', '%#', '%#', '%', '%', '%', '%?', '% ?',
+    );
+
+    /**
+     * @var array Icelandic city format.
+     */
+    protected static $cityFormats = array(
+        '{{cityName}}',
+    );
+
+    /**
+     * @var array Icelandic street's name formats.
+     */
+    protected static $streetNameFormats = array(
+        '{{streetPrefix}}{{streetSuffix}}',
+        '{{streetPrefix}}{{streetSuffix}}',
+        '{{firstNameMale}}{{streetSuffix}}',
+        '{{firstNameFemale}}{{streetSuffix}}'
+    );
+
+    /**
+     * @var array Icelandic street's address formats.
+     */
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}'
+    );
+
+    /**
+     * @var array Icelandic address format.
+     */
+    protected static $addressFormats = array(
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+    );
+
+    /**
+     * Randomly return a real city name.
+     *
+     * @return string
+     */
+    public static function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+
+    /**
+     * Randomly return a street prefix.
+     *
+     * @return string
+     */
+    public static function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    /**
+     * Randomly return a building number.
+     *
+     * @return string
+     */
+    public static function buildingNumber()
+    {
+        return static::toUpper(static::bothify(static::randomElement(static::$buildingNumber)));
+    }
+
+    /**
+     * Randomly return a real region name.
+     *
+     * @return string
+     */
+    public static function region()
+    {
+        return static::randomElement(static::$regionNames);
+    }
+}

@@ -1,0 +1,1 @@
+–Jvendor/laravel/framework/src/Illuminate/Foundation/EnvironmentDetector.php 2phpXF

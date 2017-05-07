@@ -1,0 +1,1 @@
+².Svendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/AuthHandlerTest.php 2phpX¦

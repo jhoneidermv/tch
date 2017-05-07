@@ -1,0 +1,1 @@
+·(<vendor/phpunit/phpunit-mock-objects/tests/MockObjectTest.php 2phpXË

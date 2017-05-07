@@ -1,0 +1,1 @@
+€5@vendor/symfony/http-kernel/Exception/BadRequestHttpException.php 2phpX!

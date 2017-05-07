@@ -1,0 +1,1 @@
+° Qvendor/phpspec/prophecy/spec/Prophecy/Argument/Token/ArrayEveryEntryTokenSpec.php 2phpXa

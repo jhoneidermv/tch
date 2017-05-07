@@ -1,0 +1,1 @@
+†-Mvendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php 2phpXv

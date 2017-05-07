@@ -1,0 +1,1 @@
+­-Wvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php 2phpX|

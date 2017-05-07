@@ -1,0 +1,1 @@
+Æ,Nvendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php 2phpXF

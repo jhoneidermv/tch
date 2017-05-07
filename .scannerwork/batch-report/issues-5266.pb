@@ -1,5 +1,7 @@
-|
-phpS1488`Immediately return this expression instead of assigning it to the temporary variable "$license". 2
-‚‚ |
-phpS1488`Immediately return this expression instead of assigning it to the temporary variable "$content". 2
-™™ 
+L
+phpS11354Complete the task associated to this "TODO" comment. 2 N­
+phpS1142OReduce the number of returns of this function 4, down to the maximum allowed 3. 2 :
+’)11 :
+’).. :
+’)(( :
+’)## 

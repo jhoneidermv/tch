@@ -1,0 +1,1 @@
+“,;vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php 2phpXs

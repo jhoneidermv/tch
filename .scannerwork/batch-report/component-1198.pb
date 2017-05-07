@@ -1,0 +1,1 @@
+®	@vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsTypeOf.php 2phpXH

@@ -1,0 +1,1 @@
+î5?vendor/symfony/http-kernel/Tests/Fixtures/ExtensionAbsentBundle :í5

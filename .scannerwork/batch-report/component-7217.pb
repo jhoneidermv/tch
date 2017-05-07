@@ -1,0 +1,1 @@
+±8*vendor/symfony/translation/Tests/Catalogue :°8²8³8

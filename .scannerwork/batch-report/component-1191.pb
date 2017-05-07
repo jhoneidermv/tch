@@ -1,0 +1,1 @@
+§	:vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Is.php 2phpX:

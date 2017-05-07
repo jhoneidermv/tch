@@ -1,0 +1,1 @@
+‘9vendor/fzaninotto/faker/test/Faker/Provider/ColorTest.php 2phpX6

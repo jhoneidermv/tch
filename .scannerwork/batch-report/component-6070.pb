@@ -1,0 +1,1 @@
+¶/4vendor/symfony/console/Tests/Command/CommandTest.php 2phpXé

@@ -1,0 +1,1 @@
+Á(:vendor/phpunit/phpunit-mock-objects/tests/_fixture/Foo.php 2phpX	

@@ -1,0 +1,52 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => ':count Ã©v',
+    'y' => ':count Ã©v',
+    'month' => ':count hÃ³nap',
+    'm' => ':count hÃ³nap',
+    'week' => ':count hÃ©t',
+    'w' => ':count hÃ©t',
+    'day' => ':count nap',
+    'd' => ':count nap',
+    'hour' => ':count Ã³ra',
+    'h' => ':count Ã³ra',
+    'minute' => ':count perc',
+    'min' => ':count perc',
+    'second' => ':count mÃ¡sodperc',
+    's' => ':count mÃ¡sodperc',
+    'ago' => ':time',
+    'from_now' => ':time mÃºlva',
+    'after' => ':time kÃ©sÅ‘bb',
+    'before' => ':time korÃ¡bban',
+    'year_ago' => ':count Ã©ve',
+    'month_ago' => ':count hÃ³napja',
+    'week_ago' => ':count hete',
+    'day_ago' => ':count napja',
+    'hour_ago' => ':count Ã³rÃ¡ja',
+    'minute_ago' => ':count perce',
+    'second_ago' => ':count mÃ¡sodperce',
+    'year_after' => ':count Ã©vvel',
+    'month_after' => ':count hÃ³nappal',
+    'week_after' => ':count hÃ©ttel',
+    'day_after' => ':count nappal',
+    'hour_after' => ':count Ã³rÃ¡val',
+    'minute_after' => ':count perccel',
+    'second_after' => ':count mÃ¡sodperccel',
+    'year_before' => ':count Ã©vvel',
+    'month_before' => ':count hÃ³nappal',
+    'week_before' => ':count hÃ©ttel',
+    'day_before' => ':count nappal',
+    'hour_before' => ':count Ã³rÃ¡val',
+    'minute_before' => ':count perccel',
+    'second_before' => ':count mÃ¡sodperccel',
+);

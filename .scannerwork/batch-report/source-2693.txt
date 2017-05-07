@@ -1,0 +1,38 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => '{2,3,4,22,23,24,32,33,34,42,43,44,52,53,54}:count Ð³Ð¾Ð´Ð¸Ð½Ðµ|[0,Inf[ :count Ð³Ð¾Ð´Ð¸Ð½Ð°',
+    'y' => ':count Ð³.',
+    'month' => '{1} :count Ð¼Ñ˜ÐµÑ�ÐµÑ†|{2,3,4}:count Ð¼Ñ˜ÐµÑ�ÐµÑ†Ð°|[5,Inf[ :count Ð¼Ñ˜ÐµÑ�ÐµÑ†Ð¸',
+    'm' => ':count Ð¼Ñ˜.',
+    'week' => '{1} :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ð°|{2,3,4}:count Ð½ÐµÐ´Ñ˜ÐµÑ™Ðµ|[5,Inf[ :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ð°',
+    'w' => ':count Ð½ÐµÐ´.',
+    'day' => '{1,21,31} :count Ð´Ð°Ð½|[2,Inf[ :count Ð´Ð°Ð½Ð°',
+    'd' => ':count Ð´.',
+    'hour' => '{1,21} :count Ñ�Ð°Ñ‚|{2,3,4,22,23,24}:count Ñ�Ð°Ñ‚Ð°|[5,Inf[ :count Ñ�Ð°Ñ‚Ð¸',
+    'h' => ':count Ñ‡.',
+    'minute' => '{1,21,31,41,51} :count Ð¼Ð¸Ð½ÑƒÑ‚|[2,Inf[ :count Ð¼Ð¸Ð½ÑƒÑ‚Ð°',
+    'min' => ':count Ð¼Ð¸Ð½.',
+    'second' => '{1,21,31,41,51} :count Ñ�ÐµÐºÑƒÐ½Ð´|{2,3,4,22,23,24,32,33,34,42,43,44,52,53,54}:count Ñ�ÐµÐºÑƒÐ½Ð´Ðµ|[5,Inf[:count Ñ�ÐµÐºÑƒÐ½Ð´Ð¸',
+    's' => ':count Ñ�ÐµÐº.',
+    'ago' => 'Ð¿Ñ€Ð¸Ñ˜Ðµ :time',
+    'from_now' => 'Ð·Ð° :time',
+    'after' => ':time Ð½Ð°ÐºÐ¾Ð½',
+    'before' => ':time Ð¿Ñ€Ð¸Ñ˜Ðµ',
+
+    'year_from_now' => '{1,21,31,41,51} :count Ð³Ð¾Ð´Ð¸Ð½Ñƒ|{2,3,4,22,23,24,32,33,34,42,43,44,52,53,54} :count Ð³Ð¾Ð´Ð¸Ð½Ðµ|[5,Inf[ :count Ð³Ð¾Ð´Ð¸Ð½Ð°',
+    'year_ago' => '{1,21,31,41,51} :count Ð³Ð¾Ð´Ð¸Ð½Ñƒ|{2,3,4,22,23,24,32,33,34,42,43,44,52,53,54} :count Ð³Ð¾Ð´Ð¸Ð½Ðµ|[5,Inf[ :count Ð³Ð¾Ð´Ð¸Ð½Ð°',
+
+    'week_from_now' => '{1} :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ñƒ|{2,3,4} :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ðµ|[5,Inf[ :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ð°',
+    'week_ago' => '{1} :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ñƒ|{2,3,4} :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ðµ|[5,Inf[ :count Ð½ÐµÐ´Ñ˜ÐµÑ™Ð°',
+
+);

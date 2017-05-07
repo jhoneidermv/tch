@@ -1,0 +1,1 @@
+¤+Dvendor/sebastian/global-state/tests/_fixture/SnapshotDomDocument.php 2phpX

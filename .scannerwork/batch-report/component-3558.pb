@@ -1,0 +1,1 @@
+æRvendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/polynomialBestFitClass.php 2phpXà

@@ -1,0 +1,1 @@
+Ë =vendor/phpspec/prophecy/spec/Prophecy/Doubler/DoublerSpec.php 2phpXt

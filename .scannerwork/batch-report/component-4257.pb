@@ -1,0 +1,1 @@
+¡!@vendor/phpspec/prophecy/src/Prophecy/Doubler/DoubleInterface.php 2phpX

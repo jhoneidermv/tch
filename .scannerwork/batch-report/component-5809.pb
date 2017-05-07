@@ -1,0 +1,1 @@
+±-rvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/NativeQpContentEncoderAcceptanceTest.php 2phpXY

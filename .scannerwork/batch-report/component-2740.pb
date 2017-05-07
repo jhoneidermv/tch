@@ -1,0 +1,1 @@
+´<vendor/nikic/php-parser/lib/PhpParser/Builder/Namespace_.php 2phpX<

@@ -1,0 +1,1 @@
+Ñ\vendor/mockery/mockery/tests/Mockery/Generator/StringManipulation/Pass/InterfacePassTest.php 2phpX/

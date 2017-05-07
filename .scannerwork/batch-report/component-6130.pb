@@ -1,0 +1,1 @@
+ò/7vendor/symfony/console/Tests/Fixtures/FoobarCommand.php 2phpX

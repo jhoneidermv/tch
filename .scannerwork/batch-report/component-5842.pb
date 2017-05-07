@@ -1,0 +1,1 @@
+Ò-\vendor/swiftmailer/swiftmailer/tests/bug/Swift/BugFileByteStreamConsecutiveReadCallsTest.php 2phpX

@@ -1,0 +1,1 @@
+ó"Gvendor/phpunit/php-code-coverage/tests/_files/source_with_namespace.php 2phpX

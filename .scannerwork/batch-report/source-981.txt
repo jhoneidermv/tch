@@ -1,0 +1,97 @@
+<?php
+
+namespace Faker\Provider\tr_TR;
+
+class Person extends \Faker\Provider\Person
+{
+    /**
+     * @var array Turkish person name formats.
+     */
+    protected static $maleNameFormats = array(
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{titleMale}} {{firstNameMale}} {{lastName}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{titleFemale}} {{firstNameFemale}} {{lastName}}',
+    );
+
+    /**
+     * @link http://www.guzelisimler.com/en_cok_aranan_erkek_isimleri.php
+     *
+     * @var array Turkish first names.
+     */
+    protected static $firstNameMale = array(
+        'Ahmet', 'Ali', 'Alp', 'ArmaÄŸan', 'Atakan', 'AÅŸkÄ±n', 'Baran', 'Bartu', 'Berk', 'Berkay', 'Berke', 'Bora', 'Burak', 'Canberk',
+        'Cem', 'Cihan', 'Deniz', 'Efe', 'Ege', 'Ege', 'Emir', 'Emirhan', 'Emre', 'Ferid', 'GÃ¶ktÃ¼rk', 'GÃ¶rkem', 'GÃ¼ney',
+        'KaÄŸan', 'Kerem', 'Koray', 'Kutay', 'Mert', 'Onur', 'OgÃ¼n', 'Polat', 'RÃ¼zgar', 'Sarp', 'Serhan', 'Toprak', 'Tuna',
+        'TÃ¼rker', 'Utku', 'YaÄŸÄ±z', 'YiÄŸit', 'Ã‡Ä±nar', 'Derin', 'MeriÃ§', 'Barlas', 'DaÄŸhan', 'Doruk', 'Ã‡aÄŸan'
+    );
+
+    /**
+     * @link http://www.guzelisimler.com/en_cok_aranan_kiz_isimleri.php
+     *
+     * @var array Turkish first names.
+     */
+    protected static $firstNameFemale = array(
+        'Ada', 'Esma', 'Emel', 'Ebru', 'Åžahnur', 'Ãœmran', 'Sinem', 'Ä°rem', 'RÃ¼ya', 'Ece', 'Burcu'
+    );
+
+    /**
+     * @link http://tr.wikipedia.org/wiki/Kategori:T%C3%BCrk%C3%A7e_soyadlar%C4%B1
+     *
+     * @var array Turkish last names.
+     */
+    protected static $lastName = array(
+        'AbacÄ±', 'Abadan', 'Aclan', 'Adal', 'Adan', 'AdÄ±var', 'Akal', 'Akan', 'Akar', 'Akay',
+        'AkaydÄ±n', 'Akbulut', 'AkgÃ¼l', 'AkÄ±ÅŸÄ±k', 'Akman', 'AkyÃ¼rek', 'AkyÃ¼z', 'AkÅŸit', 'AlnÄ±aÃ§Ä±k',
+        'AlpuÄŸan', 'Alyanak', 'ArÄ±can', 'ArslanoÄŸlu', 'Atakol', 'Atan', 'Avan', 'AyaydÄ±n', 'Aybar',
+        'Aydan', 'AykaÃ§', 'Ayverdi', 'AÄŸaoÄŸlu', 'AÅŸÄ±koÄŸlu', 'Babacan', 'BabaoÄŸlu', 'Bademci',
+        'BakÄ±rcÄ±oÄŸlu', 'Balaban', 'BalcÄ±', 'BarbarosoÄŸlu', 'Baturalp', 'Baykam', 'BaÅŸoÄŸlu', 'BerberoÄŸlu',
+        'BeÅŸerler', 'BeÅŸok', 'BiÃ§er', 'BolatlÄ±', 'DalkÄ±ran', 'DaÄŸdaÅŸ', 'DaÄŸlaroÄŸlu', 'DemirbaÅŸ', 'Demirel',
+        'Denkel', 'Dizdar', 'DoÄŸan', 'Durak', 'Durmaz', 'Duygulu', 'DÃ¼ÅŸenkalkar', 'Egeli', 'Ekici', 'EkÅŸioÄŸlu',
+        'EliÃ§in', 'ElmastaÅŸoÄŸlu', 'ElÃ§iboÄŸa', 'Erbay', 'Erberk', 'Erbulak', 'ErdoÄŸan', 'Erez', 'Erginsoy',
+        'Erkekli', 'Eronat', 'ErtepÄ±nar', 'ErtÃ¼rk', 'ErÃ§etin', 'EvliyaoÄŸlu', 'Fahri', 'GÃ¶nÃ¼ltaÅŸ', 'GÃ¼mÃ¼ÅŸpala',
+        'GÃ¼nday', 'GÃ¼rmen', 'IlÄ±calÄ±', 'Kahveci', 'KaplangÄ±', 'Karabulut', 'KarabÃ¶cek', 'KaradaÅŸ', 'Karaduman',
+        'Karaer', 'KasapoÄŸlu', 'KavaklÄ±oÄŸlu', 'Kaya', 'KeseroÄŸlu', 'KeÃ§eci', 'KÄ±lÄ±Ã§Ã§Ä±', 'KÄ±raÃ§', 'KocabÄ±yÄ±k',
+        'Korol', 'Koyuncu', 'KoÃ§', 'KoÃ§oÄŸlu', 'KoÃ§yiÄŸit', 'Kuday', 'KulaksÄ±zoÄŸlu', 'KumcuoÄŸlu', 'Kunt',
+        'Kunter', 'KurutluoÄŸlu', 'Kutlay', 'Kuzucu', 'KÃ¶rmÃ¼kÃ§Ã¼', 'KÃ¶ybaÅŸÄ±', 'KÃ¶ylÃ¼oÄŸlu', 'KÃ¼Ã§Ã¼kler', 'LimoncuoÄŸlu',
+        'MayhoÅŸ', 'MenemencioÄŸlu', 'MertoÄŸlu', 'NalbantoÄŸlu', 'NebioÄŸlu', 'NumanoÄŸlu', 'OkumuÅŸ', 'Okur', 'OraloÄŸlu',
+        'Orbay', 'Ozansoy', 'PaksÃ¼t', 'Pekkan', 'Pektemek', 'Polat', 'PoyrazoÄŸlu', 'PoÃ§an', 'SadÄ±klar', 'SamancÄ±',
+        'SandalcÄ±', 'SarÄ±oÄŸlu', 'SaygÄ±ner', 'SepetÃ§i', 'Sezek', 'SinanoÄŸlu', 'Solmaz', 'SÃ¶zeri', 'SÃ¼leymanoÄŸlu',
+        'TahincioÄŸlu', 'TanrÄ±kulu', 'TazegÃ¼l', 'TaÅŸlÄ±', 'TaÅŸÃ§Ä±', 'Tekand', 'TekelioÄŸlu', 'TokatlÄ±oÄŸlu', 'TokgÃ¶z',
+        'TopaloÄŸlu', 'TopÃ§uoÄŸlu', 'Toraman', 'Tunaboylu', 'TunÃ§eri', 'TuÄŸlu', 'TuÄŸluk', 'TÃ¼rkdoÄŸan', 'TÃ¼rkyÄ±lmaz',
+        'TÃ¼tÃ¼ncÃ¼', 'TÃ¼zÃ¼n', 'Uca', 'Uluhan', 'VelioÄŸlu', 'YalÃ§Ä±n', 'YazÄ±cÄ±', 'Yetkiner', 'YeÅŸilkaya', 'YÄ±ldÄ±rÄ±m',
+        'YÄ±ldÄ±zoÄŸlu', 'YÄ±lmazer', 'Yorulmaz', 'Ã‡amdalÄ±', 'Ã‡apanoÄŸlu', 'Ã‡atalbaÅŸ', 'Ã‡aÄŸÄ±ran', 'Ã‡etin', 'Ã‡etiner',
+        'Ã‡evik', 'Ã‡Ã¶rekÃ§i', 'Ã–nÃ¼r', 'Ã–rge', 'Ã–ymen', 'Ã–zberk', 'Ã–zbey', 'Ã–zbir', 'Ã–zdenak', 'Ã–zdoÄŸan', 'Ã–zgÃ¶rkey',
+        'Ã–zkara', 'Ã–zkÃ¶k', 'Ã–ztonga', 'Ã–ztuna'
+    );
+
+    protected static $title = array('DoÃ§. Dr.', 'Dr.', 'Prof. Dr.');
+
+    public function title($gender = null)
+    {
+        return static::titleMale();
+    }
+
+    /**
+     * replaced by specific unisex Turkish title
+     */
+    public static function titleMale()
+    {
+        return static::randomElement(static::$title);
+    }
+
+    /**
+     * replaced by specific unisex Turkish title
+     */
+    public static function titleFemale()
+    {
+        return static::titleMale();
+    }
+}

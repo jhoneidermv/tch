@@ -1,0 +1,1 @@
+ñ=vendor/fzaninotto/faker/src/Faker/Provider/ne_NP/Internet.php 2phpX!

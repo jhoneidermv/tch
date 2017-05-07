@@ -1,3 +1,3 @@
-s
-phpS1117HRename "$logs" which has the same name as the field declared at line 23. 2   :
-Å1 
+B
+phpS1481(Remove this unused "$t3" local variable. 2$$ B
+phpS1481(Remove this unused "$t2" local variable. 2VV 

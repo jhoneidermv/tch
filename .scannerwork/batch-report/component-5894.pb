@@ -1,0 +1,1 @@
+†.Zvendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/QpHeaderEncoderTest.php 2phpXÞ

@@ -1,0 +1,90 @@
+<?php
+
+namespace Faker\Provider\es_PE;
+
+class Person extends \Faker\Provider\Person
+{
+    protected static $maleNameFormats = array(
+        '{{firstNameMale}} {{lastName}} {{lastName}}',
+        '{{firstNameMale}} {{firstNameMale}} {{lastName}} {{lastName}}',
+        '{{firstNameMale}} {{firstNameMale}} {{lastName}} {{lastName}}',
+        '{{titleMale}} {{firstNameMale}} {{lastName}}',
+        '{{titleMale}} {{firstNameMale}} {{lastName}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}} {{suffix}}',
+        '{{titleMale}} {{firstNameMale}} {{lastName}} {{lastName}} {{suffix}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{firstNameFemale}} {{lastName}} {{lastName}}',
+        '{{firstNameFemale}} {{firstNameFemale}} {{lastName}} {{lastName}}',
+        '{{firstNameFemale}} {{firstNameFemale}} {{lastName}} {{lastName}}',
+        '{{titleFemale}} {{firstNameFemale}} {{lastName}}',
+        '{{titleFemale}} {{firstNameFemale}} {{lastName}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}} {{suffix}}',
+        '{{firstNameFemale}} {{firstNameFemale}} {{lastName}} {{lastName}} {{suffix}}',
+    );
+
+    protected static $firstNameMale = array(
+        'AarÃ³n', 'AdriÃ¡n', 'AgustÃ­n', 'Alan', 'Alejandro', 'Alex', 'Alexander', 'Alonso', 'AndrÃ©s', 'Anthony', 'Antonio', 'Axel', 'BenjamÃ­n',
+        'Bruno', 'Camilo', 'Carlos', 'Christian', 'Christopher', 'CristÃ³bal', 'DamiÃ¡n', 'Daniel', 'Dante', 'David', 'Diego', 'Diego Alejandro',
+        'Dylan', 'Eduardo', 'ElÃ­as', 'Emiliano', 'Emilio', 'Emmanuel', 'Esteban', 'Facundo', 'Felipe', 'Fernando', 'Francisco', 'Franco',
+        'Gabriel', 'Gael', 'HipÃ³lito', 'Horacio', 'Hugo', 'Ian', 'Ignacio', 'Isaac', 'Ivan', 'Jacobo', 'Javier', 'JerÃ³nimo',
+        'JesÃºs', 'JoaquÃ­n', 'Jorge', 'Joshua', 'JosuÃ©', 'JosÃ©', 'Juan', 'Juan David', 'Juan Diego', 'Juan JosÃ©', 'Juan Manuel', 'Juan MartÃ­n',
+        'Juan Pablo', 'Juan SebastiÃ¡n', 'JuliÃ¡n', 'Kevin', 'Lautaro', 'Leonardo', 'Lorenzo', 'Lucas', 'Luciano', 'Luis', 'Manuel', 'Mario',
+        'MartÃ­n', 'Mateo', 'Matthew', 'MatÃ­as', 'Maximiliano', 'Miguel', 'Miguel Ã�ngel', 'MÃ¡ximo', 'Nahuel', 'Pablo', 'Pedro', 'Rafael',
+        'Ricardo', 'Rodrigo', 'Samuel', 'Santiago', 'Santino', 'SebastiÃ¡n', 'Sergio', 'SimÃ³n', 'Thiago', 'Tomas', 'Valentino', 'ValentÃ­n',
+        'Vicente', 'Bautista', 'Hidalgo', 'Juan Esteban',
+    );
+
+    protected static $firstNameFemale = array(
+        'Abigail', 'Abril', 'Adriana', 'Agustina', 'Alejandra', 'Alessandra', 'Alexa', 'Allison', 'Alma', 'Amanda', 'Amelia', 'Ana', 'Ana Paula',
+        'Ana SofÃ­a', 'Andrea', 'Antonella', 'Antonia', 'Ariadna', 'Ariana', 'Ashley', 'Bianca', 'Camila', 'Carla', 'Carolina', 'Catalina',
+        'Clara', 'Constanza', 'Daniela', 'Delfina', 'Elena ', 'Elizabeth', 'Emilia', 'Emily', 'Emma', 'Fabiana', 'Florencia', 'FÃ¡tima ',
+        'Gabriela', 'Guadalupe', 'Irene', 'Isabel', 'Isabella', 'Isidora', 'Ivanna', 'JazmÃ­n', 'Josefa', 'Josefina', 'Juana', 'Julia',
+        'Juliana', 'Julieta', 'Laura', 'Lola', 'Luana', 'Luciana', 'LucÃ­a', 'Luna', 'Magdalena', 'Maite', 'Malena', 'Manuela',
+        'Mariana', 'Mariangel', 'Martina', 'MarÃ­a', 'MarÃ­a Alejandra', 'MarÃ­a Camila', 'MarÃ­a Fernanda', 'MarÃ­a JosÃ©', 'MarÃ­a Paula', 'Micaela', 'Michelle', 'Miranda',
+        'Montserrat', 'MÃ­a', 'Nadia', 'Natalia', 'Nicole', 'Oliva', 'Olivia', 'Ornela', 'Paula', 'Paulina', 'Rafaela', 'Rebeca',
+        'Regina', 'Renata', 'Romina', 'SalomÃ©', 'Samantha', 'Sara', 'Silvana ', 'SofÃ­a', 'Sophie', 'Valentina', 'Valeria', 'Valery ',
+        'Victoria', 'Violeta', 'Zoe', 'Aitana', 'Sara SofÃ­a', 'Ximena', 'Jimena',
+    );
+
+    protected static $lastName = array(
+        'Acevedo', 'Acosta', 'AcuÃ±a', 'Aguayo', 'Ã�guilar', 'Aguilera', 'Aguirre', 'Alanis', 'Alaniz', 'AlarcÃ³n', 'Alba', 'Alcala', 'AlcÃ¡ntar', 'Alcaraz', 'Alejandro', 'AlemÃ¡n', 'Alfaro', 'Alicea', 'Almanza', 'Almaraz', 'Almonte', 'Alonso', 'Alonzo', 'Altamirano', 'Alva', 'Alvarado', 'Ã�lvarez', 'Amador', 'Amaya', 'Anaya', 'Anguiano', 'Angulo', 'Aparicio', 'Apodaca', 'Aponte', 'AragÃ³n', 'AraÃ±a', 'Aranda', 'Arce', 'Archuleta', 'Arellano', 'Arenas', 'Arevalo', 'Arguello', 'Arias', 'Armas', 'ArmendÃ¡riz', 'Armenta', 'Armijo', 'Arredondo', 'Arreola', 'Arriaga', 'Arroyo', 'Arteaga', 'Atencio', 'Ã�valos', 'Ã�vila', 'AvilÃ©s', 'Ayala',
+        'Baca', 'Ballesteros', 'Banda', 'Barela', 'BarragÃ¡n', 'Barraza', 'Barrera', 'Barreto', 'Barrientos', 'Barrios', 'Batista', 'Becerra', 'BeltrÃ¡n', 'Benavides', 'BenavÃ­dez', 'BenÃ­tez', 'BermÃºdez', 'Bernal', 'BerrÃ­os', 'BÃ©tancourt', 'Blanco', 'Bonilla', 'Borrego', 'Botello', 'Bravo', 'Briones', 'BriseÃ±o', 'Brito', 'Bueno', 'Burgos', 'Bustamante', 'Bustos',
+        'Caballero', 'CabÃ¡n', 'Cabrera', 'Cadena', 'Caldera', 'CalderÃ³n','Camacho', 'Campos', 'Canales', 'Candelaria', 'Cano', 'CantÃº', 'Caraballo', 'Carbajal', 'Cardenas', 'Cardona', 'Carmona', 'Carranza', 'Carrasco', 'Carrasquillo', 'Carrera', 'Carrero', 'Carrillo', 'Carrion', 'Carvajal', 'Casanova', 'Casares', 'CasÃ¡rez', 'Casas', 'Casillas', 'CastaÃ±eda', 'Castellanos', 'Castillo', 'Castro', 'Cavazos', 'Cazares', 'Ceballos', 'Cedillo', 'Ceja', 'Centeno', 'Cepeda', 'Cerda', 'Cervantes', 'CervÃ¡ntez', 'ChacÃ³n', 'Chapa', 'ChavarrÃ­a', 'ChÃ¡vez', 'Cisneros', 'Collado', 'Collazo', 'ColÃ³n', 'ConcepciÃ³n', 'Contreras', 'Cordero', 'CÃ³rdova', 'Cornejo', 'Corona', 'Coronado', 'Corral', 'Corrales', 'Correa', 'CortÃ©s', 'Cortez', 'Crespo', 'Cruz', 'Cuellar',
+        'DÃ¡vila', 'de JesÃºs', 'De La CrÃºz', 'De La Fuente', 'De La Rosa', 'De La Torre', 'De LeÃ³n', 'Delgadillo', 'Delgado', 'Del RÃ­o', 'Del Valle', 'DÃ­az', 'DomÃ­nguez', 'DomÃ­nquez', 'Duarte', 'DueÃ±as', 'Duran',
+        'EchevarrÃ­a', 'EnrÃ­quez', 'Escalante', 'Escobar', 'Escobedo', 'Espinal', 'Espino', 'Espinosa', 'Espinoza', 'Esquibel', 'Esquivel', 'EstÃ©vez', 'Estrada',
+        'Fajardo', 'FarÃ­as', 'Feliciano', 'FernÃ¡ndez', 'Ferrer', 'Fierro', 'Figueroa', 'Flores', 'FlÃ³rez', 'Fonseca', 'Franco', 'FrÃ­as', 'Fuentes',
+        'GaitÃ¡n', 'Galarza', 'Galindo', 'Gallardo', 'Gallegos', 'GalvÃ¡n', 'GÃ¡lvez', 'Gamboa', 'Gamez', 'Gaona', 'Garay', 'GarcÃ­a', 'Garrido', 'Garza', 'GaytÃ¡n', 'Gil', 'GirÃ³n', 'GodÃ­nez', 'Godoy', 'GÃ³mez', 'Gonzales', 'GonzÃ¡lez', 'Gracia', 'Granado', 'Granados', 'Griego', 'Grijalva', 'Guajardo', 'Guardado', 'Guerra', 'Guerrero', 'Guevara', 'Guillen', 'GutiÃ©rrez', 'GuzmÃ¡n',
+        'HenrÃ­quez', 'Heredia', 'HernÃ¡dez', 'Hernandes', 'HernÃ¡ndez', 'Herrera', 'Hidalgo', 'Hinojosa', 'HolguÃ­n', 'Huerta', 'Hurtado',
+        'Ibarra', 'Iglesias',
+        'Jaramillo', 'JimÃ©nez', 'JuÃ¡rez', 'Jurado',
+        'Lara', 'Laureano', 'Leal', 'Ledesma', 'Leiva', 'LeÃ³n', 'Leyva', 'LimÃ³n', 'Linares', 'Lira', 'Llamas', 'LÃ³pez', 'Lovato', 'Lozada', 'Lozano', 'Lugo', 'LujÃ¡n', 'Luna',
+        'MacÃ­as', 'Madera', 'Madrid', 'Madrigal', 'Maldonado', 'Manzanares', 'MarÃ­n', 'MÃ¡rquez', 'MarroquÃ­n', 'MartÃ­nez', 'Mata', 'Mateo', 'MatÃ­as', 'Matos', 'Maya', 'Mayorga', 'Medina', 'Medrano', 'MejÃ­a', 'MelÃ©ndez', 'Melgar', 'Mena', 'MÃ©ndez', 'Mendoza', 'MenÃ©ndez', 'Mercado', 'Merino', 'Mesa', 'Meza', 'Miranda', 'Molina', 'MondragÃ³n', 'Montalvo', 'MontaÃ±ez', 'MontaÃ±o', 'Montenegro', 'Montero', 'Montes', 'Montez', 'Montoya', 'Mora', 'Morales', 'Moreno', 'Mota', 'Moya', 'MuÃ±iz', 'MuÃ±oz', 'Murillo', 'Muro',
+        'NÃ¡jera', 'Naranjo', 'NarvÃ¡ez', 'Nava', 'Navarrete', 'Navarro', 'Nazario', 'Negrete', 'NegrÃ³n', 'Nieto', 'Nieves', 'NiÃ±o', 'Noriega', 'NÃºÃ±ez',
+        'Ocampo', 'Ocasio', 'Ochoa', 'Ojeda', 'Olivares', 'OlivÃ¡rez', 'Olivas', 'Olivera', 'Olivo', 'Olmos', 'Olvera', 'Ontiveros', 'Oquendo', 'OrdÃ³Ã±ez', 'Orellana', 'Ornelas', 'Orosco', 'Orozco', 'Ortega', 'Ortiz', 'Osorio', 'Otero', 'Ozuna',
+        'Pacheco', 'Padilla', 'PÃ¡ez', 'Palacios', 'Palomino', 'Palomo', 'Pantoja', 'Paredes', 'Parra', 'Partida', 'PatiÃ±o', 'Paz', 'Pedraza', 'Pedroza', 'Pelayo', 'PeÃ±a', 'Perales', 'Peralta', 'Perea', 'Peres', 'PÃ©rez', 'Pichardo', 'PiÃ±a', 'Pineda', 'Pizarro', 'Polanco', 'Ponce', 'Porras', 'Portillo', 'Posada', 'Prado', 'Preciado', 'Prieto', 'Puente', 'Puga', 'Pulido',
+        'Quesada', 'Quezada', 'QuiÃ±ones', 'QuiÃ±Ã³nez', 'Quintana', 'Quintanilla', 'Quintero', 'Quiroz',
+        'Rael', 'RamÃ­rez', 'RamÃ³n', 'Ramos', 'Rangel', 'Raya', 'Razo', 'Regalado', 'RendÃ³n', 'RenterÃ­a', 'ResÃ©ndez', 'Reyes', 'Reyna', 'Reynoso', 'Rico', 'RincÃ³n', 'Riojas', 'RÃ­os', 'Rivas', 'Rivera', 'Rivero', 'Robledo', 'Robles', 'Rocha', 'Rodarte', 'RodrÃ­gez', 'RodrÃ­guez', 'RodrÃ­quez', 'Rojas', 'Rojo', 'RoldÃ¡n', 'RolÃ³n', 'Romero', 'Romo', 'Roque', 'Rosado', 'Rosales', 'Rosario', 'Rosas', 'Roybal', 'Rubio', 'Ruelas', 'Ruiz', 'Ruvalcaba',
+        'Saavedra', 'SÃ¡enz', 'Salas', 'Salazar', 'Salcedo', 'Salcido', 'SaldaÃ±a', 'Saldivar', 'Salgado', 'Salinas', 'Samaniego', 'Sanabria', 'Sanches', 'SÃ¡nchez', 'Sandoval', 'Santacruz', 'Santana', 'Santiago', 'SantillÃ¡n', 'Sarabia', 'Sauceda', 'Saucedo', 'Sedillo', 'Segovia', 'Segura', 'SepÃºlveda', 'Serna', 'Serrano', 'Serrato', 'Sevilla', 'Sierra', 'Sisneros', 'Solano', 'SolÃ­s', 'Soliz', 'Solorio', 'Solorzano', 'Soria', 'Sosa', 'Sotelo', 'Soto', 'SuÃ¡rez',
+        'Tafoya', 'Tamayo', 'Tamez', 'Tapia', 'Tejada', 'Tejeda', 'TÃ©llez', 'Tello', 'TerÃ¡n', 'Terrazas', 'Tijerina', 'Tirado', 'Toledo', 'Toro', 'Torres', 'TÃ³rrez', 'Tovar', 'Trejo', 'TreviÃ±o', 'Trujillo',
+        'Ulibarri', 'Ulloa', 'Urbina', 'UreÃ±a', 'UrÃ­as', 'Uribe', 'Urrutia',
+        'Vaca', 'Valadez', 'ValdÃ©s', 'Valdez', 'Valdivia', 'Valencia', 'ValentÃ­n', 'Valenzuela', 'Valladares', 'Valle', 'Vallejo', 'Valles', 'Valverde', 'Vanegas', 'Varela', 'Vargas', 'VÃ¡squez', 'VÃ¡zquez', 'Vega', 'Vela', 'Velasco', 'VelÃ¡squez', 'VelÃ¡zquez', 'VÃ©lez', 'VÃ©liz', 'Venegas', 'Vera', 'Verdugo', 'Verduzco', 'Vergara', 'Viera', 'Vigil', 'Villa', 'VillagÃ³mez', 'Villalobos', 'Villalpando', 'Villanueva', 'Villareal', 'Villarreal', 'VillaseÃ±or', 'Villegas',
+        'YÃ¡Ã±ez', 'Ybarra',
+        'Zambrano', 'Zamora', 'Zamudio', 'Zapata', 'Zaragoza', 'Zarate', 'Zavala', 'Zayas', 'Zelaya', 'Zepeda', 'ZÃºÃ±iga'
+    );
+
+    protected static $titleMale = array('Sr.', 'Dn.', 'Dr.', 'Lic.', 'Ing.');
+
+    protected static $titleFemale = array('Sra.', 'Srta.', 'Dra.', 'Lic.', 'Ing.');
+
+    protected static $suffix = array('Hijo');
+
+    /**
+     * @example 'Hijo'
+     */
+    public static function suffix()
+    {
+        return static::randomElement(static::$suffix);
+    }
+}

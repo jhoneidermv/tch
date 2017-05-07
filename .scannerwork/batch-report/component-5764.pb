@@ -1,0 +1,1 @@
+„-Pvendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php 2phpX(

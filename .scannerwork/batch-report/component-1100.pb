@@ -1,0 +1,1 @@
+ÌEvendor/fzaninotto/faker/test/Faker/Provider/it_CH/PhoneNumberTest.php 2phpX!

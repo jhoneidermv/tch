@@ -1,0 +1,109 @@
+<?php
+
+namespace Faker\Provider\pl_PL;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}'
+    );
+    protected static $addressFormats = array(
+        '{{streetAddress}}, {{postcode}} {{city}}',
+    );
+
+    protected static $buildingNumber = array('##A', '##', '##A/##', '##/##');
+    protected static $postcode = array('##-###');
+    /**
+     * @var array full list of Polish voivodeship
+     */
+    protected static $state = array(
+        'dolnoÅ›lÄ…skie','kujawsko-pomorskie','lubelskie','lubuskie','Å‚Ã³dzkie','maÅ‚opolskie','mazowieckie','opolskie','podkarpackie',
+        'podlaskie','pomorskie','Å›lÄ…skie','Å›wiÄ™tokrzyskie','warmiÅ„sko-mazurskie','wielkopolskie','zachodniopomorskie'
+    );
+    // TODO list all country names in the world
+    protected static $country = array(
+        'Polska',
+    );
+    /**
+     * @var array 250 Polish cities with biggest number of streets. Extracted from data issued by the official public postal service of Poland. @link http://www.poczta-polska.pl/
+     */
+    protected static $city = array(
+        'Warszawa','KrakÃ³w','Å�Ã³dÅº','PoznaÅ„','WrocÅ‚aw','GdaÅ„sk','Szczecin','Bydgoszcz','Lublin','Bielsko-BiaÅ‚a','CzÄ™stochowa','Katowice','BiaÅ‚ystok','Gdynia','Radom',
+        'RzeszÃ³w','Gliwice','Kielce','Opole','Rybnik','Sosnowiec','Zabrze','Ruda ÅšlÄ…ska','Jaworzno','Olsztyn','Zielona GÃ³ra','Bytom','Koszalin','DÄ…browa GÃ³rnicza',
+        'PÅ‚ock','Zawiercie','WaÅ‚brzych','Tarnowskie GÃ³ry','Konin','Jelenia GÃ³ra','Tychy','OstroÅ‚Ä™ka','PruszkÃ³w','KÄ™dzierzyn-KoÅºle','Siedlce','ChorzÃ³w','Otwock','Piekary ÅšlÄ…skie',
+        'Sochaczew','Piaseczno','CiechanÃ³w','Grodzisk Mazowiecki','JastrzÄ™bie-ZdrÃ³j','Åšwidnica','WÅ‚adysÅ‚awowo','MysÅ‚owice','OstrÃ³w Mazowiecka','Å»ory','Nysa','MikoÅ‚Ã³w','Chojnice',
+        'Stargard SzczeciÅ„ski','BÄ™dzin','Orzesze','GÅ‚ogÃ³w','Siemianowice ÅšlÄ…skie','SulejÃ³wek','Tarnobrzeg','JÃ³zefÃ³w','Konstancin-Jeziorna','WodzisÅ‚aw ÅšlÄ…ski','Legionowo','ÅšwinoujÅ›cie',
+        'Brzeg','KraÅ›nik','WyszkÃ³w','CzeladÅº','DarÅ‚owo','BieruÅ„','ÅšwiÄ™tochÅ‚owice','PuÅ‚tusk','KÅ‚obuck','Olkusz','IÅ‚awa','Sopot','Czerwionka-Leszczyny','Å�aziska GÃ³rne','Nowy DwÃ³r Mazowiecki',
+        'Police','KnurÃ³w','LÄ™dziny','Nowa Ruda','Bogatynia','Krapkowice','Kluczbork','BoguszÃ³w-Gorce','TrzebiatÃ³w','Czaplinek','Pieszyce','Jastarnia','Bezrzecze','Kamieniec ZÄ…bkowicki',
+        'Jemielnica','Magdalenka','Czarna Woda','Kolonowskie','Wilkowice','PawÅ‚owice','DÄ™bogÃ³rze','GoÅ‚ubie','Mokrzyska','ToruÅ„','Å�oÅ›','Jadowniki','SzÃ³wsko','KrÄ™piec','GorzÃ³w Wielkopolski',
+        'KamieÅ„','SÅ‚upsk','Rynarzewo','WÅ‚ocÅ‚awek','FranciszkÃ³w','Kalisz','Legnica','Pilchowo','TarnÃ³w','ElblÄ…g','Skalbmierz','BogaczÃ³w','Jeziorna','OsÃ³wiec','PrzemyÅ›l',
+        'Ostrowiec ÅšwiÄ™tokrzyski','Nowe Kramsko','OstrÃ³w Wielkopolski','Zborowskie','ZamoÅ›Ä‡','GrudziÄ…dz','PiÅ‚a','Leszno','KoszwaÅ‚y','Kamienica KrÃ³lewska','JastrzÄ™bie','InowrocÅ‚aw',
+        'Lubin','Nowy SÄ…cz','Å�awy','CheÅ‚m','TomaszÃ³w Mazowiecki','Stalowa Wola','Starachowice','SkarÅ¼ysko-Kamienna','BiaÅ‚a Podlaska','RacibÃ³rz','Babienica','PuÅ‚awy','PiotrkÃ³w Trybunalski',
+        'SuwaÅ‚ki','Szczawin','BolesÅ‚awiec','Jaroszowa Wola','Skierniewice','Gniezno','Å�omÅ¼a','BeÅ‚chatÃ³w','PrzÄ™dzel','PostÄ™p','PÅ‚azÃ³w','Szczecinek','Krosno','Zakopane','Ilkowice','Kutno','EÅ‚k',
+        'DÄ™bica','Mielec','Szwecja','LÄ™bork','Szteklin','KoÅ‚obrzeg','KÅ‚odzko','Starogard GdaÅ„ski','JarosÅ‚aw','Sieradz','ZduÅ„ska Wola','Nowa SÃ³l','Malbork','Tczew','Zgierz','Ustka','Åšrem',
+        'KuÅºnica MasÅ‚oÅ„ska','Kwidzyn','Krotoszyn','Å»yrardÃ³w','KoÅ›cian','SwarzÄ™dz','PÄ™cice','Pabianice','Zgorzelec','Å»ary','OÅ›wiÄ™cim','Jawor','JasÅ‚o','Wola KiedrzyÅ„ska','Gorlice','Wejherowo',
+        'Rumia','Bartoszyce','Sandomierz','Å�Ä™czna','Cieszyn','ChrzanÃ³w','Radomsko','Sanok','Pszczyna','WÄ…growiec','Turek','Busko-ZdrÃ³j','Pruszcz GdaÅ„ski','LuboÅ„','Å»ywiec','Studzienice','OstrzeszÃ³w',
+        'KÄ™trzyn','OstrÃ³da','Bochnia','Jelcz-Laskowice','ZÄ…bki','WrzeÅ›nia','Bielawa','Nowy Targ','GiÅ¼ycko','DzierÅ¼oniÃ³w','MyszkÃ³w','Marylka','Czechowice-Dziedzice','Å�owicz','Å�omianki','Åšwiebodzice',
+        'Åšwiebodzin','Lubojenka','Lubliniec','Åšwiecie','LubartÃ³w','Lidzbark WarmiÅ„ski','Åšwidnik','Pisz','Szczytno','Åšwidwin','Kozienice','Brodnica','KoÅ›cierzyna','Braniewo','KoÅ‚o'
+    );
+    /**
+     * @var array 549 most common Polish street names. Extracted from data issued by the official public postal service of Poland. @link http://www.poczta-polska.pl/
+     */
+    protected static $street = array(
+        'KoÅ›ciuszki Tadeusza','Mickiewicza Adama','Szkolna','Dworcowa','Kolejowa','Sienkiewicza Henryka','Rynek','Warszawska','Wojska Polskiego','Å»eromskiego Stefana',
+        'Polna','1 Maja','Ogrodowa','Pocztowa','Grunwaldzka','Kopernika MikoÅ‚aja','LeÅ›na','Lipowa','SÅ‚owackiego Juliusza','Parkowa','KoÅ›cielna','JagielloÅ„ska','SÅ‚oneczna',
+        'DÅ‚uga','GÅ‚Ã³wna','KiliÅ„skiego Jana','3 Maja','KrÃ³tka','Zielona','Konopnickiej Marii','Chopina Fryderyka','Armii Krajowej','Moniuszki StanisÅ‚awa','Wiejska','Kwiatowa',
+        'DÄ™bowa','11 Listopada','Piaskowa','Cicha','Spokojna','Graniczna','Krakowska','Broniewskiego WÅ‚adysÅ‚awa','Kasztanowa','PiÅ‚sudskiego JÃ³zefa','PoznaÅ„ska','Reja MikoÅ‚aja',
+        'Prusa BolesÅ‚awa','PartyzantÃ³w','WyspiaÅ„skiego StanisÅ‚awa','Pomorska','Brzozowa','Kochanowskiego Jana','ZwyciÄ™stwa','Sportowa','Staszica StanisÅ‚awa','Tuwima Juliana',
+        'Matejki Jana','Akacjowa','WiÅ›niowa','Sosnowa','Piastowska','Å�Ä…kowa','Klonowa','WesoÅ‚a','Orzeszkowej Elizy','Åšwierkowa','Traugutta Romualda','PrzemysÅ‚owa','GdaÅ„ska',
+        'Nowa','WolnoÅ›ci','Wierzbowa','Fabryczna','RÃ³Å¼ana','Jasna','Sikorskiego WÅ‚adysÅ‚awa','Spacerowa','Topolowa','Mieszka I','Pogodna','Wyzwolenia','Wrzosowa','Jana PawÅ‚a II Al.',
+        'WspÃ³lna','MÅ‚yÅ„ska','Paderewskiego Ignacego','WÄ…ska','Okrzei Stefana','Targowa','WrocÅ‚awska','KrÃ³lowej Jadwigi','Jana PawÅ‚a II','JodÅ‚owa','GÃ³rna','MiÅ‚a','Wojska Polskiego Al.',
+        'NiepodlegÅ‚oÅ›ci Al.','Asnyka Adama','Boczna','Poprzeczna','SkÅ‚odowskiej-Curie Marii','Szpitalna','Prosta','Zamkowa','Kasprowicza Jana','Wiosenna','Batorego Stefana','Krucza',
+        'Jesionowa','Sadowa','Reymonta WÅ‚adysÅ‚awa','Modrzewiowa','Plater Emilii','Norwida Cypriana Kamila','Mazowiecka','Bukowa','SpÃ³Å‚dzielcza','Malinowa','JaÅ›minowa','ÅšlÄ…ska',
+        'Szymanowskiego Karola','WolnoÅ›ci Pl.','Witosa Wincentego','Korczaka Janusza','KrasiÅ„skiego Zygmunta','Opolska','Towarowa','PowstaÅ„cÃ³w ÅšlÄ…skich','BatalionÃ³w ChÅ‚opskich','Krzywa',
+        'Bema JÃ³zefa','Miodowa','Piotrkowska','MaÅ‚a','Lubelska','Å»ytnia','CheÅ‚moÅ„skiego JÃ³zefa','Stawowa','NaÅ‚kowskiej Zofii','Narutowicza Gabriela','Harcerska','Wodna','WaryÅ„skiego Ludwika',
+        'Grzybowa','Jaworowa','Cmentarna','StraÅ¼acka','KrÄ™ta','Dolna','ZÅ‚ota','Kamienna','GÃ³rnicza','Robotnicza','GÅ‚owackiego Bartosza','PuÅ‚askiego Kazimierza','GaÅ‚czyÅ„skiego Konstantego Ildefonsa',
+        'Limanowskiego BolesÅ‚awa','PodgÃ³rna','PiÄ™kna','Chrobrego BolesÅ‚awa','Wschodnia','Mazurska','Gajowa','Å»elazna','OkrÄ™Å¼na','PiÅ‚sudskiego JÃ³zefa Al.','GÅ‚ogowska','Jagodowa','Zachodnia','SÅ‚owiaÅ„ska',
+        'Wieniawskiego Henryka','Grabowa','BaÅ‚tycka','Å»wirki i Wigury','JagieÅ‚Å‚y WÅ‚adysÅ‚awa','Mostowa','Fredry Aleksandra','Katowicka','DÅ‚ugosza Jana','Å»urawia','Morska','Grottgera Artura','TÄ™czowa',
+        'Morcinka Gustawa','Letnia','Wilcza','Lelewela Joachima','Dobra','Orzechowa','LegionÃ³w','KosynierÃ³w','Kaszubska','PoÅ‚udniowa','Szarych SzeregÃ³w','JarzÄ™binowa','Å�uÅ¼ycka','RacÅ‚awicka','Andersa WÅ‚adysÅ‚awa',
+        'PÃ³Å‚nocna','Strzelecka','Czarnieckiego Stefana','Zacisze','Poziomkowa','Staffa Leopolda','Å¹rÃ³dlana','WyszyÅ„skiego Stefana','Rycerska','CzereÅ›niowa','ToruÅ„ska','Zapolskiej Gabrieli','Ludowa','Sobieskiego Jana III',
+        'Struga Andrzeja','CzÄ™stochowska','Rolna','Å�okietka WÅ‚adysÅ‚awa','ÅšwiÄ™tojaÅ„ska','Kraszewskiego JÃ³zefa Ignacego','BaczyÅ„skiego Krzysztofa Kamila','SzczeciÅ„ska','Orkana WÅ‚adysÅ‚awa','FranciszkaÅ„ska','Bursztynowa',
+        'KoÅ‚Å‚Ä…taja Hugona','DziaÅ‚kowa','Brzechwy Jana','Dworska','SkÅ‚adowa','DaszyÅ„skiego Ignacego','Zamenhofa Ludwika','Bydgoska','Niemcewicza Juliana Ursyna','Chmielna','Radosna',
+        'PiÅ‚sudskiego JÃ³zefa','Kalinowa','Owocowa','Gliwicka','Kujawska','Orla','PÅ‚ocka','GoÅ‚Ä™bia','Å�Ä…czna','PowstaÅ„cÃ³w Wielkopolskich','Leszczynowa','Miarki Karola','Lwowska','TatrzaÅ„ska',
+        'Solskiego Ludwika','Hutnicza','Stwosza Wita','Ptasia','RzemieÅ›lnicza','Åšciegiennego Piotra','Rumiankowa','Starowiejska','Jaracza Stefana','Grochowska','Morelowa','MyÅ›liwska',
+        'Krasickiego Ignacego','PodleÅ›na','Turystyczna','JaÅ‚owcowa','FaÅ‚ata Juliana','ZboÅ¼owa','Beskidzka','BolesÅ‚awa Krzywoustego','Malczewskiego Jacka','ÅšwiÄ™tokrzyska','Grodzka',
+        'Makowa','Stalowa','Chabrowa','Pawia','Osiedlowa','JaskÃ³Å‚cza','Kruczkowskiego Leona','WileÅ„ska','Cisowa','Widok','Rzeczna','Zdrojowa','Jesienna','BÅ‚Ä™kitna','WrÃ³blewskiego Walerego',
+        'Rejtana Tadeusza','MarszaÅ‚kowska','KraÅ„cowa','PuÅ‚awska','BolesÅ‚awa Chrobrego','Daleka','Legnicka','NiepodlegÅ‚oÅ›ci','KusociÅ„skiego Janusza','HetmaÅ„ska','DÄ…browskiego JarosÅ‚awa',
+        'Skrajna','Srebrna','Å»wirowa','Rolnicza','AstrÃ³w','KarÅ‚owicza MieczysÅ‚awa','Sobieskiego Jana','Korfantego Wojciecha','PopieÅ‚uszki Jerzego','Kossaka Juliusza','OlsztyÅ„ska','Wysoka',
+        'Podmiejska','MakuszyÅ„skiego Kornela','KrÃ³lewska','SÅ‚owicza','Sucharskiego Henryka','Kielecka','Kaliska','Nowowiejska','WÅ‚adysÅ‚awa IV','KoÅ‚obrzeska','Åšrodkowa','JastrzÄ™bia',
+        'Hallera JÃ³zefa','Szeroka','Kasprzaka Marcina','Pola Wincentego','ZakopiaÅ„ska','Nowy Åšwiat','Radomska','Mokra','Borowa','Åšrednia','Reymonta WÅ‚adysÅ‚awa StanisÅ‚awa','Ciasna','NiecaÅ‚a',
+        'Diamentowa','Szewska','Modrzejewskiej Heleny','Stroma','Å»eglarska','Lompy JÃ³zefa','Å�anowa','BogusÅ‚awskiego Wojciecha','Rynek Rynek','JagielloÅ„skie Os.','Torowa','DrzymaÅ‚y MichaÅ‚a',
+        'Francuska','Zielna','Sandomierska','Rataja Macieja','Przechodnia','Wybickiego JÃ³zefa','Konwaliowa','Wronia','UÅ‚aÅ„ska','Rybnicka','Nadrzeczna','CieszyÅ„ska','Wczasowa',
+        'ObroÅ„cÃ³w Westerplatte','DÄ…browskiego Jana Henryka','Willowa','Å�ukasiewicza Ignacego','PowstaÅ„cÃ³w','Sienna','PodchorÄ…Å¼ych','Sokola','NadbrzeÅ¼na','Przybyszewskiego StanisÅ‚awa',
+        'WaÅ‚owa','Poniatowskiego JÃ³zefa','BiaÅ‚ostocka','Piwna','Å»niwna','TysiÄ…clecia','Miedziana','Agrestowa','Okulickiego Leopolda','ChÅ‚odna','Å»wirki Franciszka i Wigury StanisÅ‚awa',
+        'Urocza','Bytomska','HoÅ¼a','Bracka','LeÅ›miana BolesÅ‚awa','Lazurowa','PuÅ‚askiego Kazimierza','Kowalska','Liliowa','Stolarska','MÅ‚ynarska','Poniatowskiego JÃ³zefa','DÄ…browszczakÃ³w',
+        'Å»abia','Rybacka','Turkusowa','Sowia','Bielska','Studzienna','Å�agiewnicka','KoszaliÅ„ska','Å�owicka','MaÅ‚opolska','Siewna','Zwierzyniecka','Okopowa','Bema JÃ³zefa','Kopalniana',
+        'WÄ™glowa','Konarskiego StanisÅ‚awa','Plebiscytowa','Å�abÄ™dzia','WaÅ„kowicza Melchiora','OÅ›wiÄ™cimska','PrzyjaÅºni','Kazimierza Wielkiego','SolidarnoÅ›ci Al.','Rybna','DÄ…brÃ³wki','Karpacka',
+        'DÄ…browskiej Marii','Zgierska','Handlowa','CzwartakÃ³w','Wapienna','Podwale','Litewska','KsiÄ™Å¼ycowa','Å»oÅ‚nierska','Jerozolimskie Al.','FioÅ‚kowa','Konstytucji 3 Maja',
+        'Curie-SkÅ‚odowskiej Marii','BohaterÃ³w Westerplatte','Wielkopolska','Porzeczkowa','DoÅ¼ynkowa','JeÅ¼ynowa','Szmaragdowa','ModliÅ„ska','Koralowa','SkoÅ›na','Puszkina Aleksandra',
+        'Grota-Roweckiego Stefana','Kartuska','Pszenna','GÅ‚ogowa','Szafirowa','Modra','GÃ³rnoÅ›lÄ…ska','Skargi Piotra','Wyzwolenia Al.','Brzoskwiniowa','EnergetykÃ³w','SzczÄ™Å›liwa','GoÅ›cinna',
+        'Niska','Åšwidnicka','PatriotÃ³w','OkÃ³lna','ChÅ‚opska','Botaniczna','Gagarina Jurija','Sawickiej Hanki','Bieszczadzka','MaÅ‚achowskiego StanisÅ‚awa','Rubinowa','Olchowa','Cedrowa',
+        'Ceglana','Lawendowa','GdyÅ„ska','Lechicka','WarmiÅ„ska','Koszykowa','Portowa','KosmonautÃ³w','Lotnicza','Cegielniana','Majowa','KÅ‚osowa','RÃ³wna','Kolberga Oskara','SÄ…siedzka',
+        'PodhalaÅ„ska','LotnikÃ³w','Budowlanych','Dubois StanisÅ‚awa','Azaliowa','Kwiatkowskiego Eugeniusza','Senatorska','Sucha','Tylna','Chorzowska','KoÅ›ciuszki Tadeusza Pl.',
+        'Piekarska','Magazynowa','WoÅ‚odyjowskiego MichaÅ‚a','Dmowskiego Romana','ZajÄ™cza','Wolska','Nowowiejskiego Feliksa','Promienna','NiedziaÅ‚kowskiego MieczysÅ‚awa','Piastowskie Os.',
+        'Iwaszkiewicza JarosÅ‚awa','Skargi Piotra','Å»Ã³Å‚kiewskiego StanisÅ‚awa','Kleeberga Franciszka','Kolorowa','SowiÅ„skiego JÃ³zefa','ZakÄ…tek','Olimpijska','DÄ…browskiego JarosÅ‚awa',
+        'Truskawkowa','Odrodzenia','Maczka StanisÅ‚awa','Rodzinna','BratkÃ³w','Pokoju','PerÅ‚owa','Staromiejska','Solna','GrÃ³jecka','Å�omÅ¼yÅ„ska','Folwarczna','SÄ…dowa','Gminna','Sikorskiego WÅ‚adysÅ‚awa',
+        'SÅ‚onecznikowa','Barlickiego Norberta','Wandy','Å�Ã³dzka','Kresowa','Strumykowa','OdrzaÅ„ska','KoÅ‚Å‚Ä…taja Hugo','Ligonia Juliusza','Siemiradzkiego Henryka','Tulipanowa','SaperÃ³w','InÅ¼ynierska',
+        'GojawiczyÅ„skiej Poli','GnieÅºnieÅ„ska','Lisia','Husarska','Granitowa','TulipanÃ³w'
+    );
+
+    public function city()
+    {
+        return static::randomElement(static::$city);
+    }
+
+    public function streetName()
+    {
+        return static::randomElement(static::$street);
+    }
+}

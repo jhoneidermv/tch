@@ -1,0 +1,1 @@
+Æ$vendor/mockery/mockery/docs/cookbook :É

@@ -1,0 +1,1 @@
+ÿ-`vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php 2phpXÄ

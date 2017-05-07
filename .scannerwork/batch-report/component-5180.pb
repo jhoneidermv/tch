@@ -1,0 +1,1 @@
+¼(Bvendor/phpunit/phpunit-mock-objects/tests/_fixture/AnInterface.php 2phpX

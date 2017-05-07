@@ -1,0 +1,1 @@
+©)0vendor/psy/psysh/src/Psy/ConsoleColorFactory.php 2phpXP

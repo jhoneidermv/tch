@@ -1,0 +1,1 @@
+ŠZvendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleTraitAsset.php 2phpX

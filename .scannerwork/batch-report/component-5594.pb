@@ -1,0 +1,1 @@
+Ú+Wvendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php 2phpX+

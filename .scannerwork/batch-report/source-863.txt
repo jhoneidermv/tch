@@ -1,0 +1,49 @@
+<?php
+
+namespace Faker\Provider\me_ME;
+
+class Company extends \Faker\Provider\Company
+{
+    protected static $formats = array(
+        '{{companyName}} {{companyType}}'
+    );
+
+    /**
+     * Source: extracted from http://www.crps.me/index.php/predraga
+     */
+    protected static $names = array(
+        '13 Jul - PlantaÅ¾e ', '19 Decembar Podgorica',
+        'Agrokombinat 13 Jul', 'Agrokombinat 13 Jul', 'Atlas Banka', 'Autoremont OsmanagiÄ‡',
+        'BoÅ¾ur-Velexport', 'Businessmontenegro Podgorica',
+        'Cemex Montenegro', 'Centralna Depozitarna Agencija ', 'CentrokoÅ¾a-Produkt ', 'CG Broker', 'CMC AD Podgorica', 'Crnagoradrvo', 'Crnagoraput', 'Crnogorska Komercijalna Banka ', 'Crnogorski Telekom', 'Doclea Express Podgorica', 'DruÅ¡tvo Za Upravljanje Investicionim Fondom Atlas Mont', 'Drvoimpex', 'Drvoimpex', 'Drvoimpex', 'Drvoimpex-Bams', 'Drvoimpex-Fincom', 'Drvoimpex-Gm Podgorica', 'Drvoimpex-Mobile', 'Duklja - Zora', 'Duklja Podgorica', 'Duklja-Pekara', 'Duvanski Kombinat, Podgorica',
+        'Elastik-Plastika Ad Podgorica', 'Erste Bank Ad Podgorica', 'Euromarket Banka Nlb Grupa ', 'Exal', 'Export-Import Servisimport Si',
+        'Fond ZajedniÄ�kog Ulaganja Moneta', 'Goricapromet Podgorica', 'Gornji Ibar A.D.', 'Gp Radnik Beton', 'GraÄ‘evinar Podgorica', 'Gross Market Podgorica',
+        'H.T.P.Velika PlaÅ¾a A.D', 'Higijena Podgorica', 'Hipotekarna Banka', 'Hotel Ravnjak',
+        'Industriaimpex A.D.', 'Inpek', 'Institut Za Å umarstvo ', 'Intours', 'Invest Banka Montenegro', 'IzdavaÄ�ko-Prometno DruÅ¡tvo Ljetopis',
+        'LovÄ‡en Podgorica', 'LovÄ‡en-Re', 'LovÄ‡eninvest Podgorica', 'Lutrija Crne Gore',
+        'Margomarket Podgorica', 'MaÅ¡inopromet', 'MaÅ¡inopromet-Commerce', 'Mesopromet Podgorica', 'Mljekara', 'Moneta A.D.', 'Montenegroberza Akcionarsko DruÅ¡tvo', 'MoraÄ�a Podgorica', 'MoraÄ�a Sa P.O.',
+        'Nex Montenegro', 'Novogradnja Ad Podgorica',
+        'OsiguravajuÄ‡e DruÅ¡tvo Swiss Osiguranje',
+        'Papir', 'Podgoricaekspres', 'Progas Podgorica', 'Promet', 'Prva Banka Crne Gore Podgorica',
+        'Ribnica Commerce',
+        'Sava Montenegro Podgorica', 'Si Promet A.D.', 'Sigmobil', 'Societe Generale Banka Montenegro Ad', 'Solar 80 - Elastik', 'Stadion', 'Å umarsko PreduzeÄ‡e ',
+        'Tehnomarketi', 'Tpc RaÅ¾natoviÄ‡', 'Trend A.D.', 'Trgopress',
+        'Unifarm ', 'Utip Crna Gora',
+        'Vatrostalna Podgorica', 'Velepromet Podgorica', 'Veletrgovina-KolaÅ¡in', 'Velimport Podgorica', 'Volumentrade Podgorica',
+        'Å½eljeznica Crne Gore', 'Zetatrans'
+    );
+
+    protected static $types = array(
+        'A.D.', 'A.D PODGORICA'
+    );
+
+    public static function companyType()
+    {
+        return static::randomElement(static::$types);
+    }
+
+    public static function companyName()
+    {
+        return static::randomElement(static::$names);
+    }
+}

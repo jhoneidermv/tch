@@ -1,0 +1,176 @@
+<?php
+namespace Faker\Provider\ro_RO;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $buildingNumber = array('###', '##', '#', '#/#', '#A', '#B');
+    protected static $apartmentNumber = array('#', '##');
+    protected static $floor = array('#', '##');
+    protected static $block = array('#', '##', 'A', 'B', 'C', 'D');
+    protected static $blockSegment = array('A', 'B', 'C', 'D');
+
+    protected static $streetPrefix = array(
+        'Str.', 'B-dul.', 'Aleea', 'Splaiul', 'Calea', 'P-È›a'
+    );
+
+    // random selection of seemingly frequently used streets and naming categories
+    protected static $streetPlainName = array(
+        // historical events
+        'Eroilor', 'IndependenÈ›ei', 'Memorandumului', 'Unirii', '1 Decembrie',
+        // historical people
+        'Mihai Viteazul', 'Mircea cel BÄƒtrÃ¢n', 'Vlad ÈšepeÈ™', 'Traian', 'Decebal', 'Horea', 'CloÈ™ca', 'CriÈ™an',
+        // national and international people names
+        'Louis Pasteur', 'Albert Einstein', 'Franklin Delano Rosevelt', 'J.J Rousseau', 'Petrache Poenaru', 'Henri CoandÄƒ', 'Constantin BrÃ¢ncuÈ™i', 'Aurel Vlaicu', 'Ion CreangÄƒ', 'Mihai Eminescu',
+        // nature-related
+        'CireÈ™ilor', 'Frasinului', 'SalcÃ¢milor', 'BrÄƒduÈ›ului', 'FrunziÈ™ului', 'Castanilor', 'MesteacÄƒnului', 'Florilor', 'PÄƒdurii', 'Piersicului',
+        // work-related
+        'Croitorilor', 'MeÈ™terilor', 'Zidarilor', 'PÄƒcurari', 'Muncii', 'ÃŽnvÄƒÈ›Äƒtorului',
+        // geography related
+        'Jiului', 'Bega', 'SomeÈ™', 'FÄƒget', 'Sinaia', 'Herculane', 'PadiÈ™'
+    );
+
+    protected static $postcode = array('######');
+
+    // from http://ro.wikipedia.org/wiki/Lista_ora%C8%99elor_din_Rom%C3%A2nia#Lista_alfabetic.C4.83_a_ora.C8.99elor_din_Rom.C3.A2nia_.28inclusiv_municipii.29
+    protected static $cityNames = array(
+        'Abrud', 'Adjud', 'Agnita', 'Aiud', 'Alba Iulia', 'AleÈ™d', 'Alexandria', 'Amara', 'Anina', 'Aninoasa', 'Arad', 'Ardud', 'Avrig', 'Azuga', 'Babadag', 'BÄƒbeni', 'BacÄƒu', 'Baia de AramÄƒ',
+        'Baia de ArieÈ™', 'Baia Mare', 'Baia Sprie', 'BÄƒicoi', 'BÄƒile Govora', 'BÄƒile Herculane', 'BÄƒile OlÄƒneÈ™ti', 'BÄƒile TuÈ™nad', 'BÄƒileÈ™ti', 'BÄƒlan', 'BÄƒlceÈ™ti', 'BalÈ™', 'BÄƒneasa', 'Baraolt',
+        'BÃ¢rlad', 'Bechet', 'Beclean', 'BeiuÈ™', 'BerbeÈ™ti', 'BereÈ™ti', 'Bicaz', 'BistriÈ›a', 'Blaj', 'BocÈ™a', 'BoldeÈ™ti-ScÄƒeni', 'Bolintin-Vale', 'BorÈ™a', 'Borsec', 'BotoÈ™ani', 'Brad', 'Bragadiru',
+        'BrÄƒila', 'BraÈ™ov', 'Breaza', 'Brezoi', 'BroÈ™teni', 'Bucecea', 'BucureÈ™ti', 'BudeÈ™ti', 'Buftea', 'BuhuÈ™i', 'BumbeÈ™ti-Jiu', 'BuÈ™teni', 'BuzÄƒu', 'BuziaÈ™', 'Cajvana', 'Calafat', 'CÄƒlan',
+        'CÄƒlÄƒraÈ™i', 'CÄƒlimÄƒneÈ™ti', 'CÃ¢mpeni', 'CÃ¢mpia Turzii', 'CÃ¢mpina', 'CÃ¢mpulung Moldovenesc', 'CÃ¢mpulung', 'Caracal', 'CaransebeÈ™', 'Carei', 'Cavnic', 'CÄƒzÄƒneÈ™ti', 'Cehu Silvaniei',
+        'CernavodÄƒ', 'ChiÈ™ineu-CriÈ™', 'Chitila', 'Ciacova', 'CisnÄƒdie', 'Cluj-Napoca', 'Codlea', 'ComÄƒneÈ™ti', 'Comarnic', 'ConstanÈ›a', 'CopÈ™a MicÄƒ', 'Corabia', 'CosteÈ™ti', 'Covasna', 'Craiova',
+        'Cristuru Secuiesc', 'Cugir', 'Curtea de ArgeÈ™', 'Curtici', 'DÄƒbuleni', 'Darabani', 'DÄƒrmÄƒneÈ™ti', 'Dej', 'Deta', 'Deva', 'Dolhasca', 'Dorohoi', 'DrÄƒgÄƒneÈ™ti-Olt', 'DrÄƒgÄƒÈ™ani', 'DragomireÈ™ti',
+        'Drobeta-Turnu Severin', 'DumbrÄƒveni', 'Eforie', 'FÄƒgÄƒraÈ™', 'FÄƒget', 'FÄƒlticeni', 'FÄƒurei', 'FeteÈ™ti', 'Fieni', 'FierbinÈ›i-TÃ¢rg', 'FiliaÈ™i', 'FlÄƒmÃ¢nzi', 'FocÈ™ani', 'Frasin', 'Fundulea',
+        'GÄƒeÈ™ti', 'GalaÈ›i', 'GÄƒtaia', 'Geoagiu', 'Gheorgheni', 'Gherla', 'Ghimbav', 'Giurgiu', 'Gura Humorului', 'HÃ¢rlÄƒu', 'HÃ¢rÈ™ova', 'HaÈ›eg', 'Horezu', 'Huedin', 'Hunedoara', 'HuÈ™i', 'Ianca',
+        'IaÈ™i', 'Iernut', 'Ineu', 'ÃŽnsurÄƒÈ›ei', 'ÃŽntorsura BuzÄƒului', 'Isaccea', 'Jibou', 'Jimbolia', 'Lehliu GarÄƒ', 'Lipova', 'Liteni', 'Livada', 'LuduÈ™', 'Lugoj', 'Lupeni', 'MÄƒcin', 'MÄƒgurele',
+        'Mangalia', 'MÄƒrÄƒÈ™eÈ™ti', 'Marghita', 'Medgidia', 'MediaÈ™', 'Miercurea Ciuc', 'Miercurea Nirajului', 'Miercurea Sibiului', 'MihÄƒileÈ™ti', 'MiliÈ™ÄƒuÈ›i', 'Mioveni', 'Mizil', 'MoineÈ™ti',
+        'Moldova NouÄƒ', 'Moreni', 'Motru', 'Murfatlar', 'Murgeni', 'NÄƒdlac', 'NÄƒsÄƒud', 'NÄƒvodari', 'NegreÈ™ti', 'NegreÈ™ti-OaÈ™', 'Negru VodÄƒ', 'Nehoiu', 'Novaci', 'Nucet', 'Ocna MureÈ™',
+        'Ocna Sibiului', 'Ocnele Mari', 'OdobeÈ™ti', 'Odorheiu Secuiesc', 'OlteniÈ›a', 'OneÈ™ti', 'Oradea', 'OrÄƒÈ™tie', 'OraviÈ›a', 'OrÈ™ova', 'OÈ›elu RoÈ™u', 'Otopeni', 'Ovidiu', 'Panciu', 'PÃ¢ncota',
+        'Pantelimon', 'PaÈ™cani', 'PÄƒtÃ¢rlagele', 'Pecica', 'Petrila', 'PetroÈ™ani', 'Piatra NeamÈ›', 'Piatra-Olt', 'PiteÈ™ti', 'PloieÈ™ti', 'Plopeni', 'Podu Iloaiei', 'Pogoanele', 'PopeÈ™ti-Leordeni',
+        'Potcoava', 'Predeal', 'Pucioasa', 'RÄƒcari', 'RÄƒdÄƒuÈ›i', 'RÃ¢mnicu SÄƒrat', 'RÃ¢È™nov', 'RecaÈ™', 'Reghin', 'ReÈ™iÈ›a', 'Roman', 'RoÈ™iorii de Vede', 'Rovinari', 'Roznov', 'Rupea', 'SÄƒcele',
+        'SÄƒcueni', 'Salcea', 'SÄƒliÈ™te', 'SÄƒliÈ™tea de Sus', 'Salonta', 'SÃ¢ngeorgiu de PÄƒdure', 'SÃ¢ngeorz-BÄƒi', 'SÃ¢nnicolau Mare', 'SÃ¢ntana', 'SÄƒrmaÈ™u', 'Satu Mare', 'SÄƒveni', 'ScorniceÈ™ti',
+        'SebeÈ™', 'SebiÈ™', 'Segarcea', 'Seini', 'SfÃ¢ntu Gheorghe', 'Sibiu', 'Sighetu MarmaÈ›iei', 'SighiÈ™oara', 'Simeria', 'È˜imleu Silvaniei', 'Sinaia', 'Siret', 'SlÄƒnic', 'SlÄƒnic-Moldova',
+        'Slatina', 'Slobozia', 'Solca', 'È˜omcuta Mare', 'Sovata', 'È˜tefÄƒneÈ™ti, ArgeÈ™', 'È˜tefÄƒneÈ™ti, BotoÈ™ani', 'È˜tei', 'Strehaia', 'Suceava', 'Sulina', 'TÄƒlmaciu', 'ÈšÄƒndÄƒrei', 'TÃ¢rgoviÈ™te',
+        'TÃ¢rgu Bujor', 'TÃ¢rgu CÄƒrbuneÈ™ti', 'TÃ¢rgu Frumos', 'TÃ¢rgu Jiu', 'TÃ¢rgu LÄƒpuÈ™', 'TÃ¢rgu MureÈ™', 'TÃ¢rgu NeamÈ›', 'TÃ¢rgu Ocna', 'TÃ¢rgu Secuiesc', 'TÃ¢rnÄƒveni', 'TÄƒÈ™nad', 'TÄƒuÈ›ii-MÄƒgherÄƒuÈ™',
+        'Techirghiol', 'Tecuci', 'TeiuÈ™', 'Èšicleni', 'TimiÈ™oara', 'Tismana', 'Titu', 'TopliÈ›a', 'Topoloveni', 'Tulcea', 'Turceni', 'Turda', 'Turnu MÄƒgurele','Ulmeni', 'Ungheni', 'Uricani',
+        'UrlaÈ›i', 'Urziceni', 'Valea lui Mihai', 'VÄƒlenii de Munte', 'VÃ¢nju Mare', 'VaÈ™cÄƒu', 'Vaslui', 'Vatra Dornei', 'Vicovu de Sus', 'Victoria', 'Videle', 'ViÈ™eu de Sus', 'VlÄƒhiÈ›a', 'Voluntari',
+        'Vulcan', 'ZalÄƒu', 'ZÄƒrneÈ™ti', 'Zimnicea', 'Zlatna'
+    );
+
+    // http://en.wikipedia.org/wiki/Counties_of_Romania#Current_list
+    protected static $counties = array(
+        'Alba', 'Arad', 'ArgeÈ™', 'BacÄƒu', 'Bihor', 'BistriÈ›a NÄƒsÄƒud', 'BotoÈ™ani', 'BrÄƒila', 'BraÈ™ov', 'BucureÈ™ti', 'BuzÄƒu', 'CÄƒlÄƒraÈ™i', 'CaraÈ™-Severin', 'Cluj', 'ConstanÈ›a', 'Covasna', 'DÃ¢mboviÈ›a',
+        'Dolj', 'GalaÈ›i', 'Giurgiu', 'Gorj', 'Harghita', 'Hunedoara', 'IalomiÈ›a', 'IaÈ™i', 'Ilfov', 'MaramureÈ›', 'MehedinÈ›i', 'MureÈ™', 'NeamÈ›', 'Olt', 'Prahova', 'SÄƒlaj', 'Satu Mare', 'Sibiu',
+        'Suceava', 'Teleorman', 'TimiÈ™', 'Tulcea', 'VÃ¢lcea', 'Vaslui', 'Vrancea'
+    );
+
+    // http://ro.wikipedia.org/wiki/Lista_statelor_lumii#Lista_statelor_lumii
+    protected static $country = array(
+        'Afganistan', 'Africa de Sud', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua È™i Barbuda', 'Arabia SauditÄƒ', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaidjan',
+        'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgia', 'Belize', 'Benin', 'Bhutan', 'Birmania', 'Bolivia', 'Bosnia È™i HerÈ›egovina', 'Botswana', 'Brazilia', 'Brunei', 'Bulgaria',
+        'Burkina Faso', 'Burundi', 'Cambodgia', 'Camerun', 'Canada', 'Capul Verde', 'Cehia', 'Republica CentrafricanÄƒ', 'Chile', 'Republica PopularÄƒ ChinezÄƒ', 'Ciad', 'Cipru', 'Columbia', 'Comore',
+        'Republica DemocratÄƒ Congo', 'Republica Congo', 'Coreea de Nord', 'Coreea de Sud', 'Costa Rica', 'Coasta de FildeÈ™', 'CroaÈ›ia', 'Cuba', 'Danemarca', 'Djibouti', 'Dominica',
+        'Republica DominicanÄƒ', 'Ecuador', 'Egipt', 'El Salvador', 'ElveÈ›ia', 'Emiratele Arabe Unite', 'Eritreea', 'Estonia', 'Etiopia', 'Fiji', 'Filipine', 'Finlanda', 'FranÈ›a', 'Gabon', 'Gambia',
+        'Georgia', 'Germania', 'Ghana', 'Grecia', 'Grenada', 'Guatemala', 'Guineea', 'Guineea-Bissau', 'Guineea EcuatorialÄƒ', 'Guyana', 'Haiti', 'Honduras',
+        'India', 'Indonezia', 'Iordania', 'Irak', 'Iran', 'Republica Irlanda', 'Islanda', 'Israel', 'Italia', 'Jamaica', 'Japonia', 'Kazahstan', 'Kenya', 'Kirghizstan', 'Kiribati', 'Kuweit',
+        'Laos', 'Lesotho', 'Letonia', 'Liban', 'Liberia', 'Libia', 'Liechtenstein', 'Lituania', 'Luxemburg', 'Republica Macedonia', 'Madagascar', 'Malawi', 'Malaezia', 'Maldive', 'Mali', 'Malta',
+        'Maroc', 'Insulele Marshall', 'Mauritania', 'Mauritius', 'Mexic', 'Statele Federate ale Microneziei', 'Republica Moldova', 'Monaco', 'Mongolia', 'Mozambic', 'Muntenegru', 'Namibia', 'Nauru',
+        'Nepal', 'Nicaragua', 'Niger', 'Nigeria', 'Norvegia', 'Noua ZeelandÄƒ', 'Olanda', 'Oman', 'Pakistan', 'Palau', 'Panama', 'Papua Noua Guinee', 'Paraguay', 'Peru', 'Polonia', 'Portugalia',
+        'Qatar', 'Regatul Unit', 'RomÃ¢nia', 'Rusia', 'Rwanda', 'Samoa', 'San Marino', 'SÃ£o TomÃ© È™i PrÃ­ncipe', 'SÃ£o TomÃ© e PrÃ­ncipe', 'Senegal', 'Serbia', 'Seychelles', 'SfÃ¢nta Lucia',
+        'SfÃ¢ntul Cristofor È™i Nevis', 'Saint Vincent and the Grenadines', 'Sierra Leone', 'Singapore', 'Siria', 'Slovacia', 'Slovenia', 'Insulele Solomon', 'Somalia', 'Spania', 'Sri Lanka',
+        'Statele Unite ale Americii', 'Sudan', 'Sudanul de Sud', 'Suedia', 'Surinam', 'Swaziland', 'Tadjikistan', 'Tanzania', 'Thailanda', 'Timorul de Est', 'Togo', 'Tonga', 'Trinidad-Tobago',
+        'Tunisia', 'Turcia', 'Turkmenistan', 'Tuvalu', 'Ucraina', 'Uganda', 'Ungaria', 'Uruguay', 'Uzbekistan', 'Vanuatu', 'Vatican', 'Venezuela', 'Vietnam', 'Yemen', 'Zambia', 'Zimbabwe'
+    );
+
+    protected static $cityFormats = array(
+        '{{cityName}}',
+        'Mun. {{cityName}}',
+    );
+
+    protected static $streetNameFormats = array(
+        '{{streetPrefix}} {{streetPlainName}}',
+    );
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}',
+        '{{streetName}} {{buildingNumber}}',
+        '{{streetName}} {{buildingNumber}}',
+        '{{streetName}} nr. {{buildingNumber}}, bl. {{block}}, ap. {{apartmentNumber}}',
+        '{{streetName}} nr. {{buildingNumber}}, bl. {{block}}, et. {{floor}}, ap. {{apartmentNumber}}',
+        '{{streetName}} nr. {{buildingNumber}}, bl. {{block}}, sc. {{blockSegment}}, et. {{floor}}, ap. {{apartmentNumber}}',
+    );
+
+    protected static $addressFormats = array(
+        "{{streetAddress}}, {{city}}, {{county}}, CP {{postcode}}",
+    );
+
+    public function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+
+    public static function block()
+    {
+        return static::numerify(static::randomElement(static::$block));
+    }
+
+    public function blockSegment()
+    {
+        return static::randomElement(static::$blockSegment);
+    }
+
+    public static function floor()
+    {
+        return static::numerify(static::randomElement(static::$floor));
+    }
+
+    public static function apartmentNumber()
+    {
+        return static::numerify(static::randomElement(static::$apartmentNumber));
+    }
+
+    public function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    /**
+     * @example 'IndependenÈ›ei'
+     */
+    public function streetPlainName()
+    {
+        return static::randomElement(static::$streetPlainName);
+    }
+
+    /**
+     * @example 'Splaiul IndependenÈ›ei'
+     */
+    public function streetName()
+    {
+        $format = static::randomElement(static::$streetNameFormats);
+
+        return $this->generator->parse($format);
+    }
+
+    /**
+     * @example 'Cluj'
+     */
+    public function county()
+    {
+        return static::randomElement(static::$counties);
+    }
+
+    public function address()
+    {
+        $format = static::randomElement(static::$addressFormats);
+
+        return $this->generator->parse($format);
+    }
+
+    public function streetAddress()
+    {
+        $format = static::randomElement(static::$streetAddressFormats);
+
+        return $this->generator->parse($format);
+    }
+}

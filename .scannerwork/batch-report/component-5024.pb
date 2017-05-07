@@ -1,0 +1,1 @@
+ '=vendor/phpunit/phpunit/tests/_files/NamespaceCoveredClass.php 2phpX'

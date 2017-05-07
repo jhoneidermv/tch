@@ -1,0 +1,1 @@
+Ë%Bvendor/phpunit/phpunit/tests/Regression/GitHub/74/NewException.php 2phpX

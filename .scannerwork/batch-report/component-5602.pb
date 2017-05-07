@@ -1,0 +1,1 @@
+â+Gvendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory :à+

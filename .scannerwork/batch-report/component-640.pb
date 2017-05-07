@@ -1,0 +1,1 @@
+€<vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Company.php 2phpX

@@ -1,0 +1,1 @@
+ê@vendor/fzaninotto/faker/src/Faker/Provider/pt_BR/check_digit.php 2phpX$

@@ -1,0 +1,1 @@
+Ý-Avendor/swiftmailer/swiftmailer/tests/SwiftMailerSmokeTestCase.php 2phpX/

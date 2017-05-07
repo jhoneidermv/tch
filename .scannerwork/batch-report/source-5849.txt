@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @group smoke
+ */
+class Swift_Smoke_InternationalSmokeTest extends SwiftMailerSmokeTestCase
+{
+    private $_attFile;
+
+    protected function setUp()
+    {
+        parent::setup(); // For skip
+        $this->_attFile = __DIR__.'/../../../_samples/files/textfile.zip';
+    }
+
+    public function testAttachmentSending()
+    {
+        $mailer = $this->_getMailer();
+        $message = Swift_Message::newInstance()
+            ->setCharset('utf-8')
+            ->setSubject('[Swift Mailer] InternationalSmokeTest (Î´Î¹ÎµÎ¸Î½Î®Ï‚)')
+            ->setFrom(array(SWIFT_SMOKE_EMAIL_ADDRESS => 'Î§Ï�Î¹ÏƒÏ„Î¿Ï†Î¿Ï�Î¿Ï… (Swift Mailer)'))
+            ->setTo(SWIFT_SMOKE_EMAIL_ADDRESS)
+            ->setBody('This message should contain an attached ZIP file (named "ÎºÎµÎ¯Î¼ÎµÎ½Î¿, ÎµÎ´Î¬Ï†Î¹Î¿, Î¸Î­Î¼Î±.zip").'.PHP_EOL.
+                'When unzipped, the archive should produce a text file which reads:'.PHP_EOL.
+                '"This is part of a Swift Mailer v4 smoke test."'.PHP_EOL.
+                PHP_EOL.
+                'Following is some arbitrary Greek text:'.PHP_EOL.
+                'Î”ÎµÎ½ Î²Ï�Î­Î¸Î·ÎºÎ±Î½ Î»Î­Î¾ÎµÎ¹Ï‚.'
+                )
+            ->attach(Swift_Attachment::fromPath($this->_attFile)
+                ->setContentType('application/zip')
+                ->setFilename('ÎºÎµÎ¯Î¼ÎµÎ½Î¿, ÎµÎ´Î¬Ï†Î¹Î¿, Î¸Î­Î¼Î±.zip')
+                )
+            ;
+        $this->assertEquals(1, $mailer->send($message),
+            '%s: The smoke test should send a single message'
+            );
+    }
+}

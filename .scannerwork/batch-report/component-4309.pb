@@ -1,0 +1,1 @@
+Õ!Avendor/phpspec/prophecy/src/Prophecy/Promise/PromiseInterface.php 2phpX$

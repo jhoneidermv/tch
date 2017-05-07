@@ -1,0 +1,1 @@
+æ Xvendor/phpspec/prophecy/spec/Prophecy/Exception/Prophecy/MethodProphecyExceptionSpec.php 2phpX

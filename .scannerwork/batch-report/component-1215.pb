@@ -1,0 +1,1 @@
+¿	Kvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/IsEqualIgnoringCase.php 2phpX5

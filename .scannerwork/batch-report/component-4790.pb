@@ -1,0 +1,1 @@
+¶%Cvendor/phpunit/phpunit/tests/Regression/GitHub/244/Issue244Test.php 2phpX8

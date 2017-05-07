@@ -1,0 +1,1 @@
+â%Avendor/phpunit/phpunit/tests/Regression/Trac/578/Issue578Test.php 2phpX

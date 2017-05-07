@@ -1,0 +1,1 @@
+›!Hvendor/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/KeywordPatch.php 2phpXˆ

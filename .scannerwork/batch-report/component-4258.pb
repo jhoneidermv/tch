@@ -1,0 +1,1 @@
+¢!8vendor/phpspec/prophecy/src/Prophecy/Doubler/Doubler.php 2phpX“

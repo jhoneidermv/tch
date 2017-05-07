@@ -1,0 +1,1 @@
+¦3Dvendor/symfony/finder/Tests/Iterator/SizeRangeFilterIteratorTest.php 2phpXF

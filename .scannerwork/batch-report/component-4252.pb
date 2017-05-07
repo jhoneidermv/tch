@@ -1,0 +1,1 @@
+œ!Jvendor/phpspec/prophecy/src/Prophecy/Doubler/ClassPatch/MagicCallPatch.php 2phpXZ

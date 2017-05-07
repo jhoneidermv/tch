@@ -1,0 +1,1 @@
+¯Bvendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Factory :­®

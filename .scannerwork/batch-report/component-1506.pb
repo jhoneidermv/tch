@@ -1,0 +1,1 @@
+âGvendor/laravel/framework/src/Illuminate/Contracts/Auth/UserProvider.php 2phpX2

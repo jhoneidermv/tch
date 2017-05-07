@@ -1,0 +1,1 @@
+¶-Uvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/MimePartAcceptanceTest.php 2phpX€

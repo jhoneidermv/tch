@@ -1,0 +1,1 @@
+ÕNvendor/laravel/framework/src/Illuminate/Contracts/Auth/Access/Authorizable.php 2phpX

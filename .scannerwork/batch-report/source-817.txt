@@ -1,0 +1,17 @@
+<?php
+
+namespace Faker\Provider\ja_JP;
+
+class Company extends \Faker\Provider\Company
+{
+    protected static $formats = array(
+        '{{companyPrefix}} {{lastName}}'
+    );
+
+    protected static $companyPrefix = array('æ ªå¼�ä¼šç¤¾', 'æœ‰é™�ä¼šç¤¾');
+
+    public static function companyPrefix()
+    {
+        return static::randomElement(static::$companyPrefix);
+    }
+}

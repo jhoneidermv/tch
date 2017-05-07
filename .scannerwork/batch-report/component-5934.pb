@@ -1,0 +1,1 @@
+®.Dvendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth :­.¯.°.±.

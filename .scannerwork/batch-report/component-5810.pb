@@ -1,0 +1,1 @@
+²-ovendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/PlainContentEncoderAcceptanceTest.php 2phpXY

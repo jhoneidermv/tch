@@ -1,0 +1,1 @@
+ó<vendor/fzaninotto/faker/src/Faker/Provider/zh_TW/Company.php 2phpXþ

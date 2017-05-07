@@ -1,0 +1,1 @@
+— 6vendor/phpspec/prophecy/fixtures/ModifierInterface.php 2phpX

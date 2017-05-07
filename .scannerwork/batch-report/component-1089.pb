@@ -1,0 +1,1 @@
+ÁAvendor/fzaninotto/faker/test/Faker/Provider/fr_CH/AddressTest.php 2phpXF

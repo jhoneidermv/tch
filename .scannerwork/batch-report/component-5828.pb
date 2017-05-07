@@ -1,0 +1,1 @@
+Ä-=vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug111Test.php 2phpX+

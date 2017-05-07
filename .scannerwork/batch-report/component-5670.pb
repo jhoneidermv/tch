@@ -1,0 +1,1 @@
+¦,[vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php 2phpX8

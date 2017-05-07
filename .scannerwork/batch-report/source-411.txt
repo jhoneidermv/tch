@@ -1,0 +1,57 @@
+<?php echo $__env->make('layouts/app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('layouts/nav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+<div class="register">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Listar Usuarios</div>
+        <div class="panel-body">
+
+
+            <table class="table table-responsive">
+                <thead>
+                <tr>
+                    <th> Nombre</th>
+                    <th> Email</th>
+                    <th> Edad</th>
+                    <th> Altura</th>
+                    <th> Peso</th>
+                    <th> Acciones</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                    <?php foreach($users as $user): ?>
+                        <tr>
+                            <th> <?php echo e($user->name); ?> </th>
+                            <th> <?php echo e($user->email); ?> </th>
+                            <th> <?php echo e($user->edad); ?> </th>
+                            <th> <?php echo e($user->altura); ?> </th>
+                            <th> <?php echo e($user->peso); ?> </th>
+                            <th>
+                            <a href="<?php echo e(route('admin.user.destroy',$user->id)); ?>" class="btn btn-danger"
+                               onclick="return confirm('Â¿Seguro desea eliminarlo?')">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                            </a>
+                            <a href="<?php echo e(route('admin.users.edit',$user->id)); ?>" class="btn btn-success">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+                            </a>
+                            <a href="<?php echo e(route('admin.users.edit',$user->id)); ?>" class="btn btn-warning">
+                                <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></a>
+                            </th>
+                        </tr>
+                    <?php endforeach; ?>
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+</div>

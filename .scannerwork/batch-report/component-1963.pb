@@ -1,0 +1,1 @@
+«Hvendor/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php 2phpX'

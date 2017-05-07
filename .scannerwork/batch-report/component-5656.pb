@@ -1,0 +1,1 @@
+˜,5vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime :$—,™,¡,¢,£,¤,¥,©,ª,´,¶,µ,·,¸,¹,º,»,¼,

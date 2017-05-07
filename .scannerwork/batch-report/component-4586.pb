@@ -1,0 +1,1 @@
+ê#>vendor/phpunit/phpunit/src/Framework/CodeCoverageException.php 2phpX

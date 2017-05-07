@@ -1,0 +1,1 @@
+Ô;vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Person.php 2phpXs

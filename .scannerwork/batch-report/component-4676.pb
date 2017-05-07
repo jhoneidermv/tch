@@ -1,0 +1,1 @@
+Ä$3vendor/phpunit/phpunit/src/TextUI/ResultPrinter.php 2phpXŽ

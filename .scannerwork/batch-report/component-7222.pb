@@ -1,0 +1,1 @@
+¶8@vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php 2phpX^

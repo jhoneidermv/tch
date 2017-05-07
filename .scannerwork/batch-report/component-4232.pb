@@ -1,0 +1,1 @@
+ˆ!Hvendor/phpspec/prophecy/src/Prophecy/Argument/Token/ObjectStateToken.php 2phpXi

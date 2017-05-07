@@ -1,0 +1,1 @@
+ë0vendor/fzaninotto/faker/src/Faker/Provider/da_DK :éêíìïî

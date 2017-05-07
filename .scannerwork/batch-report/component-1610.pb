@@ -1,0 +1,1 @@
+Ê8vendor/laravel/framework/src/Illuminate/Database/Capsule :È

@@ -1,0 +1,1 @@
+Æ-.vendor/swiftmailer/swiftmailer/tests/bug/Swift :Ä-Å-Ç-È-É-Ê-Ë-Ì-Í-Î-Ï-Ð-Ñ-Ò-

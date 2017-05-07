@@ -1,0 +1,1 @@
+—Avendor/nikic/php-parser/lib/PhpParser/Node/Expr/PropertyFetch.php 2phpX

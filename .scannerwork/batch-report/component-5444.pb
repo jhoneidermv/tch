@@ -1,0 +1,1 @@
+Ä*;vendor/sebastian/comparator/tests/DOMNodeComparatorTest.php 2phpX£

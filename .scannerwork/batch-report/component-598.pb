@@ -1,0 +1,1 @@
+Ö@vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/PhoneNumber.php 2phpX

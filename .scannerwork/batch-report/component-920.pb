@@ -1,0 +1,1 @@
+˜<vendor/fzaninotto/faker/src/Faker/Provider/pt_PT/Payment.php 2phpX

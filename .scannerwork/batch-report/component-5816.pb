@@ -1,0 +1,1 @@
+¸-Zvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php 2phpXâ	

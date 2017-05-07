@@ -1,0 +1,1 @@
+°.^vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php 2phpXÖ

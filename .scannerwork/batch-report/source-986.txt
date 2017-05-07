@@ -1,0 +1,44 @@
+<?php
+
+namespace Faker\Provider\uk_UA;
+
+class Company extends \Faker\Provider\Company
+{
+    protected static $formats = array(
+        '{{companyName}}',                                      // Ð’ÐµÐºÑ‚Ð¾Ñ€
+        '{{companyPrefix}} "{{companyName}}"',                  // Ð¢ÐžÐ’ "Ð†Ð½Ñ„Ð¾ÐºÐ¾Ð¼"
+        '{{companyName}}-{{companySuffix}}',                    // Ð¡ÐµÑ€Ð²Ñ–Ñ�-ÐŸÐ»ÑŽÑ�
+        '{{companyPrefix}} "{{companyName}}-{{companySuffix}}"',// ÐŸÐ�Ð¢ "Ð�Ð»ÑŒÑ„Ð°-Ð¡Ñ‚Ð¸Ð»ÑŒ"
+    );
+
+    protected static $urlFormats = array(
+        '{{companyName}}',
+        '{{companyName}}-{{companySuffix}}',
+    );
+
+    protected static $companyPrefix = array('Ð¢ÐžÐ’', 'ÐŸÐŸ', 'ÐŸÐ�Ð¢','ÐŸÑ€Ð�Ð¢');
+    protected static $companySuffix = array('Ð¡ÐµÑ€Ð²Ñ–Ñ�','ÐŸÐ»ÑŽÑ�', 'Ð“Ñ€ÑƒÐ¿', 'Ð¡Ñ‚Ð¸Ð»ÑŒ', 'Ð”Ð¸Ð·Ð°Ð¹Ð½');
+
+    protected static $companyName = array(
+        'Ð’ÐµÐºÑ‚Ð¾Ñ€', 'Ð•Ð´ÐµÐ»ÑŒÐ²ÐµÐ¹Ñ�', 'Ð¡Ð¼Ð°Ñ€Ñ‚', 'Ð�Ð»ÑŒÑ„Ð°', 'Ð¡Ð¸Ñ�Ñ‚ÐµÐ¼Ð°', 'Ð£Ð½Ñ–Ð²ÐµÑ€Ñ�Ð°Ð»',
+        'Ð†Ð½Ñ„Ð¾ÐºÐ¾Ð¼', 'ÐœÐ°ÐºÑ�', 'ÐŸÐ»Ð°Ð½ÐµÑ‚Ð°', 'Ð’ÐµÐºÑ‚Ð¾Ñ€', 'ÐŸÑ€Ð¸Ð²Ð°Ñ‚', 'Ð•ÐºÐ¾', 'ÐœÐµÐ³Ð°',
+        'ÐœÐµÐ³Ð°Ð¼Ð°ÐºÑ�', 'ÐœÑƒÐ»ÑŒÑ‚Ð¸', 'ÐœÐ°Ð¹Ð½ÐµÑ€'
+    );
+
+    public function companyUrl()
+    {
+        $format = static::randomElement(static::$urlFormats);
+
+        return $this->generator->parse($format);
+    }
+
+    public static function companyPrefix()
+    {
+        return static::randomElement(static::$companyPrefix);
+    }
+
+    public static function companyName()
+    {
+        return static::randomElement(static::$companyName);
+    }
+}

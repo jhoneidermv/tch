@@ -1,0 +1,1 @@
+Ô>vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php 2phpX5

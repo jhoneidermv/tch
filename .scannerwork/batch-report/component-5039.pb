@@ -1,0 +1,1 @@
+¯'9vendor/phpunit/phpunit/tests/_files/SampleArrayAccess.php 2phpX%

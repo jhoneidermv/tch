@@ -1,0 +1,1 @@
+Œ;vendor/fzaninotto/faker/test/Faker/Provider/BarcodeTest.php 2phpX.

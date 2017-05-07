@@ -1,0 +1,1 @@
+Ù0vendor/fzaninotto/faker/src/Faker/Provider/uk_UA :×ÚØÛÜÝÞ

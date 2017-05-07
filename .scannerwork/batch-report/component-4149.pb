@@ -1,0 +1,1 @@
+µ Lvendor/phpspec/prophecy/spec/Prophecy/Argument/Token/LogicalAndTokenSpec.php 2phpXF

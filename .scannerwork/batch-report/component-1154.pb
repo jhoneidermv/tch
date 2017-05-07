@@ -1,0 +1,1 @@
+‚	=vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php 2phpX+

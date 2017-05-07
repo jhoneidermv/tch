@@ -1,0 +1,1 @@
+¹,Mvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php 2phpXÂ

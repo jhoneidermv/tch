@@ -1,0 +1,1 @@
+Ê!Nvendor/phpspec/prophecy/src/Prophecy/PhpDocumentor/LegacyClassTagRetriever.php 2phpX$

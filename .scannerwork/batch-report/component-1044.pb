@@ -1,0 +1,1 @@
+”;vendor/fzaninotto/faker/test/Faker/Provider/CompanyTest.php 2phpX

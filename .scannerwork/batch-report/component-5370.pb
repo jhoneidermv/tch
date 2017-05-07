@@ -1,0 +1,1 @@
+ú)Gvendor/psy/psysh/test/Psy/Test/CodeCleaner/Fixtures/ClassWithStatic.php 2phpX

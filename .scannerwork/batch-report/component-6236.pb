@@ -1,0 +1,1 @@
+Ü0=vendor/symfony/console/Tests/Helper/ProgressIndicatorTest.php 2phpX·

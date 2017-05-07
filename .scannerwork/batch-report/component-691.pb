@@ -1,0 +1,1 @@
+³0vendor/fzaninotto/faker/src/Faker/Provider/en_US :²±°´¶µ

@@ -1,0 +1,1 @@
+¬]vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php 2phpXt

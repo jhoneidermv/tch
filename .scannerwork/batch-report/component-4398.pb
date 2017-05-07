@@ -1,0 +1,1 @@
+®"Nvendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/File/Coverage.php 2phpXC

@@ -1,0 +1,1 @@
+ù*=vendor/psy/psysh/test/Psy/Test/TabCompletion/StaticSample.php 2phpX

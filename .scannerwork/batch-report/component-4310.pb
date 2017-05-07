@@ -1,0 +1,1 @@
+Ö!Fvendor/phpspec/prophecy/src/Prophecy/Promise/ReturnArgumentPromise.php 2phpX>

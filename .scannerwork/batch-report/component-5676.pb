@@ -1,0 +1,1 @@
+¬,=vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers :«,­,®,¯,°,±,²,³,

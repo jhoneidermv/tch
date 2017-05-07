@@ -1,0 +1,1 @@
+‰7vendor/phpdocumentor/type-resolver/src/Types/Scalar.php 2phpX 

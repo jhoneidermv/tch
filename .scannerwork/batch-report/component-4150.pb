@@ -1,0 +1,1 @@
+¶ Lvendor/phpspec/prophecy/spec/Prophecy/Argument/Token/LogicalNotTokenSpec.php 2phpX?

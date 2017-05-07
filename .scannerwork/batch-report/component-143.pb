@@ -1,0 +1,1 @@
+%public/plugins/js/jquery-3.2.0.min.js 2jsX

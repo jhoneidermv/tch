@@ -1,0 +1,1 @@
+±<vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php 2phpXg

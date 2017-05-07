@@ -1,0 +1,1 @@
+´Kvendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Namespace_.php 2phpX

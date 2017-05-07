@@ -1,0 +1,1 @@
+°@vendor/nikic/php-parser/test/PhpParser/Builder/NamespaceTest.php 2phpX*

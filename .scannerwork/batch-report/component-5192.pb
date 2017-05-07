@@ -1,0 +1,1 @@
+È(Kvendor/phpunit/phpunit-mock-objects/tests/_fixture/PartialMockTestClass.php 2phpX

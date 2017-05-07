@@ -1,0 +1,1 @@
+˜ *vendor/phpspec/prophecy/fixtures/Named.php 2phpX	

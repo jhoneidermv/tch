@@ -1,0 +1,1 @@
+¯ Lvendor/phpspec/prophecy/spec/Prophecy/Argument/Token/ArrayEntryTokenSpec.php 2phpXË

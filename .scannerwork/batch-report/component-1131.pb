@@ -1,0 +1,1 @@
+ë1vendor/fzaninotto/faker/test/Faker/Provider/sv_SE :é

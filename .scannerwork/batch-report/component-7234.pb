@@ -1,0 +1,1 @@
+Â8?vendor/symfony/translation/Tests/Dumper/XliffFileDumperTest.php 2phpXZ

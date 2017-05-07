@@ -1,0 +1,1 @@
+£,Jvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php 2phpX

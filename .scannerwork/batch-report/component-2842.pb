@@ -1,0 +1,1 @@
+šGvendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticPropertyFetch.php 2phpX 

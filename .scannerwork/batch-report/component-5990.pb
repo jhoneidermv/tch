@@ -1,0 +1,1 @@
+æ.!vendor/symfony/console/Descriptor :å.ç.è.é.ê.ë.ì.

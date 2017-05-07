@@ -1,0 +1,1 @@
+é<vendor/fzaninotto/faker/src/Faker/Provider/zh_CN/Company.php 2phpXë

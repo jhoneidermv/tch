@@ -1,0 +1,1 @@
+†9<vendor/symfony/translation/Tests/Loader/QtFileLoaderTest.php 2phpXD

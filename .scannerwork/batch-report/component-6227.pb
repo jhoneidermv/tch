@@ -1,0 +1,1 @@
+Ó0&vendor/symfony/console/Tests/Formatter :Ò0Ô0×0

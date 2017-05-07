@@ -1,0 +1,1 @@
+é2<vendor/symfony/finder/Iterator/FilecontentFilterIterator.php 2phpX;

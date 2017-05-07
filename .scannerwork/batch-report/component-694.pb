@@ -1,0 +1,1 @@
+¶9vendor/fzaninotto/faker/src/Faker/Provider/en_US/Text.php 2phpX‰

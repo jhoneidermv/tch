@@ -1,0 +1,1 @@
+¤,Avendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php 2phpX±

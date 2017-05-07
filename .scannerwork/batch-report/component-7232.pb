@@ -1,0 +1,1 @@
+À8<vendor/symfony/translation/Tests/Dumper/PoFileDumperTest.php 2phpX

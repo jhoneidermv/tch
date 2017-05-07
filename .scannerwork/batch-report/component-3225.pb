@@ -1,0 +1,1 @@
+™[vendor/phpdocumentor/reflection-docblock/examples/playing-with-descriptions/02-escaping.php 2phpX0

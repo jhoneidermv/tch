@@ -1,0 +1,1 @@
+Ì?vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php 2phpXS

@@ -1,0 +1,1 @@
+“ /vendor/phpspec/prophecy/fixtures/EmptyClass.php 2phpX

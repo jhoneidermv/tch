@@ -1,0 +1,1 @@
+Ê"=vendor/phpunit/php-code-coverage/tests/_files/BankAccount.php 2phpX"

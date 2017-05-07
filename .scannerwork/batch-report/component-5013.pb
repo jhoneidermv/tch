@@ -1,0 +1,1 @@
+•'Jvendor/phpunit/phpunit/tests/_files/NamespaceCoverageClassExtendedTest.php 2phpX

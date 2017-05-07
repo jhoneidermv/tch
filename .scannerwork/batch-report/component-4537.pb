@@ -1,0 +1,1 @@
+¹#dvendor/phpunit/php-token-stream/tests/_fixture/multipleNamespacesWithOneClassUsingNonBraceSyntax.php 2phpX

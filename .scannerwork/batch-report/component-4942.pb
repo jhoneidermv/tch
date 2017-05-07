@@ -1,0 +1,1 @@
+Î&Dvendor/phpunit/phpunit/tests/_files/ClassWithNonPublicAttributes.php 2phpX

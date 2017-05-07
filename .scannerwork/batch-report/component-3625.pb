@@ -1,0 +1,1 @@
+©Avendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel5/Font.php 2phpX¦

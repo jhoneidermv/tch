@@ -1,0 +1,1 @@
+¥+Bvendor/sebastian/global-state/tests/_fixture/SnapshotFunctions.php 2phpX

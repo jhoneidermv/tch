@@ -1,0 +1,91 @@
+<?php
+
+namespace Faker\Provider\hu_HU;
+
+class Person extends \Faker\Provider\Person
+{
+    protected static $maleNameFormats = array(
+        '{{lastName}} {{firstNameMale}}',
+        '{{title}} {{lastName}} {{firstNameMale}}',
+        '{{lastName}} {{firstNameMale}} {{suffix}}',
+        '{{title}} {{lastName}} {{firstNameMale}} {{suffix}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{lastName}} {{firstNameFemale}}',
+        '{{title}} {{lastName}} {{firstNameFemale}}',
+        '{{lastName}} {{firstNameFemale}} {{suffix}}',
+        '{{title}} {{lastName}} {{firstNameFemale}} {{suffix}}',
+        /* ..nÃ©*/
+        '{{lastName}} {{firstNameMaleNe}}',
+        '{{title}} {{lastName}} {{firstNameMaleNe}}',
+    );
+
+    protected static $firstNameMale = array(
+        'Albert', 'Attila', 'BalÃ¡zs', 'Bence', 'Botond', 'DoriÃ¡n', 'Endre', 'ErnÅ‘', 'GÃ¡bor', 'GÃ©za', 'Imre', 'IstvÃ¡n',
+        'Kevin', 'KornÃ©l', 'KristÃ³f', 'LÃ¡szlÃ³', 'MilÃ¡n', 'Noel', 'OlivÃ©r', 'OttÃ³', 'Patrik', 'PÃ©ter', 'RichÃ¡rd', 'Rudolf',
+        'SÃ¡ndor', 'Vilmos', 'Vince', 'ZoltÃ¡n', 'Zsolt', 'Ã�dÃ¡m', 'Ã�rmin', 'Ã�ron', 'Antal', 'Barna', 'BarnabÃ¡s', 'BendegÃºz',
+        'Benedek', 'Hunor', 'JenÅ‘', 'JÃ¡nos', 'MihÃ¡ly', 'MÃ¡tyÃ¡s', 'SzervÃ¡c', 'Zsombor', 'ZÃ©tÃ©ny', 'Ã�rpÃ¡d',
+    );
+
+    protected static $firstNameMaleNe = array(
+        'AlbertnÃ©', 'AttilÃ¡nÃ©', 'BalÃ¡zsnÃ©', 'BencÃ©nÃ©', 'BotondnÃ©', 'DoriÃ¡nnÃ©', 'EndrenÃ©', 'ErnÅ‘nÃ©', 'GÃ¡bornÃ©', 'GÃ©zanÃ©', 'ImrÃ©nÃ©', 'IstvÃ¡nnÃ©',
+        'KevinnÃ©', 'KornÃ©lnÃ©', 'KristÃ³fnÃ©', 'LÃ¡szlÃ³nÃ©', 'MilÃ¡nnÃ©', 'NoelnÃ©', 'OlivÃ©rnÃ©', 'OttÃ³nÃ©', 'PatriknÃ©', 'PÃ©ternÃ©', 'RichÃ¡rdnÃ©', 'RudolfnÃ©',
+        'SÃ¡ndornÃ©', 'VilmosnÃ©', 'VincÃ©nÃ©', 'ZoltÃ¡nnÃ©', 'ZsoltnÃ©', 'Ã�dÃ¡mnÃ©', 'Ã�rminnÃ©', 'Ã�ronnÃ©', 'AntalnÃ©', 'BarnÃ¡nÃ©', 'BarnabÃ¡snÃ©', 'BendegÃºz',
+        'BenedeknÃ©', 'HunornÃ©', 'JenÅ‘nÃ©', 'JÃ¡nosnÃ©', 'MihÃ¡lynÃ©', 'MÃ¡tyÃ¡snÃ©', 'SzervÃ¡cnÃ©', 'ZsombornÃ©', 'ZÃ©tÃ©nynÃ©', 'Ã�rpÃ¡dnÃ©',
+    );
+
+    protected static $firstNameFemale = array(
+        'AdÃ©l', 'Alexa', 'Andrea', 'AngÃ©la', 'AnikÃ³', 'Beatrix', 'Bettina', 'Dalma', 'Dorina', 'Dorottya', 'Evelin', 'Fanni', 'FlÃ³ra', 'Gabriella',
+        'Georgina', 'Gitta', 'Gizella', 'GrÃ©ta', 'Henrietta', 'Izabella', 'Johanna', 'Judit', 'Julianna', 'JÃ¡zmin', 'Kata', 'Katalin',
+        'Katinka', 'Klaudia', 'KÃ­ra', 'LiliÃ¡na', 'Linda', 'Liza', 'LÃ©na', 'LÃ­via', 'Maja', 'Marianna', 'Marietta', 'Martina',
+        'Mia', 'Milla', 'Mirella', 'MÃ¡ria', 'MÃ¡rton', 'MÃ­ra', 'Nikoletta', 'OlÃ­via', 'PatrÃ­cia', 'RamÃ³na', 'Rebeka', 'Soma',
+        'Szandra', 'SÃ¡ra', 'ValÃ©ria', 'Zita', 'Aranka', 'BorÃ³ka', 'BoglÃ¡rka', 'Csenge', 'EmÅ‘ke', 'ErzsÃ©bet', 'Hanga', 'Henriett',
+        'KincsÅ‘', 'Panna', 'Szabina', 'Szonja', 'VirÃ¡g', 'ZsÃ³ka',
+    );
+
+    protected static $lastName = array(
+        'Antal', 'Bakos', 'Balla', 'Balog', 'Balogh', 'BalÃ¡zs', 'Barna', 'Barta', 'BirÃ³', 'BodnÃ¡r', 'BogdÃ¡n', 'BognÃ¡r', 'BorbÃ©ly', 'Boros', 'Budai', 'BÃ¡lint', 'Csonka', 'DeÃ¡k', 'Dobos', 'DudÃ¡s', 'FaragÃ³', 'Farkas', 'Fazekas', 'FehÃ©r', 'Fekete', 'Fodor', 'FÃ¡biÃ¡n', 'FÃ¼lÃ¶p', 'GulyÃ¡s', 'GÃ¡l', 'GÃ¡spÃ¡r', 'Hajdu', 'HalÃ¡sz', 'HegedÃ¼s', 'HegedÅ±s', 'HorvÃ¡th', 'IllÃ©s', 'Jakab', 'JuhÃ¡sz', 'JÃ³nÃ¡s', 'Katona', 'Kelemen', 'Kerekes', 'KirÃ¡ly', 'Kis', 'Kiss', 'Kocsis', 'KovÃ¡cs', 'Kozma', 'Lakatos', 'Lengyel', 'LukÃ¡cs', 'LÃ¡szlÃ³', 'Magyar', 'Major', 'MolnÃ¡r', 'MÃ¡tÃ©', 'MÃ©szÃ¡ros', 'Nagy', 'Nemes', 'NovÃ¡k', 'NÃ©meth', 'OlÃ¡h', 'OrbÃ¡n', 'Orosz', 'OrsÃ³s', 'Pap', 'Papp', 'Pataki', 'PintÃ©r', 'PÃ¡l', 'PÃ¡sztor', 'PÃ©ter', 'RÃ¡cz', 'Simon', 'Sipos', 'Somogyi', 'SoÃ³s', 'SzabÃ³', 'Szalai', 'Szekeres', 'SzilÃ¡gyi', 'SzÃ©kely', 'SzÃ¼cs', 'SzÅ‘ke', 'SzÅ±cs', 'SÃ¡ndor', 'TakÃ¡cs', 'TamÃ¡s', 'TÃ³th', 'TÃ¶rÃ¶k', 'Varga', 'Vass', 'Veres', 'Vincze', 'VirÃ¡g', 'VÃ¡radi', 'VÃ©gh', 'VÃ¶rÃ¶s'
+    );
+
+    protected static $title = array('Dr.', 'Prof.', 'id.', 'ifj.');
+
+    private static $suffix = array('PhD');
+
+    public function title($gender = null)
+    {
+        return static::titleMale();
+    }
+
+    /**
+     * replaced by specific unisex hungarian title
+     */
+    public static function titleMale()
+    {
+        return static::randomElement(static::$title);
+    }
+
+    /**
+     * specific Hungarian name format for females after marriage
+     */
+    public static function firstNameMaleNe()
+    {
+        return static::randomElement(static::$firstNameMaleNe);
+    }
+
+    /**
+     * replaced by specific unisex hungarian title
+     */
+    public static function titleFemale()
+    {
+        return static::titleMale();
+    }
+
+    /**
+     * @example 'PhD'
+     */
+    public static function suffix()
+    {
+        return static::randomElement(static::$suffix);
+    }
+}

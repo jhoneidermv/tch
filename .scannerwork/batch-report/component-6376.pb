@@ -1,0 +1,1 @@
+è1=vendor/symfony/debug/Exception/UndefinedFunctionException.php 2phpX"

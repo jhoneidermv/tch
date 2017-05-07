@@ -1,0 +1,1 @@
+– 3vendor/phpspec/prophecy/fixtures/EmptyInterface.php 2phpX

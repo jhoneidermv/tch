@@ -1,0 +1,1 @@
+Å"*vendor/phpunit/php-code-coverage/tests/PHP :Ä"

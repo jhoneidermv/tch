@@ -1,0 +1,1 @@
+¤3=vendor/symfony/finder/Tests/Iterator/RealIteratorTestCase.php 2phpXo

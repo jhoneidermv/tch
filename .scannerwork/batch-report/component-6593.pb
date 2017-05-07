@@ -1,0 +1,1 @@
+Á3Ivendor/symfony/http-foundation/File/MimeType/MimeTypeExtensionGuesser.php 2phpX©

@@ -1,18 +1,79 @@
-K
-phpS1172/Remove the unused function parameter "$xValue". 2
-ÑÑ! (K
-phpS1172/Remove the unused function parameter "$yValue". 2
-èè! (G
-phpS1172+Remove the unused function parameter "$dp". 2
-§§  J
-phpS1172.Remove the unused function parameter "$const". 2
-úú2 8T
-phpS105EReplace all tab characters in this file by sequences of white-spaces. b
-phpS107GThis function has 8 parameters, which is greater than the 7 authorized. 2
-∫∫+ cn
-phpS101URename class "PHPExcel_Best_Fit" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2$$ Ö
-phpS1448mClass "PHPExcel_Best_Fit" has 23 methods, which is greater than 20 authorized. Split it into smaller classes. 2$$ 9
-phpS125Remove this commented out code. 2	ÜÜ Ä8
-phpS125Remove this commented out code. 2ää QG
-phpS1481+Remove this unused "$SScor" local variable. 2
-ªª 
+T
+phpS105EReplace all tab characters in this file by sequences of white-spaces. Å
+phpS101hRename class "PHPExcel_Shared_JAMA_QRDecomposition" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 *Ç
+phpS115iRename this constant "MatrixRankException" to match the regular expression ^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$. 2 8
+phpS125Remove this commented out code. 2∞∞ %8
+phpS125Remove this commented out code. 2’’ â
+phpS134_Refactor this code to not nest more than 4 "if", "for", "while", "switch" and "try" statements. 2OO 	:
+ÕOO 	
+Nesting +1:
+ÕMM 
+Nesting +1:
+ÕCC 
+Nesting +1:
+Õ== 
+Nesting +1:
+Õ77 
+Nesting +1â
+phpS134_Refactor this code to not nest more than 4 "if", "for", "while", "switch" and "try" statements. 2SS 	:
+ÕSS 	
+Nesting +1:
+ÕMM 
+Nesting +1:
+ÕCC 
+Nesting +1:
+Õ== 
+Nesting +1:
+Õ77 
+Nesting +1ï
+phpS134_Refactor this code to not nest more than 4 "if", "for", "while", "switch" and "try" statements. 2
+ÃÃ 	:
+Õ
+ÃÃ 	
+Nesting +1:
+Õ
+   
+Nesting +1:
+Õ
+…… 
+Nesting +1:
+Õ
+ƒƒ 
+Nesting +1:
+Õ
+√√ 
+Nesting +1ï
+phpS134_Refactor this code to not nest more than 4 "if", "for", "while", "switch" and "try" statements. 2
+–– 	:
+Õ
+–– 	
+Nesting +1:
+Õ
+   
+Nesting +1:
+Õ
+…… 
+Nesting +1:
+Õ
+ƒƒ 
+Nesting +1:
+Õ
+√√ 
+Nesting +1ï
+phpS134_Refactor this code to not nest more than 4 "if", "for", "while", "switch" and "try" statements. 2
+€€ 	:
+Õ
+€€ 	
+Nesting +1:
+Õ
+⁄⁄ 
+Nesting +1:
+Õ
+÷÷ 
+Nesting +1:
+Õ
+ƒƒ 
+Nesting +1:
+Õ
+√√ 
+Nesting +1

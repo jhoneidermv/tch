@@ -1,0 +1,1 @@
+©"Avendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Node.php 2phpXÔ

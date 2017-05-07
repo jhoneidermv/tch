@@ -1,0 +1,1 @@
+© Hvendor/phpspec/prophecy/spec/Prophecy/Argument/ArgumentsWildcardSpec.php 2phpXÅ

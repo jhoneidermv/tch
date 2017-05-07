@@ -1,0 +1,1 @@
+Å,Lvendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php 2phpXÍ

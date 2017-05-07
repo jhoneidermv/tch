@@ -1,0 +1,1 @@
+œ+4vendor/sebastian/global-state/tests/SnapshotTest.php 2phpXx

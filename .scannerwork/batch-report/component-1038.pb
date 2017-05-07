@@ -1,0 +1,1 @@
+ŽAvendor/fzaninotto/faker/test/Faker/Provider/bg_BG/PaymentTest.php 2phpX

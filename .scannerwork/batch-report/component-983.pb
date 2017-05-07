@@ -1,0 +1,1 @@
+×:vendor/fzaninotto/faker/src/Faker/Provider/uk_UA/Color.php 2phpX

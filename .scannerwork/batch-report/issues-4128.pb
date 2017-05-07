@@ -1,2 +1,3 @@
-‹
-phpS1448sClass "IdenticalValueTokenSpec" has 23 methods, which is greater than 20 authorized. Split it into smaller classes. 2 
+H
+phpS1172.Remove the unused function parameter "$arg_1". 21 7H
+phpS1172.Remove the unused function parameter "$arg_2". 2G M

@@ -1,0 +1,1 @@
+©	Dvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsInstanceOf.php 2phpXD

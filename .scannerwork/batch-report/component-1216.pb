@@ -1,0 +1,1 @@
+À	Qvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/IsEqualIgnoringWhiteSpace.php 2phpXC

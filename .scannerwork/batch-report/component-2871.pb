@@ -1,0 +1,1 @@
+·=vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php 2phpXš

@@ -1,0 +1,1 @@
+æ"Mvendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageMethodTest.php 2phpX

@@ -1,6 +1,7 @@
-c
-phpS107GThis function has 8 parameters, which is greater than the 7 authorized. 2™™ äc
-phpS107GThis function has 8 parameters, which is greater than the 7 authorized. 2ææ çy
-phpS1117LRename "$response" which has the same name as the field declared at line 22. 2
-ÉÉ :
-† 
+æ
+phpS1142OReduce the number of returns of this function 5, down to the maximum allowed 3. 2!! :
+†11 :
+†// :
+†-- :
+†++ :
+†$$ 

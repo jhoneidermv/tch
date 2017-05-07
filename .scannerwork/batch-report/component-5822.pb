@@ -1,0 +1,1 @@
+¾-bvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php 2phpXD

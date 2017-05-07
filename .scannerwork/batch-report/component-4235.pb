@@ -1,0 +1,1 @@
+‹!Avendor/phpspec/prophecy/src/Prophecy/Argument/Token/TypeToken.php 2phpXM

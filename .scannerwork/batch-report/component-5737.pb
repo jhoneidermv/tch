@@ -1,0 +1,1 @@
+é,Cvendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php 2phpX0

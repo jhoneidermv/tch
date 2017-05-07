@@ -1,0 +1,1 @@
+Ì Qvendor/phpspec/prophecy/spec/Prophecy/Doubler/ClassPatch/TraversablePatchSpec.php 2phpX3

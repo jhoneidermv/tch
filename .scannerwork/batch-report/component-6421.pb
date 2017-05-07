@@ -1,0 +1,1 @@
+•2)vendor/symfony/debug/Tests/HeaderMock.php 2phpX'

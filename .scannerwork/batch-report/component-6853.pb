@@ -1,0 +1,1 @@
+Å5Jvendor/symfony/http-kernel/Tests/DataCollector/MemoryDataCollectorTest.php 2phpX;

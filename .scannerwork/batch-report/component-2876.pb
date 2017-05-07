@@ -1,0 +1,1 @@
+¼:vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php 2phpX#

@@ -1,0 +1,1 @@
+¤ 9vendor/phpspec/prophecy/fixtures/WithVariadicArgument.php 2phpX

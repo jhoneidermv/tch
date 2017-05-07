@@ -1,0 +1,1 @@
+ÏFvendor/mockery/mockery/tests/Mockery/Generator/StringManipulation/Pass :ÍÎÐÑ

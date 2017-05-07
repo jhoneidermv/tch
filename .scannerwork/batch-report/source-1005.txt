@@ -1,0 +1,41 @@
+<?php
+
+namespace Faker\Provider\zh_CN;
+
+class Payment extends \Faker\Provider\Payment
+{
+    /**
+     * @see https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%E5%88%97%E8%A1%A8
+     * @var array
+     */
+    protected static $banks = array(
+        'æ¸¤æµ·é“¶è¡Œ',
+        'å¹¿å�‘é“¶è¡Œ',
+        'å›½å®¶å¼€å�‘é“¶è¡Œ',
+        'æ�’ä¸°é“¶è¡Œ',
+        'å�Žå¤�é“¶è¡Œ',
+        'äº¤é€šé“¶è¡Œ',
+        'å¹³å®‰é“¶è¡Œ',
+        'ä¸Šæµ·æµ¦ä¸œå�‘å±•é“¶è¡Œ',
+        'å…´ä¸šé“¶è¡Œ',
+        'æ‹›å•†é“¶è¡Œ',
+        'æµ™å•†é“¶è¡Œ',
+        'ä¸­å›½å·¥å•†é“¶è¡Œ',
+        'ä¸­å›½å…‰å¤§é“¶è¡Œ',
+        'ä¸­å›½å»ºè®¾é“¶è¡Œ',
+        'ä¸­å›½æ°‘ç”Ÿé“¶è¡Œ',
+        'ä¸­å›½å†œä¸šé“¶è¡Œ',
+        'ä¸­å›½é“¶è¡Œ',
+        'ä¸­å›½é‚®æ”¿å‚¨è“„é“¶è¡Œ',
+        'ä¸­ä¿¡é“¶è¡Œ',
+    );
+
+    /**
+     * @example 'ä¸­å›½å»ºè®¾é“¶è¡Œ'
+     * @return string
+     */
+    public static function bank()
+    {
+        return static::randomElement(static::$banks);
+    }
+}

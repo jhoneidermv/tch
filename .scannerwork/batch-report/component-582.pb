@@ -1,0 +1,1 @@
+∆9vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Text.php 2phpXê

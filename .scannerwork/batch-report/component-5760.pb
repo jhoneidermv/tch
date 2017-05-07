@@ -1,0 +1,1 @@
+€-Jvendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php 2phpX!

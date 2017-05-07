@@ -1,0 +1,1 @@
+ë&=vendor/phpunit/phpunit/tests/_files/CoverageProtectedTest.php 2phpX

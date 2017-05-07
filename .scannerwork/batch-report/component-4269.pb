@@ -1,0 +1,1 @@
+­!>vendor/phpspec/prophecy/src/Prophecy/Doubler/NameGenerator.php 2phpX5

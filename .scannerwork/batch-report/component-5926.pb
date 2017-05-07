@@ -1,0 +1,1 @@
+¦.`vendor/swiftmailer/swiftmailer/tests/unit/Swift/StreamFilters/ByteArrayReplacementFilterTest.php 2phpX‚

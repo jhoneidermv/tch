@@ -1,0 +1,1 @@
+—Ivendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php 2phpXÜ

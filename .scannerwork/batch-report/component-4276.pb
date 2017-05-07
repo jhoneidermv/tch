@@ -1,0 +1,1 @@
+´!Jvendor/phpspec/prophecy/src/Prophecy/Exception/Doubler/DoubleException.php 2phpX

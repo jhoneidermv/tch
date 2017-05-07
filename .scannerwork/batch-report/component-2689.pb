@@ -1,0 +1,1 @@
+Å+vendor/nesbot/carbon/src/Carbon/Lang/sk.php 2phpX 

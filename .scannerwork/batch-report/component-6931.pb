@@ -1,0 +1,1 @@
+“6<vendor/symfony/http-kernel/Tests/HttpCache/HttpCacheTest.php 2phpXð	

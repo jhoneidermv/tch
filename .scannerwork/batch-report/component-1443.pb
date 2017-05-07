@@ -1,0 +1,1 @@
+£>vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php 2phpX«

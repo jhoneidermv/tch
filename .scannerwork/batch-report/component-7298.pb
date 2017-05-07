@@ -1,0 +1,1 @@
+‚9=vendor/symfony/translation/Tests/Loader/PhpFileLoaderTest.php 2phpX2

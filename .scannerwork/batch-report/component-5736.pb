@@ -1,0 +1,1 @@
+è,:vendor/swiftmailer/swiftmailer/lib/classes/Swift/Spool.php 2phpX6

@@ -1,0 +1,1 @@
+¦7Cvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/FooTrait.php 2phpX

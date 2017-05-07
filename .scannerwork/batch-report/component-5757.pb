@@ -1,0 +1,1 @@
+ý,Pvendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php 2phpXY

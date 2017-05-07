@@ -1,0 +1,1 @@
+ž+Avendor/sebastian/global-state/tests/_fixture/BlacklistedClass.php 2phpX

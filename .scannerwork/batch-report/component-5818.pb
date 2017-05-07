@@ -1,0 +1,1 @@
+º-svendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/AbstractStreamBufferAcceptanceTest.php 2phpX„

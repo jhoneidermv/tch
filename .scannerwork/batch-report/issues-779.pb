@@ -1,2 +1,2 @@
-j
-phpS127QRefactor the code to avoid updating the loop counter "$sum" within the loop body. 2}} 
+R
+phpS16038Replace this function name "address" with "__construct". 2VV 

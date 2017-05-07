@@ -1,0 +1,1 @@
+î&4vendor/phpunit/phpunit/tests/_files/CoveredClass.php 2phpX%

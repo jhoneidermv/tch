@@ -1,2 +1,2 @@
-F
-phpS1172,Remove the unused function parameter "$arg". 2& *
+w
+phpS1488]Immediately return this expression instead of assigning it to the temporary variable "$data". 2== 

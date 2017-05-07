@@ -1,0 +1,1 @@
+ûCvendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php 2phpXÅ

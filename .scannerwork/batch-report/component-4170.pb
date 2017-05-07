@@ -1,0 +1,1 @@
+Ê Qvendor/phpspec/prophecy/spec/Prophecy/Doubler/ClassPatch/SplFileInfoPatchSpec.php 2phpXV

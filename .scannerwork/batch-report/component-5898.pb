@@ -1,0 +1,1 @@
+Š.Rvendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/MailboxHeaderTest.php 2phpXÈ

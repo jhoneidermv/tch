@@ -1,0 +1,1 @@
+™ 6vendor/phpspec/prophecy/fixtures/OptionalDepsClass.php 2phpX

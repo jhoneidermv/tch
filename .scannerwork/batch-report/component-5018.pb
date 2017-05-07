@@ -1,0 +1,1 @@
+š'Gvendor/phpunit/phpunit/tests/_files/NamespaceCoverageNotPrivateTest.php 2phpX

@@ -1,0 +1,1 @@
+Ï	Avendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsInteger.php 2phpX!

@@ -1,0 +1,1 @@
+å!/vendor/phpspec/prophecy/tests/Doubler/Generator :ä!

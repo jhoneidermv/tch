@@ -1,0 +1,1 @@
+©<vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/OOCalc.php 2phpXÈ

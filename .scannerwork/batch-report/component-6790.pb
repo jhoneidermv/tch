@@ -1,0 +1,1 @@
+†5Cvendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php 2phpX!

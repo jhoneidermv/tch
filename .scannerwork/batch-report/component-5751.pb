@@ -1,0 +1,1 @@
+÷,^vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php 2phpXG

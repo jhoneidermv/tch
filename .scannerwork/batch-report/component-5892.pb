@@ -1,0 +1,1 @@
+„.^vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/Base64HeaderEncoderTest.php 2phpX

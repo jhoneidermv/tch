@@ -1,0 +1,1 @@
+÷)Kvendor/psy/psysh/test/Psy/Test/CodeCleaner/Fixtures/ClassWithCallStatic.php 2phpX

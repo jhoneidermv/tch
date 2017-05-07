@@ -1,0 +1,1 @@
+É(?vendor/phpunit/phpunit-mock-objects/tests/_fixture/Mockable.php 2phpX

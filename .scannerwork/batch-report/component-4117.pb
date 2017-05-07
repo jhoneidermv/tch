@@ -1,0 +1,1 @@
+• /vendor/phpspec/prophecy/fixtures/FinalClass.php 2phpX

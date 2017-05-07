@@ -1,0 +1,1 @@
+á-_vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php 2phpX,

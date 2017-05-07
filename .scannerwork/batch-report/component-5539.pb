@@ -1,0 +1,1 @@
+£+Evendor/sebastian/global-state/tests/_fixture/BlacklistedInterface.php 2phpX

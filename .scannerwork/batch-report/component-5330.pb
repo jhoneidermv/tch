@@ -1,0 +1,1 @@
+Ò)Ivendor/psy/psysh/src/Psy/TabCompletion/Matcher/ClassAttributesMatcher.php 2phpXP

@@ -1,0 +1,1 @@
+·-Hvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder :µ-

@@ -1,0 +1,1 @@
+©<vendor/fzaninotto/faker/src/Faker/Provider/ru_RU/Company.php 2phpX5

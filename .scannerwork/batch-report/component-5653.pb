@@ -1,0 +1,1 @@
+•,@vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php 2phpXo

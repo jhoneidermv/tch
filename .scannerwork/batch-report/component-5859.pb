@@ -1,0 +1,1 @@
+ã-?vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader :á-â-ä-

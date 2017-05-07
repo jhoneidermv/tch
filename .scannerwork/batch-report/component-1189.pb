@@ -1,0 +1,1 @@
+¥	Bvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsAnything.php 2phpX.

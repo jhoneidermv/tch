@@ -1,0 +1,1 @@
+°"Lvendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/File/Method.php 2phpX;

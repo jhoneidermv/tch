@@ -1,0 +1,1 @@
+Â*.vendor/sebastian/comparator/tests/autoload.php 2phpX'

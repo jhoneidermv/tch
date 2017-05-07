@@ -1,0 +1,1 @@
+¸!Rvendor/phpspec/prophecy/src/Prophecy/Exception/Doubler/MethodNotFoundException.php 2phpX=

@@ -1,0 +1,1 @@
+—.Lvendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php 2phpX½

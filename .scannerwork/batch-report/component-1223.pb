@@ -1,0 +1,1 @@
+Ç	Mvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringContainsInOrder.php 2phpXC

@@ -1,0 +1,1 @@
+î	>vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php 2phpX9

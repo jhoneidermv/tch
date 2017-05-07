@@ -1,0 +1,1 @@
+Ì+vendor/mockery/mockery/docs/getting_started :Î

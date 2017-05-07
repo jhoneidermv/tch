@@ -1,0 +1,1 @@
+Œ2;vendor/symfony/debug/Tests/Fixtures/DeprecatedInterface.php 2phpX

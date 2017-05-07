@@ -1,0 +1,1 @@
+ßAvendor/fzaninotto/faker/test/Faker/Provider/pt_BR/CompanyTest.php 2phpX

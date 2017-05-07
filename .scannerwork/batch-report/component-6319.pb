@@ -1,0 +1,1 @@
+¯1;vendor/symfony/css-selector/Tests/Node/FunctionNodeTest.php 2phpX0

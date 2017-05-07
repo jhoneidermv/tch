@@ -1,0 +1,1 @@
+°#Cvendor/phpunit/php-token-stream/tests/_fixture/classInNamespace.php 2phpX

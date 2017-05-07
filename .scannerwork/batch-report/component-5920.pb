@@ -1,0 +1,1 @@
+ .Vvendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters/HtmlReporterTest.php 2phpX7

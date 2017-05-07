@@ -1,0 +1,120 @@
+<?php
+
+namespace Faker\Provider\cs_CZ;
+
+class Company extends \Faker\Provider\Company
+{
+    /**
+     * @var array Czech company name formats.
+     */
+    protected static $formats = array(
+        '{{lastName}} {{companySuffix}}',
+        '{{lastName}} {{lastName}} {{companySuffix}}',
+        '{{lastName}}-{{lastName}} {{companySuffix}}',
+        '{{lastName}} a {{lastName}} {{companySuffix}}',
+    );
+
+    /**
+     * @var array Czech catch phrase formats.
+     */
+    protected static $catchPhraseFormats = array(
+        '{{catchPhraseVerb}} {{catchPhraseNoun}} {{catchPhraseAttribute}}',
+        '{{catchPhraseVerb}} {{catchPhraseNoun}} a {{catchPhraseNoun}} {{catchPhraseAttribute}}',
+        '{{catchPhraseVerb}} {{catchPhraseNoun}} {{catchPhraseAttribute}} a {{catchPhraseAttribute}}',
+        'Ne{{catchPhraseVerb}} {{catchPhraseNoun}} {{catchPhraseAttribute}}',
+    );
+
+    /**
+     * @var array Czech nouns (used by the catch phrase format).
+     */
+    protected static $noun = array(
+        'bezpeÄ�nost', 'pohodlÃ­', 'seo', 'rychlost', 'testovÃ¡nÃ­', 'ÃºdrÅ¾bu', 'odebÃ­rÃ¡nÃ­', 'vÃ½stavbu',
+        'nÃ¡vrh', 'prodej', 'nÃ¡kup', 'zprostÅ™edkovÃ¡nÃ­', 'odvoz', 'pÅ™epravu', 'pronÃ¡jem'
+    );
+
+    /**
+     * @var array Czech verbs (used by the catch phrase format).
+     */
+    protected static $verb = array(
+        'zajiÅ¡Å¥ujeme', 'nabÃ­zÃ­me', 'dÄ›lÃ¡me', 'provozujeme', 'realizujeme', 'pÅ™edstihujeme', 'mobilizujeme',
+    );
+
+    /**
+     * @var array End of sentences (used by the catch phrase format).
+     */
+    protected static $attribute = array(
+        'pro vÃ¡s', 'pro vaÅ¡Ã­ sluÅ¾bu', 'a jsme jedniÄ�ka na trhu', 'pro lepÅ¡Ã­ svÄ›t', 'zdarma', 'se zÃ¡rukou',
+        's inovacÃ­', 'turbÃ­ny', 'mrakodrapÅ¯', 'lampiÃ³nkÅ¯ a svÃ­Ä�ek', 'bouracÃ­ techniky', 'nÃ¡kupnÃ­ch koÅ¡Ã­kÅ¯',
+        'vaÅ¡eho webu', 'pro vaÅ¡e zÃ¡kaznÃ­ky', 'za nÃ­zkou cenu', 'jako jedinÃ­ na trhu', 'webu', 'internetu',
+        'vaÅ¡Ã­ rodiny', 'vaÅ¡ich znÃ¡mÃ½ch', 'vaÅ¡ich strÃ¡nek', 'Ä�ehokoliv na svÄ›tÄ›', 'za hubiÄ�ku'
+    );
+
+    /**
+     * @var array Company suffixes.
+     */
+    protected static $companySuffix = array('s.r.o.', 's.r.o.', 's.r.o.', 's.r.o.', 'a.s.', 'o.p.s.', 'o.s.');
+
+    /**
+     * Returns a random catch phrase noun.
+     *
+     * @return string
+     */
+    public function catchPhraseNoun()
+    {
+        return static::randomElement(static::$noun);
+    }
+
+    /**
+     * Returns a random catch phrase attribute.
+     *
+     * @return string
+     */
+    public function catchPhraseAttribute()
+    {
+        return static::randomElement(static::$attribute);
+    }
+
+    /**
+     * Returns a random catch phrase verb.
+     *
+     * @return string
+     */
+    public function catchPhraseVerb()
+    {
+        return static::randomElement(static::$verb);
+    }
+
+    /**
+     * @return string
+     */
+    public function catchPhrase()
+    {
+        $format = static::randomElement(static::$catchPhraseFormats);
+
+        return ucfirst($this->generator->parse($format));
+    }
+
+    /**
+     * Generates valid czech IÄŒO
+     *
+     * @see http://phpfashion.com/jak-overit-platne-ic-a-rodne-cislo
+     * @return string
+     */
+    public function ico()
+    {
+        $ico = static::numerify('#######');
+        $split = str_split($ico);
+        $prod = 0;
+        foreach (array(8, 7, 6, 5, 4, 3, 2) as $i => $p) {
+            $prod += $p * $split[$i];
+        }
+        $mod = $prod % 11;
+        if ($mod === 0 || $mod === 10) {
+            return "{$ico}1";
+        } elseif ($mod === 1) {
+            return "{$ico}0";
+        }
+
+        return $ico . (11 - $mod);
+    }
+}

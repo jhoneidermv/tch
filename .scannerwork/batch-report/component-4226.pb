@@ -1,0 +1,1 @@
+‚!Evendor/phpspec/prophecy/src/Prophecy/Argument/Token/CallbackToken.php 2phpXL

@@ -1,0 +1,1 @@
+…,:vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php 2phpX>

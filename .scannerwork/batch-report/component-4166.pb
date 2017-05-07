@@ -1,0 +1,1 @@
+Æ 8vendor/phpspec/prophecy/spec/Prophecy/Doubler/ClassPatch :Ã Å Ä Ç È É Ê Ì 

@@ -1,0 +1,1 @@
+¨-Pvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/EncodingAcceptanceTest.php 2phpX

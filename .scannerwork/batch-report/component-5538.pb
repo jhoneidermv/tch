@@ -1,0 +1,1 @@
+¢+>vendor/sebastian/global-state/tests/_fixture/SnapshotClass.php 2phpX&

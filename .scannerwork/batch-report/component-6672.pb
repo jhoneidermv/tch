@@ -1,0 +1,1 @@
+ê4=vendor/symfony/http-foundation/Tests/RedirectResponseTest.php 2phpXT

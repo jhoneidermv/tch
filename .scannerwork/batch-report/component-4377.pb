@@ -1,0 +1,1 @@
+™"cvendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/bootstrap.min.js 2jsX

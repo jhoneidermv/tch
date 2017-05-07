@@ -1,0 +1,1 @@
+Û)Gvendor/psy/psysh/src/Psy/TabCompletion/Matcher/ObjectMethodsMatcher.php 2phpXH

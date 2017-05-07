@@ -1,0 +1,93 @@
+<?php
+
+namespace Faker\Provider\tr_TR;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $buildingNumber = array('###', '##', '#');
+
+    protected static $streetSuffix = array(
+        'Sokak', 'Caddesi', 'KavÅŸaÄŸÄ±', 'DuraÄŸÄ±', 'Ä°ÅŸ HanÄ±', 'Mevkii'
+    );
+
+    protected static $postcode = array('#####');
+
+    /**
+    * @var array Cities of Turkey, for future updates please use @link https://tr.wikipedia.org/wiki/T%C3%BCrkiye'nin_illeri
+    */
+    protected static $cityNames = array(
+        'Adana','AdÄ±yaman','Afyonkarahisar','AÄŸrÄ±','Aksaray','Amasya','Ankara','Antalya','Ardahan','Artvin','AydÄ±n',
+        'BalÄ±kesir','BartÄ±n','Batman','Bayburt','Bilecik','BingÃ¶l','Bitlis','Bolu','Burdur','Bursa',
+        'Ã‡anakkale','Ã‡ankÄ±rÄ±','Ã‡orum',
+        'Denizli','DiyarbakÄ±r','DÃ¼zce',
+        'Edirne','ElazÄ±ÄŸ','Erzincan','Erzurum','EskiÅŸehir',
+        'Gaziantep','Giresun','GÃ¼mÃ¼ÅŸhane',
+        'Hakkari','Hatay',
+        'IÄŸdÄ±r','Isparta','Ä°stanbul','Ä°zmir',
+        'KahramanmaraÅŸ','KarabÃ¼k','Karaman','Kars','Kastamonu','Kayseri','Kilis',
+        'KÄ±rÄ±kkale','KÄ±rklareli','KÄ±rÅŸehir','Kocaeli','Konya','KÃ¼tahya',
+        'Malatya','Manisa','Mardin','Mersin','MuÄŸla','MuÅŸ',
+        'NevÅŸehir','NiÄŸde',
+        'Ordu','Osmaniye',
+        'Rize',
+        'Sakarya','Samsun','ÅžanlÄ±urfa','Siirt','Sinop','ÅžÄ±rnak','Sivas',
+        'TekirdaÄŸ','Tokat','Trabzon','Tunceli',
+        'UÅŸak',
+        'Van',
+        'Yalova','Yozgat',
+        'Zonguldak'
+    );
+
+    /**
+    * @var array Countries in Turkish
+    * @link https://tr.wikipedia.org/wiki/%C3%9Clkeler_listesi
+    */
+    protected static $country = array(
+        'Almanya','Amerika BirleÅŸik Devletleri','Arjantin','Arnavutluk','Avustralya','Avusturya','Azerbaycan',
+        'Bahreyn','BelÃ§ika','Beyaz Rusya','BirleÅŸik Arap Emirlikleri','Bosna-hersek','Brezilya','Bulgaristan',
+        'Ã‡ek Cumhuriyeti','Cezayir','Ã‡in Halk Cumhuriyeti',
+        'Danimarka','Dominik Cumhuriyeti',
+        'Endonezya','Ermenistan','Estonya',
+        'Fas','Filipinler','Filistin','Finlandiya','Fransa',
+        'GÃ¼ney Afrika Cumhuriyeti','GÃ¼ney Kore','GÃ¼rcistan',
+        'Hindistan','HÄ±rvatistan','Hollanda',
+        'Ä°ngiltere','Irak','Ä°ran','Ä°rlanda','Ä°skoÃ§ya','Ä°spanya','Ä°srail','Ä°sveÃ§','Ä°sviÃ§re','Ä°talya',
+        'Jamaika','Japonya',
+        'KamboÃ§ya','Kanada','KaradaÄŸ','Kazakistan','KÄ±brÄ±s','KÄ±rgÄ±zistan','Kosta Rika','KÃ¼ba','Kuzey Kore',
+        'Letonya','Libya','Litvanya','LÃ¼bnan','LÃ¼ksemburg',
+        'Macaristan','Makedonya','Maldivler','Malta','MaurÄ±tÄ±us','MÄ±sÄ±r',
+        'Nepal',
+        'Ã–zbekistan',
+        'Pakistan','Polonya','Portekiz','Romanya',
+        'Rusya',
+        'SÄ±rbistan','Slovakya','Slovenya',
+        'Sri Lanka','Sudan','Suriye','Suudi Arabistan',
+        'Tacikistan','Tayland','Tayvan','Tunus','TÃ¼rkiye',
+        'Ukrayna','Umman','ÃœrdÃ¼n',
+        'Venezuela','Vietnam',
+        'Yemen','Yeni Zelanda','YeÅŸil Burun','Yunanistan',
+        'Zambiya','Zimbabve'
+    );
+
+    protected static $cityFormats = array(
+        '{{cityName}}',
+    );
+
+    protected static $streetNameFormats = array(
+        '{{lastName}} {{streetSuffix}}',
+        '{{firstName}} {{streetSuffix}}',
+        '{{firstName}} {{streetSuffix}}'
+    );
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}',
+    );
+    protected static $addressFormats = array(
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+    );
+
+    public function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+}

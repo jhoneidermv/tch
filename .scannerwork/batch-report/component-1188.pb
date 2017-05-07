@@ -1,0 +1,1 @@
+¤	Cvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/HasToString.php 2phpX9

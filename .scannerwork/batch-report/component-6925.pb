@@ -1,0 +1,1 @@
+6Avendor/symfony/http-kernel/Tests/Fragment/FragmentHandlerTest.php 2phpXc

@@ -1,0 +1,1 @@
+ªHvendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php 2phpX

@@ -1,0 +1,5 @@
+projectKey=my:tch
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/my:tch
+ceTaskId=AVvj-JNchq_RunzI2GdX
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVvj-JNchq_RunzI2GdX

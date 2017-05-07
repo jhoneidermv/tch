@@ -1,0 +1,1 @@
+Ä!Svendor/phpspec/prophecy/src/Prophecy/Exception/Prophecy/MethodProphecyException.php 2phpX#

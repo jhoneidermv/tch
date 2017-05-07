@@ -1,0 +1,1 @@
+€._vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/PlainContentEncoderTest.php 2phpX¬

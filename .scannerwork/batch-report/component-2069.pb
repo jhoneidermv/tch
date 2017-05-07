@@ -1,0 +1,1 @@
+•@vendor/laravel/framework/src/Illuminate/Support/Facades/Lang.php 2phpX

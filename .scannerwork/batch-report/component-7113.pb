@@ -1,0 +1,1 @@
+É7;vendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses :È7

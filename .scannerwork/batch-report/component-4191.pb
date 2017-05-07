@@ -1,0 +1,1 @@
+ß \vendor/phpspec/prophecy/spec/Prophecy/Exception/Doubler/MethodNotExtendableExceptionSpec.php 2phpX

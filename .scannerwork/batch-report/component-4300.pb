@@ -1,0 +1,1 @@
+Ì!Rvendor/phpspec/prophecy/src/Prophecy/PhpDocumentor/MethodTagRetrieverInterface.php 2phpX

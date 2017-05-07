@@ -1,0 +1,1 @@
+â-Uvendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/UsAsciiReaderTest.php 2phpX5

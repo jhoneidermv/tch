@@ -1,0 +1,1 @@
+ç:vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Color.php 2phpX

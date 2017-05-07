@@ -1,0 +1,1 @@
+Î*8vendor/sebastian/comparator/tests/TypeComparatorTest.php 2phpXi

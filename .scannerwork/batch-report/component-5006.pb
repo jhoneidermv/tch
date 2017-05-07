@@ -1,0 +1,1 @@
+Ž'@vendor/phpunit/phpunit/tests/_files/Inheritance/InheritanceB.php 2phpX	

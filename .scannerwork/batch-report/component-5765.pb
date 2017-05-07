@@ -1,0 +1,1 @@
+…-Hvendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php 2phpX%

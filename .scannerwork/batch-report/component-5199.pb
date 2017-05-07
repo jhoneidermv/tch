@@ -1,0 +1,1 @@
+Ï(Svendor/phpunit/phpunit-mock-objects/tests/_fixture/TraversableMockTestInterface.php 2phpX

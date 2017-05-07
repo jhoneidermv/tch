@@ -1,0 +1,1 @@
+Ï5\vendor/symfony/http-kernel/Tests/DependencyInjection/MergeExtensionConfigurationPassTest.php 2phpXA

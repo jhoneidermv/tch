@@ -1,0 +1,87 @@
+<?php echo $__env->make('layouts/app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<html>
+<head>
+    <title>imge</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (imge.psd) -->
+<table id="Tabla_01" align="center" width="1024" height="769" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="9">
+            <img src="<?php echo e(asset('images/imge_011.png')); ?>" width="1024" height="11" alt=""></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">
+            <img src="<?php echo e(asset('images/imge_021.png')); ?>" width="273" height="52" alt=""></td>
+        <td colspan="5">
+            <img src="<?php echo e(asset('images/imge_031.png')); ?>" width="484" height="43" alt=""></td>
+        <td colspan="2" rowspan="2">
+            <img src="<?php echo e(asset('images/imge_04.png')); ?>" width="267" height="52" alt=""></td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <img src="<?php echo e(asset('images/imge_05.png')); ?>" width="484" height="9" alt=""></td>
+    </tr>
+    <tr>
+        <td colspan="9">
+            <img src="<?php echo e(asset('images/imge_06.png')); ?>" width="1024" height="33" alt=""></td>
+    </tr>
+    <tr>
+        <td rowspan="2">
+            <img src="<?php echo e(asset('images/imge_07.png')); ?>" width="59" height="600" alt=""></td>
+        <td colspan="7">
+            <iframe width="916" height="555" src="https://www.youtube.com/embed/Z8d9flJERT4" frameborder="0" allowfullscreen></iframe>
+        <td rowspan="2">
+            <img src="<?php echo e(asset('images/imge_09.png')); ?>" width="49" height="600" alt=""></td>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <img src="<?php echo e(asset('images/imge_10.png')); ?>" width="916" height="45" alt=""></td>
+    </tr>
+    <tr>
+        <td colspan="9">
+            <img src="<?php echo e(asset('images/imge_11.png')); ?>" width="1024" height="15" alt=""></td>
+    </tr>
+    <tr>
+        <td colspan="3" rowspan="2">
+            <img src="<?php echo e(asset('images/imge_12.png')); ?>" width="315" height="57" alt=""></td>
+        <td>
+            <a class="myButton btn-block" href="<?php echo e(route('user.juego.start')); ?>" align="center" type="button" ><h3>Si</h3></a></td>
+        <td rowspan="2">
+            <img src="<?php echo e(asset('images/imge_14.png')); ?>" width="102" height="57" alt=""></td>
+        <td>
+            <a class="myButton btn-block" href="<?php echo e(route('user.juego.start')); ?>" align="center" type="button" ><h3>No</h3></a></td>
+        <td colspan="3" rowspan="2">
+            <img src="<?php echo e(asset('images/imge_16.png')); ?>" width="311" height="57" alt=""></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="<?php echo e(asset('images/imge_17.png')); ?>" width="148" height="16" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/imge_18.png')); ?>" width="148" height="16" alt=""></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="59" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="214" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="42" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="148" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="102" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="148" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="44" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="218" height="1" alt=""></td>
+        <td>
+            <img src="<?php echo e(asset('images/espacio.gif')); ?>" width="49" height="1" alt=""></td>
+    </tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

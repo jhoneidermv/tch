@@ -1,0 +1,1 @@
+Ó)Fvendor/psy/psysh/src/Psy/TabCompletion/Matcher/ClassMethodsMatcher.php 2phpXH

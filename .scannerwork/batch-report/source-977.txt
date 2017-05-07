@@ -1,0 +1,58 @@
+<?php
+
+namespace Faker\Provider\tr_TR;
+
+class Color extends \Faker\Provider\Color
+{
+    /**
+     * @link http://tr.wikipedia.org/wiki/Renkler_listesi
+     */
+    protected static $safeColorNames = array(
+        'siyah', 'kÄ±rmÄ±zÄ±', 'sarÄ±', 'mavi', 'turuncu',
+        'yeÅŸil', 'mor', 'gÃ¼mÃ¼ÅŸ', 'gri', 'pembe',
+    );
+
+    protected static $allColorNames = array(
+        'Alev kÄ±rmÄ±zÄ±sÄ±', 'Alice mavisi', 'Alizarin', 'AltunÃ®', 'Ametist', 'Armut',
+        'Akuamarin', 'Asker yeÅŸili', 'BakÄ±r', 'Barut', 'BataklÄ±k yeÅŸili',
+        'Bebek mavisi', 'Bej', 'Beyaz', 'Bondi mavisi', 'Bordo',
+        'Bronz', 'BuÄŸday', 'Burgonya', 'CamgÃ¶beÄŸi', 'Ã‡am yeÅŸili', 'Ã‡ay yeÅŸili',
+        'Ã‡elik mavisi', 'Ã‡ikolata', 'Ã‡ivit', 'Deniz mavisi', 'Deniz yeÅŸili',
+        'Devedikeni', 'EÄŸrelti yeÅŸili', 'Elektrik mavisi', 'Elektrik Ã§ivit', 'Elektrik lime', 'Elektrik mor',
+        'Falu kÄ±rmÄ±zÄ±sÄ±', 'FildiÅŸi', 'FransÄ±z gÃ¼l', 'Galibarda', 'Gece mavisi', 'GÃ¶k mavisi',
+        'Gri', 'Gri-kuÅŸkonmaz', 'GÃ¼l', 'GÃ¼mÃ¼ÅŸi', 'Haki', 'Hardal',
+        'HavuÃ§', 'HorozibiÄŸi', 'Ä°lkbahar yeÅŸili', 'Ä°slam yeÅŸili', 'Kabak', 'Kahverengi',
+        'Kahverengimsi gri', 'KamuflÃ¢j yeÅŸili', 'Karanfil pembesi', 'Karanfil', 'Kardinal',
+        'Karolina mavisi', 'KayÄ±sÄ±', 'Kehribar', 'Kestane',
+        'Keten', 'KÄ±rmÄ±zÄ±', 'KÄ±rmÄ±zÄ±msÄ± kahverengi', 'KÄ±rmÄ±zÄ±-menekÅŸe', 'Kiraz kÄ±rmÄ±zÄ±sÄ±',
+        'Kobalt', 'Kobalt mavisi', 'Koyu galibarda', 'Koyu haki', 'Koyu kahverengi',
+        'Koyu kestane', 'Koyu kÄ±rmÄ±zÄ±', 'Koyu kÄ±zÄ±l kahverengi', 'Koyu leylak', 'Koyu magenta',
+        'Koyu mandalina', 'Koyu mavi', 'Koyu menekÅŸe', 'Koyu mercan',
+        'Koyu mor', 'Koyu pastel yeÅŸil', 'Koyu pembe', 'Koyu ÅŸeftali', 'Koyu turkuaz',
+        'Koyu toz mavi', 'Koyu turkuaz', 'Koyu yeÅŸil', 'KÃ¶sele', 'Krem',
+        'Kum kahverengisi', 'KuÅŸkonmaz', 'Lacivert', 'Lacivert',
+        'Lavanta', 'Lavanta mavisi', 'Lavender pembesi', 'Lavender greisi',
+        'Lavender magenta', 'Lavanta pembesi', 'Lavanta mor', 'Lavanta gÃ¼l', 'Limoni', 'AÃ§Ä±k Limon',
+        'Leylak', 'Lime', 'Mandalina', 'Malakit', 'Mavi',
+        'MenekÅŸe', 'MenekÅŸe-patlÄ±can', 'MÄ±sÄ±r', 'Mor', 'MorsalkÄ±m',
+        'Nane yeÅŸili', 'Nar', 'Navajo beyazÄ±', 'Okul otobÃ¼sÃ¼ sarÄ±sÄ±', 'Parlak mor',
+        'Pas', 'Pastel pembe', 'Pastel yeÅŸili', 'PatlÄ±can', 'Pembe',
+        'Pembe-turuncu', 'Peygamber Ã§iÃ§eÄŸi', 'Prusya mavisi', 'Safran', 'Safir',
+        'SarÄ±msÄ± kahverengi', 'SarÄ±msÄ± pembe', 'SarÄ±', 'SarÄ±',
+        'SiyahÄ±msÄ± koyu kahverengi', 'Soluk sarÄ±', 'Åžeftali', 'Åžeftali-turuncu', 'Åžeftali-sarÄ±',
+        'TarÃ§Ä±n', 'Teal', 'Toz mavi', 'Turkuaz',
+        'Turuncumsu sarÄ±', 'Turuncu', 'Turuncumsu sarÄ±', 'YeÅŸil', 'YeÅŸil-sarÄ±', 'Yonca yeÅŸili',
+        'Yosun yeÅŸili', 'Zeytuni', 'ZÃ¼mrÃ¼t yeÅŸili', 'YanÄ±k turuncu', 'YanÄ±k Toprak',
+        'Kardinal', 'Åžarap', 'Celadon', 'Berrak mavi',
+        'GÃ¶k mavisi', 'GÃ¼l', 'Mercan', 'Mercan KÄ±rmÄ±zÄ±sÄ±', 'KÄ±pkÄ±rmÄ±zÄ±', 'Hile mavisi',
+        'AltÄ±nÄ±msÄ±', 'SoytarÄ±', 'SiÄŸil otu', 'Holivod kÄ±rmÄ±zÄ±sÄ±', 'SÄ±cak Magenta',
+        'SÄ±cak pembe', 'UluslararasÄ± Klein mavisi', 'Enternasyonal turuncu', 'YeÅŸim', 'Orta ÅŸarap',
+        'Orta Mor', 'DaÄŸ pembesi', 'AÅŸÄ± boyasÄ±', 'Eski altÄ±n', 'Eski iplik', 'Eski Lavanta',
+        'Eski gÃ¼l', 'Zeytin Kahverengisi', 'Donuk turuncu', 'Papaya',
+        'Periwinkle', 'Pers mavisi', 'Pers yeÅŸili', 'Persian lacivert', 'Pers pembesi',
+        'Persian kÄ±rmÄ±zÄ±sÄ±', 'Pers gÃ¼lÃ¼', 'Ham toprak', 'KÄ±zÄ±l yumurta mavisi',
+        'Kraliyet mavisi', 'KÄ±rmÄ±zÄ± ÅŸarap', 'KÄ±rmÄ±zÄ±', 'Deniz kabuÄŸu', 'AyrÄ±k sarÄ±',
+        'Vurgun pembe', 'Salamura grisi', 'TennÃ© (Tawny)', 'KÃ¼Ã§Ã¼k kara', 'Lacivert', 'Viridian',
+        'Zinnwaldite',
+    );
+}

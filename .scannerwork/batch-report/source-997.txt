@@ -1,0 +1,184 @@
+<?php
+
+namespace Faker\Provider\vi_VN;
+
+class Person extends \Faker\Provider\Person
+{
+    protected static $maleNameFormats = array(
+        '{{lastName}} {{firstNameMale}}',
+        '{{titleMale}}. {{lastName}} {{firstNameMale}}',
+        '{{lastName}} {{middleNameMale}} {{firstNameMale}}',
+        '{{titleMale}}. {{lastName}} {{middleNameMale}} {{firstNameMale}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{lastName}} {{firstNameFemale}}',
+        '{{titleFemale}}. {{lastName}} {{firstNameFemale}}',
+        '{{lastName}} {{middleNameFemale}} {{firstNameFemale}}',
+        '{{titleFemale}}. {{lastName}} {{middleNameFemale}} {{firstNameFemale}}',
+    );
+
+    protected static $middleNameFormat = array(
+      '{{firstNameMale}}',
+      '{{firstNameFemale}}',
+    );
+
+    /**
+     * @link http://www.dattenhay.vn/1001-ten-cho-be-trai.htm
+     */
+    protected static $firstNameMale = array(
+        'An', 'Anh',
+        'BÃ o', 'BÃ¬nh', 'Báº¡ch', 'Báº£o', 'Báº¯c', 'Báº±ng', 'Bá»•ng', 'Bá»­u',
+        'Ca', 'Canh', 'Chiáº¿n', 'Chiá»ƒu', 'ChÃ¢u', 'ChÃ­nh', 'ChÆ°Æ¡ng', 'ChÆ°á»Ÿng', 'Cháº¥n', 'CÃ´ng', 'CÆ¡', 'CÆ°Æ¡ng', 'CÆ°á»�ng', 'Cáº£nh', 'Cáº§n', 'Cáº©n',
+        'Danh', 'Di', 'Dinh', 'Diá»‡p', 'Diá»‡u', 'Du', 'Duy', 'Duá»‡', 'DÃ¢n', 'DÅ©ng', 'DÆ°Æ¡ng', 'Dá»¥ng',
+        'Giang', 'GiÃ¡c', 'GiÃ¡p',
+        'HiÃªn', 'Hiáº¿u', 'Hiá»�n', 'Hiá»ƒn', 'Hiá»‡p', 'Hoa', 'HoÃ i', 'HoÃ n', 'HoÃ ng', 'HoÃ¡n', 'Huy', 'Huynh', 'Huáº¥n', 'Huá»³nh', 'HÃ ', 'HÃ nh', 'HÃ o', 'HÃ²a', 'HÃ¹ng', 'HÆ°ng', 'Háº¡nh', 'Háº£i', 'Háº£o', 'Háº­u', 'Há»�c', 'Há»“ng', 'Há»™i', 'Há»£p', 'Há»¯u', 'Há»·',
+        'Kha', 'Khang', 'Khanh', 'KhiÃªm', 'Khiáº¿u', 'Khoa', 'KhoÃ¡t', 'KhÃ¡nh', 'KhÃ´i', 'KhÆ°Æ¡ng', 'Kháº£i', 'Kim', 'KiÃªn', 'Kiáº¿m', 'Kiá»‡n', 'Kiá»‡t', 'KÃ­nh', 'Ká»³', 'Ká»·',
+        'Lai', 'Lam', 'Linh', 'LiÃªm', 'Long', 'Luáº­n', 'Luáº­t', 'LÃ¢m', 'LÃ¢n', 'LÃ½', 'LÄ©nh', 'LÆ°Æ¡ng', 'Láº¡c', 'Láº­p', 'Lá»…', 'Lá»™', 'Lá»™c', 'Lá»±c',
+        'Minh', 'Máº¡nh', 'Máº«n', 'Má»¹',
+        'Nam', 'NghiÃªm', 'Nghiá»‡p', 'NghÄ©a', 'Nghá»‹', 'NguyÃªn', 'NgÃ¢n', 'NgÃ´n', 'Ngáº¡n', 'Ngá»�c', 'NhiÃªn', 'Nhu', 'Nhuáº­n', 'NhÃ¢n', 'NhÃ£', 'NhÆ°á»£ng', 'Nháº¡n', 'Nháº­t', 'Ninh',
+        'Phi', 'Phong', 'PhÃ¡p', 'PhÃ¡t', 'PhÃº', 'PhÃºc', 'PhÆ°Æ¡ng', 'PhÆ°á»›c', 'Phá»¥ng',
+        'Quang', 'Quyáº¿t', 'Quyá»�n', 'QuÃ¢n', 'QuÃ½', 'Quáº£ng', 'Quáº¿', 'Quá»‘c', 'Quá»³nh',
+        'Sang', 'Sinh', 'SiÃªu', 'SÃ¡ng', 'SÃ¢m', 'SÄ©', 'SÆ¡n', 'Sá»­', 'Sá»¹',
+        'Thanh', 'ThiÃªn', 'Thiá»‡n', 'Thuáº­n', 'ThÃ nh', 'ThÃ¡i', 'ThÃ´ng', 'ThÃºc', 'Tháº¡c', 'Tháº¡ch', 'Tháº¯ng', 'Thá»ƒ', 'Thá»‹nh', 'Thá»�', 'Thá»‘ng', 'Thá»�i', 'Thá»¥y', 'Thá»§y', 'Thá»±c', 'Tiáº¿n', 'Tiáº¿p', 'Tiá»�n', 'Tiá»ƒn', 'ToÃ n', 'Toáº¡i', 'Toáº£n', 'Trang', 'Triáº¿t', 'Triá»�u', 'Triá»‡u', 'Trung', 'TrÃ¡c', 'TrÃ¡ng', 'TrÃ¢n', 'TrÃ¬nh', 'TrÃ­', 'TrÃºc', 'TrÆ°á»�ng', 'TrÆ°á»Ÿng', 'Tráº¡ch', 'Trá»�ng', 'Trá»¥', 'Trá»±c', 'Tuyá»�n', 'Tuáº¥n', 'Tuá»‡', 'TÃ i', 'TÃ¢m', 'TÃ¢n', 'TÃ­n', 'TÃ¹ng', 'TÃº', 'TÆ°á»�ng', 'Táº¥n', 'Tá»¥', 'Tá»«',
+        'Uy',
+        'Vinh', 'ViÃªn', 'Viá»‡t', 'Vu', 'VÃµ', 'VÄƒn', 'VÄ©', 'VÄ©nh', 'VÅ©', 'VÆ°Æ¡ng', 'VÆ°á»£ng', 'Vá»‹nh', 'Vá»¹',
+        'XuÃ¢n',
+        'YÃªn',
+        'Ã�n', 'Ã‚n',
+        'Ä�an', 'Ä�iá»�n', 'Ä�iá»‡p', 'Ä�oÃ n', 'Ä�Ã¬nh', 'Ä�Ã´n', 'Ä�Äƒng', 'Ä�áº¡i', 'Ä�áº¡o', 'Ä�áº¡t', 'Ä�á»‹nh', 'Ä�á»“ng', 'Ä�á»™', 'Ä�á»©c', 'Ä�á»©c',
+        'áº¨n',
+    );
+
+    /**
+     * @link http://www.dattenhay.vn/1001-ten-cho-be-trai.htm
+     */
+    protected static $middleNameMale = array(
+        'An', 'Anh',
+        'BÃ¡', 'BÃ¡ch', 'BÃ¬nh', 'BÃ­ch', 'Báº£o', 'Báº±ng', 'Bá»­u', 'Bá»¯u',
+        'Cao', 'ChiÃªu', 'Chiáº¿n', 'Chung', 'Chuáº©n', 'ChÃ¡nh', 'ChÃ­', 'ChÃ­nh', 'Cháº¥n', 'Cháº¿', 'CÃ¡t', 'CÃ´ng', 'CÆ°Æ¡ng', 'CÆ°á»�ng', 'Cáº£nh',
+        'Danh', 'Duy', 'DÃ¢n', 'DÅ©ng', 'DÆ°Æ¡ng',
+        'Gia', 'Giang',
+        'Hiáº¿u', 'Hiá»�n', 'Hiá»ƒu', 'Hiá»‡p', 'HoÃ i', 'HoÃ n', 'HoÃ ng', 'Huy', 'HuÃ¢n', 'HÃ ', 'HÃ o', 'HÃ¡n', 'HÃ²a', 'HÃ¹ng', 'HÆ°ng', 'HÆ°á»›ng', 'Háº¡nh', 'Háº¡o', 'Háº£i', 'Há»“', 'Há»“ng', 'Há»¯u',
+        'Khai', 'Khang', 'Khoa', 'Khuyáº¿n', 'KhÃ¡nh', 'KhÃ´i', 'KhÆ°Æ¡ng', 'Kháº£i', 'Kháº¯c', 'Khá»Ÿi', 'Kim', 'KiÃªn', 'Kiáº¿n', 'Kiá»‡t', 'Ká»³',
+        'Lam', 'LiÃªn', 'Long', 'LÃ¢m', 'LÆ°Æ¡ng', 'Láº¡c', 'Láº­p',
+        'Minh', 'Máº¡nh', 'Má»™ng',
+        'Nam', 'NghÄ©a', 'Nghá»‹', 'NguyÃªn', 'Nguyá»…n', 'Ngá»�c', 'NhÃ¢n', 'NhÆ°', 'Nháº¥t', 'Nháº­t', 'Niá»‡m',
+        'Phi', 'Phong', 'PhÃº', 'PhÃºc', 'PhÆ°Æ¡ng', 'PhÆ°á»›c', 'PhÆ°á»£ng', 'Phá»¥c', 'Phá»¥ng',
+        'Quang', 'Quyáº¿t', 'QuÃ¢n', 'QuÃ½', 'Quáº£ng', 'Quá»‘c',
+        'Song', 'SÄ©', 'SÆ¡n', 'Sá»¹',
+        'TÃ i', 'Táº¡',
+        'Ã‚n',
+        'Ä�an', 'Ä�inh', 'Ä�oÃ n', 'Ä�Ã¬nh', 'Ä�Ã´ng', 'Ä�Äƒng', 'Ä�áº¡i', 'Ä�áº¡t', 'Ä�áº¯c', 'Ä�á»‹nh', 'Ä�á»“ng', 'Ä�á»©c', 'Ä�Äƒng', 'Ä�á»©c',
+    );
+
+    /**
+     * @link http://www.dattenhay.vn/1001-ten-cho-be-gai.htm
+     */
+    protected static $firstNameFemale = array(
+        'An', 'Anh',
+        'BÃ¬nh', 'BÃ­ch', 'BÄƒng', 'Báº¡ch', 'Báº£o',
+        'Ca', 'Chi', 'Chinh', 'ChiÃªu', 'Chung', 'ChÃ¢u', 'CÃ¡t', 'CÃºc', 'CÆ°Æ¡ng', 'Cáº§m',
+        'Dao', 'Di', 'Diá»…m', 'Diá»‡p', 'Diá»‡u', 'Du', 'Dung', 'DuyÃªn', 'DÃ¢n', 'DÆ°Æ¡ng',
+        'Giang', 'Giao',
+        'Hiáº¿u', 'Hiá»�n', 'Hiá»‡p', 'Hoa', 'Hoan', 'HoÃ i', 'HoÃ n', 'Huyá»�n', 'Huá»‡', 'HÃ ', 'HÃ¢n', 'HÃ²a', 'HÆ°Æ¡ng', 'HÆ°á»�ng', 'Háº¡', 'Háº¡nh', 'Háº£i', 'Háº£o', 'Háº­u', 'Háº±ng', 'Há»“ng', 'Há»£p',
+        'Khai', 'Khanh', 'KhuyÃªn', 'KhuÃª', 'KhÃ¡nh', 'KhÃª', 'KhÃ´i', 'Kim', 'Kiá»�u',
+        'Lam', 'Lan', 'Linh', 'LiÃªn', 'Liá»…u', 'Loan', 'Ly', 'LÃ¢m', 'LÃ½', 'Lá»…', 'Lá»‡', 'Lá»™c', 'Lá»£i',
+        'Mai', 'Mi', 'Minh', 'MiÃªn', 'My', 'Máº«n', 'Má»¹',
+        'Nga', 'Nghi', 'NguyÃªn', 'Nguyá»‡t', 'NgÃ ', 'NgÃ¢n', 'NgÃ´n', 'Ngá»�c', 'Nhi', 'NhiÃªn', 'Nhung', 'NhÃ n', 'NhÃ¢n', 'NhÃ£', 'NhÆ°', 'NÆ°Æ¡ng', 'Ná»¯',
+        'Oanh',
+        'Phi',
+        'Phong', 'PhÃºc', 'PhÆ°Æ¡ng', 'PhÆ°á»›c', 'PhÆ°á»£ng', 'Phá»¥ng',
+        'QuyÃªn', 'QuÃ¢n', 'Quáº¿', 'Quá»³nh',
+        'Sa', 'San', 'Sinh', 'SÆ°Æ¡ng',
+        'Thanh', 'Tháº£o', 'Thi', 'ThiÃªn', 'Thiá»‡n', 'Thoa', 'Thoáº¡i', 'Thu', 'Thuáº§n', 'Thuáº­n', 'Thy', 'ThÃªu', 'ThÃ¹y', 'ThÃºy', 'ThÆ¡', 'ThÆ°', 'ThÆ°Æ¡ng', 'ThÆ°á»�ng', 'Tháº£o', 'Tháº¯m', 'Thá»¥c', 'Thá»§y', 'TiÃªn', 'Trang', 'Trinh', 'Trung', 'TrÃ ', 'TrÃ¢m', 'TrÃ¢n', 'TrÃºc', 'Tráº§m', 'Tuyáº¿n', 'Tuyáº¿t', 'Tuyá»�n', 'Tuá»‡', 'Ty', 'TÃ¢m', 'TÃº',
+        'UyÃªn', 'Uyá»ƒn',
+        'Vi', 'Viá»‡t',
+        'Vy', 'VÃ¢n', 'VÅ©', 'Vá»�ng', 'Vá»¹',
+        'Xuyáº¿n', 'XuÃ¢n',
+        'YÃªn', 'Yáº¿n',
+        'Ã�i', 'Ã�nh', 'Ã‚n',
+        'Ä�an', 'Ä�iá»‡p', 'Ä�oan', 'Ä�Ã i', 'Ä�Ã n', 'Ä�Ã o', 'Ä�Ã¬nh', 'Ä�Æ°á»�ng', 'Ä�an',
+        'Ã�',
+    );
+
+    /**
+     * @link http://www.dattenhay.vn/1001-ten-cho-be-gai.htm
+     */
+    protected static $middleNameFemale = array(
+        'An', 'Anh',
+        'Ban', 'BÃ­ch', 'BÄƒng', 'Báº¡ch', 'Báº£o', 'Bá»™i',
+        'Cam', 'Chi', 'ChiÃªu', 'CÃ¡t', 'Cáº©m',
+        'Di', 'DiÃªn', 'Diá»…m', 'Diá»‡p', 'Diá»‡u', 'Duy', 'DuyÃªn', 'DÃ£', 'Dáº¡',
+        'Gia', 'Giang', 'Giao', 'GiÃ¡ng',
+        'Hiáº¿u', 'Hiá»�n', 'Hiá»ƒu', 'Hoa', 'HoÃ i', 'HoÃ n', 'HoÃ ng', 'Huyá»�n', 'Huá»‡', 'Huá»³nh', 'HÃ ', 'HÃ m', 'HÆ°Æ¡ng', 'Háº¡', 'Háº¡c', 'Háº¡nh', 'Háº£i', 'Háº£o', 'Háº±ng', 'Há»�a', 'Há»“', 'Há»“ng',
+        'Khiáº¿t', 'KhuÃª', 'KhÃ¡nh', 'KhÃºc', 'Kháº£', 'Kháº£i', 'Kim', 'Kiáº¿t', 'Kiá»�u', 'Ká»³',
+        'Lam', 'Lan', 'Linh', 'LiÃªn', 'Liá»…u', 'Loan', 'Ly', 'LÃ¢m', 'LÃª', 'LÆ°u', 'Lá»‡', 'Lá»™c', 'Lá»¥c',
+        'Mai', 'Minh', 'Máº­u', 'Má»™c', 'Má»™ng', 'Má»¹',
+        'Nghi', 'NguyÃªn', 'Nguyáº¿t', 'Nguyá»‡t', 'NgÃ¢n', 'Ngá»�c', 'Nhan', 'NhÃ£', 'NhÆ°', 'Nháº¥t', 'Nháº­t',
+        'Oanh',
+        'Phi', 'Phong', 'PhÆ°Æ¡ng', 'PhÆ°á»›c', 'PhÆ°á»£ng', 'Phá»¥ng',
+        'Quáº¿', 'Quá»³nh',
+        'Sao', 'Song', 'SÃ´ng', 'SÆ¡n', 'SÆ°Æ¡ng',
+        'Thanh', 'Thi', 'ThiÃªn', 'Thiáº¿u', 'Thiá»�u', 'Thiá»‡n', 'Thu', 'Thuáº§n', 'Thy', 'ThÃ¡i', 'ThÃ¹y', 'ThÃºy', 'ThÆ¡', 'ThÆ°', 'ThÆ°Æ¡ng', 'Tháº¡ch', 'Tháº£o', 'Thá»¥c', 'Thá»¥y', 'Thá»§y', 'TiÃªn', 'Tiá»ƒu', 'Trang', 'Triá»�u', 'Triá»‡u', 'TrÃ ', 'TrÃ¢m', 'TrÃ¢n', 'TrÃºc', 'Tráº§m', 'Tuyáº¿t', 'Tuá»‡', 'TÃ¢m', 'TÃ¹ng', 'TÃ¹y', 'TÃº', 'TÃºy', 'TÆ°á»�ng', 'Tá»‹nh', 'Tá»‘', 'Tá»«',
+        'UyÃªn', 'Uyá»ƒn',
+        'Vi', 'Viá»‡t', 'Vy', 'VÃ ng', 'VÃ nh', 'VÃ¢n', 'VÅ©',
+        'Xuyáº¿n', 'XuÃ¢n',
+        'YÃªn', 'Yáº¿n',
+        'Ã�i', 'Ã�nh',
+        'Ä�an', 'Ä�inh', 'Ä�oan', 'Ä�Ã i', 'Ä�Ã´ng', 'Ä�á»“ng', 'Ä�an', 'Ä�oan',
+        'Ã�',
+    );
+
+    /**
+     * @link http://vi.wikipedia.org/wiki/H%E1%BB%8D_ng%C6%B0%E1%BB%9Di_Vi%E1%BB%87t_Nam
+     */
+    protected static $lastName = array(
+        'An', 'Ã�nh',
+        'Ã‚n', 'Ã‚u', 'áº¤u',
+        'Biá»‡n', 'BÃ ng', 'BÃ nh', 'BÃ¡', 'BÃ¬', 'BÃ¬nh', 'BÃ¹i', 'Báº¡c', 'Báº¡ch', 'Báº£o', 'Báº¿', 'Bá»“', 'Bá»­u',
+        'Ca', 'Cam', 'Cao', 'ChiÃªm', 'Chu', 'Chung', 'ChÃ¢u', 'ChÆ°Æ¡ng', 'Cháº¿', 'Chá»­', 'Cung', 'CÃ¡i', 'CÃ¡t', 'CÃ¹', 'Cáº¥n', 'Cáº§m', 'Cá»•', 'Cá»±',
+        'Danh', 'DiÃªm', 'Diá»‡p', 'DoÃ£n', 'DÃ£', 'DÆ°', 'DÆ°Æ¡ng',
+        'Ä�an', 'Ä�Ã m', 'Ä�Ã o', 'Ä�Ã¡i', 'Ä�áº·ng', 'Ä�áº­u', 'Ä�inh', 'Ä�iá»�n', 'Ä�oÃ n', 'Ä�Ã´n', 'Ä�á»“ng', 'Ä�á»•ng', 'Ä�á»—', 'Ä�á»›i', 'Ä�Æ°á»�ng',
+        'Giang', 'Giao', 'GiÃ¡p', 'Giáº£',
+        'Hoa', 'HoÃ ng', 'Huá»³nh', 'Hy', 'HÃ ', 'HÃ n', 'HÃ ng', 'HÃ¡n', 'HÃ¬nh', 'HÃ¹ng', 'Háº¡', 'Há»“', 'Há»“ng', 'Há»©a',
+        'Kha', 'Khoa', 'Khu', 'Khuáº¥t', 'KhÃ¢u', 'KhÃºc', 'KhÆ°u', 'KhÆ°Æ¡ng', 'Khá»•ng', 'Kim', 'Kiá»�u',
+        'La', 'Liá»…u', 'LÃ¢m', 'LÃ£', 'LÃª', 'LÃ²', 'LÃ´', 'LÃ½', 'LÆ°', 'LÆ°u', 'LÆ°Æ¡ng', 'Láº¡c', 'Láº¡i', 'Lá»�u', 'Lá»¡', 'Lá»¥c', 'Lá»¯', 'Lá»³',
+        'Ma', 'Mai', 'Mang', 'MÃ¢u', 'MÃ£', 'Máº¡c', 'Máº¡ch', 'Máº«n', 'Má»™c',
+        'NghiÃªm', 'Nghá»‹', 'Nguyá»…n', 'NgÃ¢n', 'NgÃ´', 'Ngá»¥y', 'Nhiá»‡m', 'NhÃ¢m', 'Nháº­m', 'Nhá»¯', 'Ninh', 'NÃ´ng',
+        'Ong',
+        'Ã”ng',
+        'Phan', 'Phi', 'PhÃ­', 'PhÃ³', 'PhÃ¹ng', 'PhÆ°Æ¡ng', 'Pháº¡m',
+        'QuÃ¡ch', 'Quáº£n',
+        'SÆ¡n', 'Sá»­',
+        'Thi', 'Thiá»�u', 'ThÃ o', 'ThÃ¡i', 'ThÃ¢n', 'ThÃ´i', 'Tháº¡ch', 'Tháº­p', 'Thá»‹nh', 'TiÃªu', 'Tiáº¿p', 'Trang', 'Triá»‡u', 'TrÃ ', 'TrÃ¡c', 'TrÃ¬nh', 'TrÆ°ng', 'TrÆ°Æ¡ng', 'Tráº§n', 'Trá»‹nh', 'Ty', 'TÃ o', 'TÃ²ng', 'TÃ´', 'TÃ´n', 'TÃ´ng', 'TÄƒng', 'Táº¡', 'Tá»‘ng', 'Tá»«',
+        'Ung', 'UÃ´ng',
+        'Vi', 'ViÃªn', 'VÃµ', 'VÄƒn', 'VÅ©', 'VÆ°Æ¡ng', 'Vá»«', 'Xa',
+        'YÃªn',
+    );
+
+    protected static $titleMale = array('Cá»¥', 'Ã”ng', 'BÃ¡c', 'ChÃº', 'Anh', 'Em');
+
+    protected static $titleFemale = array('Cá»¥', 'BÃ ', 'BÃ¡c', 'CÃ´', 'Chá»‹', 'Em');
+
+    public function middleName($gender = null)
+    {
+        if ($gender === static::GENDER_MALE) {
+            return static::middleNameMale();
+        } elseif ($gender === static::GENDER_FEMALE) {
+            return static::middleNameFemale();
+        }
+
+        return $this->generator->parse(static::randomElement(static::$middleNameFormat));
+    }
+
+    public static function middleNameMale()
+    {
+        return static::randomElement(static::$middleNameMale);
+    }
+
+    public static function middleNameFemale()
+    {
+        return static::randomElement(static::$middleNameFemale);
+    }
+}

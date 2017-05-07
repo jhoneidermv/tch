@@ -1,0 +1,31 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => '×©× ×”|{2}×©× ×ª×™×™×�|:count ×©× ×™×�',
+    'y' => '×©× ×”|{2}×©× ×ª×™×™×�|:count ×©× ×™×�',
+    'month' => '×—×•×“×©|{2}×—×•×“×©×™×™×�|:count ×—×•×“×©×™×�',
+    'm' => '×—×•×“×©|{2}×—×•×“×©×™×™×�|:count ×—×•×“×©×™×�',
+    'week' => '×©×‘×•×¢|{2}×©×‘×•×¢×™×™×�|:count ×©×‘×•×¢×•×ª',
+    'w' => '×©×‘×•×¢|{2}×©×‘×•×¢×™×™×�|:count ×©×‘×•×¢×•×ª',
+    'day' => '×™×•×�|{2}×™×•×ž×™×™×�|:count ×™×ž×™×�',
+    'd' => '×™×•×�|{2}×™×•×ž×™×™×�|:count ×™×ž×™×�',
+    'hour' => '×©×¢×”|{2}×©×¢×ª×™×™×�|:count ×©×¢×•×ª',
+    'h' => '×©×¢×”|{2}×©×¢×ª×™×™×�|:count ×©×¢×•×ª',
+    'minute' => '×“×§×”|{2}×“×§×•×ª×™×™×�|:count ×“×§×•×ª',
+    'min' => '×“×§×”|{2}×“×§×•×ª×™×™×�|:count ×“×§×•×ª',
+    'second' => '×©× ×™×”|:count ×©× ×™×•×ª',
+    's' => '×©× ×™×”|:count ×©× ×™×•×ª',
+    'ago' => '×œ×¤× ×™ :time',
+    'from_now' => '×‘×¢×•×“ :time',
+    'after' => '×�×—×¨×™ :time',
+    'before' => '×œ×¤× ×™ :time',
+);

@@ -1,0 +1,1 @@
+Ì76vendor/symfony/routing/Tests/Fixtures/validpattern.php 2phpX

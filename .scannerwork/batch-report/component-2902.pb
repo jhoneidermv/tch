@@ -1,0 +1,1 @@
+Ö<vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php 2phpX9

@@ -1,0 +1,1 @@
+Ê.resources/views/auth/emails/password.blade.php 2phpX

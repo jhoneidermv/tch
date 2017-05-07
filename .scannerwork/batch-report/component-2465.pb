@@ -1,0 +1,1 @@
+¡Yvendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php 2phpX

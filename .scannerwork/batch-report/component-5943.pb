@@ -1,0 +1,1 @@
+·.Svendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/FailoverTransportTest.php 2phpX‡

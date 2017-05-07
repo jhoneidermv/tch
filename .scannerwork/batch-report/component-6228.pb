@@ -1,0 +1,1 @@
+Ô0>vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php 2phpX’

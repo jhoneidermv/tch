@@ -1,0 +1,1 @@
+Š!Fvendor/phpspec/prophecy/src/Prophecy/Argument/Token/TokenInterface.php 2phpX,

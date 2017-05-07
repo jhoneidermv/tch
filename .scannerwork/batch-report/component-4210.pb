@@ -1,0 +1,1 @@
+ò Bvendor/phpspec/prophecy/spec/Prophecy/Promise/ThrowPromiseSpec.php 2phpX]

@@ -1,0 +1,1 @@
+Ì(Jvendor/phpunit/phpunit-mock-objects/tests/_fixture/StaticMockTestClass.php 2phpX

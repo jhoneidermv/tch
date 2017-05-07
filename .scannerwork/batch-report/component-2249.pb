@@ -1,0 +1,1 @@
+É0vendor/mockery/mockery/docs/cookbook/map.rst.inc 2phpX

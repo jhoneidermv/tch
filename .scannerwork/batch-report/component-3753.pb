@@ -1,0 +1,1 @@
+©1vendor/phpoffice/phpexcel/Examples/Quadratic2.php 2phpXB

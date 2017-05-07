@@ -1,0 +1,1 @@
+¡'@vendor/phpunit/phpunit/tests/_files/NamespaceCoveredFunction.php 2phpX

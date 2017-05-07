@@ -1,0 +1,1 @@
+Ô Ovendor/phpspec/prophecy/spec/Prophecy/Doubler/Generator/Node/MethodNodeSpec.php 2phpX‡

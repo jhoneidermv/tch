@@ -1,0 +1,1 @@
+‘8;vendor/symfony/translation/Extractor/ExtractorInterface.php 2phpX'

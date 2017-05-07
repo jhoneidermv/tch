@@ -1,0 +1,1 @@
+¨Gvendor/laravel/framework/src/Illuminate/Contracts/Queue/ShouldQueue.php 2phpX	

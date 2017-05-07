@@ -1,0 +1,1 @@
+ö5Avendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle :ô5

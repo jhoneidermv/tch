@@ -1,0 +1,1 @@
+£76vendor/symfony/routing/Tests/Fixtures/AnnotatedClasses :¢7¤7¥7¦7

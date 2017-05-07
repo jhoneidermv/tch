@@ -1,2 +1,2 @@
-z
-phpS101aRename class "PHPUnit_Framework_TestFailure" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 #
+‰
+phpS101pRename class "PHPUnit_Framework_ExpectationFailedException" to match the regular expression ^[A-Z][a-zA-Z0-9]*$. 2 2

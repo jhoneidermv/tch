@@ -1,0 +1,1 @@
+‰-Gvendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php 2phpX

@@ -1,0 +1,1 @@
+Ÿ-@vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/ByteStream :ž-

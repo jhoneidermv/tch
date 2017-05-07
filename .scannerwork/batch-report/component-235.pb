@@ -1,0 +1,1 @@
+ë+resources/views/user/juego/start6.blade.php 2phpX;

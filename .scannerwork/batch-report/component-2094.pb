@@ -1,0 +1,1 @@
+®Nvendor/laravel/framework/src/Illuminate/Support/Traits/CapsuleManagerTrait.php 2phpXF

@@ -1,0 +1,1 @@
+Ü!Jvendor/phpspec/prophecy/src/Prophecy/Prophecy/ProphecySubjectInterface.php 2phpX#

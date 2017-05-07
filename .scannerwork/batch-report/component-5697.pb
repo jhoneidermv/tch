@@ -1,0 +1,1 @@
+Á,8vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins :À,Â,Å,Æ,Ç,È,Ì,Ð,Ñ,Ò,Ó,Õ,Ù,Ú,

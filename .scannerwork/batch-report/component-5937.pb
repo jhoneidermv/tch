@@ -1,0 +1,1 @@
+±._vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php 2phpXD

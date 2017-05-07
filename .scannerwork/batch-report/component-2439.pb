@@ -1,0 +1,1 @@
+‡>vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php 2phpXÏ

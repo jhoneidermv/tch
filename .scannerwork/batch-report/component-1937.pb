@@ -1,0 +1,1 @@
+‘Jvendor/laravel/framework/src/Illuminate/Queue/Connectors/SyncConnector.php 2phpX

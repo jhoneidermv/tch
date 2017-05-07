@@ -1,0 +1,1 @@
+á+Kvendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php 2phpX

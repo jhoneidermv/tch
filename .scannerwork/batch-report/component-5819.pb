@@ -1,0 +1,1 @@
+»-Lvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer :º-¼-½-¾-¿-À-

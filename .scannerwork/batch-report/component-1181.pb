@@ -1,0 +1,1 @@
+ù	Svendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php 2phpX0

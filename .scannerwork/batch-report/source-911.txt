@@ -1,0 +1,154 @@
+<?php
+
+namespace Faker\Provider\pt_BR;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $cityPrefix = array('SÃ£o', 'Porto', 'Vila', 'Santa');
+    protected static $citySuffix = array('do Norte', 'do Leste', 'do Sul', 'd\'Oeste');
+    protected static $streetPrefix = array(
+        'Av.', 'Avenida', 'R.', 'Rua', 'Travessa', 'Largo'
+    );
+    protected static $buildingNumber = array('#####', '####', '###', '##', '#');
+    protected static $postcode = array('#####-###');
+    protected static $state = array(
+        'Acre', 'Alagoas', 'AmapÃ¡', 'Amazonas', 'Bahia', 'CearÃ¡',
+        'Distrito Federal', 'EspÃ­rito Santo', 'GoiÃ¡s', 'MaranhÃ£o',
+        'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'ParÃ¡', 'ParaÃ­ba',
+        'ParanÃ¡', 'Pernambuco', 'PiauÃ­', 'Rio de Janeiro',
+        'Rio Grande do Norte', 'Rio Grande do Sul', 'RondÃ´nia', 'Roraima',
+        'Santa Catarina', 'SÃ£o Paulo', 'Sergipe', 'Tocantins'
+    );
+    protected static $stateAbbr = array(
+        'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS',
+        'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC',
+        'SP', 'SE', 'TO'
+    );
+    protected static $region = array(
+        'Centro-Oeste', 'Nordeste', 'Norte', 'Sudeste', 'Sul'
+    );
+    protected static $regionAbbr = array(
+        'CO', 'N', 'NE', 'SE', 'S'
+    );
+    protected static $country = array(
+        'AfeganistÃ£o', 'Ã�frica do Sul', 'AlbÃ¢nia', 'Alemanha', 'Andorra',
+        'Angola', 'Antigua e Barbuda', 'Arabia Saudita', 'ArgÃ©lia',
+        'Argentina', 'ArmÃªnia', 'AustrÃ¡lia', 'Ã�ustria', 'AzerbaijÃ£o',
+        'Bahamas', 'Bangladesh', 'Barbados', 'Barein', 'Belize', 'Benin',
+        'BielorrÃºssia', 'BirmÃ¢nia', 'BolÃ­via', 'BÃ³snia e Herzegovina',
+        'Botsuana', 'Brasil', 'Brunei', 'BulgÃ¡ria', 'Burkina Faso',
+        'Burundi', 'ButÃ£o', 'BÃ©lgica', 'Cabo Verde', 'Camboja', 'CamarÃµes',
+        'CanadÃ¡', 'CazaquistÃ£o', 'Chad', 'Chile', 'China', 'Chipre',
+        'ColÃ´mbia', 'Comoras', 'Congo', 'CorÃ©ia do Norte', 'CorÃ©ia do Sul',
+        'Costa Rica', 'Costa do Marfim', 'CroÃ¡cia', 'Cuba', 'Dinamarca',
+        'Djibouti', 'DomÃªnica', 'Equador', 'Egito', 'El Salvador',
+        'Emirados Ã�rabes Unidos', 'Eritrea', 'EslovÃ¡quia', 'EslovÃªnia',
+        'Espanha', 'Estados Unidos da AmÃ©rica', 'EstÃ´nia', 'EtiÃ³pia',
+        'Filipinas', 'FinlÃ¢ndia', 'Fiji','FranÃ§a', 'GabÃ£o', 'GÃ¢mbia',
+        'Georgia', 'Gana', 'Granada', 'GrÃ©cia', 'Guatemala',
+        'GuinÃ© Equatorial', 'GuinÃ© Bissau', 'Guiana', 'Haiti', 'Honduras',
+        'Hungria', 'Ã�ndia', 'IndonÃ©sia', 'Iraque', 'Irlanda', 'IrÃ£',
+        'IslÃ¢ndia', 'Ilhas Marshall', 'Ilhas MaurÃ­cio', 'Ilhas SalomÃ£o',
+        'Ilhas Samoa', 'Israel', 'ItÃ¡lia', 'Jamaica', 'JapÃ£o', 'JordÃ¢nia',
+        'Kiribati', 'Kwait', 'Laos', 'Lesoto', 'LetÃ´nia', 'LibÃ©ria', 'LÃ­bia',
+        'Liechtenstein', 'LituÃ¢nia', 'Luxemburgo', 'LÃ­bano', 'MacedÃ´nia',
+        'Madagascar', 'MalÃ¡sia', 'MalauÃ­', 'Maldivas', 'Mali', 'Malta',
+        'Marrocos', 'MauritÃ¢nia', 'MicronÃ©sia', 'MoldÃ¡via', 'MongÃ³lia',
+        'Montenegro', 'MoÃ§ambique', 'MÃ©xico', 'MÃ´naco', 'NamÃ­bia', 'Nauru',
+        'Nepal', 'NicarÃ¡gua', 'NigÃ©ria', 'Noruega', 'Nova GuinÃ©',
+        'Nova ZelÃ¢ndia', 'NÃ­ger', 'OmÃ£', 'Qatar', 'QuÃªnia','QuirguistÃ£o',
+        'PaquistÃ£o', 'Palaos', 'PanamÃ¡', 'Papua Nova GuinÃ©', 'Paraguai',
+        'PaÃ­ses Baixos', 'Peru', 'PolÃ´nia', 'Portugal', 'Reino Unido',
+        'Reino Unido da GrÃ£ Bretanha e Irlanda do Norte',
+        'RepÃºblica Centroafricana', 'RepÃºblica Checa',
+        'RepÃºblica DemocrÃ¡tica do Congo', 'RepÃºblica Dominicana', 'Ruanda',
+        'RomÃªnia', 'RÃºssia', 'San CristÃµvao e Neves', 'San Marino',
+        'SÃ£o Vicente e as Granadinas', 'Santa Luzia', 'SÃ£o TomÃ© e PrÃ­ncipe',
+        'Senegal', 'SÃ©rvia', 'Seychelles', 'Serra Leoa', 'Singapura', 'SÃ­ria',
+        'SomÃ¡lia', 'Sri Lanka', 'SuazilÃ¢ndia', 'SudÃ£o', 'SuÃ©cia', 'SuiÃ§a',
+        'Suriname', 'TailÃ¢ndia', 'TanzÃ¢nia', 'TajiquistÃ£o', 'Timor Leste',
+        'Togo', 'Tonga', 'Trinidad e Tobago', 'TurcomenistÃ£o', 'Turquia',
+        'Tuvalu', 'TunÃ­sia', 'UcrÃ¢nia', 'Uganda', 'Uruguai', 'UzbequistÃ£o',
+        'Vaticano', 'Vanuatu', 'Venezuela', 'VietnÃ£', 'Yemen', 'ZÃ¢mbia',
+        'ZimbÃ¡bue'
+    );
+    protected static $cityFormats = array(
+        '{{cityPrefix}} {{firstName}} {{citySuffix}}',
+        '{{cityPrefix}} {{firstName}}',
+        '{{firstName}} {{citySuffix}}',
+        '{{lastName}} {{citySuffix}}',
+    );
+    protected static $streetNameFormats = array(
+        '{{streetPrefix}} {{firstName}}',
+        '{{streetPrefix}} {{lastName}}',
+        '{{streetPrefix}} {{firstName}} {{lastName}}'
+    );
+    protected static $streetAddressFormats = array(
+        '{{streetName}}, {{buildingNumber}}',
+        '{{streetName}}, {{buildingNumber}}. {{secondaryAddress}}',
+    );
+    protected static $addressFormats = array(
+        "{{postcode}}, {{streetAddress}}\n{{city}} - {{stateAbbr}}",
+    );
+    protected static $secondaryAddressFormats = array(
+        'Bloco A', 'Bloco B', 'Bloco C', 'Bc. # Ap. ##', 'Bc. ## Ap. ##',
+        '#Âº Andar', '##Âº Andar', '###Âº Andar', 'Apto #', 'Apto ##', 'Apto ###',
+        'Apto ####', 'F', 'Fundos', 'Anexo'
+    );
+
+    /**
+     * @example 'Avenida'
+     */
+    public static function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    /**
+     * @example 'SÃ£o'
+     */
+    public static function cityPrefix()
+    {
+        return static::randomElement(static::$cityPrefix);
+    }
+
+    /**
+     * @example '6Âº Andar'
+     */
+    public static function secondaryAddress()
+    {
+        return static::numerify(static::randomElement(static::$secondaryAddressFormats));
+    }
+
+    /**
+     * @example 'BrasÃ­lia'
+     */
+    public static function state()
+    {
+        return static::randomElement(static::$state);
+    }
+
+    /**
+     * @example 'DF'
+     */
+    public static function stateAbbr()
+    {
+        return static::randomElement(static::$stateAbbr);
+    }
+    
+    /**
+     * @example 'Nordeste'
+     */
+    public static function region()
+    {
+        return static::randomElement(static::$region);
+    }
+    
+    /**
+     * @example 'NE'
+     */
+    public static function regionAbbr()
+    {
+        return static::randomElement(static::$regionAbbr);
+    }
+}

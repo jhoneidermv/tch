@@ -1,0 +1,195 @@
+<?php
+
+namespace Faker\Provider\da_DK;
+
+/**
+ * @link http://www.danskernesnavne.navneforskning.ku.dk/Personnavne.asp
+ *
+ * @author Antoine Corcy <contact@sbin.dk>
+ */
+class Person extends \Faker\Provider\Person
+{
+    /**
+     * @var array Danish person name formats.
+     */
+    protected static $maleNameFormats = array(
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{lastName}}',
+        '{{firstNameMale}} {{middleName}} {{lastName}}',
+        '{{firstNameMale}} {{middleName}} {{lastName}}',
+        '{{firstNameMale}} {{middleName}}-{{middleName}} {{lastName}}',
+        '{{firstNameMale}} {{middleName}} {{middleName}}-{{lastName}}',
+    );
+
+    protected static $femaleNameFormats = array(
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{lastName}}',
+        '{{firstNameFemale}} {{middleName}} {{lastName}}',
+        '{{firstNameFemale}} {{middleName}} {{lastName}}',
+        '{{firstNameFemale}} {{middleName}}-{{middleName}} {{lastName}}',
+        '{{firstNameFemale}} {{middleName}} {{middleName}}-{{lastName}}',
+    );
+
+    /**
+     * @var array Danish first names.
+     */
+    protected static $firstNameMale = array(
+        'Aage', 'Adam', 'Adolf', 'Ahmad', 'Ahmed', 'Aksel', 'Albert', 'Alex', 'Alexander', 'Alf', 'Alfred', 'Ali', 'Allan',
+        'Anders', 'Andreas', 'Anker', 'Anton', 'Arne', 'Arnold', 'Arthur', 'AsbjÃ¸rn', 'Asger', 'August', 'Axel', 'Benjamin',
+        'Benny', 'Bent', 'Bernhard', 'Birger', 'Bjarne', 'BjÃ¸rn', 'Bo', 'Brian', 'Bruno', 'BÃ¸rge', 'Carl', 'Carlo',
+        'Carsten', 'Casper', 'Charles', 'Chris', 'Christian', 'Christoffer', 'Christopher', 'Claus', 'Dan', 'Daniel', 'David', 'Dennis',
+        'Ebbe', 'Edmund', 'Edvard', 'Egon', 'Einar', 'Ejvind', 'Elias', 'Emanuel', 'Emil', 'Erik', 'Erland', 'Erling',
+        'Ernst', 'Esben', 'Ferdinand', 'Finn', 'Flemming', 'Frank', 'Freddy', 'Frederik', 'Frits', 'Fritz', 'Frode', 'Georg',
+        'Gerhard', 'Gert', 'Gunnar', 'Gustav', 'Hans', 'Harald', 'Harry', 'Hassan', 'Heine', 'Heinrich', 'Helge', 'Helmer',
+        'Helmuth', 'Henning', 'Henrik', 'Henry', 'Herman', 'Hermann', 'Holger', 'Hugo', 'Ib', 'Ibrahim', 'Ivan', 'Jack',
+        'Jacob', 'Jakob', 'Jan', 'Janne', 'Jens', 'Jeppe', 'Jesper', 'Jimmi', 'Jimmy', 'Joachim', 'Johan', 'Johannes',
+        'John', 'Johnny', 'Jon', 'Jonas', 'Jonathan', 'Josef', 'Jul', 'Julius', 'JÃ¸rgen', 'JÃ¸rn', 'Kai', 'Kaj',
+        'Karl', 'Karlo', 'Karsten', 'Kasper', 'Kenneth', 'Kent', 'Kevin', 'Kjeld', 'Klaus', 'Knud', 'Kristian', 'Kristoffer',
+        'Kurt', 'Lars', 'Lasse', 'Leif', 'Lennart', 'Leo', 'Leon', 'Louis', 'Lucas', 'Lukas', 'Mads', 'Magnus',
+        'Malthe', 'Marc', 'Marcus', 'Marinus', 'Marius', 'Mark', 'Markus', 'Martin', 'Martinus', 'Mathias', 'Max', 'Michael',
+        'Mikael', 'Mike', 'Mikkel', 'Mogens', 'Mohamad', 'Mohamed', 'Mohammad', 'Morten', 'Nick', 'Nicklas', 'Nicolai', 'Nicolaj',
+        'Niels', 'Niklas', 'Nikolaj', 'Nils', 'Olaf', 'Olav', 'Ole', 'Oliver', 'Oscar', 'Oskar', 'Otto', 'Ove',
+        'Palle', 'Patrick', 'Paul', 'Peder', 'Per', 'Peter', 'Philip', 'Poul', 'Preben', 'Rasmus', 'Rene', 'RenÃ©',
+        'Richard', 'Robert', 'Rolf', 'Rudolf', 'Rune', 'Sebastian', 'Sigurd', 'Simon', 'Simone', 'Steen', 'Stefan', 'Steffen',
+        'Sten', 'Stig', 'Sune', 'Sven', 'Svend', 'SÃ¸ren', 'Tage', 'Theodor', 'Thomas', 'Thor', 'Thorvald', 'Tim',
+        'Tobias', 'Tom', 'Tommy', 'Tonny', 'Torben', 'Troels', 'Uffe', 'Ulrik', 'Vagn', 'Vagner', 'Valdemar', 'Vang',
+        'Verner', 'Victor', 'Viktor', 'Villy', 'Walther', 'Werner', 'Wilhelm', 'William', 'Willy', 'Ã…ge', 'Bendt', 'Bjarke',
+        'Chr', 'Eigil', 'Ejgil', 'Ejler', 'Ejnar', 'Ejner', 'Evald', 'Folmer', 'Gunner', 'Gurli', 'Hartvig', 'Herluf', 'Hjalmar',
+        'Ingemann', 'Ingolf', 'Ingvard', 'Keld', 'Kresten', 'Laurids', 'Laurits', 'Lauritz', 'Ludvig', 'Lynge', 'Oluf', 'Osvald',
+        'Povl', 'Richardt', 'Sigfred', 'Sofus', 'Thorkild', 'Viggo', 'Vilhelm', 'Villiam',
+    );
+
+    protected static $firstNameFemale = array(
+        'Aase', 'Agathe', 'Agnes', 'Alberte', 'Alexandra', 'Alice', 'Alma', 'Amalie', 'Amanda', 'Andrea', 'Ane', 'Anette', 'Anita',
+        'Anja', 'Ann', 'Anna', 'Annalise', 'Anne', 'Anne-Lise', 'Anne-Marie', 'Anne-Mette', 'Annelise', 'Annette', 'Anni', 'Annie',
+        'Annika', 'Anny', 'Asta', 'Astrid', 'Augusta', 'Benedikte', 'Bente', 'Berit', 'Bertha', 'Betina', 'Bettina', 'Betty',
+        'Birgit', 'Birgitte', 'Birte', 'Birthe', 'Bitten', 'Bodil', 'Britt', 'Britta', 'Camilla', 'Carina', 'Carla', 'Caroline',
+        'Cathrine', 'Cecilie', 'Charlotte', 'Christa', 'Christen', 'Christiane', 'Christina', 'Christine', 'Clara', 'Conni', 'Connie', 'Conny',
+        'Dagmar', 'Dagny', 'Diana', 'Ditte', 'Dora', 'Doris', 'Dorte', 'Dorthe', 'Ebba', 'Edel', 'Edith', 'Eleonora',
+        'Eli', 'Elin', 'Eline', 'Elinor', 'Elisa', 'Elisabeth', 'Elise', 'Ella', 'Ellen', 'Ellinor', 'Elly', 'Elna',
+        'Elsa', 'Else', 'Elsebeth', 'Elvira', 'Emilie', 'Emma', 'Emmy', 'Erna', 'Ester', 'Esther', 'Eva', 'Evelyn',
+        'Frede', 'Frederikke', 'Freja', 'Frida', 'Gerda', 'Gertrud', 'Gitte', 'Grete', 'Grethe', 'Gudrun', 'Hanna', 'Hanne',
+        'Hardy', 'Harriet', 'Hedvig', 'Heidi', 'Helen', 'Helena', 'Helene', 'Helga', 'Helle', 'Henny', 'Henriette', 'Herdis',
+        'Hilda', 'Iben', 'Ida', 'Ilse', 'Ina', 'Inga', 'Inge', 'Ingeborg', 'Ingelise', 'Inger', 'Ingrid', 'Irene',
+        'Iris', 'Irma', 'Isabella', 'Jane', 'Janni', 'Jannie', 'Jeanette', 'Jeanne', 'Jenny', 'Jes', 'Jette', 'Joan',
+        'Johanna', 'Johanne', 'Jonna', 'Josefine', 'Josephine', 'Juliane', 'Julie', 'Jytte', 'Kaja', 'Kamilla', 'Karen', 'Karin',
+        'Karina', 'Karla', 'Karoline', 'Kate', 'Kathrine', 'Katja', 'Katrine', 'Ketty', 'Kim', 'Kirsten', 'Kirstine', 'Klara',
+        'Krista', 'Kristen', 'Kristina', 'Kristine', 'Laila', 'Laura', 'Laurine', 'Lea', 'Lena', 'Lene', 'Lilian', 'Lilli',
+        'Lillian', 'Lilly', 'Linda', 'Line', 'Lis', 'Lisa', 'Lisbet', 'Lisbeth', 'Lise', 'Liselotte', 'Lissi', 'Lissy',
+        'Liv', 'Lizzie', 'Lone', 'Lotte', 'Louise', 'Lydia', 'Lykke', 'LÃ¦rke', 'Magda', 'Magdalene', 'Mai', 'Maiken',
+        'Maj', 'Maja', 'Majbritt', 'Malene', 'Maren', 'Margit', 'Margrethe', 'Maria', 'Mariane', 'Marianne', 'Marie', 'Marlene',
+        'Martha', 'Martine', 'Mary', 'Mathilde', 'Matilde', 'Merete', 'Merethe', 'Meta', 'Mette', 'Mia', 'Michelle', 'Mie',
+        'Mille', 'Minna', 'Mona', 'Monica', 'Nadia', 'Nancy', 'Nanna', 'Nicoline', 'Nikoline', 'Nina', 'Ninna', 'Oda',
+        'Olga', 'Olivia', 'Orla', 'Paula', 'Pauline', 'Pernille', 'Petra', 'Pia', 'Poula', 'Ragnhild', 'Randi', 'Rasmine',
+        'Rebecca', 'Rebekka', 'Rigmor', 'Rikke', 'Rita', 'Rosa', 'Rose', 'Ruth', 'Sabrina', 'Sandra', 'Sanne', 'Sara',
+        'Sarah', 'Selma', 'Severin', 'Sidsel', 'Signe', 'Sigrid', 'Sine', 'Sofia', 'Sofie', 'Solveig', 'Solvejg', 'Sonja',
+        'Sophie', 'Stephanie', 'Stine', 'Susan', 'Susanne', 'Tanja', 'Thea', 'Theodora', 'Therese', 'Thi', 'Thyra', 'Tina',
+        'Tine', 'Tove', 'Trine', 'Ulla', 'Vera', 'Vibeke', 'Victoria', 'Viktoria', 'Viola', 'Vita', 'Vivi', 'Vivian',
+        'Winnie', 'Yrsa', 'Yvonne', 'Agnete', 'Agnethe', 'Alfrida', 'Alvilda', 'Anine', 'Bolette', 'Dorthea', 'Gunhild',
+        'Hansine', 'Inge-Lise', 'Jensine', 'Juel', 'JÃ¸rgine', 'Kamma', 'Kristiane', 'Maj-Britt', 'Margrete', 'Metha', 'Nielsine',
+        'Oline', 'Petrea', 'Petrine', 'Pouline', 'Ragna', 'SÃ¸rine', 'Thora', 'Valborg', 'Vilhelmine',
+    );
+
+    /**
+     * @var array Danish middle names.
+     */
+    protected static $middleName = array(
+        'MÃ¸ller', 'Lund', 'Holm', 'Jensen', 'Juul', 'Nielsen', 'KjÃ¦r', 'Hansen', 'Skov', 'Ã˜stergaard', 'Vestergaard',
+        'NÃ¸rgaard', 'Dahl', 'Bach', 'Friis', 'SÃ¸ndergaard', 'Andersen', 'Bech', 'Pedersen', 'Bruun', 'Nygaard', 'Winther',
+        'Bang', 'Krogh', 'Schmidt', 'Christensen', 'Hedegaard', 'Toft', 'Damgaard', 'Holst', 'SÃ¸rensen', 'Juhl', 'Munk',
+        'Skovgaard', 'SÃ¸gaard', 'Aagaard', 'Berg', 'Dam', 'Petersen', 'Lind', 'Overgaard', 'Brandt', 'Larsen', 'Bak', 'Schou',
+        'Vinther', 'Bjerregaard', 'Riis', 'Bundgaard', 'Kruse', 'MÃ¸lgaard', 'Hjorth', 'Ravn', 'Madsen', 'Rasmussen',
+        'JÃ¸rgensen', 'Kristensen', 'Bonde', 'Bay', 'Hougaard', 'Dalsgaard', 'KjÃ¦rgaard', 'Haugaard', 'Munch', 'Bjerre', 'Due',
+        'Sloth', 'Leth', 'Kofoed', 'Thomsen', 'Kragh', 'HÃ¸jgaard', 'Dalgaard', 'Hjort', 'Kirkegaard', 'BÃ¸gh', 'Beck', 'Nissen',
+        'Rask', 'HÃ¸j', 'Brix', 'Storm', 'Buch', 'Bisgaard', 'Birch', 'Gade', 'KjÃ¦rsgaard', 'Hald', 'Lindberg', 'HÃ¸gh', 'Falk',
+        'Koch', 'Thorup', 'Borup', 'Knudsen', 'Vedel', 'Poulsen', 'BÃ¸gelund', 'Juel', 'Frost', 'Hvid', 'Bjerg', 'BÃ¦k', 'ElkjÃ¦r',
+        'Hartmann', 'Kirk', 'Sand', 'Sommer', 'Skou', 'Nedergaard', 'Meldgaard', 'Brink', 'Lindegaard', 'Fischer', 'Rye',
+        'Hoffmann', 'Daugaard', 'Gram', 'Johansen', 'Meyer', 'Schultz', 'Fogh', 'Bloch', 'Lundgaard', 'BrÃ¸ndum', 'Jessen',
+        'Busk', 'Holmgaard', 'Lindholm', 'Krog', 'Egelund', 'Engelbrecht', 'Buus', 'Korsgaard', 'Ellegaard', 'Tang', 'Steen',
+        'Kvist', 'Olsen', 'NÃ¸rregaard', 'Fuglsang', 'Wulff', 'Damsgaard', 'Hauge', 'Sonne', 'Skytte', 'Brun', 'Kronborg',
+        'Abildgaard', 'Fabricius', 'Bille', 'Skaarup', 'Rahbek', 'Borg', 'Torp', 'Klitgaard', 'NÃ¸rskov', 'Greve', 'Hviid',
+        'MÃ¸rch', 'Buhl', 'Rohde', 'MÃ¸rk', 'Vendelbo', 'BjÃ¸rn', 'Laursen', 'Egede', 'Rytter', 'Lehmann', 'Guldberg', 'Rosendahl',
+        'Krarup', 'Krogsgaard', 'Westergaard', 'Rosendal', 'Fisker', 'HÃ¸jer', 'Rosenberg', 'Svane', 'Storgaard', 'Pihl',
+        'Mohamed', 'BÃ¼low', 'Birk', 'Hammer', 'Bro', 'Kaas', 'Clausen', 'Nymann', 'Egholm', 'Ingemann', 'Haahr', 'Olesen',
+        'NÃ¸hr', 'Brinch', 'Bjerring', 'Christiansen', 'SchrÃ¸der', 'Guldager', 'SkjÃ¸dt', 'HÃ¸jlund', 'Ã˜rum', 'Weber',
+        'BÃ¸dker', 'Bruhn', 'Stampe', 'Astrup', 'Schack', 'Mikkelsen', 'HÃ¸yer', 'Husted', 'Skriver', 'Lindgaard', 'Yde',
+        'Sylvest', 'Lykkegaard', 'Ploug', 'Gammelgaard', 'Pilgaard', 'Brogaard', 'Degn', 'Kaae', 'Kofod', 'GrÃ¸nbÃ¦k',
+        'Lundsgaard', 'Bagge', 'Lyng', 'RÃ¸mer', 'Kjeldgaard', 'Hovgaard', 'Groth', 'Hyldgaard', 'Ladefoged', 'Jacobsen',
+        'Linde', 'Lange', 'Stokholm', 'Bredahl', 'Hein', 'Mose', 'BÃ¦kgaard', 'Sandberg', 'Klarskov', 'Kamp', 'Green',
+        'Iversen', 'Riber', 'Smedegaard', 'Nyholm', 'Vad', 'Balle', 'Kjeldsen', 'StrÃ¸m', 'Borch', 'Lerche', 'GrÃ¸nlund',
+        'VestergÃ¥rd', 'Ã˜stergÃ¥rd', 'Nyborg', 'Qvist', 'DamkjÃ¦r', 'Kold', 'SÃ¸nderskov', 'Bank',
+    );
+
+    /**
+     * @var array Danish last names.
+     */
+    protected static $lastName = array(
+        'Jensen', 'Nielsen', 'Hansen', 'Pedersen', 'Andersen', 'Christensen', 'Larsen', 'SÃ¸rensen', 'Rasmussen', 'Petersen',
+        'JÃ¸rgensen', 'Madsen', 'Kristensen', 'Olsen', 'Christiansen', 'Thomsen', 'Poulsen', 'Johansen', 'Knudsen', 'Mortensen',
+        'MÃ¸ller', 'Jacobsen', 'Jakobsen', 'Olesen', 'Frederiksen', 'Mikkelsen', 'Henriksen', 'Laursen', 'Lund', 'Schmidt',
+        'Eriksen', 'Holm', 'Kristiansen', 'Clausen', 'Simonsen', 'Svendsen', 'Andreasen', 'Iversen', 'Jeppesen', 'Mogensen',
+        'Jespersen', 'Nissen', 'Lauridsen', 'Frandsen', 'Ã˜stergaard', 'Jepsen', 'KjÃ¦r', 'Carlsen', 'Vestergaard', 'Jessen',
+        'NÃ¸rgaard', 'Dahl', 'Christoffersen', 'Skov', 'SÃ¸ndergaard', 'Bertelsen', 'Bruun', 'Lassen', 'Bach', 'Gregersen',
+        'Friis', 'Johnsen', 'Steffensen', 'Kjeldsen', 'Bech', 'Krogh', 'Lauritsen', 'Danielsen', 'Mathiesen', 'Andresen',
+        'Brandt', 'Winther', 'Toft', 'Ravn', 'Mathiasen', 'Dam', 'Holst', 'Nilsson', 'Lind', 'Berg', 'Schou', 'Overgaard',
+        'Kristoffersen', 'Schultz', 'Klausen', 'Karlsen', 'Paulsen', 'Hermansen', 'Thorsen', 'Koch', 'Thygesen', 'Bak', 'Kruse',
+        'Bang', 'Juhl', 'Davidsen', 'Berthelsen', 'Nygaard', 'Lorentzen', 'Villadsen', 'Lorenzen', 'Damgaard', 'Bjerregaard',
+        'Lange', 'Hedegaard', 'Bendtsen', 'Lauritzen', 'Svensson', 'Justesen', 'Juul', 'Hald', 'Beck', 'Kofoed', 'SÃ¸gaard',
+        'Meyer', 'KjÃ¦rgaard', 'Riis', 'Johannsen', 'Carstensen', 'Bonde', 'Ibsen', 'Fischer', 'Andersson', 'Bundgaard',
+        'Johannesen', 'Eskildsen', 'Hemmingsen', 'Andreassen', 'Thomassen', 'SchrÃ¸der', 'Persson', 'Hjorth', 'Enevoldsen',
+        'Nguyen', 'Henningsen', 'JÃ¸nsson', 'Olsson', 'Asmussen', 'Michelsen', 'Vinther', 'Markussen', 'Kragh', 'ThÃ¸gersen',
+        'Johansson', 'Dalsgaard', 'Gade', 'Bjerre', 'Ali', 'Laustsen', 'Buch', 'Ludvigsen', 'Hougaard', 'Kirkegaard', 'Marcussen',
+        'MÃ¸lgaard', 'Ipsen', 'Sommer', 'Ottosen', 'MÃ¼ller', 'Krog', 'Hoffmann', 'Clemmensen', 'Nikolajsen', 'Brodersen',
+        'Therkildsen', 'Leth', 'Michaelsen', 'Graversen', 'Frost', 'Dalgaard', 'Albertsen', 'Laugesen', 'Due', 'Ebbesen',
+        'Munch', 'Svenningsen', 'Ottesen', 'Fisker', 'Albrechtsen', 'Axelsen', 'Erichsen', 'Sloth', 'Bentsen', 'Westergaard',
+        'Bisgaard', 'Nicolaisen', 'Magnussen', 'Thuesen', 'Povlsen', 'Thorup', 'HÃ¸j', 'Bentzen', 'Johannessen', 'Vilhelmsen',
+        'Isaksen', 'Bendixen', 'Ovesen', 'Villumsen', 'Lindberg', 'Thomasen', 'KjÃ¦rsgaard', 'Buhl', 'Kofod', 'Ahmed', 'Smith',
+        'Storm', 'Christophersen', 'Bruhn', 'Matthiesen', 'Wagner', 'Bjerg', 'Gram', 'Nedergaard', 'Dinesen', 'Mouritsen',
+        'Boesen', 'Borup', 'Abrahamsen', 'Wulff', 'Gravesen', 'Rask', 'Pallesen', 'Greve', 'Korsgaard', 'Haugaard', 'Josefsen',
+        'BÃ¦k', 'Espersen', 'Thrane', 'MÃ¸rch', 'Frank', 'Lynge', 'Rohde', 'Larsson', 'Hammer', 'Torp', 'Sonne', 'Boysen', 'Bay',
+        'Pihl', 'Fabricius', 'HÃ¸yer', 'Birch', 'Skou', 'Kirk', 'Antonsen', 'HÃ¸gh', 'Damsgaard', 'Dall', 'Truelsen', 'Daugaard',
+        'Fuglsang', 'Martinsen', 'Therkelsen', 'Jansen', 'Karlsson', 'Caspersen', 'Steen', 'Callesen', 'Balle', 'Bloch', 'Smidt',
+        'Rahbek', 'Hjort', 'BjÃ¸rn', 'Skaarup', 'Sand', 'Storgaard', 'Willumsen', 'Busk', 'Hartmann', 'Ladefoged', 'Skovgaard',
+        'Philipsen', 'Damm', 'Haagensen', 'Hviid', 'Duus', 'Kvist', 'Adamsen', 'Mathiassen', 'Degn', 'Borg', 'Brix', 'Troelsen',
+        'Ditlevsen', 'BrÃ¸ndum', 'Svane', 'Mohamed', 'Birk', 'Brink', 'Hassan', 'Vester', 'ElkjÃ¦r', 'Lykke', 'NÃ¸rregaard',
+        'Meldgaard', 'MÃ¸rk', 'Hvid', 'Abildgaard', 'Nicolajsen', 'Bengtsson', 'Stokholm', 'Ahmad', 'Wind', 'RÃ¸mer', 'Gundersen',
+        'Carlsson', 'GrÃ¸n', 'Khan', 'Skytte', 'Bagger', 'Hendriksen', 'Rosenberg', 'Jonassen', 'Severinsen', 'JÃ¼rgensen',
+        'Boisen', 'Groth', 'Bager', 'Fogh', 'Hussain', 'Samuelsen', 'Pilgaard', 'BÃ¸dker', 'Dideriksen', 'Brogaard', 'Lundberg',
+        'Hansson', 'Schwartz', 'Tran', 'Skriver', 'Klitgaard', 'Hauge', 'HÃ¸jgaard', 'Qvist', 'Voss', 'StrÃ¸m', 'Wolff', 'Krarup',
+        'Green', 'Odgaard', 'TÃ¸nnesen', 'Blom', 'Gammelgaard', 'JÃ¦ger', 'Kramer', 'Astrup', 'WÃ¼rtz', 'Lehmann', 'Koefoed',
+        'SkÃ¸tt', 'Lundsgaard', 'BÃ¸gh', 'Vang', 'Martinussen', 'Sandberg', 'Weber', 'Holmgaard', 'Bidstrup', 'Meier', 'Drejer',
+        'Schneider', 'Joensen', 'Dupont', 'Lorentsen', 'Bro', 'Bagge', 'Terkelsen', 'Kaspersen', 'Keller', 'Eliasen', 'Lyberth',
+        'Husted', 'Mouritzen', 'Krag', 'Kragelund', 'NÃ¸rskov', 'Vad', 'Jochumsen', 'Hein', 'Krogsgaard', 'Kaas', 'Tolstrup',
+        'Ernst', 'Hermann', 'BÃ¸rgesen', 'SkjÃ¸dt', 'Holt', 'Buus', 'Gotfredsen', 'Kjeldgaard', 'Broberg', 'Roed', 'Sivertsen',
+        'Bergmann', 'Bjerrum', 'Petersson', 'Smed', 'Jeremiassen', 'Nyborg', 'Borch', 'Foged', 'Terp', 'Mark', 'Busch',
+        'Lundgaard', 'Boye', 'Yde', 'Hinrichsen', 'Matzen', 'Esbensen', 'Hertz', 'Westh', 'Holmberg', 'Geertsen', 'Raun',
+        'Aagaard', 'Kock', 'Falk', 'Munk',
+    );
+
+    /**
+     * Randomly return a danish name.
+     *
+     * @return string
+     */
+    public static function middleName()
+    {
+        return static::randomElement(static::$middleName);
+    }
+
+    /**
+     * Randomly return a danish CPR number (Personnal identification number) format.
+     *
+     * @link http://cpr.dk/cpr/site.aspx?p=16
+     * @link http://en.wikipedia.org/wiki/Personal_identification_number_%28Denmark%29
+     *
+     * @return string
+     */
+    public static function cpr()
+    {
+        $birthdate = new \DateTime('@' . mt_rand(0, time()));
+
+        return sprintf('%s-%s', $birthdate->format('dmy'), static::numerify('%###'));
+    }
+}

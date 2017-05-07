@@ -1,0 +1,1 @@
+‰!Kvendor/phpspec/prophecy/src/Prophecy/Argument/Token/StringContainsToken.php 2phpXD

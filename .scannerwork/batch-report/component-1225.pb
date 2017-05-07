@@ -1,0 +1,1 @@
+É	Hvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/SubstringMatcher.php 2phpX.

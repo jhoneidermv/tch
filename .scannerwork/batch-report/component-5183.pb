@@ -1,0 +1,1 @@
+¿(Vvendor/phpunit/phpunit-mock-objects/tests/_fixture/ClassThatImplementsSerializable.php 2phpX

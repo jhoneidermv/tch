@@ -1,0 +1,1 @@
+™'Cvendor/phpunit/phpunit/tests/_files/NamespaceCoverageMethodTest.php 2phpX

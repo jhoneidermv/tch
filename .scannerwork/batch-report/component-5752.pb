@@ -1,0 +1,1 @@
+ø,Rvendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php 2phpX$

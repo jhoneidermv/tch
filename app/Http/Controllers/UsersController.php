@@ -53,16 +53,7 @@ class UsersController extends Controller
         return redirect()->route('admin.users.index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
+
 
     /**
      * Show the form for editing the specified resource.
@@ -70,10 +61,10 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($ide)
     {
-        $user = User::find($id);
-        return view('admin/users/edit')->with('user',$user);
+        $user = User::find($ide);
+        return view('admin/users/edit')->with('user', $user);
     }
 
     /**
@@ -83,9 +74,9 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $ide)
     {
-        $user = User::find($id);
+        $user = User::find($ide);
         $user -> name = $request -> nombre;
         $user -> email = $request -> email;
         $user -> edad = $request -> edad;
@@ -102,9 +93,9 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($ide)
     {
-        $user = User::find($id);
+        $user = User::find($ide);
         $user->delete();
         return redirect()->route('admin.users.index');
     }

@@ -1,0 +1,1 @@
+ò	>vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php 2phpX

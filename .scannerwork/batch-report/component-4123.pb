@@ -1,0 +1,1 @@
+› 2vendor/phpspec/prophecy/fixtures/WithArguments.php 2phpX

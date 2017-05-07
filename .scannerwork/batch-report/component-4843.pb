@@ -1,0 +1,1 @@
+ë%@vendor/phpunit/phpunit/tests/Regression/Trac/783/ParentSuite.php 2phpX

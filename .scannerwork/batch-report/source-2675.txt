@@ -1,0 +1,31 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => ':count áƒ¬áƒšáƒ˜áƒ¡',
+    'y' => ':count áƒ¬áƒšáƒ˜áƒ¡',
+    'month' => ':count áƒ—áƒ•áƒ˜áƒ¡',
+    'm' => ':count áƒ—áƒ•áƒ˜áƒ¡',
+    'week' => ':count áƒ™áƒ•áƒ˜áƒ áƒ˜áƒ¡',
+    'w' => ':count áƒ™áƒ•áƒ˜áƒ áƒ˜áƒ¡',
+    'day' => ':count áƒ“áƒ¦áƒ˜áƒ¡',
+    'd' => ':count áƒ“áƒ¦áƒ˜áƒ¡',
+    'hour' => ':count áƒ¡áƒ�áƒ�áƒ—áƒ˜áƒ¡',
+    'h' => ':count áƒ¡áƒ�áƒ�áƒ—áƒ˜áƒ¡',
+    'minute' => ':count áƒ¬áƒ£áƒ—áƒ˜áƒ¡',
+    'min' => ':count áƒ¬áƒ£áƒ—áƒ˜áƒ¡',
+    'second' => ':count áƒ¬áƒ�áƒ›áƒ˜áƒ¡',
+    's' => ':count áƒ¬áƒ�áƒ›áƒ˜áƒ¡',
+    'ago' => ':time áƒ£áƒ™áƒ�áƒœ',
+    'from_now' => ':time áƒ¨áƒ”áƒ›áƒ“áƒ”áƒ’',
+    'after' => ':time áƒ¨áƒ”áƒ›áƒ“áƒ”áƒ’',
+    'before' => ':time áƒ£áƒ™áƒ�áƒœ',
+);

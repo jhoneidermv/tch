@@ -1,0 +1,149 @@
+<?php
+
+namespace Faker\Provider\cs_CZ;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $streetAddressFormats = array(
+        '{{streetName}}',
+        '{{streetName}} {{buildingNumber}}',
+        '{{streetName}} {{buildingNumber}}',
+        '{{streetName}} {{buildingNumber}}',
+        '{{streetName}} {{buildingNumber}}',
+    );
+
+    protected static $addressFormats = array(
+        "{{streetAddress}}\n{{region}}\n{{postcode}} {{city}}",
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+        "{{streetAddress}}\n{{postcode}} {{city}}",
+        "{{streetAddress}}\n{{postcode}} {{city}}\nÄŒeskÃ¡ republika",
+    );
+
+    protected static $buildingNumber = array('%', '%%', '%/%%', '%%/%%', '%/%%%', '%%/%%%');
+
+    protected static $postcode = array('#####', '### ##');
+
+    /**
+     * Source: https://cs.wikipedia.org/wiki/Seznam_m%C4%9Bst_v_%C4%8Cesku_podle_po%C4%8Dtu_obyvatel
+     */
+    protected static $city = array(
+        'Brno', 'BÅ™eclav', 'Cheb', 'Chomutov', 'Chrudim', 'ÄŒernoÅ¡ice', 'ÄŒeskÃ¡ LÃ­pa', 'ÄŒeskÃ© BudÄ›jovice',
+        'ÄŒeskÃ½ TÄ›Å¡Ã­n', 'DÄ›Ä�Ã­n', 'FrÃ½dek-MÃ­stek', 'HavlÃ­Ä�kÅ¯v Brod', 'HavÃ­Å™ov', 'HodonÃ­n', 'Hradec KrÃ¡lovÃ©',
+        'Jablonec nad Nisou', 'Jihlava', 'Karlovy Vary', 'KarvinÃ¡', 'Kladno', 'KolÃ­n', 'Krnov', 'KromÄ›Å™Ã­Å¾',
+        'Liberec', 'LitomÄ›Å™ice', 'LitvÃ­nov', 'MladÃ¡ Boleslav', 'Most', 'NovÃ½ JiÄ�Ã­n', 'Olomouc', 'Opava', 'OrlovÃ¡',
+        'Ostrava', 'Pardubice', 'PlzeÅˆ', 'Praha', 'ProstÄ›jov', 'PÃ­sek', 'PÅ™erov', 'PÅ™Ã­bram', 'Sokolov', 'Å umperk',
+        'Teplice', 'Trutnov', 'TÃ¡bor', 'TÅ™ebÃ­Ä�', 'TÅ™inec', 'UherskÃ© HradiÅ¡tÄ›', 'ÃšstÃ­ nad Labem',
+        'ValaÅ¡skÃ© MeziÅ™Ã­Ä�Ã­', 'VsetÃ­n', 'ZlÃ­n', 'Znojmo',
+    );
+
+    /**
+     * Source: https://cs.wikipedia.org/wiki/Seznam_st%C3%A1t%C5%AF_sv%C4%9Bta
+     */
+    protected static $country = array(
+        'AfghÃ¡nistÃ¡n', 'AlbÃ¡nie', 'AlÅ¾Ã­rsko', 'Andorra', 'Angola', 'Antigua a Barbuda', 'Argentina',
+        'ArmÃ©nie', 'AustrÃ¡lie', 'Ã�zerbÃ¡jdÅ¾Ã¡n', 'Bahamy', 'Bahrajn', 'BangladÃ©Å¡', 'Barbados', 'Belgie',
+        'Belize', 'Benin', 'BÄ›lorusko', 'BhÃºtÃ¡n', 'BolÃ­vie', 'Bosna a Hercegovina', 'Botswana', 'BrazÃ­lie',
+        'Brunej', 'Bulharsko', 'Burkina Faso', 'Burundi', 'Cookovy ostrovy', 'ÄŒad', 'ÄŒernÃ¡ Hora', 'ÄŒeskÃ¡ republika',
+        'ÄŒÃ­na', 'DÃ¡nsko', 'DemokratickÃ¡ republika Kongo', 'Dominika', 'DominikÃ¡nskÃ¡ republika', 'DÅ¾ibutsko',
+        'Egypt', 'EkvÃ¡dor', 'Eritrea', 'Estonsko', 'Etiopie', 'FidÅ¾i', 'FilipÃ­ny', 'Finsko', 'Francie', 'Gabon',
+        'Gambie', 'Ghana', 'Grenada', 'Gruzie', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras',
+        'Chile', 'Chorvatsko', 'Indie', 'IndonÃ©sie', 'IrÃ¡k', 'Ã�rÃ¡n', 'Irsko', 'Island', 'ItÃ¡lie', 'Izrael', 'Jamajka',
+        'Japonsko', 'Jemen', 'JihoafrickÃ¡ republika', 'JiÅ¾nÃ­ Korea', 'JiÅ¾nÃ­ SÃºdÃ¡n', 'JordÃ¡nsko', 'KambodÅ¾a', 'Kamerun',
+        'Kanada', 'Kapverdy', 'Katar', 'KazachstÃ¡n', 'KeÅˆa', 'Kiribati', 'Kolumbie', 'Komory', 'Republika Kongo',
+        'Kostarika', 'Kuba', 'Kuvajt', 'Kypr', 'KyrgyzstÃ¡n', 'Laos', 'Lesotho', 'Libanon', 'LibÃ©rie', 'Libye',
+        'LichtenÅ¡tejnsko', 'Litva', 'LotyÅ¡sko', 'Lucembursko', 'Madagaskar', 'MaÄ�arsko', 'Makedonie', 'Malajsie',
+        'Malawi', 'Maledivy', 'Mali', 'Malta', 'Maroko', 'Marshallovy ostrovy', 'MauritÃ¡nie', 'Mauricius', 'Mexiko',
+        'FederativnÃ­ stÃ¡ty MikronÃ©sie', 'Moldavsko', 'Monako', 'Mongolsko', 'Mosambik', 'Myanmar', 'Namibie', 'Nauru',
+        'NepÃ¡l', 'NÄ›mecko', 'Niger', 'NigÃ©rie', 'Nikaragua', 'Niue', 'Nizozemsko', 'Norsko', 'NovÃ½ ZÃ©land', 'OmÃ¡n',
+        'PÃ¡kistÃ¡n', 'Palau', 'Panama', 'Papua-NovÃ¡ Guinea', 'Paraguay', 'Peru', 'PobÅ™eÅ¾Ã­ slonoviny', 'Polsko',
+        'Portugalsko', 'Rakousko', 'RovnÃ­kovÃ¡ Guinea', 'Rumunsko', 'Rusko', 'Rwanda', 'Å˜ecko', 'Salvador', 'Samoa',
+        'San Marino', 'SaÃºdskÃ¡ ArÃ¡bie', 'Senegal', 'SevernÃ­ Korea', 'Seychely', 'Sierra Leone', 'Singapur',
+        'Slovensko', 'Slovinsko', 'SomÃ¡lsko', 'SpojenÃ© arabskÃ© emirÃ¡ty', 'SpojenÃ© krÃ¡lovstvÃ­', 'SpojenÃ© stÃ¡ty americkÃ©',
+        'Srbsko', 'StÅ™edoafrickÃ¡ republika', 'Surinam', 'SÃºdÃ¡n', 'SvatÃ¡ Lucie', 'SvatÃ½ KryÅ¡tof a Nevis',
+        'SvatÃ½ TomÃ¡Å¡ a PrincÅ¯v ostrov', 'SvatÃ½ Vincenc a Grenadiny', 'Svazijsko', 'SÃ½rie', 'Å alamounovy ostrovy',
+        'Å panÄ›lsko', 'Å rÃ­ Lanka', 'Å vÃ©dsko', 'Å vÃ½carsko', 'TÃ¡dÅ¾ikistÃ¡n', 'Tanzanie', 'Thajsko', 'Togo', 'Tonga',
+        'Trinidad a Tobago', 'Tunisko', 'Turecko', 'TurkmenistÃ¡n', 'Tuvalu', 'Uganda', 'Ukrajina', 'Uruguay',
+        'UzbekistÃ¡n', 'Vanuatu', 'VatikÃ¡n', 'Venezuela', 'Vietnam', 'VÃ½chodnÃ­ Timor', 'Zambie', 'Zimbabwe',
+    );
+
+    /**
+     * Source: https://cs.wikipedia.org/wiki/Kraje_v_%C4%8Cesku#Ekonomika
+     */
+    private static $regions = array(
+        'HlavnÃ­ mÄ›sto Praha', 'JihomoravskÃ½ kraj', 'JihoÄ�eskÃ½ kraj', 'KarlovarskÃ½ kraj', 'KrÃ¡lovÃ©hradeckÃ½ kraj',
+        'LibereckÃ½ kraj', 'MoravskoslezskÃ½ kraj', 'OlomouckÃ½ kraj', 'PardubickÃ½ kraj', 'PlzeÅˆskÃ½ kraj',
+        'StÅ™edoÄ�eskÃ½ kraj', 'VysoÄ�ina', 'ZlÃ­nskÃ½ kraj', 'ÃšsteckÃ½ kraj',
+    );
+
+    /**
+     * Source: http://aplikace.mvcr.cz/adresy/
+     */
+    protected static $street = array(
+        'AlÅ¾Ã­rskÃ¡', 'Angelovova', 'AntonÃ­nskÃ¡', 'ArmÃ©nskÃ¡', 'ÄŒelkovickÃ¡', 'ÄŒervenkova', 'ÄŒeskoslovenskÃ©ho exilu',
+        'ChlumÃ­nskÃ¡', 'ChlÃ¡dkova', 'DiskaÅ™skÃ¡', 'Do KopeÄ�ka', 'Do Vozovny', 'Do VrÅ¡ku', 'DoubravickÃ¡', 'Doudova',
+        'DrahotÃ­nskÃ¡', 'DÄ›lnickÃ¡', 'GenerÃ¡la Å iÅ¡ky', 'GonÄ�arenkova', 'Gutova', 'HavlÃ­nova', 'HavranÃ­', 'Helmova',
+        'HeÄ�kova', 'HolubinkovÃ¡', 'HolÃ­nskÃ¡', 'HornÃ­ HrdloÅ™ezskÃ¡', 'HornÃ­ Stromky', 'HostivaÅ™skÃ© nÃ¡m.', 'HoubaÅ™skÃ¡',
+        'HoÅ™anskÃ¡', 'HrachovskÃ¡', 'Hrad III. nÃ¡dvoÅ™Ã­', 'HrdloÅ™ezskÃ¡', 'JenskÃ¡', 'JerevanskÃ¡', 'JeÅ¾ovickÃ¡', 'K BÅ™ezince',
+        'K DobrÃ© VodÄ›', 'K HoÅ™avce', 'K HruÅ¡ovu', 'K HÃ¡ji', 'K NÃ¡vsi', 'K PadesÃ¡tnÃ­ku', 'K Pyramidce', 'K SamotÄ›',
+        'K Vinici', 'K Vystrkovu', 'KarlovarskÃ¡', 'KarlÃ­nskÃ© nÃ¡m.', 'KaÅˆkova', 'Ke Kyjovu', 'Ke Stadionu', 'KejnickÃ¡',
+        'KlatovskÃ¡', 'KohoutovÃ½ch', 'KopanskÃ¡', 'KralupskÃ¡', 'KukelskÃ¡', 'KukuÄ�Ã­nova', 'KuneÅ¡ova', 'KvestorskÃ¡',
+        'KÅ™iÅ¡Å¥anova', 'LanÅ¾hotskÃ¡', 'LeÅ¡tÃ­nskÃ¡', 'LindavskÃ¡', 'LitevskÃ¡', 'LojovickÃ¡', 'LukeÅ¡ova', 'MaltÃ©zskÃ© nÃ¡mÄ›stÃ­',
+        'MelodickÃ¡', 'MeÄ�Ã­kovÃ¡', 'Milady HorÃ¡kovÃ©', 'MÅ¡enskÃ¡', 'N. A. NÄ›krasova', 'Na DÄ›dince', 'Na HabrovÃ©',
+        'Na Jezerce', 'Na JÃ­lech', 'Na Petynce', 'Na RozcestÃ­', 'Na SedliÅ¡ti', 'Na Vrchu', 'Na VÃ½Å¡inÄ›', 'Na ÃšboÄ�Ã­',
+        'Na Å tamberku', 'Nad HlinÃ­kem', 'Nad HÅ™iÅ¡tÄ›m', 'Nad Klikovkou', 'Nad libeÅˆskÃ½m nÃ¡draÅ¾Ã­m', 'Nad Nuslemi',
+        'Nad SlÃ¡viÃ­', 'Nad Trnkovem', 'Nad Å auerovÃ½mi sady', 'NetÅ™ebskÃ¡', 'NivnickÃ¡', 'NÃ¡draÅ¾nÃ­', 'nÃ¡m. Pod LÃ­pou',
+        'nÃ¡m. PÅ™ed bateriemi', 'nÃ¡m. Svatopluka ÄŒecha', 'OdlehlÃ¡', 'OkrasnÃ¡', 'OmskÃ¡', 'Otavova', 'OvÃ¡lovÃ¡',
+        'PalackÃ©ho nÃ¡m.', 'PavliÅ¡ovskÃ¡', 'PaÅ¡kova', 'PetÅ™Ã­nskÃ© sady', 'PilovskÃ¡', 'Pod Bruskou', 'Pod novou Å¡kolou',
+        'Pod soutratÃ­m', 'Pod Svahem', 'Pod Ãštesy', 'PohlednÃ¡', 'PoÅ¡epnÃ©ho nÃ¡m.', 'ProkopovÃ½ch', 'PÃ¡vovskÃ© nÃ¡mÄ›stÃ­',
+        'PÄ›tipeskÃ©ho', 'PÅ™Ã­bramskÃ¡', 'RadbuzskÃ¡', 'RadnickÃ© schody', 'Raichlova', 'Roentgenova', 'RozkoÅ¡nÃ©ho',
+        'RozrazilovÃ¡', 'RuzyÅˆskÃ¡', 'Å˜Ã­movskÃ¡', 'Å˜Ã­Ä�nÃ­', 'SatalickÃ¡', 'Schoellerova', 'SmrkovÃ¡', 'SouvratnÃ­', 'Sovova',
+        'SportovnÃ­', 'StadionovÃ¡', 'StatkovÃ¡', 'StavebnÃ­', 'Å irokÃ¡', 'Å kolnÃ­', 'TatranskÃ¡', 'Tomsova', 'ToruÅˆskÃ¡',
+        'ToÄ�enskÃ¡', 'Trnkovo nÃ¡mÄ›stÃ­', 'TruhlÃ¡Å™ova', 'TvrdonickÃ¡', 'TÃ½mlova', 'U BerÃ¡nky', 'U Chmelnice',
+        'U ChodovskÃ©ho hÅ™bitova', 'U DrÃ¡Å¾ky', 'U FoÅ™ta', 'U KamÃ½ku', 'U Klubovny', 'U Lesa', 'U PekÃ¡ren',
+        'U PraÅ¡nÃ© brÃ¡ny', 'U PrÃ¡delny', 'U Silnice', 'U Sladovny', 'U Slovanky', 'U Soutoku', 'U Trojice', 'U Vinice',
+        'U vinnÃ½ch sklepÅ¯', 'U VodÃ¡rny', 'U VorlÃ­kÅ¯', 'U zelenÃ©ho ptÃ¡ka', 'U ÄŒekÃ¡rny', 'U Å½upanskÃ½ch', 'UkrajinskÃ¡',
+        'ÃšjezdskÃ¡', 'V JÃ¡mÄ›', 'V PÅ™ednÃ­m HloubÄ›tÃ­nÄ›', 'V Rohu', 'V UliÄ�ce', 'ValÄ�Ã­kova', 'Ve Lhotce', 'Ve VrÅ¡Ã­ch',
+        'VelenickÃ¡', 'ViolkovÃ¡', 'VlaÅ¡skÃ¡', 'VodÄ›radskÃ¡', 'VyderskÃ¡', 'VysokoÅ¡kolskÃ¡', 'VÃ½padovÃ¡', 'VÅ™esovickÃ¡',
+        'Za PekÃ¡rnou', 'ZÃ¡meckÃ¡',
+    );
+
+    /**
+     * Randomly returns a czech city.
+     *
+     * @example 'Krnov'
+     *
+     * @return string
+     */
+    public function city()
+    {
+        return static::randomElement(static::$city);
+    }
+
+    /**
+     * Randomly returns a czech region.
+     *
+     * @example 'LibereckÃ½ kraj'
+     *
+     * @return string
+     */
+    public static function region()
+    {
+        return static::randomElement(static::$regions);
+    }
+
+    /**
+     * Real street names as random data can hardly be
+     * generated due to inflection.
+     *
+     * @example 'U VodÃ¡rny'
+     *
+     * @return string
+     */
+    public function streetName()
+    {
+        return static::randomElement(static::$street);
+    }
+}

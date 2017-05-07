@@ -1,0 +1,1 @@
+¼Mvendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/OpenDocument/Thumbnails.php 2phpX3

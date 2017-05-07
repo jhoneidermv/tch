@@ -1,0 +1,1 @@
+ï,Cvendor/swiftmailer/swiftmailer/lib/classes/Swift/SwiftException.php 2phpX

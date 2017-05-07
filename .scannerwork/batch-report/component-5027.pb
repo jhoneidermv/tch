@@ -1,0 +1,1 @@
+£'1vendor/phpunit/phpunit/tests/_files/NonStatic.php 2phpX	

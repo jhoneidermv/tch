@@ -1,0 +1,1 @@
+‰(Tvendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/ReturnArgument.php 2phpX'

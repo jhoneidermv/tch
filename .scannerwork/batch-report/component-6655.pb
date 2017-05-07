@@ -1,0 +1,1 @@
+ÿ36vendor/symfony/http-foundation/Tests/File/FileTest.php 2phpX´

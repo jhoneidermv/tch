@@ -1,0 +1,1 @@
+ó/Bvendor/symfony/console/Tests/Fixtures/FooSubnamespaced1Command.php 2phpX

@@ -1,0 +1,1 @@
+Å	;vendor/hamcrest/hamcrest-php/generator/FactoryParameter.php 2phpXF

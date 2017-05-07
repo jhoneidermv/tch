@@ -1,0 +1,1 @@
+» Fvendor/phpspec/prophecy/spec/Prophecy/Argument/Token/TypeTokenSpec.php 2phpX:

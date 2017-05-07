@@ -1,0 +1,19 @@
+<?php
+
+namespace Faker\Provider\lv_LV;
+
+class Color extends \Faker\Provider\Color
+{
+    protected static $safeColorNames = array(
+
+        'balts', 'melns', 'sarkans', 'zaÄ¼Å¡', 'dzeltens', 'zils',
+        'brÅ«ns', 'purpurs', 'rozÄ�', 'oranÅ¾s', 'pelÄ“ks'
+
+    );
+
+    protected static $allColorNames = array(
+        'bÄ“Å¡s', 'palss Å¡atens', 'bordo', 'marengo', 'mÄ“Ä¼Å¡', 'sirms', 'ruds', 'rÅ«sgans',
+        'Ä�bolains', 'bÄ“rs', 'dÅ«kans', 'loss', 'pÄ�ts', 'salns',
+        'zelts', 'sudrabs', 'varÅ¡', 'bronza', 'zeltains', 'subrabains'
+    );
+}

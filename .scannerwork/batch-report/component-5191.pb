@@ -1,0 +1,1 @@
+Ç(Hvendor/phpunit/phpunit-mock-objects/tests/_fixture/MockTestInterface.php 2phpX

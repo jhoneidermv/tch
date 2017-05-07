@@ -1,0 +1,1 @@
+¤Zvendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php 2phpX#

@@ -1,0 +1,1 @@
+ØJvendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php 2phpX2

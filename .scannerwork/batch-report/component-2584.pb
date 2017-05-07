@@ -1,0 +1,1 @@
+˜2vendor/monolog/monolog/tests/Monolog/Handler/Slack :—

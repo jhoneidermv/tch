@@ -1,0 +1,1 @@
+¤7Cvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/BarClass.php 2phpX

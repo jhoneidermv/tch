@@ -1,0 +1,1 @@
+ŒFvendor/mockery/mockery/library/Mockery/Generator/MockConfiguration.php 2phpXÍ

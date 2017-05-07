@@ -1,0 +1,1 @@
+ç&>vendor/phpunit/phpunit/tests/_files/CoverageNotPrivateTest.php 2phpX

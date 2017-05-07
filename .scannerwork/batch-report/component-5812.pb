@@ -1,0 +1,1 @@
+´-Yvendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php 2phpX‰

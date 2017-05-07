@@ -1,0 +1,1 @@
+ƒ.Ivendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/EmbeddedFileTest.php 2phpX8

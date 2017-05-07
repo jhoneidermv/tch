@@ -1,0 +1,1 @@
+çMvendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/powerBestFitClass.php 2phpXŽ

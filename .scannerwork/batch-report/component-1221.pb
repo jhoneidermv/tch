@@ -1,0 +1,1 @@
+Å	Rvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringContainsIgnoringCase.php 2phpX)

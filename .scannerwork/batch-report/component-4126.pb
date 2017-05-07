@@ -1,0 +1,1 @@
+ž Dvendor/phpspec/prophecy/fixtures/WithFinalVirtuallyPrivateMethod.php 2phpX

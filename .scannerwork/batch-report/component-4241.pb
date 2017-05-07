@@ -1,0 +1,1 @@
+‘!Evendor/phpspec/prophecy/src/Prophecy/Comparator/ClosureComparator.php 2phpX+

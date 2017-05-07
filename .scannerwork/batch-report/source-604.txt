@@ -1,0 +1,14 @@
+<?php
+
+namespace Faker\Provider\bn_BD;
+
+class Utils
+{
+    public static function getBanglaNumber($number)
+    {
+        $english = range(0, 10);
+        $bangla = array('à§¦', 'à§§', 'à§¨', 'à§©', 'à§ª', 'à§«', 'à§¬', 'à§­', 'à§®', 'à§¯');
+
+        return str_replace($english, $bangla, $number);
+    }
+}

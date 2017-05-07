@@ -1,0 +1,1 @@
+â"Tvendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageClassExtendedTest.php 2phpX

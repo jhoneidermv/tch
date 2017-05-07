@@ -1,8 +1,12 @@
-¾
-phpS1142OReduce the number of returns of this function 5, down to the maximum allowed 3. 2YY :
-ìvv :
-ìoo :
-ìii :
-ìgg :
-ìee ˆ
-phpS1151nReduce this "switch/case" number of lines from 11 to at most 10, for example by extracting code into function. 2[[ 
+‰
+phpS134_Refactor this code to not nest more than 4 "if", "for", "while", "switch" and "try" statements. 2ff :
+ìff 
+Nesting +1:
+ìee 
+Nesting +1:
+ìdd 
+Nesting +1:
+ìSS 
+Nesting +1:
+ìPP 
+Nesting +1

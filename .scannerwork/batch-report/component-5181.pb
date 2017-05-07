@@ -1,0 +1,1 @@
+½(Gvendor/phpunit/phpunit-mock-objects/tests/_fixture/AnotherInterface.php 2phpX

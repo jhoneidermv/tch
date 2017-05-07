@@ -1,0 +1,1 @@
+ž.Uvendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php 2phpXA

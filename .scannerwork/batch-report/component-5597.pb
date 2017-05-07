@@ -1,0 +1,1 @@
+Ý+Ovendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php 2phpX±

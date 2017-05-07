@@ -1,0 +1,1 @@
+¶<vendor/fzaninotto/faker/src/Faker/Provider/sl_SI/Address.php 2phpXl

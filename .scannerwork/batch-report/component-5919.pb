@@ -1,0 +1,1 @@
+Ÿ.Avendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters :ž. .

@@ -1,0 +1,1 @@
+Ì	Avendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsBoolean.php 2phpX!

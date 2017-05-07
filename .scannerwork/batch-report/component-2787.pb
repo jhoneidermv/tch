@@ -1,0 +1,1 @@
+ãBvendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Equal.php 2phpX	

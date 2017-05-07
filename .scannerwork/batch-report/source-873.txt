@@ -1,0 +1,195 @@
+<?php
+
+namespace Faker\Provider\nb_NO;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $buildingNumber = array('%###', '%##', '%#', '%#?', '%', '%?');
+
+    protected static $streetPrefix = array(
+        "Ã˜vre", "Nedre", "SÃ¸ndre", "Gamle", "Ã˜stre", "Vestre"
+    );
+
+    protected static $streetSuffix = array(
+        "allÃ©en", "bakken", "berget", "brÃ¥ten", "eggen", "engen", "ekra", "faret", "flata", "gata", "gjerdet", "grenda",
+        "gropa", "hagen", "haugen", "havna", "holtet", "hÃ¸gda", "jordet", "kollen", "kroken", "lia", "lunden", "lyngen",
+        "lÃ¸kka", "marka", "moen", "myra", "plassen", "ringen", "roa", "rÃ¸a", "skogen", "skrenten", "spranget", "stien",
+        "stranda", "stubben", "stykket", "svingen", "tjernet", "toppen", "tunet", "vollen", "vika", "Ã¥sen"
+    );
+
+    protected static $streetSuffixWord = array(
+        "sgate", "svei", "s Gate", "s Vei", "gata", "veien"
+    );
+
+    protected static $postcode = array("####", "####", "####", "0###");
+
+    /**
+    * @var array Norwegian city names
+    * @link https://no.wikipedia.org/wiki/Liste_over_norske_byer
+    */
+    protected static $cityNames = array(
+        "Alta", "Arendal", "Askim", "Bergen", "BodÃ¸", "Brekstad", "Brevik", "Brumunddal", "Bryne", "BrÃ¸nnÃ¸ysund",
+        "Drammen", "DrÃ¸bak", "Egersund", "Elverum", "Fagernes", "Farsund", "Fauske", "Finnsnes", "Flekkefjord", "FlorÃ¸",
+        "FosnavÃ¥g", "Fredrikstad", "FÃ¸rde", "GjÃ¸vik", "Grimstad", "Halden", "Hamar", "Hammerfest", "Harstad",
+        "Haugesund", "Hokksund", "Holmestrand", "HonningsvÃ¥g", "Horten", "HÃ¸nefoss", "Jessheim", "JÃ¸rpeland",
+        "Kirkenes", "Kolvereid", "Kongsberg", "Kongsvinger", "Kopervik", "KragerÃ¸", "Kristiansand", "Kristiansund",
+        "Langesund", "Larvik", "Leknes", "Levanger", "Lillehammer", "Lillesand", "LillestrÃ¸m", "Lyngdal", "Mandal",
+        "Mo i Rana",  "Moelv", "Molde", "MosjÃ¸en", "Moss", "Mysen", "MÃ¥lÃ¸y", "Namsos", "Narvik", "Notodden", "Odda",
+        "Orkanger", "Oslo", "Otta", "Porsgrunn", "RisÃ¸r", "Rjukan", "RÃ¸ros", "Sandefjord", "Sandnes", "SandnessjÃ¸en",
+        "Sandvika", "Sarpsborg", "Sauda", "Ski", "Skien", "Skudeneshavn", "Sortland", "Stathelle", "Stavanger",
+        "Stavern", "Steinkjer", "StjÃ¸rdalshalsen", "Stokmarknes", "Stord", "Svelvik", "SvolvÃ¦r", "TromsÃ¸", "Trondheim",
+        "Tvedestrand", "TÃ¸nsberg", "Ulsteinvik", "VadsÃ¸", "VardÃ¸", "VerdalsÃ¸ra", "Vinstra", "Ã…krehamn", "Ã…lesund",
+        "Ã…ndalsnes", "Ã…sgÃ¥rdstrand"
+    );
+
+    protected static $cityFormats = array(
+        '{{cityName}}'
+    );
+
+    /**
+    * @var array Norwegian municipality names
+    * @link https://no.wikipedia.org/wiki/Norges_kommuner
+    */
+    protected static $kommuneNames = array(
+        "Halden", "Moss", "Sarpsborg", "Fredrikstad", "Hvaler", "Aremark", "Marker", "RÃ¸mskog", "TrÃ¸gstad", "Spydeberg",
+        "Askim", "Eidsberg", "Skiptvet", "Rakkestad", "RÃ¥de", "Rygge", "VÃ¥ler", "HobÃ¸l", "Vestby", "Ski", "Ã…s", "Frogn",
+        "Nesodden", "OppegÃ¥rd", "BÃ¦rum", "Asker", "Aurskog-HÃ¸land", "SÃ¸rum", "Fet", "RÃ¦lingen", "Enebakk", "LÃ¸renskog",
+        "Skedsmo", "Nittedal", "Gjerdrum", "Ullensaker", "Nes", "Eidsvoll", "Nannestad", "Hurdal", "Oslo",
+        "Kongsvinger", "Hamar", "Ringsaker", "LÃ¸ten", "Stange", "Nord-Odal", "SÃ¸r-Odal", "Eidskog", "Grue", "Ã…snes",
+        "VÃ¥ler", "Elverum", "Trysil", "Ã…mot", "Stor-Elvdal", "Rendalen", "Engerdal", "Tolga", "Tynset", "Alvdal",
+        "Folldal", "Os", "Lillehammer", "GjÃ¸vik", "Dovre", "Lesja", "SkjÃ¥k", "Lom", "VÃ¥gÃ¥", "Nord-Fron", "Sel",
+        "SÃ¸r-Fron", "Ringebu", "Ã˜yer", "Gausdal", "Ã˜stre Toten", "Vestre Toten", "Jevnaker", "Lunner", "Gran",
+        "SÃ¸ndre Land", "Nordre Land", "SÃ¸r-Aurdal", "Etnedal", "Nord-Aurdal", "Vestre Slidre", "Ã˜ystre Slidre", "Vang",
+        "Drammen", "Kongsberg", "Ringerike", "Hole", "FlÃ¥", "Nes", "Gol", "Hemsedal", "Ã…l", "Hol", "Sigdal",
+        "KrÃ¸dsherad", "Modum", "Ã˜vre Eiker", "Nedre Eiker", "Lier", "RÃ¸yken", "Hurum", "Flesberg", "Rollag",
+        "Nore og Uvdal", "Horten", "Holmestrand", "TÃ¸nsberg", "Sandefjord", "Larvik", "Svelvik", "Sande", "Hof", "Re",
+        "Andebu", "Stokke", "NÃ¸tterÃ¸y", "TjÃ¸me", "Lardal", "Porsgrunn", "Skien", "Notodden", "Siljan", "Bamble",
+        "KragerÃ¸", "Drangedal", "Nome", "BÃ¸", "Sauherad", "Tinn", "Hjartdal", "Seljord", "Kviteseid", "Nissedal",
+        "Fyresdal", "Tokke", "Vinje", "RisÃ¸r", "Grimstad", "Arendal", "Gjerstad", "VegÃ¥rshei", "Tvedestrand", "Froland",
+        "Lillesand", "Birkenes", "Ã…mli", "Iveland", "Evje og Hornnes", "Bygland", "Valle", "Bykle", "Kristiansand",
+        "Mandal", "Farsund", "Flekkefjord", "Vennesla", "Songdalen", "SÃ¸gne", "Marnardal", "Ã…seral", "Audnedal",
+        "Lindesnes", "Lyngdal", "HÃ¦gebostad", "Kvinesdal", "Sirdal", "Eigersund", "Sandnes", "Stavanger", "Haugesund",
+        "Sokndal", "Lund", "Bjerkreim", "HÃ¥", "Klepp", "Time", "Gjesdal", "Sola", "Randaberg", "Forsand", "Strand",
+        "Hjelmeland", "Suldal", "Sauda", "FinnÃ¸y", "RennesÃ¸y", "KvitsÃ¸y", "Bokn", "TysvÃ¦r", "KarmÃ¸y", "Utsira",
+        "Vindafjord", "Bergen", "Etne", "Sveio", "BÃ¸mlo", "Stord", "Fitjar", "Tysnes", "Kvinnherad", "Jondal", "Odda",
+        "Ullensvang", "Eidfjord", "Ulvik", "Granvin", "Voss", "Kvam", "Fusa", "Samnanger", "Os", "Austevoll", "Sund",
+        "Fjell", "AskÃ¸y", "Vaksdal", "Modalen", "OsterÃ¸y", "Meland", "Ã˜ygarden", "RadÃ¸y", "LindÃ¥s", "Austrheim",
+        "Fedje", "Masfjorden", "Flora", "Gulen", "Solund", "Hyllestad", "HÃ¸yanger", "Vik", "Balestrand", "Leikanger",
+        "Sogndal", "Aurland", "LÃ¦rdal", "Ã…rdal", "Luster", "Askvoll", "Fjaler", "Gaular", "JÃ¸lster", "FÃ¸rde",
+        "Naustdal", "Bremanger", "VÃ¥gsÃ¸y", "Selje", "Eid", "Hornindal", "Gloppen", "Stryn", "Molde", "Ã…lesund",
+        "Kristiansund", "Vanylven", "Sande", "HerÃ¸y", "Ulstein", "Hareid", "Volda", "Ã˜rsta", "Ã˜rskog", "Norddal",
+        "Stranda", "Stordal", "Sykkylven", "Skodje", "Sula", "Giske", "Haram", "Vestnes", "Rauma", "Nesset", "Midsund",
+        "SandÃ¸y", "Aukra", "FrÃ¦na", "Eide", "AverÃ¸y", "Gjemnes", "Tingvoll", "Sunndal", "Surnadal", "Rindal", "Halsa",
+        "SmÃ¸la", "Aure", "Trondheim", "Hemne", "Snillfjord", "Hitra", "FrÃ¸ya", "Ã˜rland", "Agdenes", "Rissa", "Bjugn",
+        "Ã…fjord", "Roan", "Osen", "Oppdal", "Rennebu", "Meldal", "Orkdal", "RÃ¸ros", "HoltÃ¥len", "Midtre Gauldal",
+        "Melhus", "Skaun", "KlÃ¦bu", "Malvik", "Selbu", "Tydal", "Steinkjer", "Namsos", "MerÃ¥ker", "StjÃ¸rdal", "Frosta",
+        "Leksvik", "Levanger", "Verdal", "Verran", "Namdalseid", "InderÃ¸y", "SnÃ¥sa", "Lierne", "RÃ¸yrvik", "Namsskogan",
+        "Grong", "HÃ¸ylandet", "Overhalla", "Fosnes", "Flatanger", "Vikna", "NÃ¦rÃ¸y", "Leka", "BodÃ¸", "Narvik", "Bindal",
+        "SÃ¸mna", "BrÃ¸nnÃ¸y", "Vega", "Vevelstad", "HerÃ¸y", "Alstahaug", "Leirfjord", "Vefsn", "Grane", "Hattfjelldal",
+        "DÃ¸nna", "Nesna", "Hemnes", "Rana", "LurÃ¸y", "TrÃ¦na", "RÃ¸dÃ¸y", "MelÃ¸y", "GildeskÃ¥l", "Beiarn", "Saltdal",
+        "Fauske", "SÃ¸rfold", "Steigen", "HamarÃ¸y", "Tysfjord", "LÃ¸dingen", "Tjeldsund", "Evenes", "Ballangen", "RÃ¸st",
+        "VÃ¦rÃ¸y", "Flakstad", "VestvÃ¥gÃ¸y", "VÃ¥gan", "Hadsel", "BÃ¸", "Ã˜ksnes", "Sortland", "AndÃ¸y", "Moskenes",
+        "Harstad[10]", "TromsÃ¸", "KvÃ¦fjord", "SkÃ¥nland", "Ibestad", "Gratangen", "Lavangen", "Bardu", "Salangen",
+        "MÃ¥lselv", "SÃ¸rreisa", "DyrÃ¸y", "TranÃ¸y", "Torsken", "Berg", "Lenvik", "Balsfjord", "KarlsÃ¸y", "Lyngen",
+        "Storfjord", "KÃ¥fjord", "SkjervÃ¸y", "Nordreisa", "KvÃ¦nangen", "VardÃ¸", "VadsÃ¸", "Hammerfest", "Kautokeino",
+        "Alta", "Loppa", "Hasvik", "Kvalsund", "MÃ¥sÃ¸y", "Nordkapp", "Porsanger", "Karasjok", "Lebesby", "Gamvik",
+        "BerlevÃ¥g", "Tana", "Nesseby", "BÃ¥tsfjord", "SÃ¸r-Varanger"
+    );
+
+
+    /**
+    * @var array Norwegian county names
+    * @link https://no.wikipedia.org/wiki/Norges_fylker
+    */
+    protected static $countyNames = array(
+        "Ã˜stfold", "Akershus", "Oslo", "Hedmark", "Oppland", "Buskerud", "Vestfold", "Telemark", "Aust-Agder",
+        "Vest-Agder", "Rogaland", "Hordaland", "Sogn og Fjordane", "MÃ¸re og Romsdal", "SÃ¸r-TrÃ¸ndelag", "Nord-TrÃ¸ndelag",
+        "Nordland", "Troms", "Finnmark", "Svalbard", "Jan Mayen", "Kontinentalsokkelen"
+    );
+
+    protected static $country = array(
+        "Abkhasia", "Afghanistan", "Albania", "Algerie", "Andorra", "Angola", "Antigua og Barbuda", "Argentina",
+        "Armenia", "Aserbajdsjan", "Australia", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belgia", "Belize",
+        "Benin", "Bhutan", "Bolivia", "Bosnia-Hercegovina", "Botswana", "Brasil", "Brunei", "Bulgaria", "Burkina Faso",
+        "Burundi", "Canada", "Chile", "Colombia", "Costa Rica", "Cuba", "Danmark", "De forente arabiske emirater",
+        "Den demokratiske republikken Kongo", "Den dominikanske republikk", "Den sentralafrikanske republikk",
+        "Djibouti", "Dominica", "Ecuador", "Egypt", "Ekvatorial-Guinea", "Elfenbenskysten", "El Salvador", "Eritrea",
+        "Estland", "Etiopia", "Fiji", "Filippinene", "Finland", "Frankrike", "Gabon", "Gambia", "Georgia", "Ghana",
+        "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Hellas", "Honduras", "Hviterussland",
+        "India", "Indonesia", "Irak", "Iran", "Irland", "Island", "Israel", "Italia", "Jamaica", "Japan", "Jemen",
+        "Jordan", "Kambodsja", "Kamerun", "Kapp Verde", "Kasakhstan", "Kenya", "Folkerepublikken Kina", "Kirgisistan",
+        "Kiribati", "Komorene", "Republikken Kongo", "Kosovo", "Kroatia", "Kuwait", "Kypros", "Laos", "Latvia",
+        "Lesotho", "Libanon", "Liberia", "Libya", "Liechtenstein", "Litauen", "Luxembourg", "Madagaskar", "Makedonia",
+        "Malawi", "Malaysia", "Maldivene", "Mali", "Malta", "Marokko", "MarshallÃ¸yene", "Mauritania", "Mauritius",
+        "Mexico", "MikronesiafÃ¸derasjonen", "Moldova", "Monaco", "Mongolia", "Montenegro", "Mosambik", "Myanmar",
+        "Namibia", "Nauru", "Nederland", "Nepal", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Nord-Korea",
+        "Nord-Kypros", "Norge", "Oman", "Pakistan", "Palau", "Panama", "Papua Ny-Guinea", "Paraguay", "Peru", "Polen",
+        "Portugal", "Qatar", "Romania", "Russland", "Rwanda", "Saint Kitts og Nevis", "Saint Lucia",
+        "Saint Vincent og Grenadinene", "SalomonÃ¸yene", "Samoa", "San Marino", "SÃ£o TomÃ© og PrÃ­ncipe", "Saudi-Arabia",
+        "Senegal", "Serbia", "Seychellene", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Somalia", "Spania",
+        "Sri Lanka", "Storbritannia", "Sudan", "Surinam", "Sveits", "Sverige", "Swaziland", "Syria", "SÃ¸r-Afrika",
+        "SÃ¸r-Korea", "SÃ¸r-Ossetia", "SÃ¸r-Sudan", "Tadsjikistan", "Taiwan", "Tanzania", "Thailand", "Togo", "Tonga",
+        "Transnistria", "Trinidad og Tobago", "Tsjad", "Tsjekkia", "Tunisia", "Turkmenistan", "Tuvalu", "Tyrkia",
+        "Tyskland", "Uganda", "USA", "Ukraina", "Ungarn", "Uruguay", "Usbekistan", "Vanuatu", "Vatikanstaten",
+        "Venezuela", "Vietnam", "Zambia", "Zimbabwe", "Ã˜sterrike", "Ã˜st-Timor"
+    );
+
+    /**
+    * @var array Norwegian street name formats
+    */
+    protected static $streetNameFormats = array(
+        '{{lastName}}{{streetSuffix}}',
+        '{{lastName}}{{streetSuffix}}',
+        '{{firstName}}{{streetSuffix}}',
+        '{{firstName}}{{streetSuffix}}',
+        '{{streetPrefix}}{{streetSuffix}}',
+        '{{streetPrefix}}{{streetSuffix}}',
+        '{{streetPrefix}}{{streetSuffix}}',
+        '{{streetPrefix}}{{streetSuffix}}',
+        '{{lastName}} {{streetSuffixWord}}'
+    );
+
+    /**
+    * @var array Norwegian street address formats
+    */
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}'
+    );
+
+    /**
+    * @var array Norwegian address formats
+    */
+    protected static $addressFormats = array(
+        "{{streetAddress}}\n{{postcode}} {{city}}"
+    );
+
+    /**
+    * Randomly return a real city name
+    *
+    * @return string
+    */
+    public static function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+
+    public static function streetSuffixWord()
+    {
+        return static::randomElement(static::$streetSuffixWord);
+    }
+
+    public static function streetPrefix()
+    {
+        return static::randomElement(static::$streetPrefix);
+    }
+
+    /**
+    * Randomly return a building number.
+    *
+    * @return string
+    */
+    public static function buildingNumber()
+    {
+        return static::toUpper(static::bothify(static::randomElement(static::$buildingNumber)));
+    }
+}

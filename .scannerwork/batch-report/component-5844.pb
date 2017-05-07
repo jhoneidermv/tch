@@ -1,0 +1,1 @@
+Ô--vendor/swiftmailer/swiftmailer/tests/fixtures :Ó-

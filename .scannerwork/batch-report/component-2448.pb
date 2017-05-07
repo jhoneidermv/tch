@@ -1,0 +1,1 @@
+*vendor/monolog/monolog/src/Monolog/Handler :j‘’“”•–—˜›œžŸ ¥¦§¨©ª¬«­®¯°±²³´µ¶·¸¹º»¼½¾¿ÂÃÄÅÆÇÈËÌÍÎ

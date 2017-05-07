@@ -1,0 +1,1 @@
+ÅLvendor/laravel/framework/src/Illuminate/Database/Eloquent/ScopeInterface.php 2phpX

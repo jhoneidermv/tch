@@ -1,0 +1,1 @@
+ƒAvendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php 2phpXV

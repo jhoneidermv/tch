@@ -1,0 +1,1 @@
+ƒ!Gvendor/phpspec/prophecy/src/Prophecy/Argument/Token/ArrayCountToken.php 2phpXW

@@ -1,0 +1,1 @@
+ä=vendor/phpoffice/phpexcel/Examples/11documentsecurity-xls.php 2phpXn

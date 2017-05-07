@@ -1,0 +1,1 @@
+¸#\vendor/phpunit/php-token-stream/tests/_fixture/multipleNamespacesWithOneClassUsingBraces.php 2phpX

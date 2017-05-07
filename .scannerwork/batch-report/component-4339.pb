@@ -1,0 +1,1 @@
+ó!8vendor/phpunit/php-code-coverage/scripts/auto_append.php 2phpX

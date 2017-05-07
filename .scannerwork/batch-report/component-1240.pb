@@ -1,0 +1,1 @@
+Ø	?vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php 2phpXÄ

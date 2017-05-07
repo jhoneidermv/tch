@@ -1,0 +1,1 @@
+Ö0vendor/fzaninotto/faker/src/Faker/Provider/fa_IR :ÔÕ×Ø

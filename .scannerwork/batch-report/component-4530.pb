@@ -1,0 +1,1 @@
+²#Nvendor/phpunit/php-token-stream/tests/_fixture/classUsesNamespacedFunction.php 2phpX

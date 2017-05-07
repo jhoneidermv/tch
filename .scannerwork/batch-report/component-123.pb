@@ -1,0 +1,1 @@
+{public/index.php 2phpX;

@@ -1,0 +1,47 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => '0 gadiem|:count gada|:count gadiem',
+    'y' => '0 gadiem|:count gada|:count gadiem',
+    'month' => '0 mÄ“neÅ¡iem|:count mÄ“neÅ¡a|:count mÄ“neÅ¡iem',
+    'm' => '0 mÄ“neÅ¡iem|:count mÄ“neÅ¡a|:count mÄ“neÅ¡iem',
+    'week' => '0 nedÄ“Ä¼Ä�m|:count nedÄ“Ä¼as|:count nedÄ“Ä¼Ä�m',
+    'w' => '0 nedÄ“Ä¼Ä�m|:count nedÄ“Ä¼as|:count nedÄ“Ä¼Ä�m',
+    'day' => '0 dienÄ�m|:count dienas|:count dienÄ�m',
+    'd' => '0 dienÄ�m|:count dienas|:count dienÄ�m',
+    'hour' => '0 stundÄ�m|:count stundas|:count stundÄ�m',
+    'h' => '0 stundÄ�m|:count stundas|:count stundÄ�m',
+    'minute' => '0 minÅ«tÄ“m|:count minÅ«tes|:count minÅ«tÄ“m',
+    'min' => '0 minÅ«tÄ“m|:count minÅ«tes|:count minÅ«tÄ“m',
+    'second' => '0 sekundÄ“m|:count sekundes|:count sekundÄ“m',
+    's' => '0 sekundÄ“m|:count sekundes|:count sekundÄ“m',
+    'ago' => 'pirms :time',
+    'from_now' => 'pÄ“c :time',
+    'after' => ':time vÄ“lÄ�k',
+    'before' => ':time pirms',
+
+    'year_after' => '0 gadus|:count gadu|:count gadus',
+    'month_after' => '0 mÄ“neÅ¡us|:count mÄ“nesi|:count mÄ“neÅ¡us',
+    'week_after' => '0 nedÄ“Ä¼as|:count nedÄ“Ä¼u|:count nedÄ“Ä¼as',
+    'day_after' => '0 dienas|:count dienu|:count dienas',
+    'hour_after' => '0 stundas|:count stundu|:count stundas',
+    'minute_after' => '0 minÅ«tes|:count minÅ«ti|:count minÅ«tes',
+    'second_after' => '0 sekundes|:count sekundi|:count sekundes',
+
+    'year_before' => '0 gadus|:count gadu|:count gadus',
+    'month_before' => '0 mÄ“neÅ¡us|:count mÄ“nesi|:count mÄ“neÅ¡us',
+    'week_before' => '0 nedÄ“Ä¼as|:count nedÄ“Ä¼u|:count nedÄ“Ä¼as',
+    'day_before' => '0 dienas|:count dienu|:count dienas',
+    'hour_before' => '0 stundas|:count stundu|:count stundas',
+    'minute_before' => '0 minÅ«tes|:count minÅ«ti|:count minÅ«tes',
+    'second_before' => '0 sekundes|:count sekundi|:count sekundes',
+);

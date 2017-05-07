@@ -1,0 +1,1 @@
+Ÿ+Fvendor/sebastian/global-state/tests/_fixture/BlacklistedChildClass.php 2phpX

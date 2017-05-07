@@ -1,0 +1,1 @@
+Š-=vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php 2phpX,

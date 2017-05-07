@@ -1,0 +1,1 @@
+–=vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php 2phpXI

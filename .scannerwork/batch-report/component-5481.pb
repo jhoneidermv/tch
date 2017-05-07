@@ -1,0 +1,1 @@
+é*$vendor/sebastian/diff/src/Parser.php 2phpXd

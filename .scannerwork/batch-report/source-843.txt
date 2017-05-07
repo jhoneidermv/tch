@@ -1,0 +1,31 @@
+<?php
+
+namespace Faker\Provider\ko_KR;
+
+class Company extends \Faker\Provider\Company
+{
+    protected static $formats = array(
+        '{{companyPrefix}}{{firstName}}',
+        '{{companyPrefix}}{{firstName}}{{companySuffix}}',
+        '{{firstName}}{{companySuffix}}',
+        '{{firstName}}{{companySuffix}}',
+        '{{firstName}}{{companySuffix}}',
+        '{{firstName}}{{companySuffix}}',
+    );
+
+    protected static $companyPrefix = array('(ì£¼)', '(ì£¼)', '(ì£¼)', '(ìœ )');
+
+    protected static $companySuffix = array(
+        'ì „ìž�', 'ê±´ì„¤', 'ì‹�í’ˆ', 'ì�¸í„°ë„·', 'ê·¸ë£¹', 'ì�€í–‰', 'ë³´í—˜', 'ì œì•½', 'ê¸ˆìœµ', 'ë„¤íŠ¸ì›�ìŠ¤', 'ê¸°íš�', 'ë¯¸ë””ì–´', 'ì—°êµ¬ì†Œ', 'ëª¨ë°”ì�¼', 'ìŠ¤íŠœë””ì˜¤', 'ìº�í”¼íƒˆ',
+    );
+
+    public static function companyPrefix()
+    {
+        return static::randomElement(static::$companyPrefix);
+    }
+
+    public static function companySuffix()
+    {
+        return static::randomElement(static::$companySuffix);
+    }
+}

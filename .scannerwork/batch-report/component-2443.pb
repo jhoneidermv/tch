@@ -1,0 +1,1 @@
+‹Bvendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php 2phpX§

@@ -1,0 +1,1 @@
+§-^vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Encoder/Rfc2231EncoderAcceptanceTest.php 2phpX3

@@ -1,0 +1,1 @@
+ä$>vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter/Text.php 2phpX7

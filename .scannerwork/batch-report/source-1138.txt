@@ -1,0 +1,77 @@
+<?php
+
+namespace Faker\Test\Provider\zh_TW;
+
+class TextTest extends \PHPUnit_Framework_TestCase
+{
+    private $textClass;
+
+    public function setUp()
+    {
+        $this->textClass = new \ReflectionClass('Faker\Provider\zh_TW\Text');
+    }
+
+    protected function getMethod($name) {
+        $method = $this->textClass->getMethod($name);
+
+        $method->setAccessible(true);
+
+        return $method;
+    }
+
+    /** @test */
+    function it_should_explode_the_string_to_array()
+    {
+        $this->assertSame(
+            array('ä¸­', 'æ–‡', 'æ¸¬', 'è©¦', 'çœŸ', 'æœ‰', 'è¶£'),
+            $this->getMethod('explode')->invokeArgs(null, array('ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£'))
+        );
+
+        $this->assertSame(
+            array('æ¨™', 'é»ž', 'ï¼Œ', 'ç¬¦', 'è™Ÿ', 'ï¼�'),
+            $this->getMethod('explode')->invokeArgs(null, array('æ¨™é»žï¼Œç¬¦è™Ÿï¼�'))
+        );
+    }
+
+    /** @test */
+    function it_should_return_the_string_length()
+    {
+        $this->assertContains(
+            $this->getMethod('strlen')->invokeArgs(null, array('ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£')),
+            array(7, 21)
+        );
+    }
+
+    /** @test */
+    function it_should_return_the_character_is_valid_start_or_not()
+    {
+        $this->assertTrue($this->getMethod('validStart')->invokeArgs(null, array('ä¸­')));
+
+        $this->assertTrue($this->getMethod('validStart')->invokeArgs(null, array('2')));
+
+        $this->assertTrue($this->getMethod('validStart')->invokeArgs(null, array('Hello')));
+
+        $this->assertFalse($this->getMethod('validStart')->invokeArgs(null, array('ã€‚')));
+
+        $this->assertFalse($this->getMethod('validStart')->invokeArgs(null, array('ï¼�')));
+    }
+
+    /** @test */
+    function it_should_append_end_punct_to_the_end_of_string()
+    {
+        $this->assertSame(
+            'ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£ã€‚',
+            $this->getMethod('appendEnd')->invokeArgs(null, array('ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£'))
+        );
+
+        $this->assertSame(
+            'ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£ã€‚',
+            $this->getMethod('appendEnd')->invokeArgs(null, array('ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£ï¼Œ'))
+        );
+
+        $this->assertSame(
+            'ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£ï¼�',
+            $this->getMethod('appendEnd')->invokeArgs(null, array('ä¸­æ–‡æ¸¬è©¦çœŸæœ‰è¶£ï¼�'))
+        );
+    }
+}

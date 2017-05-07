@@ -1,0 +1,1 @@
+….Bvendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder :„.†.

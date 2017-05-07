@@ -1,0 +1,1 @@
+Ù"Jvendor/phpunit/php-code-coverage/tests/_files/CoverageNotProtectedTest.php 2phpX

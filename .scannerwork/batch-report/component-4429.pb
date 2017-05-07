@@ -1,0 +1,1 @@
+Í"Kvendor/phpunit/php-code-coverage/tests/_files/CoverageClassExtendedTest.php 2phpX

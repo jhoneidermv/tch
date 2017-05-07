@@ -1,0 +1,1 @@
+»Bvendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php 2phpXn

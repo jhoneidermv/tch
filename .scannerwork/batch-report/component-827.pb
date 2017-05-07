@@ -1,0 +1,1 @@
+»0vendor/fzaninotto/faker/src/Faker/Provider/ka_GE :¹¼¸½¾¿Àº

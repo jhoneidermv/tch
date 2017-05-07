@@ -1,0 +1,1 @@
+¨,Wvendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php 2phpXB

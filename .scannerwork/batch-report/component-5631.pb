@@ -1,0 +1,1 @@
+ÿ+Svendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php 2phpX/

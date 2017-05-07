@@ -1,0 +1,1 @@
+‰5vendor/laravel/framework/src/Illuminate/Queue/Capsule :‡

@@ -1,0 +1,1 @@
+Œ!1vendor/phpspec/prophecy/src/Prophecy/Argument.php 2phpXÕ

@@ -1,0 +1,1 @@
+ñ/4vendor/symfony/console/Tests/Fixtures/FooCommand.php 2phpX"

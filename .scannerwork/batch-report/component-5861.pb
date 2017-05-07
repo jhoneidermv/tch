@@ -1,0 +1,1 @@
+å-\vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterStream/ArrayCharacterStreamTest.php 2phpXç

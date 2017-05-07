@@ -1,0 +1,1 @@
+È Uvendor/phpspec/prophecy/spec/Prophecy/Doubler/ClassPatch/ProphecySubjectPatchSpec.php 2phpXP

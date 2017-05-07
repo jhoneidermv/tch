@@ -1,0 +1,1 @@
+X;database/migrations/2017_04_11_170035_create_tips_table.php 2phpX"

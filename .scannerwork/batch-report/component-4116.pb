@@ -1,0 +1,1 @@
+î  vendor/phpspec/prophecy/fixtures :$ì ï ñ ó ò ô ö õ ú ù û ü † ° ¢ £ § ¶ 

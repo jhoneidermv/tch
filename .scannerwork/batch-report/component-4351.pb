@@ -1,0 +1,1 @@
+ÿ!<vendor/phpunit/php-code-coverage/src/CodeCoverage/Filter.php 2phpX¦

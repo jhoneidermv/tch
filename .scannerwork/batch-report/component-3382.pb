@@ -1,0 +1,1 @@
+¶Cvendor/phpoffice/phpexcel/Classes/PHPExcel/Calculation/Function.php 2phpX–

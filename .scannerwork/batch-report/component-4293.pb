@@ -1,0 +1,1 @@
+Å!7vendor/phpspec/prophecy/src/Prophecy/Exception/Prophecy :Ä!Æ!Ç!

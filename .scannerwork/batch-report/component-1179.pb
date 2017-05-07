@@ -1,0 +1,1 @@
+›	Pvendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php 2phpXH

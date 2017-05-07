@@ -1,0 +1,31 @@
+<?php
+
+/*
+ * This file is part of the Carbon package.
+ *
+ * (c) Brian Nesbitt <brian@nesbot.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+return array(
+    'year' => '1 vit|:count vjet',
+    'y' => '1 vit|:count vjet',
+    'month' => '1 muaj|:count muaj',
+    'm' => '1 muaj|:count muaj',
+    'week' => '1 javÃ«|:count javÃ«',
+    'w' => '1 javÃ«|:count javÃ«',
+    'day' => '1 ditÃ«|:count ditÃ«',
+    'd' => '1 ditÃ«|:count ditÃ«',
+    'hour' => '1 orÃ«|:count orÃ«',
+    'h' => '1 orÃ«|:count orÃ«',
+    'minute' => '1 minutÃ«|:count minuta',
+    'min' => '1 minutÃ«|:count minuta',
+    'second' => '1 sekondÃ«|:count sekonda',
+    's' => '1 sekondÃ«|:count sekonda',
+    'ago' => ':time mÃ« parÃ«',
+    'from_now' => ':time nga tani',
+    'after' => ':time pas',
+    'before' => ':time para',
+);

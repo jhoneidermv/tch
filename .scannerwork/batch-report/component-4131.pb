@@ -1,0 +1,1 @@
+£ Cvendor/phpspec/prophecy/fixtures/WithTypehintedVariadicArgument.php 2phpX

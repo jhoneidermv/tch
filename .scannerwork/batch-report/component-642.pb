@@ -1,0 +1,1 @@
+Ç0vendor/fzaninotto/faker/src/Faker/Provider/de_DE :ÅÄÉÑÖÜá

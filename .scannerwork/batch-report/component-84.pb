@@ -1,0 +1,1 @@
+T=database/migrations/2017_04_11_165701_create_juegos_table.php 2phpX 

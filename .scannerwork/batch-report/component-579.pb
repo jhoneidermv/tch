@@ -1,0 +1,1 @@
+Ã<vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Company.php 2phpX@

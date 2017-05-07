@@ -1,0 +1,106 @@
+<?php
+
+namespace Faker\Provider\nl_BE;
+
+class Address extends \Faker\Provider\Address
+{
+    protected static $postcode = array('####');
+
+    protected static $streetAddressFormats = array(
+        '{{streetName}} {{buildingNumber}}'
+    );
+
+    protected static $streetNameFormats = array('{{lastName}}{{streetSuffix}}');
+
+    protected static $cityFormats = array('{{cityName}}');
+
+    protected static $addressFormats = array(
+        "{{streetAddress}}\n {{postcode}} {{city}}",
+    );
+
+    protected static $streetSuffix = array(
+        'baan', 'boulevard', 'dreef', 'hof', 'laan', 'pad', 'ring', 'singel', 'steeg', 'straat', 'weg',
+    );
+
+    /**
+     * Export of BAG (http://bag.vrom.nl/)
+     * last updated 2012/11/09
+     *
+     * @var array
+     */
+    protected static $cityNames = array(
+        'Aalst', 'Aarlen', 'Aarschot', 'Aat', 'Andenne', 'Antoing', 'Antwerpen', 'Bastenaken', 'Beringen',
+        'Beaumont', 'Beauraing', 'Bergen', 'Bilzen', 'Binche', 'Blankenberge', 'Borgloon', 'Borgworm', 'Bouillon',
+        'Bree', 'Brugge', 'Brussel', 'Charleroi', 'ChÃ¢telet', 'ChiÃ¨vres', 'Chimay', 'Chiny', 'Ciney', 'Couvin',
+        'Damme', 'Deinze', 'Dendermonde', 'Diest', 'Diksmuide', 'Dilsen-Stokkem', 'Dinant', 'Doornik', 'Durbuy',
+        'Edingen', 'Eeklo', 'Eupen', 'Fleurus', 'Florenville', 'Fontaine-l\'EvÃªque', 'Fosses-la-Ville', 'Geel',
+        'Geldenaken', 'Gembloers', 'GenepiÃ«n', 'Genk', 'Gent', 'Geraardsbergen', 'Gistel', '\'s-Gravenbrakel',
+        'Halen', 'Halle', 'Hamont-Achel', 'Hannuit', 'Harelbeke', 'Hasselt', 'Herentals', 'Herk-de-Stad', 'Herstal',
+        'Herve', 'Hoei', 'Hoogstraten', 'Houffalize', 'Ieper', 'Izegem', 'Komen-Waasten', 'Kortrijk', 'La LouviÃ¨re',
+        'La Roche-en-Ardenne', 'Landen', 'Le RÅ“ulx', 'Lessen', 'Leuze-en-Hainaut', 'Leuven', 'Lier', 'Limburg',
+        'Lo-Reninge', 'Lokeren', 'Lommel', 'Luik', 'Maaseik', 'Malmedy', 'Marche-en-Famenne', 'Mechelen', 'Menen',
+        'Mesen', 'Moeskroen', 'Mortsel', 'Namen', 'NeufchÃ¢teau', 'Nieuwpoort', 'Nijvel', 'Ninove', 'Oostende',
+        'Ottignies', 'Oudenaarde', 'Oudenburg', 'Peer', 'PÃ©ruwelz', 'Philippeville', 'Poperinge', 'Rochefort',
+        'Roeselare', 'Ronse', 'Saint-Ghislain', 'Saint-Hubert', 'Sankt Vith', 'Scherpenheuvel-Zichem', 'Seraing',
+        'Sint-Niklaas', 'Sint-Truiden', 'Spa', 'Stavelot', 'Thuin', 'Tielt', 'Tienen', 'Tongeren', 'Torhout',
+        'Turnhout', 'Verviers', 'Veurne', 'Vilvoorde', 'Virton', 'Walcourt', 'Waregem', 'Waver', 'Wervik', 'Wezet',
+        'Zinnik', 'Zottegem', 'Zoutleeuw'
+    );
+
+    protected static $state = array(
+        'Antwerpen', 'Limburg', 'Oost-Vlaanderen', 'Vlaams-Brabant', 'West-Vlaanderen',
+        'Henegouwen', 'Luik', 'Luxemburg', 'Namen', 'Waals-Brabant'
+    );
+
+    protected static $country = array(
+        'Afghanistan', 'AlbaniÃ«', 'Algerije', 'Amerikaans-Samoa', 'Andorra', 'Angola', 'Amerikaanse Virgineilanden',
+        'Anguilla', 'Antartica', 'Antigua en Barbuda', 'ArgentiniÃ«', 'ArmeniÃ«', 'Aruba', 'AustraliÃ«', 'Azerbeidzjan',
+        'Bahamas', 'Bahrein', 'Bangladesh', 'Barbados', 'BelgiÃ«', 'Belize', 'Benin', 'Bermuda', 'Bhutan', 'Bolivia',
+        'BosniÃ«-Herzegovina', 'Botswana', 'Bouvet Eiland (Bouvetoya)', 'BraziliÃ«', 'Britse Maagdeneilanden',
+        'Brunei Darussalam', 'Bulgarije', 'Burkina Faso', 'Burundi', 'Cambodja', 'Canada',
+        'Centraal-Afrikaanse Republiek', 'Chili', 'China', 'Christmaseiland', 'Cocoseilanden', 'Colombia', 'Comoren',
+        'Congo', 'Cookeilanden', 'Costa Rica', 'Cuba', 'Cyprus', 'Denemarken', 'Djibouti', 'Dominica',
+        'Dominicaanse Republiek', 'Duitsland', 'Ecuador', 'Egypte', 'El salvador', 'Equatoriaal-Guinea', 'Eritrea',
+        'Estland', 'EthiopiÃ«', 'Faroe Eilanden', 'Falklandeilanden', 'Fiji', 'Finland', 'Frankrijk', 'Frans-Guyana',
+        'Frans-PolynesiÃ«', 'Franse Zuidelijke en Antarctische Gebieden', 'Gabon', 'Gambia', 'GeorgiÃ«', 'Ghana',
+        'Gibraltar', 'Griekenland', 'Groenland', 'Grenada', 'Guadeloupe', 'Guam', 'Guatemala', 'Guernsey', 'Guinee',
+        'Guinee-Bissau', 'Guyana', 'HaÃ¯ti', 'Heard en McDonaldeilanden', 'Honduras', 'Hong Kong', 'Hongarije',
+        'IJsland', 'India', 'IndonesiÃ«', 'Iran', 'Irak', 'Ierland', 'Man', 'Israel', 'Ivoorkust', 'ItaliÃ«', 'Jamaica',
+        'Japan', 'Jersey', 'JordaniÃ«', 'Jemen', 'Kazachstan', 'Kenia',
+        'Kleinere afgelegen eilanden van de Verenigde staten', 'Kiribati', 'Korea', 'Koeweit', 'KirgiziÃ«', 'Kameroen',
+        'KaapverdiÃ«', 'Kaaimaneilanden', 'KroatiÃ«', 'Laos', 'Letland', 'Libanon', 'Lesotho', 'Liberia', 'LibiÃ«',
+        'Liechtenstein', 'Litouwen', 'Luxemburg', 'Macau', 'MacedoniÃ«', 'Madagascar', 'Malawi', 'MaleisiÃ«', 'Maldiven',
+        'Mali', 'Malta', 'Marshalleilanden', 'Martinique', 'Mauritus', 'Mauritania', 'Mayotte', 'Mexico', 'MicronesiÃ«',
+        'MoldaviÃ«', 'Monaco', 'MongoliÃ«', 'Montenegro', 'Monsterrat', 'Marokko', 'Mozambique', 'Myanmar', 'NamibiÃ«',
+        'Nauru', 'Nepal', 'Nederlandse Antillen', 'Nederland', 'Nieuw-CaledoniÃ«', 'Nieuw-Zeeland', 'Nicaragua',
+        'Niger', 'Nigeria', 'Niue', 'Norfolk', 'Noordelijke Marianen', 'Noorwegen', 'Oman', 'Oostenrijk', 'Oeganda',
+        'OekraÃ¯ne', 'Oezbakistan', 'Pakistan', 'Palau', 'Palestina', 'Panama', 'Papoea-Nieuw-Guinea', 'Paraguay',
+        'Peru', 'Filipijnen', 'Pitcairneilanden', 'Polen', 'Portugal', 'Puerto Rico', 'Qatar', 'RÃ©union', 'RoemeniÃ«',
+        'Rusland', 'Rwanda', 'Rwanda', 'Sint-Bartholomeus', 'Sint-Helena', 'Saint Kitts en Nevis', 'Saint Lucia',
+        'Sint Maarten', 'Saint-Pierre en Miquelon', 'Saint Vincent en de Grenadines', 'Samoa', 'San Marino',
+        'Sao Toma en Principe', 'Saoedi-ArabiÃ«', 'Senegal', 'ServiÃ«', 'Seychellen', 'Sierra Leone', 'Singapore',
+        'SloveniÃ«', 'Salomonseilanden', 'SomaliÃ«', 'Spanje', 'Sri Lanka', 'Soedan', 'Suriname',
+        'Spitsbergen en Jan Mayen', 'Swaziland', 'Zweden', 'Zwitserland', 'SyriÃ«', 'Taiwan', 'Tadzjikistan',
+        'Tanzania', 'Thailand', 'Tsjaad', 'Timor-Leste', 'Togo', 'Tokelau-eilanden', 'Tonga', 'Trinidad en Trobago',
+        'TunesiÃ«', 'Turkije', 'Turkmenistan', 'Turks- en Caicoseilanden', 'Tuvalu', 'Tsjechische Republiek',
+        'Uruguay', 'Vanuatu', 'Venezuela', 'Verenigde Arabische Emiraten', 'Verenigd Koninkrijk',
+        'Verenigde Staten van Amerika', 'Vaticaanstad', 'Vietnam', 'Wallis en Futuna', 'Westerlijke Shara',
+        'Wit-Rusland', 'Zambia', 'Zuid-Afrika', 'Zuid-Georgia en de Zuidelijke Sandwicheilanden', 'Zimbabwe'
+    );
+
+    /**
+     * @example 'Gelderland'
+     */
+    public static function state()
+    {
+        return static::randomElement(static::$state);
+    }
+
+    /**
+     * @see parent
+     */
+    public function cityName()
+    {
+        return static::randomElement(static::$cityNames);
+    }
+}

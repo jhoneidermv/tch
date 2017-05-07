@@ -1,0 +1,1 @@
+§Rvendor/laravel/framework/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php 2phpXq

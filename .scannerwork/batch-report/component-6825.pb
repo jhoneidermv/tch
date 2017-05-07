@@ -1,0 +1,1 @@
+©5vendor/symfony/http-kernel/Log :§5
