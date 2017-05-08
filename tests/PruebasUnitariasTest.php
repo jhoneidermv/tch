@@ -29,8 +29,8 @@ class PruebasUnitariasTest extends TestCase
         $user->peso=86.5;
         $user->save();
         $this->seeInDatabase('users', ['id' => $user->id]);
-        $e = User::where('email', "jhon@hotmail.com")->first();
-        $e->delete();
+        $game = User::where('email', "jhon@hotmail.com")->first();
+        $game->delete();
     }
 
     /**
@@ -40,8 +40,8 @@ class PruebasUnitariasTest extends TestCase
         $juego = new Juego();
         $juego->save();
         $this->seeInDatabase('juegos', ['id' => $juego->id]);
-        $e = Juego::find($juego->id)->first();
-        $e->delete();
+        $game = Juego::find($juego->id)->first();
+        $game->delete();
     }
 
     /**
@@ -54,8 +54,8 @@ class PruebasUnitariasTest extends TestCase
         $alimento->descripcion="alta en fibra";
         $alimento->save();
         $this->seeInDatabase('alimentos', ['id' => $alimento->id]);
-        $e = Alimentos::where('nombre', "pera")->first();
-        $e->delete();
+        $game = Alimentos::where('nombre', "pera")->first();
+        $game->delete();
     }
 
     /**
@@ -68,8 +68,8 @@ class PruebasUnitariasTest extends TestCase
         $desicion->nombre="bueno";
         $desicion->save();
         $this->seeInDatabase('desicions', ['id' => $desicion->id]);
-        $e = Desicion::where('nombre', "bueno")->first();
-        $e->delete();
+        $game = Desicion::where('nombre', "bueno")->first();
+        $game->delete();
     }
 
     /**
@@ -82,7 +82,7 @@ class PruebasUnitariasTest extends TestCase
         $tips->recomendacion="no dormir tanto";
         $tips->save();
         $this->seeInDatabase('tips', ['id' => $tips->id]);
-        $e = Tip::where('recomendacion', "no dormir tanto")->first();
-        $e->delete();
+        $game = Tip::where('recomendacion', "no dormir tanto")->first();
+        $game->delete();
     }
 }
