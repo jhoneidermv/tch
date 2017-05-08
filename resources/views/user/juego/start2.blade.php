@@ -5,9 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Documento sin título</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://tch.000webhostapp.com/custom.js"></script>
 </head>
 
-<body>
+<body onload="nobackbutton();">
 <div align="center">
 
     <div  align="center">
@@ -28,7 +29,7 @@
                 <td colspan="3" >
                     <h3>&nbsp;</h3></td>
                 <td colspan="3" >
-                    <a class="myButton btn-block" href="{{route('user.juego.start3',6)}}" align="center" type="button" ><h3>Jugo de fruta natural</h3></a></td>
+                    <a class="myButton btn-block" href="{{route('user.juego.start3',7)}}" align="center" type="button" ><h3>Jugo de fruta natural</h3></a></td>
             </tr>
         </table>
         </div>

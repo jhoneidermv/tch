@@ -5,9 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Documento sin título</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://tch.000webhostapp.com/custom.js"></script>
+
 </head>
 
-<body>
+<body onload="nobackbutton();">
 <div align="center">
 
     <div  align="center">
